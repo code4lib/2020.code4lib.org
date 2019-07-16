@@ -1,0 +1,26 @@
+<section class="general-info">
+  <div class="col-xs-12">
+      <h2 id="dinner">Newcomer Dinner</h2>
+      <p><strong>When: </strong>{{site.data.conf.newcomer-dinner.date | date: '%A, %B %-d, %Y'}}</p>
+      <p>
+          The Newcomer Dinner is an opportunity for veterans of the code4lib conference to meet and welcome first-timers. Attendees sign up to join others for dinner the night before the main sessions of conference begin.
+          {% if site.data.conf.newcomer-dinner.signup-url != '' %}
+             See <a target="blank" href="{{site.data.conf.newcomer-dinner.signup-url}}">information about   the dinner and the sign-up list here</a>. Attendees are responsible in assessing the   accessibility of the restaurant space of their choice.
+          {% endif %}
+      </p>
+
+      <h3>Transportation</h3>
+      <p>Attendees must arrange for their own transportation to the restaurants.</p>
+
+      {% if site.data.conf.newcomer-dinner.signup-url != '' %}
+          <p>
+              Most of them are within a half mile walking distance from the nearest public transportation stop. To get a sense of the locations and neighborhoods, you can check out the
+              <a target="blank" href="{{site.data.conf.newcomer-dinner.activities-info}}">Activities Map</a>.
+          </p>
+          <p>
+            For restaurants that are not close to the public transportation stops, we recommend <strong>carpooling</strong> with a local, calling a <strong>taxi</strong>, or using a <strong>ride share</strong> service.
+            Here are some <a target="blank" href="{{site.data.conf.newcomer-dinner.transit-info}}">public transit options for the various neighborhoods</a> noted in the restaurant list.
+          </p>
+      {% endif %}
+  </div>
+</section>

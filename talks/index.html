@@ -1,0 +1,31 @@
+---
+layout: default
+title: Accepted Conference Talks
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>{{ page.title }}</h1>
+            <p>This list represents the accepted conference talks that you can expect to hear at the conference. Thank you to all who submitted talks this year.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 sequence">
+            {% assign posts = site.posts | where:"type","talk" | sort:"startTime" %}
+            {% for post in posts %}
+                {% if post.group != 'key-close' and post.group != 'key-open' %}
+                  <div class="well workshop-well">
+                      <div class="row">
+                          <div class="col-xs-12">
+                              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                              <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more</a></p>
+                          </div>
+
+                      </div>
+                  </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

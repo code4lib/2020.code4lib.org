@@ -1,0 +1,67 @@
+<div class="container-fluid" id="angel-fund">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>Diversity Scholarships Angel Fund</h2>
+			<p>
+				As part of the Code4Lib community's ongoing commitment to helping under-represented groups excel in computing and technology, we offer multiple scholarships to attend the annual conference.
+			</p>
+			<p>
+				In addition to seeking organization sponsors for scholarships, we are accepting donations from individuals who would like to support the scholarship program. Individual donors will be thanked on the Scholarship page, though anonymous donation is also possible. All funds raised will help pay for transportation, accommodation, and conference registration costs for Code4Lib's Diversity Scholarships recipients for our annual conference. Please feel free to direct any question to <a href="mailto:{{ site.data.conf.sponsor-contact-email }}">{{ site.data.conf.sponsor-contact-email }}</a>.
+			</p>
+
+			{% if site.data.conf.angel-fund.show %}
+			<div>
+				<a class="btn btn-primary btn-lg" href="{{ site.data.conf.angel-fund.url }}" target="_blank">Donate to the Angel Fund today!</a>
+			</div><br>
+			{% endif %}
+
+			<div id="donation-total"></div>
+
+			<div class="row">
+				<p class="col-md-8">
+					Matching Funds are our new initiative to raise Diversity Scholarship funds and to double your donation’s impact! <a href="http://libtechwomen.org/"><strong>LibTech Women and Friends</strong></a> have generously pledged to match funds once a Matching Fund goal is reached.
+				</p>
+				<div class="col-md-4">
+					<a href="http://libtechwomen.org/">
+						<img class="img-responsive" src="/assets/img/sponsors/libtechwomen.jpg" alt="LibTechWomen">
+					</a>
+				</div>
+			</div>
+
+			{% if site.data.conf.angel-fund.thermometer %}
+				<div id="donation-thermometers"></div>
+
+				<!-- thermometer HTML/CSS based on https://codepen.io/robotballoon/pen/Fjnyp -->
+				<template id="thermometer">
+				    <div class=countdown-wrap>
+				      <div class="goal-title">
+				          <div class="label">{{label}}</div>
+				          <div class="goal">{{goal}}</div>
+				      </div>
+				      <div class="glass">
+				        <div class="progress">
+				        </div>
+				      </div>
+				      <div class="goal-stat">
+				        <span class="goal-number percent">{{percent}}</span>
+				        <span class="goal-label">Funded</span>
+				      </div>
+				      <div class="goal-stat">
+				        <span class="goal-number total">{{total}}</span>
+				        <span class="goal-label">Raised</span>
+				      </div>
+				      <div class="goal-stat">
+				        <span class="goal-number donations">{{donations}}</span>
+				        <span class="goal-label">Donations</span>
+				      </div>
+				    </div>
+				</template>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+{% if site.data.conf.angel-fund.thermometer %}
+	<script src="{{ "/assets/js/thermometer.js" | relative_url }}"></script>
+	<style>@import url('{{ "/assets/css/thermometer.css" | relative_url }}') screen;</style>
+{% endif %}

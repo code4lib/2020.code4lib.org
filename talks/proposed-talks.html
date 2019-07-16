@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-8">
+            <h3>Proposed Conference Talks</h3>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            {% if site.data.conf.talk-voting.show %}
+                <a class="btn btn-primary pull-right" href="{{ site.data.conf.talk-voting.url }}">Vote!</a>
+            {% endif %}
+        </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            {% for talk in site.data.presentation-proposals %}
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="{{ talk.slug }}Header">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#{{ talk.slug }}" aria-expanded="true" aria-controls="{{ talk.slug }}">
+                            {{ talk.presentation-title }}
+                        </a>
+                    </h4>
+                </div>
+                <div id="{{ talk.slug }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{ talk.slug }}Header">
+                    <div class="panel-body">
+                        <p>{{ talk.abstract | markdownify }}<p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

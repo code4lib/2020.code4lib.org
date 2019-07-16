@@ -1,0 +1,13 @@
+<!-- {{ include.level | capitalize }} -->
+<div class="row">
+    <div class="col-xs-12">
+        {% include sponsors/plate.html level=include.level %}
+
+        <div class="sponsor-group">
+            {% assign sponsor_list = site.data.sponsors | where_exp:"item", "item.level == include.level" %}
+            {% for sponsor in sponsor_list %}
+                {% include sponsors/logo.html sponsor=sponsor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

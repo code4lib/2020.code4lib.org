@@ -1,0 +1,53 @@
+---
+layout: default
+title: Speakers
+---
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Keynotes</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 keynote-sequence sequence">
+                {% assign keynotes = site.data.speakers | where: 'keynote', true %}
+                {% if keynotes.size <= 0 %}
+                    <div class="speaker-box text-center" id="no_keynote-id" data-speaker-info="#no_keynote-info">
+                        <div class="speaker-box-inner">
+                            <a href="#" class="speaker-info-toggle" data-target="#no_keynote">
+                                <img class="clip-circle-lg" src="/assets/img/nopics/nopic3.jpg" alt="no image">
+                            </a>
+                            <div class="speaker-mini">
+                                <p>The keynotes speakers for Code4Lib have not been announced yet.</p>
+                            </div>
+                            <div class="arrow-down"></div>
+                        </div>
+                    </div>
+                {% else %}
+                {% for keynote in keynotes %}
+                    {% include speaker_box.html speaker=keynote %}
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Speakers</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 speaker-sequence sequence">
+            {% assign speakers = site.data.speakers | where: 'keynote', false | sort: 'last' %}
+            {% for speaker in speakers %}
+                {% include speaker_box.html speaker=speaker %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

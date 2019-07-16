@@ -1,0 +1,266 @@
+<div class="col-xs-12">
+    {% comment %} details known/announced but can't register yet {% endcomment %}
+    {% if site.data.conf.conference-registration.show
+    and site.data.conf.conference-registration.open == false %}
+        {% include homepage/going_on_block.html
+            primary=true
+            title='Conference Registration'
+            more-info-link='/general-info/attend'
+            more-info-text='Fees & additional information'
+            end-date=site.data.conf.conference-registration.end-date
+            start-date=site.data.conf.conference-registration.start-date
+        %}
+    {% endif %}
+
+    {% comment %} registration is open! {% endcomment %}
+    {% if site.data.conf.conference-registration.open %}
+        {% include homepage/going_on_block.html
+            primary=true
+            title='Registration is open!'
+            more-info-link='/general-info/attend'
+            more-info-text='Fees & additional information'
+            end-date=site.data.conf.conference-registration.end-date
+            start-date=site.data.conf.conference-registration.start-date
+            url=site.data.conf.conference-registration.url
+            url-text='Register!'
+        %}
+    {% endif %}
+
+    <!-- Voting -->
+    {% if site.data.conf.keynote-voting.show or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show or site.data.conf.poster-voting.show %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Voting</h4>
+
+            <!-- Keynote -->
+            {% if site.data.conf.keynote-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Keynote Speakers'
+                    more-info-link='/keynote/keynote-nominees.html'
+                    more-info-text='View the nominees'
+                    end-date=site.data.conf.keynote-voting.end-date
+                    url=site.data.conf.keynote-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- Talks -->
+            {% if site.data.conf.talk-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Talks'
+                    more-info-link='/talks/proposed-talks.html'
+                    more-info-text='View proposed talks'
+                    end-date=site.data.conf.talk-voting.end-date
+                    url=site.data.conf.talk-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- Panel -->
+            {% if site.data.conf.panel-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Panel'
+                    more-info-link='/panels/index.html'
+                    more-info-text='View proposed panels'
+                    end-date=site.data.conf.panel-voting.end-date
+                    url=site.data.conf.panel-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- Workshops -->
+            {% if site.data.conf.workshop-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Workshops'
+                    more-info-link='/workshops/proposed-workshops.html'
+                    more-info-text='View proposed workshops'
+                    end-date=site.data.conf.workshop-voting.end-date
+                    url=site.data.conf.workshop-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+
+            <!-- Posters -->
+            {% if site.data.conf.poster-voting.show %}
+            {% include homepage/going_on_block.html
+                title='Posters'
+                more-info-link='/posters/proposed-posters.html'
+                more-info-text='View proposed posters'
+                end-date=site.data.conf.poster-voting.end-date
+                url=site.data.conf.poster-voting.url
+                url-text='Vote!'
+            %}
+            {% endif %}
+
+            <!-- T-shirt Logos -->
+            {% if site.data.conf.shirt-voting.show %}
+                {% include homepage/going_on_block.html
+                    title='T-shirt Logos'
+                    end-date=site.data.conf.shirt-voting.end-date
+                    url=site.data.conf.shirt-voting.url
+                    url-text='Vote!'
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Proposals -->
+    {% if site.data.conf.talk-proposals.show or site.data.conf.panel-proposals.show or site.data.conf.workshop-proposals.show or site.data.conf.shirt-proposals.show or site.data.conf.host-proposals.show or site.data.conf.keynote-proposals.show %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Proposals</h4>
+
+
+            <!-- Keynotes -->
+            {% if site.data.conf.keynote-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Keynote Proposals'
+                    more-info-link='/general-info/propose-a-keynote.html'
+                    more-info-text='About keynote proposals'
+                    end-date=site.data.conf.keynote-proposals.end-date
+                    url=site.data.conf.keynote-proposals.submission-form
+                    url-text='Propose a speaker'
+                %}
+            {% endif %}
+
+            <!-- Talks -->
+            {% if site.data.conf.talk-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Talks'
+                    more-info-link='/general-info/propose-a-talk.html'
+                    more-info-text='About talk proposals'
+                    end-date=site.data.conf.talk-proposals.end-date
+                    url=site.data.conf.talk-proposals.submission-form
+                    url-text='Propose a talk'
+                %}
+            {% endif %}
+
+            {% comment %}
+            Panels
+            @TODO the more-info-link page does not exist yet! but we should make it
+            {% endcomment %}
+            {% if site.data.conf.panel-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Panels'
+                    more-info-link='/general-info/propose-a-panel.html'
+                    more-info-text='About panel proposals'
+                    end-date=site.data.conf.panel-proposals.end-date
+                    url=site.data.conf.panel-proposals.submission-form
+                    url-text='Propose a panel'
+                %}
+            {% endif %}
+
+            <!-- T-shirts -->
+            {% if site.data.conf.shirt-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='T-shirt Logos'
+                    end-date=site.data.conf.shirt-proposals.end-date
+                    url=site.data.conf.shirt-proposals.submission-form
+                    url-text='Propose a t-shirt logo'
+                %}
+            {% endif %}
+
+            <!-- Posters -->
+            {% if site.data.conf.poster-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Posters'
+                    end-date=site.data.conf.poster-proposals.end-date
+                    url=site.data.conf.poster-proposals.submission-form
+                    url-text='Submit a Poster'
+                %}
+            {% endif %}
+
+            <!-- Workshops -->
+            {% if site.data.conf.workshop-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Workshops'
+                    more-info-link='/general-info/propose-a-workshop.html'
+                    more-info-text='About workshop proposals'
+                    end-date=site.data.conf.workshop-proposals.end-date
+                    url=site.data.conf.workshop-proposals.submission-form
+                    url-text='Propose a workshop'
+                %}
+            {% endif %}
+
+            <!-- Conference Hosting -->
+            {% if site.data.conf.host-proposals.show %}
+                {% include homepage/going_on_block.html
+                    title='2019 Conference Hosting'
+                    end-date=site.data.conf.host-proposals.end-date
+                    url=site.data.conf.host-proposals.submission-form
+                    url-text='Propose to be a host'
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Announcements -->
+    {% if site.data.conf.diversity-scholarship-applications.show  %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Announcements</h4>
+
+            <!-- Scholarships -->
+            {% if site.data.conf.diversity-scholarship-applications.show %}
+                {% include homepage/going_on_block.html
+                    title='Diversity Scholarship Applications'
+                    more-info-link='/general-info/scholarships'
+                    more-info-text='About Diversity Scholarships'
+                    end-date=site.data.conf.diversity-scholarship-applications.end-date
+                    url=site.data.conf.diversity-scholarship-applications.url
+                    url-text=site.data.conf.diversity-scholarship-applications.url-text
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Volunteering -->
+    {% if site.data.conf.volunteer-committee.show
+        or site.data.conf.volunteer-dutyoff.show
+        or site.data.conf.volunteer-onsite.show %}
+    <div class="row">
+        <div class="col-xs-12">
+            <h4 class="expo">Volunteering</h4>
+            {% if site.data.conf.volunteer-committee.show %}
+                {% include homepage/going_on_block.html
+                    title='Conference Committees'
+                    end-date=site.data.conf.volunteer-committee.end-date
+                    url=site.data.conf.volunteer-committee.url
+                    url-text='Sign up'
+                %}
+            {% endif %}
+            {% if site.data.conf.volunteer-dutyoff.show %}
+                {% include homepage/going_on_block.html
+                    title='Community Support Volunteers'
+                    end-date=site.data.conf.volunteer-dutyoff.end-date
+                    url=site.data.conf.volunteer-dutyoff.url
+                    url-text='Sign up'
+                %}
+            {% endif %}
+            {% if site.data.conf.volunteer-onsite.show %}
+                {% include homepage/going_on_block.html
+                    title='Volunteer at Code4Lib'
+                    end-date=site.data.conf.volunteer-onsite.end-date
+                    url=site.data.conf.volunteer-onsite.url
+                    url-text='Sign up'
+                %}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+{% include homepage/sponsor_block.html %}
+
+<div class="col-xs-12">
+    <h3>Conference Hotel</h3>
+
+    <div class="row">
+        <p class="col-sm-4"><img class="img-responsive" src="/assets/img/venues/doubletree.jpg" alt="DoubleTree San Jose"></p>
+        <p class="col-sm-8">We've negotiated rooms at the San Jose DoubleTree by Hilton. Conveniently located near the San Jose International Airport, the DoubleTree is a great location. It includes an on-site restaurant and sushi bar, coffee shops, WiFi (included in our room rate), and a pool plus hot tub area. The hotel is a short ten-minute drive from downtown San Jose with access to public transit as well. <strong><a href="/general-info/venues">See more details on the Venues page</a></strong>.</p>
+    </div>
+</div>

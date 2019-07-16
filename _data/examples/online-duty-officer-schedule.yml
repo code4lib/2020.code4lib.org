@@ -1,0 +1,47 @@
+- day: Tuesday
+  interval: 9 a.m. - 12 p.m. EST
+  officer: locascio
+
+- day: Tuesday
+  interval: 2 p.m. - 5 p.m. EST
+  officer: quon
+
+- day: Wednesday
+  interval: 9 a.m. - 11 a.m. EST
+  officer: locascio
+
+- day: Wednesday
+  interval: 11 a.m. - 1 p.m. EST
+  officer: coyle
+
+- day: Wednesday
+  interval: 1 p.m. - 3 p.m. EST
+  officer: kim
+
+- day: Wednesday
+  interval: 3 p.m. - 5 p.m. EST
+  officer: hutchinson
+
+- day: Thursday
+  interval: 9 a.m. - 11 a.m. EST
+  officer: locascio
+
+- day: Thursday
+  interval: 11 a.m. - 1 p.m. EST
+  officer: coyle
+
+- day: Thursday
+  interval: 1 p.m. - 3 p.m. EST
+  officer: quon
+
+- day: Thursday
+  interval: 3 p.m. - 5:15 p.m. EST
+  officer: hutchinson
+
+- day: Friday
+  interval: 9 a.m. - 11 a.m. EST
+  officer: kim
+
+- day: Friday
+  interval: 11 a.m. - 12:35 p.m. EST
+  officer: coyle

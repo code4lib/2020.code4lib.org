@@ -1,0 +1,60 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" aria-label="Code4Lib Home" href="{{ site.baseurl }}/"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                <!-- HOME -->
+                <li><a href="{{ site.baseurl }}/" aria-label="Return to Code4Lib Index Page">Home</a></li>
+
+                {% if site.data.conf.program-nav-links %}
+                    <li><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>
+                    <li><a href="{{ site.baseurl }}{% link speakers/index.html %}">Speakers</a></li>
+                {% else %}
+                    <!-- Information for before we have program/preconf details -->
+                    <li><a href="{{ site.baseurl }}{% link schedule/timeline.html %}">Schedule</a></li>
+                    <li><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}">Speakers</a></li>
+                {% endif %}
+
+                {% comment %}
+                when looking for sponsors before conf, send users to prospectus
+                close to / during conf, send to the list of sponsors page
+                {% endcomment %}
+                {% if site.data.conf.call-for-sponsors %}
+                    <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
+                {% else %}
+                    <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
+                {% endif %}
+
+                <li><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
+
+                 <li><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
+
+                <!-- SEARCH -->
+                {% if site.data.conf.search %}
+                <li>
+                    <form class="navbar-form" action="get" id="site_search">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Search Presentations" id="search_box">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                {% endif %}
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

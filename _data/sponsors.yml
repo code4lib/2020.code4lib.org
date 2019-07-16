@@ -1,0 +1,238 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.svg
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+  # annotation: "Closed captioning"
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
+# Available Levels
+# - adamantium
+# - platinum
+# - diamond
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+
+- name: Blacklight
+  img: /assets/img/sponsors/blacklight.svg
+  link: http://projectblacklight.org/
+  level: platinum
+
+- name: Index Data
+  img: /assets/img/sponsors/index_data.png
+  link: https://www.indexdata.com/
+  level: gold
+
+- name: Ex Libris, a ProQuest Company
+  img: /assets/img/sponsors/ex-libris.png
+  link: https://www.exlibrisgroup.com/
+  level: silver
+
+- name: OCLC
+  img: /assets/img/sponsors/oclc.png
+  link: https://www.oclc.org
+  level: gold
+  diversity: true
+  annotation: "Streaming Video, Diversity Scholarship"
+
+- name: Atlas Systems
+  img: /assets/img/sponsors/atlas-systems.jpg
+  link: https://www.atlas-sys.com
+  level: bronze
+
+- name: LYRASIS
+  img: /assets/img/sponsors/lyrasis.jpg
+  link: https://www.lyrasis.org
+  level: bronze
+
+# NOTE: never provided logo, img is SVG pulled from website & edited to black PNG
+- name: UCLA Library
+  img: /assets/img/sponsors/ucla.png
+  link: https://www.library.ucla.edu
+  level: bronze
+
+- name: UC Santa Barbara
+  img: /assets/img/sponsors/uc-santa-barbara.png
+  link: https://www.ucsb.edu
+  level: bronze
+
+- name: Penn State Libraries
+  img: /assets/img/sponsors/penn_state_libraries.png
+  link: https://libraries.psu.edu
+  level: bronze
+
+- name: Springshare
+  img: /assets/img/sponsors/springshare.jpg
+  link: https://www.springshare.com
+  level: bronze
+
+- name: Protocol Labs
+  img: /assets/img/sponsors/protocol-labs.png
+  link: https://protocol.ai/
+  level: silver
+
+- name: University of Pennsylvania
+  img: /assets/img/sponsors/lib_blue.png
+  link: https://www.upenn.edu/
+  level: bronze
+
+- name: University of Miami
+  img: /assets/img/sponsors/um_logo.png
+  link: https://welcome.miami.edu/
+  level: contributor
+
+- name: University of Arizona
+  img: /assets/img/sponsors/UA_UL.png
+  link: https://www.arizona.edu/
+  level: bronze
+
+- name: DPLA
+  link: https://dp.la/
+  level: supporter
+
+- name: MIT Libraries
+  img: /assets/img/sponsors/mit.png
+  link: https://libraries.mit.edu/
+  level: silver
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: Temple University
+  img: /assets/img/sponsors/templelibraries.png
+  link: https://library.temple.edu/
+  level: bronze
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: UC San Diego Library
+  img: /assets/img/sponsors/uc_san_diego.jpg
+  link: https://library.ucsd.edu/
+  level: bronze
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: Oregon State University Libraries & Press
+  img: /assets/img/sponsors/oregon-state.png
+  link: https://osulibrary.oregonstate.edu/about/OSU-Libraries
+  level: bronze
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: Unicon
+  img: /assets/img/sponsors/unicon.jpg
+  link: https://www.unicon.net/
+  level: contributor
+
+- name: University of California, Berkeley
+  img: /assets/img/sponsors/uc-berkeley.jpg
+  link: https://www.berkeley.edu/
+  level: contributor
+
+- name: UNT Libraries
+  img: /assets/img/sponsors/unt-libraries.png
+  link: https://library.unt.edu/
+  level: contributor
+
+- name: ByWater Solutions
+  link: https://bywatersolutions.com
+  level: supporter
+
+- name: California Digital Library
+  link: https://www.cdlib.org/
+  level: supporter
+
+- name: San José State University Library
+  img: /assets/img/sponsors/sjsu.png
+  link: https://library.sjsu.edu
+  level: contributor
+
+- name: The University of Rhode Island University Libraries
+  link: https://web.uri.edu/library/
+  level: supporter
+
+- name: Rockefeller Archive Center
+  img: /assets/img/sponsors/rockefeller_archive_center.png
+  link: http://rockarch.org
+  level: contributor
+
+- name: Humboldt State University
+  link: https://library.humboldt.edu
+  level: supporter
+
+- name: Rutgers, The State University of New Jersey
+  img: /assets/img/sponsors/rutgers.gif
+  link: https://comminfo.rutgers.edu
+  level: bronze
+  annotation: "Childcare"
+
+- name: University of Houston Libraries
+  img: /assets/img/sponsors/UH-Libraries.png
+  link: https://libraries.uh.edu/branches/anderson/
+  level: bronze
+
+- name: School of Information Sciences, University of Illinois at Urbana-Champaign
+  img: /assets/img/sponsors/iSchool.png
+  link: https://ischool.illinois.edu/
+  level: bronze
+  diversity: true
+  annotation: "Diversity Scholarship"
+
+- name: LibTech Women & Friends
+  diversity: true
+  img: /assets/img/sponsors/libtechwomen.jpg
+  link: http://libtechwomen.org/
+  level: silver
+  annotation: "Diversity Scholarship"
+
+- name: Generous Individuals from the Code4Lib Community
+  link: https://code4lib.org
+  diversity: true
+
+- name: Califa Library Group
+  img: /assets/img/sponsors/califa.png
+  link: https://califa.org/
+  level: bronze
+
+- name: Jetbrains
+  img: /assets/img/sponsors/jetbrains.png
+  link: https://www.jetbrains.com
+  level: giveaway
+
+- name: Equinox
+  link: https://www.equinoxinitiative.org/
+  level: supporter
+
+- name: VALE
+  link: https://vale.njedge.net/
+  level: supporter
+
+- name: ArchivesSpace
+  link: https://archivesspace.org/
+  level: supporter
+
+- name: Aten Design Group
+  link: https://atendesigngroup.com/
+  level: supporter
+
+- name: Springer Nature
+  link: https://www.springernature.com/gp
+  level: supporter
+
+- name: UCLA Information Studies Dept
+  link: https://is.gseis.ucla.edu/
+  level: supporter
+
+- name: University of Alabama School of Library & Information Studies
+  link: https://slis.ua.edu/
+  level: supporter

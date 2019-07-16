@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-8">
+            <h3>Proposed Preconference Workshops</h3>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            {% if site.data.conf.workshop-voting.show %}
+                <a class="btn btn-primary pull-right" href="{{ site.data.conf.workshop-voting.url }}">Vote!</a>
+            {% endif %}
+        </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            {% for shop in site.data.workshop-proposals %}
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="{{ shop.slug }}Header">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#{{ shop.slug }}" aria-expanded="true" aria-controls="{{ shop.slug }}">
+                            {{ shop.preconference-title }}
+                        </a>
+                    </h4>
+                </div>
+                <div id="{{ shop.slug }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{ shop.slug }}Header">
+                    <div class="panel-body">
+                        <p>{{ shop.abstract }}<p>
+
+                        {% assign speaker_array = "" | split:"|"  %}
+
+                        {% if shop.primary-facilitators-name != nil %}
+                            {% assign speaker_array = speaker_array | push: shop.primary-facilitators-name %}
+                        {% endif %}
+
+                        {% if shop.second-facilitators-name != nil %}
+                            {% assign speaker_array = speaker_array | push: shop.second-facilitators-name %}
+                        {% endif %}
+
+                        {% if shop.third-facilitators-name != nil %}
+                            {% assign speaker_array = speaker_array | push: shop.third-facilitators-name %}
+                        {% endif %}
+
+                        {% if shop.fourth-facilitators-name != nilk %}
+                            {% assign speaker_array = speaker_array | push: shop.fourth-facilitators-name %}
+                        {% endif %}
+
+                        {% if shop.fifth-facilitators-name != nil %}
+                            {% assign speaker_array = speaker_array | push: shop.fifth-facilitators-name %}
+                        {% endif %}
+
+                        <h4>{{ shop.length }}</h4>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

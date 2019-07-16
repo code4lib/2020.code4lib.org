@@ -1,0 +1,29 @@
+<section class="general-info">
+    <div class="col-xs-12">
+        <h2 id="accommodations">Accommodations</h2>
+
+        <p>The Code4Lib community aims to make the conference accessible for attendees of all abilities. The DoubleTree has a length list of <a href="http://doubletree3.hilton.com/en/hotels/california/doubletree-by-hilton-hotel-san-jose-JOSE-DT/about/amenities.html">accessible services</a> on its Amenities & Services page including accessible rooms, restaurants, parking, and routes throughout the hotel campus.</p>
+
+        <h3>Accommodation Requests</h3>
+        <p>
+            When registering, attendees were asked to include any accessibility needs
+            they might require. We are doing our best to meet these needs. Everyone is
+            encouraged to contact the accessibility committee if they have
+            questions or new accommodation needs arise. The accessibility committee may
+            be contacted by:
+        </p>
+        <ul>
+            <li>Talking with a volunteer at the registration desk who will forward the request</li>
+            <li>Asking for help from a <a href="/conduct/#officers">community support volunteer</a></li>
+        </ul>
+
+        <h3>Live Captioning</h3>
+        <p>
+            During the general conference, Code4Lib 2019 will feature live captioning.
+            {% if site.data.conf.closed-captioning.show %}
+                Attendees, both local and remote, may view the text stream at:
+                <a href="{{ site.data.conf.closed-captioning.url }}">{{ site.data.conf.closed-captioning.url }}</a>.
+            {% endif %}
+        </p>
+    </div>
+</section>

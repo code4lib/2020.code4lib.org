@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-8">
+            <h3>Proposed Posters</h3>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            {% if site.data.conf.poster-voting.show %}
+                <a class="btn btn-primary pull-right" href="{{ site.data.conf.poster-voting.url }}">Vote!</a>
+            {% endif %}
+        </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            {% for poster in site.data.poster-proposals %}
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="{{ poster.slug }}Header">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#{{ poster.slug }}" aria-expanded="true" aria-controls="{{ poster.slug }}">
+                            {{ poster.poster-title }}
+                        </a>
+                    </h4>
+                </div>
+                <div id="{{ poster.slug }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{ poster.slug }}Header">
+                    <div class="panel-body">
+                        <p>{{ poster.abstract }}<p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

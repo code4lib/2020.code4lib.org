@@ -1,0 +1,7 @@
+- dist: .50-.74
+  hood: Ahood
+  name: A Restaurant Name
+  res: 'no'
+  type: Pub
+  url: '#'
+  veg: 'yes'

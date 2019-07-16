@@ -1,0 +1,63 @@
+---
+layout: default
+title: code4lib 2019 - San Jose, California
+---
+
+{% include homepage/jumbotron.html %}
+
+<section>
+    <div class="container">
+        {% unless site.data.conf.homepage-display == 'peri' %}
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>The conference for people who code for libraries.</h2>
+                <p>
+                    An annual gathering of technologists from around the world, who largely work for and with libraries,
+                    archives, and museums and have a commitment to open technologies.
+                </p>
+            </div>
+        </div>
+        {% endunless %}
+        <div class="row">
+            {% include homepage/{{ site.data.conf.homepage-display }}_conference.html %}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row section">
+            <div class="col-sm-2">
+                <img class="clip-circle" src="assets/img/theme-images/idol.jpg" alt="a taco">
+            </div>
+            <div class="col-sm-10">
+                <h2>Welcome to {{site.data.conf.location}}</h2>
+                <p>
+                The conference will take place at the <a href="https://www.reservationdesk.com/hotel/611fa78/doubletree-by-hilton-san-jose-san-jose-ca/">Doubletree by Hilton San Jos&eacute;</a>, near the San Jos&eacute; International Airport. The hotel has a free shuttle from the airport to the hotel.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row" id="testimonials">
+        {% for testimonial in site.data.testimonials %}
+            <div class="col-sm-6 col-md-4 testimonial">
+                <div class="thumbnail">
+                    <div class="speech-bubble">
+                        <div class="arrow bottom right"></div>
+                        {{ testimonial.blurb }}
+                    </div>
+                    <div class="caption">
+                        <h3><a href="https://twitter.com/{{ testimonial.twitter }}">{{ testimonial.name }}</a></h3>
+                        <p>{{ testimonial.org }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        <script src="{{ "/assets/js/testimonials.js" | relative_url }}"></script>
+        </div>
+    </div>
+</section>

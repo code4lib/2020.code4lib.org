@@ -1,0 +1,241 @@
+# Registration
+- timeImg: 8.00.png
+  title: Registration
+  day1: true
+  day2: true
+  day3: true
+  time: 08:00-09:00
+
+# Reception
+- timeImg: 7.00.png
+  title: Reception
+  day2: true
+  time: 19:00-21:00
+  menu: day2-menus
+  submenu: Reception
+
+# Announcements
+- timeImg: 9.00.png
+  title: Announcements and Welcome
+  day1: true
+  time: 09:00-09:15
+
+- timeImg: 9.00.png
+  title: Announcements
+  day2: true
+  day3: true
+  time: 09:00-09:15
+
+# Breaks
+- timeImg: 10.00.png
+  title: Morning Break
+  day1: true
+  time: 10:00-10:15
+  menu: day1-menus
+  submenu: Morning
+
+- timeImg: 2.40.png
+  title: Afternoon Break
+  day1: true
+  time: 14:40-14:45
+  menu: day1-menus
+  submenu: Afternoon
+
+- timeImg: 9.55.png
+  title: Morning Break
+  day2: true
+  time: 09:55-10:05
+  menu: day2-menus
+  submenu: Morning
+
+- timeImg: 3.00.png
+  title: Afternoon Break
+  day2: true
+  time: 15:00-15:15
+  menu: day2-menus
+  submenu: Afternoon
+
+- timeImg: 10.00.png
+  title: Morning Break
+  day3: true
+  time: 10:00-10:10
+  menu: day3-menus
+  submenu: Morning
+
+# Breakouts
+- timeImg: 2.45.png
+  title: Breakout Sessions 1
+  day1: true
+  time: 14:45-15:55
+  link: https://wiki.code4lib.org/Code4Lib2018_Breakout_Sessions
+
+- timeImg: 10.05.png
+  title: Breakout Sessions 2
+  day2: true
+  time: 10:05-10:55
+  link: https://wiki.code4lib.org/Code4Lib2018_Breakout_Sessions
+
+# lightning
+- timeImg: 4.00.png
+  title: Lightning Talks 1
+  day1: true
+  time: 16:00-17:05
+  link: https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks#Day_1_-_February_20.2C_2019
+
+- timeImg: 2.05.png
+  title: Lightning Talks 2
+  day2: true
+  time: 14:05-15:00
+  link: https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks#Day_2_-_February_21.2C_2019
+
+- timeImg: 10.15.png
+  title: Lightning Talks 3
+  day3: true
+  time: 10:15-11:00
+  link: https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks#Day_3_-_February_22.2C_2019
+
+# Poster Session
+- timeImg: 3.15.png
+  title: Poster Session in Foyer of the Regency Ballroom
+  day2: true
+  time: 15:15 - 15:35
+  link: https://wiki.code4lib.org/Code4Lib2018_Posters#Code4Lib2018_Posters
+
+# wrap ups
+- timeImg: 5.05.png
+  title: Daily Wrap-up
+  day1: true
+  time: 17:05-17:15
+
+- timeImg: 5.10.png
+  title: Daily Wrap-up
+  day2: true
+  time: 17:10-17:15
+
+- timeImg: 12.15.png
+  title: Wrap-up
+  day3: true
+  time: 12:15-12:35
+
+# lunches
+- timeImg: 12.10.png
+  title: Lunch
+  day1: true
+  time: 12:10-13:20
+  menu: day1-menus
+  submenu: Lunch
+
+- timeImg: 12.05.png
+  title: Lunch
+  day2: true
+  time: 12:05-13:05
+  menu: day2-menus
+  submenu: Lunch
+
+# housekeeping (announcements and giveaways)
+- timeImg: 10.15.png
+  title: Announcements
+  day1: true
+  time: 10:15-10:20
+
+- timeImg: 1.20.png
+  title: Announcements
+  day1: true
+  time: 13:20-13:25
+
+- timeImg: 3.40.png
+  title: Announcements
+  day1: true
+  time: 15:55-16:00
+
+- timeImg: 1.05.png
+  title: Announcements
+  day2: true
+  time: 13:05-13:10
+
+- timeImg: 3.35.png
+  title: Announcements
+  day2: true
+  time: 15:35-15:40
+
+- timeImg: 10.10.png
+  title: Announcements
+  day3: true
+  time: 10:10-10:15
+
+- timeImg: 11.00.png
+  title: Announcements
+  day3: true
+  time: 11:00-11:05
+
+# keynotes
+- timeImg: 9.15.png
+  title: Opening Keynote - Chris Bourg
+  day1: true
+  groupId: key-open
+  time: 09:15-10:00
+
+- timeImg: 9.15.png
+  title: Closing Keynote - Mega Subramaniam
+  day3: true
+  groupId: key-close
+  time: 09:15-10:00
+
+
+# groups
+- timeImg: 10.20.png
+  title: Group 1&#58; 110 minutes (6 talks)
+  day1: true
+  groupId: 1
+  time: 10:20-12:10
+  start: 1518603600
+  end: 1518610200
+
+- timeImg: 1.25.png
+  title: Group 2&#58; 75 minutes (5 talks)
+  day1: true
+  groupId: 2
+  time: 13:25-14:40
+  start: 1518614700
+  end: 1518619200
+
+- timeImg: 9.15.png
+  title: Fiscal Continuity IG Report (40 minutes)
+  day2: true
+  groupId: 3
+  time: 09:15-9:55
+  start: 1518686100
+  end: 1518688500
+  link: https://wiki.code4lib.org/Fiscal_Continuity#Report
+
+- timeImg: 11.00.png
+  title: Group 3a&#58; 60 minutes (3 talks)
+  day2: true
+  groupId: 4
+  time: 11:00-12:00
+  start: 1518692400
+  end: 1518696000
+
+- timeImg: 1.10.png
+  title: Group 3b&#58; 55 minutes (3 talks)
+  day2: true
+  groupId: 5
+  time: 13:10-14:05
+  start: 1518700200
+  end: 1518703500
+
+- timeImg: 3.40.png
+  title: Group 4&#58; 110 minutes (6 talks)
+  day2: true
+  groupId: 6
+  time: 15:40-17:10
+  start: 1518708000
+  end: 1518714600
+
+- timeImg: 11.05.png
+  title: Group 5&#58; 70 minutes (4 talks)
+  day3: true
+  groupId: 7
+  time: 11:05-12:15
+  start: 1518779100
+  end: 1518783300

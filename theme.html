@@ -1,0 +1,171 @@
+---
+layout: default
+title: code4lib - San Jose, California 2019
+hero-image: assets/img/theme-images/hero-image.jpg
+---
+
+{% include homepage/jumbotron.html %}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Section 1</h2>
+                <p>
+                    Suspendisse finibus a <a href="#">mi sed posuere</a>. Nunc nec diam a tellus pretium fringilla at at sem.
+                    Donec in magna condimentum, fermentum nulla et, consequat dui. Nulla lobortis massa ac mi vehicula ornare.
+                    Nulla a nunc aliquet, pellentesque lorem quis, dapibus quam. Quisque et urna tincidunt leo hendrerit lacinia.
+                    Duis bibendum augue id convallis viverra. Nullam sit amet imperdiet ligula. In vel tincidunt felis, in vehicula magna.
+                    Donec id urna erat. Curabitur mattis nisi ut massa auctor, et gravida lacus pulvinar. Suspendisse tortor
+                    nisi, tempor sit amet erat vel, egestas eleifend odio. Fusce venenatis eget enim consectetur sodales.
+                    Etiam bibendum mattis rutrum.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Section 1</h2>
+                <p>
+                    Suspendisse finibus a <a href="#">mi sed posuere</a>. Nunc nec diam a tellus pretium fringilla at at sem.
+                    Donec in magna condimentum, fermentum nulla et, consequat dui. Nulla lobortis massa ac mi vehicula ornare.
+                    Nulla a nunc aliquet, pellentesque lorem quis, dapibus quam. Quisque et urna tincidunt leo hendrerit lacinia.
+                    Duis bibendum augue id convallis viverra. Nullam sit amet imperdiet ligula. In vel tincidunt felis, in vehicula magna.
+                    Donec id urna erat. Curabitur mattis nisi ut massa auctor, et gravida lacus pulvinar. Suspendisse tortor
+                    nisi, tempor sit amet erat vel, egestas eleifend odio. Fusce venenatis eget enim consectetur sodales.
+                    Etiam bibendum mattis rutrum.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Section 3</h2>
+                <p>
+                    Suspendisse finibus a <a href="#">mi sed posuere</a>. Nunc nec diam a tellus pretium fringilla at at sem.
+                    Donec in magna condimentum, fermentum nulla et, consequat dui. Nulla lobortis massa ac mi vehicula ornare.
+                    Nulla a nunc aliquet, pellentesque lorem quis, dapibus quam. Quisque et urna tincidunt leo hendrerit lacinia.
+                    Duis bibendum augue id convallis viverra. Nullam sit amet imperdiet ligula. In vel tincidunt felis, in vehicula magna.
+                    Donec id urna erat. Curabitur mattis nisi ut massa auctor, et gravida lacus pulvinar. Suspendisse tortor
+                    nisi, tempor sit amet erat vel, egestas eleifend odio. Fusce venenatis eget enim consectetur sodales.
+                    Etiam bibendum mattis rutrum.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Badges -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Sponsor Badges</h2>
+                {% include sponsors/plate.html level="Diamond Sponsor" badge="diamond-badge" %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Speakers -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Speakers</h2>
+            </div>
+            <div class="col-xs-12 speaker-sequence sequence">
+                {% assign speakers = site.data.examples.speakers | sort: 'last' %}
+                {% for speaker in speakers %}
+                    {% include speaker_box.html param=speaker %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Menu -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Menu</h2>
+                {% assign menu = site.data.examples.menu %}
+                {% for meal in menu limit:1 offset:1 %}
+                    <div class="col-md-12">
+                        {% include menu.html meal=meal.Lunch %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- timeline -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Schedule</h2>
+                {% include schedule_nav.html param="day1" %}
+                {% assign events = site.data.examples.schedule-short | sort: "time" %}
+                {% include presentation_timeline.html events=events menuDay="day1" %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row" id="testimonials">
+            <!-- testimonial -->
+            <div class="col-sm-4">
+                <h2>Testimonial</h2>
+                <div class="thumbnail">
+                    <div class="speech-bubble">
+                        <div class="arrow bottom right"></div>
+                        Suspendisse finibus a mi sed posuere. Nunc nec diam a tellus pretium fringilla at at sem.
+                    </div>
+                    <div class="caption">
+                        <h3><a href="">Person</a></h3>
+                        <p>University</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Presentation Info -->
+            <div class="col-sm-3 col-sm-offset-1">
+                <h2>Presentation Info</h2>
+                <div class="row talk-detail-box">
+                    <!-- date -->
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
+                        <div class="talk-box-detail-value"> <a href=""></a>March 7th</div>
+                    </div>
+
+                    <!-- time of day for presentations -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value">11:10 AM</div>
+                    </div>
+
+                    <!-- length -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <!--<h3>Length</h3>
+                        <p>{{ page.length }} minutes</p>-->
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-hourglass"></span></div>
+                        <div class="talk-box-detail-value">  20 minutes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,45 @@
+{% assign meal = include.meal %}
+<div class="col-md-12">
+    <a name="{{meal[0]}}"></a>
+    <aside class="tasting-menu" style="background-color:#fff;">
+        <h4><span>{{ meal[0] }}</span></h4>
+        <br/>
+        <ul class="tasting-options">
+            {% for category in meal[1] %}
+            <li>
+                <h5>{{ category[0] }}</h5>
+                <ul class="items list-unstyled">
+                    {% for item in category[1] %}
+                    <li>
+                        {{ item[0] }}
+                        {% assign notes = item[1] | split: ", " %}
+                        {% for note in notes %}
+                        {% if note == "VGN" %}
+                        <img src="/assets/img/persistent/vegan.svg" alt="vegan" height="35"/>
+                        {% endif %}
+                        {% if note == "VGT" %}
+                        <img src="/assets/img/persistent/vegetarian.svg" alt="vegetarian" height="35"/>
+                        {% endif %}
+                        {% if note == "GF" %}
+                        (GF)
+                        {% endif %}
+                        {% if note == "DF" %}
+                        (DF)
+                        {% endif %}
+                        {% endfor %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+        <p style="text-align:center">
+            <img src="/assets/img/persistent/vegetarian.svg" alt="vegetarian" height="35"/> = Vegetarian &nbsp; &nbsp; <img src="/assets/img/persistent/vegan.svg" alt="vegan" height="35"/> = Vegan
+            &nbsp; &nbsp; (GF) = Gluten Free
+            &nbsp; &nbsp; (DF) = Dairy Free
+        </p>
+        <p>
+            A selection of vegetarian, vegan and gluten free options are always available but if you need something specific, please ask an attendant at the meal and they will be able to assist.
+        </p>
+    </aside>
+</div>

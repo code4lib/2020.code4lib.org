@@ -1,0 +1,73 @@
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <a href="#"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
+        <ul class="list-inline list-unstyled small">
+            <li class="list-item tci"><a href="{{ site.baseurl }}/">Home</a></li>
+
+            {% if site.data.conf.program-nav-links %}
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link speakers/index.html %}">Speakers</a></li>
+            {% else %}
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link schedule/timeline.html %}">Schedule</a></li>
+                <li class="list-item tci"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}">Speakers</a></li>
+            {% endif %}
+
+            {% if site.data.conf.call-for-sponsors %}
+                <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
+            {% else %}
+                <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
+            {% endif %}
+
+            <li class="list-item tci"><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
+            <li class="list-item tci"><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
+            <li class="list-item tci"><a href="mailto:code4lib@concentra-cms.com">Contact Us</a></li>
+        </ul>
+        <div class="bucket">
+            <p>
+                <a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license">
+                    <img src="{{ "/assets/img/persistent/cc.png" | relative_url }}" alt="License"></a>
+            </p>
+            <div style="display: inline;" xmlns:cc="/ns#" about="http://creativecommons.org">
+                <p>
+                    <small>
+                        Except where otherwise noted, content on this site is licensed under a
+                        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" class="subfoot">
+                            Creative Commons Attribution 4.0 International license</a>.
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>var searchData = "{{ site.baseurl }}/search_data.json"</script>
+<script src="{{ "/assets/js/lunr.min.js" | relative_url }}"></script>
+<script>window.jQuery || document.write('<script src="{{ "/assets/js/vendor/jquery-1.11.2.min.js" | relative_url }}"><\/script>')</script>
+<script src="{{ "/assets/js/vendor/bootstrap.min.js" | relative_url }}"></script>
+
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/search.js" | relative_url }}"></script>
+
+{% if page.layout == 'proposedContent' %}
+<script src="{{ "/assets/js/vendor/tabletop.js" | relative_url }}"></script>
+{% include proposed-js.html %}
+{% endif %}
+
+{% if page.title == 'Newcomer Dinner' %}
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"></script>
+<script src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#dinner-table').DataTable({
+        "paging": false,
+        "searching": false,
+        "autoWidth": false,
+        "order": [[3, 'asc'], [0, 'asc']]
+        });
+    } );
+</script>
+{% endif %}
+
+{% include analytics.html %}
+
+</body>
+</html>

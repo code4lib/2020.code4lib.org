@@ -1,0 +1,139 @@
+---
+layout: secondary-nav
+title: Attend Code4Lib
+nav: general-info
+active: Attend Code4Lib
+---
+<section class="general-info">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Attend Code4Lib</h1>
+
+                    {% if site.data.conf.conference-registration.show %}
+                        {% if site.data.conf.conference-registration.open %}
+                            <a href="{{ site.data.conf.conference-registration.url }}" class="btn btn-lg btn-primary">Register Now!</a>
+                        {% else %}
+                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.conf.conference-registration.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
+                        {% endif %}
+                    {% else %}
+                        <p>Code4Lib will be held from February 19th to the 22nd this year. We have reserved a block at the DoubleTree Hilton; see more details on the <a href="venues/">Venues</a> page.</p>
+                    {% endif %}
+
+                    {% if site.data.conf.workshop-registration.show %}
+                        <h3>Preconference Workshops</h3>
+                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-registration.url }}">Pre Conf Registration</a></p>
+                    {% endif %}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Registration Fees</h3>
+                <ul>
+                    <li><strong>Main Conference</strong>: $395</li>
+                    <li><strong>Main Conference (after January 23rd)</strong> : $450</li>
+                    <li><strong>Pre-Conference </strong>: $50 per half day ($100 for full day)</li>
+                    <li><strong>Reception "plus one"</strong>: $60 (limit one "plus one" per registration)</li>
+                    <li><strong>DoubleTree Hotel</strong>: $200/night plus taxes</li>
+                </ul>
+
+                <p>
+                    When you register, you will be able to select one all-day workshop or two
+                    half-day workshops. As with past Code4Lib conferences, it will be
+                    possible to register for the main conference, the main conference +
+                    pre-conference day, or only for the pre-conference day (pre-conference
+                    only day registration will open in mid-January).
+                </p>
+
+                <p>
+                    The Code4Lib room block rate in the DoubleTree does not include does not include a 14.4% Room Tax and $1.25 HBID fee per night (subject to change).
+                </p>
+
+                <p>
+                    <strong>Payment Policy</strong>: Payment for the full amount of registration fees must be made at the time of registration or within 48 hours of the completion of registration.
+                </p>
+
+                <p>
+                    <strong>Cancellation Policy</strong>:  All cancellations received on or before January 23rd, {{site.data.conf.year}} are eligible for a full refund of fees paid, less a 10% cancellation fee. No refunds will be issued after the January 23rd cut-off date.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Additional Information</h3>
+                <ol>
+                    <li>
+                        Child Care is available for each day of the conference. When you register, you may select which days you require child care. The cost is $30 per full day, $15 for the half day on Friday, and $15 for child care during the Wednesday evening reception.
+                    </li>
+                    <li>
+                        The registration system maintains a two hour session per registration
+                        attempt. Due to the potential of heavy access and this prolonged session,
+                        the conference may appear to sell out quickly. But once early failed
+                        sessions expire, more spots may open up beginning around 2 p.m. Because of
+                        this we ask you not to assume it is sold out until you hear an announcement
+                        from the planning committee.
+                    </li>
+                    <li>
+                        Registration will close when the maximum capacity has been reached.
+                        A waitlist will be available once this final round of registration is
+                        closed.
+                    </li>
+                    <li>
+                        <strong><a href="/talks/">Conference Talks</a></strong>:
+                        See conference program <a href="/schedule/">on the schedule page</a> to get
+                        an idea of what will be part of the program. Conference speakers still need
+                        to register for the conference at full price.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="general-info" id="remote">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Can't attend in person?</h2>
+
+                <h3>Live Stream</h3>
+                <p>
+                    Presentations will be streamed and archived on
+                    our <a href="{{ site.data.conf.social-links.youtube}}">YouTube channel</a>.
+                    Please be sure to thank our volunteers that make this happen.
+                </p>
+
+                <h3>Social Media and "Back Channels"</h3>
+                <p>
+                    You can also connect with us via
+                    <a href="{{ site.data.conf.social-links.slack}}">Slack</a>
+                    (requires <a href="https://docs.google.com/forms/d/120Dw1JjLxPJB9VTGl0mUY7Ot6yg6YNY1RZUISJFzdwk/viewform?c=0&w=1">registration</a>),
+                    <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">Twitter</a>,
+                    <a href="{{ site.data.conf.social-links.irc}}">IRC</a>, and <a href="https://instagram.com/explore/tags/{{site.data.conf.hashtag}}/">Instagram</a>.
+                </p>
+
+                <h3>Live Transcription</h3>
+                <p>
+                    We are thrilled to be able to provide
+                    {% if site.data.conf.closed-captioning.show %}
+                        <a href="{{site.data.conf.closed-captioning.url}}">
+                    {% endif %}
+                        live transcriptions of all the presentations
+                    {% if site.data.conf.closed-captioning.show %}</a>{% endif %},
+                    thanks to Temple University Libraries.
+                </p>
+
+                <div class="row sponsor-row">
+                    <div class="col-xs-12 col-md-6">
+                        <a href="http://library.temple.edu/" class="thumbnail" style="background: white;">
+                            <img src="https://assets.temple.edu/sites/assets/files/images/svg/temple-university-main-logo.svg" alt="Temple University Libraries">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

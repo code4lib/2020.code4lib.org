@@ -1,0 +1,59 @@
+.countdown-wrap {
+  clear: both;
+  max-width: 650px;
+  padding: 20px;
+  width: 100%;
+}
+
+.goal-title {
+  font-size: 36px;
+}
+
+.label {
+    color: #000;
+    float: left;
+    white-space: normal;
+}
+
+.goal {
+    float: right;
+    max-width: 50%;
+    text-align: right;
+}
+
+.glass {
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: left;
+  height: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.progress {
+  background: #FF5D50;
+  float: left;
+  height: 20px;
+  width: 0%;
+  z-index: 333;
+}
+
+.goal-stat {
+  float: left;
+  margin: 0;
+  padding: 10px;
+  width: 30%;
+
+  @media only screen and (max-width : 640px) {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.goal-number, .goal-label {
+  display: block;
+}
+
+.goal-number {
+  font-weight: bold;
+}

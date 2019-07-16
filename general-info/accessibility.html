@@ -1,0 +1,229 @@
+---
+layout: secondary-nav
+title: General Info
+nav: general-info
+active: Accessibility
+subnav:
+- name: 'Contact'
+  url: '#contactus'
+- name: 'Quiet Room'
+  url: '#quietroom'
+- name: 'For Presenters'
+  url: '#presenters'
+---
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-xs-12">
+            <div class="page-header">
+                <h1>Accessibility</h1>
+            </div>
+
+            <h2 id="contactus">Contact</h2>
+            <p>Contact <a href="mailto:{{site.data.conf.accessibility-email}}">{{site.data.conf.accessibility-email}}</a> with any questions or concerns related to the conference's accessibility.</p>
+
+            <h2 id="quietroom">Quiet Room</h2>
+            <p>
+               From Tuesday to Friday a quiet room will be available at the conference hotel,
+               located in the Zinfandel Room on the second floor (accessible via elevator). The purpose of this room is to provide a quiet space so that attendees can take a mental or physical break from
+               the many goings on. The room is open to all attendees during the conference hours.
+            </p>
+            <p>
+               If you use the Quiet Room, we ask you to abide by the following rules:
+            </p>
+            <ul>
+               <li>  The quiet space is not for private discussions or meetings.
+                     Any talking should be brief and kept to a whisper.
+               </li>
+               <li>  While in the room, please turn off or silence any electronics,
+                     especially cellphones. This is not a space to make phone calls,
+                     catch up on emails, or otherwise do work. This is a space to relax.
+               </li>
+               <li>  If you want to listen to music, watch a video, etc., please
+                     wear headphones and keep the volume low. If someone asks you
+                     to further turn down the volume, please do so.
+               </li>
+               <li>  Personal belongings should not be left unattended.
+               </li>
+               <li>  Please leave the space in the same condition (or better) as
+                     you found it.
+               </li>
+               <li>  Food and drink is permitted but avoid noisy foods or anything
+                     with strong odors.
+               </li>
+               <li>  We will generally keep the lights as low as possible while
+                     maintaining a safe space.
+               </li>
+               <li>  Above all, respect your fellow conference goers in this space
+                     so that all of you can find a bit of quiet.
+               </li>
+            </ul>
+
+            <h2>Live Captioning</h2>
+            <p>During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning.
+            {% if site.data.conf.closed-captioning.show %}
+               Attendees, both local and remote, may view the text stream at:
+               <a href="{{site.data.conf.closed-captioning.url}}">{{site.data.conf.closed-captioning.url}}</a>.
+            {% endif %}
+            </p>
+
+            <h2>Use the Microphone</h2>
+            <p> The single greatest act you can to do to promote accessibility at Code4Lib {{site.data.conf.year}} is to
+                <strong>use the microphone</strong>. It doesn't matter if you think you are loud or
+                you can project, you should use the microphone. It benefits everyone:
+            </p>
+            <ul>
+               <li>When a speaker uses the mic properly, you all hear them better. </li>
+               <li>When you ask a question with a mic, the speaker and everyone else hears your question. </li>
+               <li>Using the mic ensures everyone livestreaming or watching recorded talks can share the C4L experience. </li>
+               <li>Using the mic improves the quality of the live captioning feed.</li>
+            </ul>
+
+            <h3>Microphone Tips for Presenters</h3>
+            <ul>
+               <li>For both a podium mic and one on a stand, it should point towards your mouth. Adjust the height
+                   of the mic and angle its neck to point towards your mouth and nose.
+               </li>
+               <li>You should place your mouth about 8-10 inches (20-25cm or two hand widths) away from the mic. You can
+                   get closer but you may find that it limits your natural movement.
+               </li>
+               <li>If you move around the podium at all, you should adjust the mic as you move. You should always
+                   be talking directly at the head of the mic from the front. Never to the side.
+               </li>
+               <li>If you are copresenting, you need to make sure the mic points at the speaker. Use the second
+                   mic on stage or adjust it to point at who is speaking. Standing side by side with the mic in
+                   the middle is not as effective as you may think.
+               </li>
+            </ul>
+            <h3>Using a Handheld Mic</h3>
+            <ul>
+               <li>The line of the microphone should always point towards your mouth and nose. Do not hold it
+                   like an ice cream cone. Hold it more like a candy bar or at a 45 degree angle.
+               </li>
+               <li>If you turn your head, the mic should also turn so that it stays pointed at your mouth.</li>
+               <li>You should hold the mic 5-8 inches (15-20cm) from your mouth.</li>
+               <li>Hold the mic firmly. Any shaking may be picked up and effect your voice quality.</li>
+               <li>If the mic is not working, wait for staff to offer a replacement or fix it. Do not
+                   just try yelling.
+               </li>
+            </ul>
+
+
+            <h2 id="presenters">Accessibility Instructions for Presenters</h2>
+            <p>
+                All presenters should please review these accessibility requirements and presentation logistics. Make note
+                of the four action items for your talk(s).
+            </p>
+
+            <h3>Action 1: PC/Mac Compatibility</h3>
+            <p>
+                Ensure that your slides will display correctly on BOTH Mac and PC.
+                There will be a presenter laptop at the podium to streamline transitions
+                and minimize tech issues. We don’t yet know if it will be a Mac or a PC.
+                If you absolutely need to use your own laptop (e.g. a demo that only
+                works on your machine), please let your Program Committee Liaison know ASAP.
+            </p>
+
+            <h3>Action 2: Submit Slides Early for Supporting Live Captioning</h3>
+            <p>
+                Code4Lib {{site.data.conf.year}} will feature live captioning during the three days of the
+                general conference. In order to improve the quality of this service, we
+                ask presenters to send their slides to us so that the captioners can use
+                them as reference and improve the quality of the live text stream.
+            </p>
+            {% if site.data.conf.slides.url != "" %}
+            <p>
+                Please submit your slides to the <a href="{{site.data.conf.slides.url}}">Code4Lib {{site.data.conf.year}} repository</a>
+                or to {{site.data.conf.slides.contact}}
+                (<a href="mailto:{{site.data.conf.slides.email}}?Subject=Code4Lib%20Slides">{{site.data.conf.slides.email}}</a>)
+                at least 24 hours before your presentation (the earlier the better).
+            </p>
+            {% endif %}
+            <p>
+                <strong>NOTE:</strong> You can continue to edit and change your slides
+                after submission. You do not need to resubmit any changes unless you
+                feel you added any difficult words or terms that would be challenging
+                for live captioning. Keep in mind that the captioners may not have domain
+                expertise in libraries.
+            </p>
+
+            <h3>Action 3: Design a Visually Accessible Presentation</h3>
+            <p>
+                Presenters are encouraged to use the following guidelines to ensure that
+                their presentations are visually accessible to attendees.
+            </p>
+            <h4>Fonts</h4>
+            <ul>
+                <li>Avoid fonts that use thin strokes in the characters.</li>
+                <li>Choose readable sans serif or serif fonts. Generally avoid script or monospaced fonts.</li>
+                <li>
+                    Suggested fonts include: Helvetica and its clones (Arial, Calibri,
+                    etc.), Gill Sans, Comic Sans (seriously!), Verdana, Franklin Gothic,
+                    Rockwell, Tahoma, Lucida, and Times New Roman.
+                </li>
+                <li>Use underlining, italics, and boldface sparingly.</li>
+                <li>
+                    Aim for a font size of 20-30 point. Generally, do not go below
+                    18-point for slide content (if you plan to share your slides
+                    with the community, it’s okay to use smaller fonts for references
+                    and URIs).
+                </li>
+            </ul>
+            <h4>Colors</h4>
+            <ul>
+                <li>
+                    Choose text and background colors that have good contrast. You can
+                    use a <a href="http://webaim.org/resources/contrastchecker/">contrast
+                    checker</a> to check for good contrast. The web accessibility thresholds
+                    are not relevant to slide presentations, but higher contrast is still better.
+                </li>
+                <li>
+                    For color blindness considerations, add patterns or labels in graphs and charts.
+                    This is especially important if are using either red-green or yellow-blue
+                    color combinations. These are the two most common types of color blindness.
+                    If you are uncertain about a color choice, a <a href="http://www.color-blindness.com/coblis-color-blindness-simulator/">color
+                    blindness simulator</a> may help.
+                </li>
+            </ul>
+            <h4>Videos/Animations</h4>
+            <ul>
+                <li>Avoid blinking text and animations that endlessly repeat.</li>
+                <li>
+                    If your presentation features lots of animations, videos, etc.,
+                    please include a warning at the start of your talk. This is especially
+                    needed if any contain lots of flicker.
+                </li>
+                <li>
+                    If a video contains sound or dialogue, please try to use a version
+                    with captioning.
+                </li>
+            </ul>
+            <h4>Sharing Slides</h4>
+            <ul>
+                <li>
+                    Participants are encouraged to share their slides. If placed on the
+                    web, please include a short link in your opening slides for attendees
+                    to view on their personal machines.
+                </li>
+                <li>
+                    Include speaker notes with your files if the file format allows.
+                    In particular, describe any images, tables, charts, etc. in the notes.
+                </li>
+                <li>Specific advice for different presentation tools and formats:
+                    <ul>
+                        <li>
+                            PDFs: Use PDF/A format: <a href="http://webaim.org/techniques/acrobat/">
+                            http://webaim.org/techniques/acrobat/</a>
+                        </li>
+                        <li>
+                            PowerPoint and KeyNote accessibility advice:
+                            <a href="http://webaim.org/techniques/powerpoint/">http://webaim.org/techniques/powerpoint/</a>
+                            and <a href="http://www.swarthmore.edu/Documents/administration/accessibility/Accessible%20Presentations.pdf">http://www.swarthmore.edu/Documents/administration/accessibility/Accessible%20Presentations.pdf</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

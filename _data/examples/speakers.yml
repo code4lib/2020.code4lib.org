@@ -1,0 +1,44 @@
+# NOTE: we've not traditionally used the github, twitter, slack, or bio at all
+- id: ophelia-the-omnipresent
+  name: Ophelia
+  last: Ophelia
+  bio: |
+    She toats loves Hamlet...a bit too much.
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  keynote: false
+  work_title: Supporting Character
+  institution: Hamlet
+  image_src: /assets/img/nopics/nopic8.jpg
+- id: melancholy-jaques
+  name: Melancholy Jaques
+  last: Jaques
+  bio: |
+    Depressed much?
+  twitter_handle:
+  slack_handle:
+  github_handle:
+  keynote: false
+  work_title: Introvert
+  institution: Arden
+  image_src: /assets/img/nopics/nopic10.jpg
+- id: duke-senior
+  name: Duke Senior
+  last: Senior
+  bio: |
+    The Yin to Jaques' Yang
+  keynote: false
+  work_title: Robin Hood
+  institution: Arden
+  image_src: /assets/img/nopics/nopic9.jpg
+- id: lady-macbeth
+  name: Lady Macbeth
+  last: Macbeth
+  bio: |
+    Out out...
+  twitter-handle: ???
+  work_title: Heroine
+  institution: Dunsinane
+  image_src: /assets/img/nopics/nopic1.jpg
+  keynote: 1

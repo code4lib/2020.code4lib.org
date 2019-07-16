@@ -1,0 +1,238 @@
+---
+layout: default
+title: Schedule
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 sched-date">
+            <h2>{{site.data.conf.days[0].weekday}}, {{site.data.conf.days[0].date}}</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>9AM - 5PM</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3><a href="/workshops">Preconference Workshops</a></h3>
+            <p>
+                Preconference details are available
+                {% if site.data.conf.workshop-registration.url.size > 0 %}
+                    on the <a href="{{site.data.conf.workshop-registration.url}}">registration site</a> and
+                {% endif %}
+                on the <a href="/workshops">Preconference Workshops</a> page.
+            </p>
+        </div>
+    </div>
+
+    {% if site.data.conf.newcomer-dinner.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>Evening</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3><a href="/general-info/venues/#dinner">Newcomer Dinner</a></h3>
+            <p>
+                It is a Code4Lib tradition to welcome those who are new to the conference
+                by organizing dinner groups on the night before the general conference begins.
+                Sign-up is organized by the <a href="https://wiki.code4lib.org/Code4Lib_{{site.data.conf.year}}_Conference_Committees#Social_Activities_Committee">Social Activities Committee</a>
+                on the wiki, and we try to mix a few newcomers with a few veterans
+                who can offer an informal introduction to the conference.  Great for making
+                new friends!
+            </p>
+            {% if site.data.conf.newcomer-dinner.signup-url != '' %}
+            <p>
+                <a class="btn btn-primary" href="{{ site.data.conf.newcomer-dinner.signup-url }}">Sign-up for the Newcomer Dinner</a>
+            </p>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+        <div class="col-xs-12 sched-date">
+            <h2>{{site.data.conf.days[1].weekday}}, {{site.data.conf.days[1].date}}</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>9AM - 5:20PM</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3><a href="/schedule/day-1">General Conference, Day One</a></h3>
+            <p>
+                Keynote #1 kicks off the conference. Talks will be selected by the community. Lunch will be provided.
+            </p>
+            {% comment %}
+            <p>
+                <a href="/schedule/day-1">See the full schedule</a>.
+            </p>
+            {% endcomment %}
+        </div>
+    </div>
+
+    {% if site.data.conf.reception.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>6:30PM - 8:30PM</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <a href="/general-info/venues/#reception">
+                <h3>Reception</h3>
+            </a>
+            <p>
+                All attendees are invited to join us for the reception at the Tech Museum of Innovation. See the <a href="/general-info/venues/#reception" alt="Venues">Venues</a> page for more details.
+            </p>
+            <p>
+                <a class="btn btn-primary" href="/schedule/food/day1-menus.html#Reception">View the menu</a>
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+   <div class="row">
+        <div class="col-xs-12 sched-date">
+            <h2>{{site.data.conf.days[2].weekday}}, {{site.data.conf.days[2].date}}</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>9AM - 5:10PM</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3><a href="/schedule/day-2">General Conference, Day Two</a></h3>
+            <p>
+                Talks selected by the community, as well as a poster session in the afternoon. Lunch will be provided.
+            </p>
+            {% comment %}
+                <p><a href="/schedule/day-2">See the full schedule</a>.</p>
+            {% endcomment %}
+        </div>
+    </div>
+
+    {% if site.data.conf.libtech-women.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>{{site.data.conf.libtech-women.time}}</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3>
+                {% if site.data.conf.libtech-women.url %}
+                    <a href="{{site.data.conf.libtech-women.url}}">
+                {% endif %}
+                LibTech Women
+                {% if site.data.conf.libtech-women.url %}</a>{% endif %}
+            </h3>
+            <p>
+              <a href="http://libtechwomen.org/">LibTechWomen</a> is a supportive space for women and their friends to network, develop skills, build confidence, and lead positive change. Are you a lurker? Are you a newcomer? All are welcome! Come meet wonderful colleagues in library technology!
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if site.data.conf.game-night.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>{{site.data.conf.game-night.time}}</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3>
+                {% if site.data.conf.game-night.url %}
+                    <a href="{{ site.data.conf.game-night.url }}">
+                {% endif %}
+                Game Night
+                {% if site.data.conf.game-night.url %}</a>{% endif %}
+            </h3>
+            <p>
+              Play games? Come join fellow code4libers in a few board or card games at the San Jose meeting room! Feel free to bring your own games as well.
+              See the <a target="blank" href="{{ site.data.conf.game-night.url }}">
+              sign up list on the Social Activities wiki</a> to list any games you might bring with you.
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if site.data.conf.karaoke-night.show %}
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>{{site.data.conf.karaoke-night.time}}</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3>
+                {% if site.data.conf.karaoke-night.url %}
+                    <a href="{{ site.data.conf.karaoke-night.url }}">
+                {% endif %}
+                Karaoke Night
+                {% if site.data.conf.karaoke-night.url %}</a>{% endif %}
+            </h3>
+            <p>
+                We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.
+                {% if site.data.conf.karaoke-night.url %}
+                    <a target="blank" href="{{ site.data.conf.karaoke-night.url }}">Sign up as groups and head over to the lounge at the DIY Events</a>
+                {% endif %}.
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% comment %}
+        <!-- play-n-share, move this section to the right date/time -->
+        <div class="row">
+            <div class="col-xs-12 col-md-3 text-right">
+                <h4>6:30PM - 10:30PM</h4>
+            </div>
+            <div class="col-xs-12 col-md-9 sched-well">
+                <a href="/venue/playandshare.html">
+                <h3>Play & Share</h3>
+                </a>
+                <p>
+                    Play games? Have some homemade (or “homemade”) treats to share? Want to find folks to play music with? We organized a large open room near the conference center with plenty of space for attendees to gather and socialize, play games and share goodies. We will provide tables and chairs for Board Game Night and some space for jam sessions. You are also welcome to bring stuff to share, from craft sodas and beers to baked goods to local treats - we’ll have a few tables set up for that as well.
+                </p>
+                <p>
+                    For more information and to add to the list of games, check the <a href="https://wiki.code4lib.org/index.php?title=2018_Social_Activities">code4lib wiki</a>.
+                </p>
+            </div>
+        </div>
+    {% endcomment %}
+
+    <div class="row">
+        <div class="col-xs-12 sched-date">
+            <h2>{{site.data.conf.days[3].weekday}}, {{site.data.conf.days[3].date}}</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-3 text-right">
+            <h4>9AM - 12:30PM</h4>
+        </div>
+        <div class="col-xs-12 col-md-9 sched-well">
+            <h3><a href="/schedule/day-3">General Conference, Day Three</a></h3>
+            <p>
+                Keynote #2 closes out the conference. Talks have been selected by the community.
+            </p>
+            {% comment %}
+            <p><a href="/schedule/day-3">See the full schedule</a>.</p>
+            {% endcomment %}
+        </div>
+    </div>
+
+    {% comment %}
+        <!-- BoF hangouts section, move to right date/time -->
+        <div class="row">
+            <div class="col-xs-12 col-md-3 text-right">
+                <h4>Afternoon</h4>
+            </div>
+            <div class="col-xs-12 col-md-9 sched-well">
+                <h3>Birds-of-a-Feather Hangouts?</h3>
+                <p>
+                    The general conference is over, but if you have a bunch of inspired nerds with common interests in one spot, why not organize a little hackfest or meetup?  You are on your own to organize at this point, but feel free to contact the
+                    <a href="http://wiki.code4lib.org/2017_Conference_Committees#Local_Planning_Committee">Local Planning Committee</a> if you would like assistance securing space.
+                </p>
+            </div>
+        </div>
+    {% endcomment %}
+
+</div>

@@ -1,0 +1,36 @@
+<div class="row" style="margin-top: 1em;">
+    <div class="col-xs-12 col-sm-6 col-md-5">
+        {% if include.primary %}
+        <h3 style="margin-top:0;">{{ include.title }}</h3>
+        {% else %}
+        <h5 style="margin-top:0;">{{ include.title }}</h5>
+        {% endif %}
+        {% if include.more-info-link.size %}
+            <a href="{{ include.more-info-link }}">
+        {% endif %}
+                <small>
+                {% if include.more-info-text.size %}
+                    {{ include.more-info-text }}
+                {% elsif include.more-info-text.size %}
+                    More info
+                {% endif %}
+                </small>
+        {% if include.more-info-link.size %}
+            </a>
+        {% endif %}
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-5">
+    {% if include.end-date.size %}
+        Now until {{ include.end-date | date: '%B %-d'}}{% include date_ordinals.html date=include.end-date %}
+    {% else if include.start-date.size %}
+        Starting on {{ include.start-date | date: '%B %-d'}}{% include date_ordinals.html date=include.start-date %}
+    {% endif %}
+    </div>
+    <div class="col-xs-12 col-md-2">
+        {% if include.url.size and include.url-text.size %}
+        <a class="btn btn-primary btn-xs btn-block" href="{{ include.url }}" target="_blank">
+            {{ include. url-text }}
+        </a>
+        {% endif %}
+    </div>
+</div>

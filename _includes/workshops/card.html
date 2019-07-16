@@ -1,0 +1,28 @@
+{% assign workshop = include.workshop %}
+{% capture post_length %}{{workshop.startTime}} - {{workshop.endTime}}{% endcapture %}
+{% assign location = site.data.locations | where: 'id', workshop.location | first %}
+{% assign location_display = location.name %}
+{% if workshop.room %}
+    {% assign room = location.rooms | where: 'id', workshop.room | first %}
+    {% capture location_display %}{{ location.name }} - {{ room.name }}{% endcapture %}
+{% endif %}
+
+<div class="well workshop-well" data-length="{{ workshop.time }}" data-location="{{ location.id }}">
+    <div class="row">
+        <div class="col-xs-12">
+            <h4><a href="{{ workshop.url }}">{{ workshop.title }}</a></h4>
+            {% if workshop.full == true %}
+            <p class="text-danger">This workshop is full</p>
+            {% endif %}
+            <p>{{ workshop.content | truncatewords: 50 }} <a href="{{ workshop.url }}">more</a></p>
+        </div>
+        <div class="col-xs-12">
+            <h5>Time</h5>
+            <h5>{{ post_length }}</h5>
+        </div>
+        <div class="col-xs-12">
+            <h5>Location</h5>
+            <p style="word-break: normal;">{{ location_display }}</p>
+        </div>
+    </div>
+</div>

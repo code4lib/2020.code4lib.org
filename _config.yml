@@ -1,0 +1,13 @@
+url: http://2019.code4lib.org
+permalink: /:categories/:title
+exclude: [node_modules]
+repository: code4lib/2019.codelib.org
+future: true
+timezone: America/New_York
+sass:
+  sass_dir: assets/_scss
+include:
+  - .well-known
+keep_files:
+  - .dat
+  - dat.json

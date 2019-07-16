@@ -1,0 +1,68 @@
+coyle:
+  name: "Karen Coyle"
+  img: assets/img/duty-officers/coyle_karen.jpg
+  onsite: true
+  online: false
+
+coyne:
+  name: "Justin Coyne"
+  img: assets/img/duty-officers/coyne_justin.jpg
+  onsite: true
+  online: false
+
+ellis:
+  name: "Shaun Ellis"
+  img: assets/img/duty-officers/ellis_shaun.jpg
+  onsite: true
+  online: false
+
+fahy:
+  name: "Erin Fahy"
+  img: assets/img/duty-officers/fahy_erin.jpg
+  onsite: true
+  online: false
+
+fox:
+  name: "Bobbi Fox"
+  img: assets/img/duty-officers/fox_bobbi.png
+  onsite: true
+  online: false
+
+graham:
+  name: "Wayne Graham"
+  img: assets/img/duty-officers/graham_wayne.jpg
+  onsite: true
+  online: false
+
+kayiwa:
+  name: "Francis Kayiwa"
+  img: assets/img/duty-officers/kayiwa_francis.jpg
+  slack_handle: "kayiwa"
+  onsite: true
+  online: true
+
+kudzia:
+  name: "Megan Kudzia"
+  img: assets/img/duty-officers/kudzia_megan.jpg
+  slack_handle: "mkudzia"
+  onsite: false
+  online: true
+
+matienzo:
+  name: "Mark Matienzo"
+  img: assets/img/duty-officers/matienzo_mark.jpg
+  onsite: true
+  online: false
+
+nelson:
+  name: "Chad Nelson"
+  img: assets/img/duty-officers/nelson_chad.jpg
+  onsite: true
+  online: false
+
+slaughter:
+  name: "Anne Slaughter"
+  img: assets/img/duty-officers/slaughter_anne.jpg
+  slack_handle: "aslaughter"
+  onsite: true
+  online: true

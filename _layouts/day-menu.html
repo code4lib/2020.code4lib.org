@@ -1,0 +1,21 @@
+{% include header.html %}
+{% include search_results.html %}
+
+{% assign menu = site.data[page.menu] %}
+{% for meal in menu %}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                {% if forloop.index == 1 %}
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                {% endif %}
+                {% include menu.html meal=meal %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+{% include footer.html %}

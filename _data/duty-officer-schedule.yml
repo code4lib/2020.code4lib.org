@@ -1,0 +1,50 @@
+- title: "Tuesday - Morning Preconferences"
+  officers:
+    - "kayiwa"
+    - "slaughter"
+
+- title: "Tuesday - Afternoon Preconferences"
+  officers:
+    - "coyne"
+    - "fahy"
+
+- title: "Wednesday - Conference Day 1 (Morning)"
+  officers:
+    - "graham"
+    - "kayiwa"
+
+- title: "Wednesday - Conference Day 1 (Afternoon)"
+  officers:
+    - "coyle"
+    - "nelson"
+
+- title: "Wednesday - Reception (Evening)"
+  all-hands: true
+
+- title: "Wednesday - Overnight (Phone only)"
+  officers:
+    - "ellis"
+
+- title: "Thursday - Conference Day 2 (Morning)"
+  officers:
+    - "coyle"
+    - "graham"
+
+- title: "Thursday - Conference Day 2 (Afternoon)"
+  officers:
+    - "fahy"
+    - "fox"
+
+- title: "Thursday - Game Night"
+  officers:
+    - "coyne"
+    - "nelson"
+
+- title: "Thursday - Overnight (Phone only)"
+  officers:
+    - "graham"
+
+- title: "Friday - Conference Day 3 (Morning)"
+  officers:
+    - "ellis"
+    - "matienzo"

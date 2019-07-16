@@ -1,0 +1,12 @@
+<div class="sponsor-card {{ sponsor.level }}">
+    <a href="{{ sponsor.link }}">
+        {% if sponsor.img.size %}
+        <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
+        {% else %}
+        <span class="sponsor-name-only">{{ sponsor.name }}</span>
+        {% endif %}
+    </a>
+    {% if sponsor.annotation.size %}
+        <div class="sponsor-annotation">{{ sponsor.annotation}}</div>
+    {% endif %}
+</div>

@@ -1,0 +1,46 @@
+Breakfast:
+    Daily Offerings:
+        "Whole fruits of the season": "VGN, GF, DF"
+        "Freshly baked breakfast breads, muffins, croissants with whipped sweet butter and preserves": "VGT"
+        "Yogurt station with Greek and fruit flavored yogurts, house made granola": "VGT, GF"
+    Beverages:
+        "Freshly squeezed orange juice": ""
+        "Freshly ground brewed coffee": ""
+        "Selection of fine teas": ""
+Morning:
+    Beverages:
+        "Freshly ground brewed coffees": ""
+        "Selection of fine teas": ""
+Lunch:
+    Soup:
+        "Chayote spinach tortilla soup": "VGN, GF, DF"
+    Lunch Salads:
+        "Green cabbage and mango salad with cumin vinaigrette": "VGT"
+        "Deconstructed Salad of chopped romaine lettuce with queso fresco and cilantro ranch dressing": "VGT"
+        "Hearts of palm, corn and pepper salad": "VGN, GF, DF"
+    Entrées:
+        "Steak or grilled veggie fajitas with flour or corn tortillas": "VGN, GF"
+        "Black bean quesadillas": "VGT"
+        "Spanish rice": "VGN, GF, DF"
+        "Whole pinto beans": "VGN, GF, DF"
+        "Salsa": "VGN, GF, DF"
+        "Guacamole": "VGN, GF, DF"
+        "Sour cream": "GF"
+    Beverages:
+        "Freshly ground brewed coffees": ""
+        "Selection of fine teas": ""
+        "Freshly brewed iced tea": ""
+Afternoon:
+    Daily Offerings:
+        "Tres leches bites": ""
+    Beverages:
+        "Freshly ground brewed coffees": ""
+        "Selection of fine teas": ""
+Reception:
+    Tray Passed Hors d'oeuvres:
+        "Ahi Tuna Tartar - yellow fin tuna with avocado creme fraiche and sesame oil served on a garlic cracker": ""
+        "Eggplant Parmesan Pinwheels - thinly sliced eggplant, breaded and layered with marinara & pesto sauce": "VGN"
+    Displayed Hors d'oeuvres:
+        "Deconstructed Antipasto Display - featuring an array of local and European cheeses, assorted charcuterie, fresh and dried fruit, grilled, pickled and marinated vegetables, assorted cured and stuffed olives and roasted and candied nuts; Served with gourmet breadsticks and crackers": "VGN, GF, DF"
+        "Warm Brie - topped with walnuts and dried cherries served with sliced baguettes": "VGT"
+        "Bruschetta Bar - toasted crostini served with Heirloom Tomato and Basil Roasted Garlic Hummus Eggplant Caponata": "VGN"

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Past Keynotes
+---
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Keynote Speakers from Past Code4Lib Conferences</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 speaker-sequence sequence">
+                {% for person in site.data.past-keynotes reversed %}
+                    {% include speaker_box.html speaker=person %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

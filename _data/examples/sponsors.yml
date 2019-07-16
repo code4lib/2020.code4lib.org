@@ -1,0 +1,57 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.svg
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
+# Available Levels
+# - adamantium
+# - platinum
+# - diamond
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+
+- name: Logan's Cutlery
+  img: /assets/img/examples/sponsors/one.svg
+  link: https://www.google.com
+  level: adamantium
+
+- name: Miko's Autoparts
+  link: https://www.google.com
+  level: platinum
+  diversity: true
+
+- name: Imani's Computer Repair
+  img: /assets/img/examples/sponsors/two.svg
+  link: https://www.google.com
+  level: diamond
+  diversity: true
+
+- name: Gabirel's Sporting Goods
+  img: /assets/img/examples/sponsors/three.svg
+  level: gold
+
+- name: Oskar's Finery
+  img: /assets/img/examples/sponsors/one.svg
+  level: silver
+
+- name: Li Wei's Pizzeria
+  level: bronze
+  annotation: "Closed Captioning"
+
+- name: Chucks's Nursery
+  img: /assets/img/examples/sponsors/two.svg
+  level: supporter
+  annotation: "Closed Captioning"

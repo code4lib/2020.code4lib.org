@@ -1,0 +1,23 @@
+---
+layout: presentation
+speakers-text: Sarah Roberts
+speakers: sarah-roberts
+day: 1
+group: key-open
+spot: 1
+length: 45
+type: key-open
+categories: keynotes
+startTime: 1550672100
+title: Opening Keynote - Sarah Roberts
+slides:
+youtube_key:
+---
+
+<p>
+{% for speaker in site.data.speakers %}
+    {% if speaker.id == page.speakers %}
+        {{ speaker.bio }}
+    {% endif %}
+{% endfor %}
+</p>

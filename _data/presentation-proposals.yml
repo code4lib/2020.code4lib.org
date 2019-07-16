@@ -1,0 +1,417 @@
+- presentation-title: "Building an Event System"
+  abstract: "A little more than three years ago, Mid-Continent Public Library decided to move away from commercial and other available products for planning and sharing community programming events and room reservations and build our own system around an existing Access database planning system. Since then, we have been working to assemble out of a patchwork of a commercial management system, Access databases, Excel spreadsheets, Drupal forms, and other tools one comprehensive events and room management and analysis tool. Learn about our journey with this effort and how staff are using the system to implement and improve quality community programming. "
+  slug: 0001
+
+- presentation-title: "Dreaming about Book Groups"
+  abstract: "Book groups form a key service of public libraries around the world. As a metropolitan 31-branch public library, Mid-Continent Public Library uses a patchwork of software and systems to manage services and book kits for our system and other neighboring libraries. We are currently exploring the possibility of building a new management tool for these kits, but what if this system also included a public component to help our patrons find book groups that fit their interests, schedules, and travel options? This presentation offers a vision of a new book group service to help large libraries manage book group kits and to help customers connect with others for book discussions. "
+  slug: 0002
+
+- presentation-title: "GDPR for American Public Libraries"
+  abstract: "The General Data Protection Regulation of the European Union came into full effect May 2018. The most visible impact of GDPR has been a cascade of cookie approvals and subscription confirmations to conform with the law. But what does a regulation in the EU mean for American public libraries? How does GDPR differ from U.S. laws, and how does it embody some of the best aspirations of libraries? This presentation offers a summary of important take-aways from GDPR for U.S. public library."
+  slug: 0003
+
+- presentation-title: "Library Website Navigation"
+  abstract: "Public libraries try to offer all things to all people at the best possible price: free. The challenge is getting the public to become aware of what all is offered while making it easy for those who know what they want to get it. During this session, the presenter will share navigation and content changes that were made (and some unmade shortly after launch) during the process of a website overhaul of www.mymcpl.org. This will include a review of other large public library websites used as references in the redesign process and some examples of user feedback. The www.mymcpl.org website will be used as a jumping-off point to explore the question “What makes good navigation for a public library website?”"
+  slug: 0004
+
+- presentation-title: "Islandora +1M: ingesting a million objects takes more than time"
+  abstract: "The digitization was done; the metadata was created; all we had to do to complete the grant was ingest the 1.2 million images of microfilm, periodicals, and photographs into our Islandora repository... This presentation summarizes the hard learned lessons from a one-and-a-half-year digitization project that became a three-year digitization and Islandora upgrade project. Learn about the roadblocks we encountered in using Islandora at scale, how we overcame them, and where room for improvement still stands."
+  slug: 0005
+
+- presentation-title: "Using Python to Assess Holding Counts"
+  abstract: "In collection assessment, it can be valuable to know how many copies of a given title are held at your institution, in various consortia, or in all of OCLC. This talk will share a python script which uses the WorldCat API to quickly and easily count holdings at various subsets of institutions. This method replaces our previous system of laboriously looking up each item manually and counting holdings. "
+  slug: 0006
+
+- presentation-title: "A Visualized Analysis of Lynda.com Use at Elon University      "
+  abstract: "In 2017 and 2018, the Dean of the Library at Elon University requested that I analyze Lynda.com usage and produce a data visualization of those results. Taking complex data and turning it into a series of simple visualizations allowed my Dean to articulate the value of this resource to University Administration, while demonstrating who was using Lynda.com and for what purposes.
+
+Challenges included merging patron information with the Lynda.com data, and in turn creating secondary and tertiary datasets for mapping patrons to their majors, and majors to their respective schools. There was also the question of analyzing students with double-majors: how to accurately account for their usage statistics without inflating or otherwise corrupting the results? Furthermore, Lynda.com does not anonymize data, and I implemented a strategy to anonymize personally identifiable information.
+
+What resulted was an illuminating snapshot of use among the students, faculty, and staff of Elon. By grouping the analyses by class year (First, Sophomore, Junior, Senior, etc.), major and department, we could empirically show which courses were most viewed; as well as the number and duration of sessions, and which schools, departments, and majors had the most use."
+  slug: 0007
+
+- presentation-title: "Using Twitter to understand our community: Text Mining Analysis of Tweets"
+  abstract: "Different social media platforms allow people to get involved with news, pictures, events and other activities posted on those platforms, which changed the way people communicate with news and updates. Twitter has proved that it is the platform where people are seeking for news and information. According to the company statistics there are more than 300 million monthly active users, producing around 500 million tweets every day (\"Twitter usage statistics,\" 2017). An increasing number of organizations are using the Twitter to promote their work, communicate thoughts, and interacting with updates and news  (Kim, Kim, Wang, & Lee, 2016). 
+
+Also, individuals are exchanging information and opinions through Twitter, and it is becoming the way to communicate for lots of numerous people. As a result, Twitter had become the most fastest growing communication tool. Organizations, as well as individuals, are using Twitter for different purposes, promotions, sharing news, sharing stories and providing opinions (Sheffer & Schultz, 2010). 
+
+The questions that poses themselves are; does library exist on social networks?  Do librarians spend enough time communicating with their patrons or each other on twitter? According to Stuart (2010) the number of library accounts was increasing in the number on Twitter. 
+
+What about the Middle East? Twitter is becoming a popular social media platform in the Middle East. Studies suggest that in Qatar, users prefer Twitter platform to find and share news. In this paper, the researcher analyzes the use of hashtag #Library accompanied combined with hashtag #Qatar. The analysis is based on a set of over than four hundred tweets and with mixed methodology combining observation, semantic analysis, and quantitative analysis. "
+  slug: 0008
+
+- presentation-title: "Customizing Your Web-Based ILS Experience with Nativefier and Electron"
+  abstract: "When Elon University first implemented OCLC’s WMS as our ILS, Library personnel missed having a dedicated circulation interface. Because WMS is web-based, losing the WMS tab in a sea of other browser tabs became a common annoyance.
+
+Electron is billed as a way to build desktop applications using HTML, CSS, and JavaScript. It uses Node.js and Chromium at its core and is the basis for a large number of well-known applications. Nativefier is an open-source project that uses Electron to create applications out of web sites. With a few command-line arguments and flags, I created a \"native\" Windows application with its own executable. I didn't stop there, however. As a former web developer with a few tricks up my sleeve, Nativefier allowed me to further customize WMS's interface. The resulting application does only what we want it to do--access and run the Circulation module--and nothing else. The powerful ability to customize an Electron app with Nativefier, however, opens possibilities to do much more."
+  slug: 0009
+
+- presentation-title: "Aggregation Without Aggravation: auditing metadata at scale"
+  abstract: "As one of the Digital Public Library of America (DPLA)’s largest service hubs, Mountain West Digital Library aggregates metadata from over 70 institutions in the US Intermountain West. How can we efficiently and comprehensively audit thousands of metadata records for digitized special collections? We meet this challenge through the adoption of a tool coded by a fellow DPLA hub, North Carolina Digital Heritage Center, that uses XSL to test OAI-PMH feeds against our local metadata application profile. Building on MWDL’s original 2015 adaptation, the past year brought further updates to the tool that broadened its capabilities to support auditing for a diverse range of repositories, including CONTENTdm, Islandora, Samvera, and Solphal. This talk will discuss the project, technical challenges, pros and cons, and future directions."
+  slug: 0010
+
+- presentation-title: "Human-Centered Tech Help Responses: Collaborating with Information Desk Staff to Create Standards for Customer-Facing Technology Help Ticket Interactions and Building Buy-In from the Ground Up"
+  abstract: "When answering technology help desk tickets, we all want to do our best to provide friendly and helpful responses, but we don’t always think of this work as “customer-service.” At VCU Libraries, we sought to create some standards and documentation around our technology help ticket interactions with a view toward being more customer-facing and intentional – and who better to enlist for help than our own front desk and reference staff! Taking a deeply collaborative approach, we’re hoping to build buy-in from the ground up by working with our technology coworkers early on to look at existing standards and documentation, brainstorm, and share examples of other technology customer-service standards and interactions (the good and bad), and working with Information Desk staff to build on their customer-service expertise to adapt their processes and chat and email standards for technology related e-interactions. This talk will share our process, our successes and lessons learned, challenges in adapting customer-service standards from one department’s work to another, and some of the best practices we’ve crafted around customer-facing technology standards and assessment that we can all feel good about."
+  slug: 0011
+
+- presentation-title: "Optimizing Library Web Content for Voice Search"
+  abstract: "About 20% of Google searches are currently voice searches. By 2020, it is likely that 50% of all searches in the United States will be done by voice. How can libraries ensure that the content we provide is adapted and optimized for people searching from their mobile devices or voice-activated assistants like Alexa, Siri, Cortana, and Google Home? Voice search has significant ramifications for online strategy. How can we ensure that libraries aren't left behind when half the population is searching through a virtual assistant? From Alexa Skills to structured data, this session will provide tips, tools and best practices for optimizing library-specific content for voice search."
+  slug: 0012
+
+- presentation-title: "Automated Testing of Digital Repository Software Using Selenium and Behave"
+  abstract: "Adding testing to an existing application can be a challenge. CWIS is an open source digital library platform written in PHP by the Internet Scout Research Group, with roughly 300K lines of internally-developed code. Over the last several years, the Scout team has implemented functional testing with Selenium for browser automation, using Behave to drive the tests. The current test suite includes 30 feature tests, containing 199 scenarios and 1,103 test steps. After new code commits, a test runner automatically executes the whole test suite under three different versions of PHP, and alerts developers to any errors. This talk presents an introduction to Behave and Selenium, demonstrates the creation of a new test case, and summarizes lessons learned in implementing and expanding the use of functional testing."
+  slug: 0013
+
+- presentation-title: "Taming the Elephant: Tools for Improving Code Quality in PHP"
+  abstract: "Early versions of PHP provided programmers with very little support for producing robust code with few defects. Fortunately, the language and surrounding ecosystem both have considerably improved. This talk presents a survey of code quality techniques for PHP, including:  leveraging language features like namespaces and type hints, linters like PHP Code Sniffer and PHP Mess Detector, unit testing with PHPUnit, and static code analysis with PHPStan and phan. Several of these tools can be integrated into programmer's editors like emacs and vim, providing real-time feedback on problems with code as it is written. Others can be integrated into commit hooks (examples provided for git and svn) so that problematic code cannot be checked in."
+  slug: 0014
+
+- presentation-title: "Three Strategic Interventions to Improve the Findability of Enterprise Content"
+  abstract: "For any organization with significant digital content, the ability to search across this content has become an operational necessity. Despite this, unified enterprise search and retrieval of digital content remains an elusive goal for many organizations. This presentation highlights work that information specialists within the JPL Library have done to strategically intervene in the creation and maintenance of JPL’s intranet. Three key interventions are discussed which best highlight how work in enterprise \"knowledge curation” fits into emergent knowledge management roles for institutional librarians. 
+
+These three interventions are: 
+1) guided document creation, which includes the development of wiki portals and standard editing processes for consistent knowledge capture, 
+2) search curation, which includes manual and organic enterprise search relevancy improvements, and 
+3) index as intervention, which describes how metadata mapping and information modeling are used to improve access to content for both local and enterprise-wide applications. 
+
+As organizations and their workers become increasingly reliant on shared digital resources to complete work tasks, librarians and other information professionals must decide what our roles will be in facilitating information capture and findability in an enterprise information ecosystem. This work was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration."
+  slug: 0015
+
+- presentation-title: "After the conference: Developing and maintaining your local code4lib community"
+  abstract: "The end of the code4lib annual meeting is often bittersweet. Attendees have had the chance to learn about amazing projects, network with peers, and learn about new tools and technologies. But what comes next?
+
+Organizing a local code4lib group can seem like \"one more thing\" that there isn't time for, but that doesn't have to be the case. In this presentation attendees will learn some simple tools, resources, and workflows to use for finding and developing a local interest group. 
+
+Sample project management documentation and resources will be provided for attendees as part of this talk."
+  slug: 0016
+
+- presentation-title: "Ethics for information professionals"
+  abstract: "People who organize information for discovery and use not only make information accessible but also provide the lens through which others experience it. Designing information spaces involves making and imposing value choices, which positions us firmly in the realm of ethics. This topic is especially relevant as we hear more about “fake news,” “biased algorithms,” and unethical uses of personal data. 
+
+Individually, we have considered ethics at the micro level, for instance by finding ways to do good in specific projects or situations. But to what extent have we thought about ethics in the context of our overall profession? When we design do we, as practitioners, surrender our moral authority to someone else? Or do we follow a professional code?
+
+This talk provides key questions and guidelines for how to discuss a code of ethics that can be applied widely within information professions, including contexts and formats that may not have been considered before. 
+"
+  slug: 0017
+
+- presentation-title: "Enrich Library Collection Analysis using Python"
+  abstract: "At our library, we have initiated a new project to harvest data from the CrossRef API using Python in order to understand faculty publication and citation preferences. I’ll present how we can query data based on author, DOI, or title. I’ll describe how I pull and parse the JSON data using Python. Parsing steps include data validation, cleaning, etc. Finally, I’ll describe how I export the data to MySQL for additional processing to integrate with subject-based collection analysis reports. "
+  slug: 0018
+
+- presentation-title: "Project ReShare: Development & Piloting of an Open Source Resource Sharing Platform"
+  abstract: "Libraries desire a user-centered resource sharing state, where patrons have seamless and informed access to information in any library, in any format. ReShare, as an open source, community-owned resource sharing platform, will significantly expand libraries’ current resource sharing capabilities and capacity, putting the patron and learner at the center of our collective collections ecosystem, with technology and/or profit playing a secondary role in facilitating access, rather than defining it. Consortia in the U.S. and abroad represent thousands of individual libraries operating resource sharing within commercially imposed technology silos. ReShare will provide a platform that any library/consortium may use to expand sharing within and between networks, regardless of choice of integrated library or discovery system to build capacity, saving time and money, while simultaneously supporting teaching, learning, and research activities."
+  slug: 0019
+
+- presentation-title: "Bridge2Hyku: An IMLS-funded Content Migration Toolkit"
+  abstract: "The University of Houston (UH) Libraries, in partnership and consultation with numerous institutions, was awarded an IMLS National Leadership/Project Grant (LG-70-17-0217-17) to support the creation of the Bridge2Hyku (B2H) Toolkit. Focusing on general information and guides for digital collections migration as well as on specific applications for migrating to the Hyku platform, the toolkit will help institutions better understand their digital library ecosystems and how they can plan, prepare for, and conduct migrations. As part of this project, the UH Libraries and partner institutions have created a suite of tools to help export metadata and files out of CONTENTdm and into Hyrax/Hyku. This presentation will demonstrate the applications and give an update on the project’s second phase. It will present findings from a migration pilot program, completed in partnership with Texas Digital Library, and will share ways the community can participate in phase three of the project. "
+  slug: 0020
+
+- presentation-title: "Code It Yourself! Teaching Collections Staff to Script"
+  abstract: "We will share the University of Georgia Libraries' method for training collections staff to script using Python through a combination of a peer learning group and expert training from our Libraries' developer. The peer learning group (Lib Learn Tech) provides a support group for staff to work through online training together to learn Python basics. Our developer's workshops bridge the gap between learning about Python and being able to solve real-world problems using scripts such as renaming files, organizing files, and automatically running reports. These workshops emphasize how to think like and problem solve like a programmer so staff will be able to tackle additional problems on their own. Our goal is to cultivate an empowered staff who can script routine tasks, freeing up their (and our developer's) time for more complex pursuits."
+  slug: 0021
+
+- presentation-title: "Using Python to collect COUNTER reports "
+  abstract: "Usage data is helpful for collection assessment, but gathering is can be time consuming. Automated collection via SUSHI helps, but the support for SUSHI in many ILSs is lackluster. This presentation will show how to use python to automate usage collection, bypassing the often-clunky interfaces offered by vendors."
+  slug: 0022
+
+- presentation-title: "Configuring, Re-configuring and Extending a Repository System with Docker and Docker Compose"
+  abstract: "Have you ever been deterred from trying out a new system or a new add-on to an existing system because of complicated installation requirements? 
+
+Using a familiar open source repository system as an example, this presentation will demonstrate how Docker has been used as a platform to construct and manage test environments for current, past, and future releases of the repository system.  This presentation will provide a tutorial on the basic concepts and terminology associated with Docker containers and volumes.  Next, the presentation will demonstrate how Docker Compose can be used to manage the dependencies between components of the repository system allowing a developer to publish common system configurations that can be started and stopped with a single terminal command."
+  slug: 0023
+
+- presentation-title: "Building A Better Database List with APIs"
+  abstract: "With a combination of automation and human attention, we were able to build a better Database A-Z List for our users and streamline our workflow by feeding LibGuides the data from our ILS's available APIs. 
+In this talk, I will cover how we achieved our goals and the lessons we learned through the process."
+  slug: 0024
+
+- presentation-title: "\"Blockchain for Libraries\" is Snake Oil"
+  abstract: "Blockchain technology has proven to be an plausible, perhaps miraculous, underpinning for the sale, transfer and tracking of large integers. Libraries need to become adept in blockchain technology to the extent that they want to license, track and lend large integers. In other words, not ever. 
+
+\"Blockchain\" is being used today to convey a magical aura to technical and commercial schemes with little justification for using blockchain. In every proposal for use of blockchain in libraries (not involving traffic in large integers) that I've examined, there has been no good reason, other than marketing, to invoke blockchain. Blockchain makes problems harder, vastly more expensive to solve, and completely resistant to scaling, and frequently inimical to library values of privacy and equity.
+ 
+Ironically, there are a number of technologies that have underpinnings common to blockchain that are ripe for more extensive exploitation in libraries. Git, peer-to-peer, cryptographic hashes, and public key signatures should all be in our tool chests. Let's resolve to use the blockchain bubble to advance our understanding and use of these underpinning technologies and steer clear of the inevitable blockchain bust."
+  slug: 0025
+
+- presentation-title: "Who counts the COUNTERs?"
+  abstract: "With the January 2019 deadline for COUNTER Release 5 compliance fast approaching, JSTOR set out to build a COUNTER-5 implementation that would deliver value for participating institutions and internal data consumers. 
+
+Our chief goals were to implement a system which was stable and reliable, could grow with our platform as content and interfaces changed, and enhance the value of our non-COUNTER reporting by making it consistent with standard COUNTER reports.
+
+This talk will cover how we interpreted the COUNTER-5 spec onto our unique and constantly-evolving business model, our efforts rallying engineering teams across the organization to develop domain expertise about how the COUNTER standard applied to our platform, and the architectural choices we made to achieve our goals on time. 
+
+What we ended up with was a novel, flexible, and robust reporting system which delivers high-quality data to internal and external customers.
+"
+  slug: 0026
+
+- presentation-title: "Building REST API-backed Single Page Applications (SPAs) with Vue.js"
+  abstract: "Vue.js is a progressive JavaScript framework that is rapidly becoming a popular alternative to the likes to React and Angular for front-end web development, with adoption by companies including Adobe, GitLab, Facebook, and Alibaba. As a progressive framework, Vue.js does not need to be implemented as an entire framework, and can also function as a modern ES6-handling jQuery replacement for applications where only a few lines of JavaScript are needed. 
+
+This talk will give a brief introduction to Vue.js and some of its tooling, demonstrate how Vue.js can be used to quickly build reactive Single Page Applications (SPAs) on top of existing databases and REST API services, and give some pointers on how to architect Vue.js applications that are expected to scale. As a powerful and flexible framework that can be used for fast prototyping and building production applications alike, Vue.js is a great tool for all library developers to have in their toolbox."
+  slug: 0027
+
+- presentation-title: "Using MediaWiki + WikiBase as a platform for library linked data: a pilot study"
+  abstract: "In this talk, we will provide a high-level overview of the MediaWiki and Wikibase platform, share the details of our recent 16 library pilot project, highlight the advantages and disadvantages of the platform, review our extensions, and share lessons learned and evaluations from the project participant libraries. Wikidata has evolved into a very important data source for those working with Linked Data, and the library/archive/museum communities’ interest in using Wikidata, both as a place to syndicate data as well as a source for data, has grown accordingly. The underlying technology platform for Wikidata is a MediaWiki extension called WikiBase, which enables the creation and storage of structured data in MediaWiki.  During the pilot, OCLC deployed MediaWiki and WikiBase as a linked data platform, evaluating its capabilities for describing, curating, and discovering entities and relationships relevant to the library/archive/museum domains. We started with existing entities mined from the OCLC WorldCat database, combined with corresponding Wikidata data, to seed the dataset and then worked with project participants from 16 OCLC member libraries to explore, modify, and enhance the data. In addition to using the built-in features of this platform, we developed two applications to assist with data exploration and import. "
+  slug: 0028
+
+- presentation-title: "The Websites that Librarians Love... but are they ACCESSIBLE?!?"
+  abstract: "DuckDuckGo. LibGuides. Google Scholar. Libraries \"love\" these sites. Librarians recommend them. Our patrons sometimes use them. But is that a good thing? We have many metrics to evaluate how well a site performs. One of these (albeit often overlooked) is web accessibility. So how well do these sites fare when it comes to web accessibility. This talk will give an overview of each site's accessibility and highlight what is good and what is horrible. Simple accessibility tests and heuristics for anyone to use will be demonstrated. Learn which sites come out victorious and which ones fail horribly. Will your fave come out smelling like roses? "
+  slug: 0029
+
+- presentation-title: "Automating link management: When institutional infrastructure works against you"
+  abstract: "Managing resource links in academic libraries is increasingly challenging, especially in an e-preferred environment, as it involves keeping millions of links up to date at any given time. This presentation outlines a project undertaken in 2018 to solve this problem and the challenges encountered along the way. 
+
+I will begin by stepping through a solution that automatically manages open access links in OCLC’s WorldShare system. This approach uses OCLC’s Knowledge Base API to review the URL contained in particular collections’ KBART and sends monthly reports containing broken and redirecting links. 
+
+I will then discuss the challenges encountered regarding institutional infrastructure as well as strategies that facilitated the process of rewriting code for older versions while managing different python libraries. Choosing to use a university server seems like a straightforward decision due to various benefits, including complete automation and improved long-term code management. However, this is not so simple in a world where writing code in Python 3 (or even Python 2.7) is a radical departure from the status quo."
+  slug: 0030
+
+- presentation-title: "FOLIO MODULES & MORE: Open Source Software Development with FOLIO.org’s open-source, micro-services library platform "
+  abstract: "As an open source library services platform built on APIs, FOLIO provides the opportunity for libraries with development resources to add almost any functionality to the platform. However, there are a number of concepts and technologies developers and librarians have to get comfortable with before development of a FOLIO module can begin in earnest.  This talk will share our experiences thus far at The University of Alabama with creating an assessment module for FOLIO.  We will describe what our application aims to do in the larger context of the FOLIO ecosystem and some of the difficulties we initially had in getting started. We will also discuss the various development approaches/options in play for FOLIO development, working with and writing for FOLIO’s APIs, as well as details of the principal components of the environment itself (e.g., Okapi, Stripes, etc.). We will describe how base analytical functions of the module were designed, and cap things off with a demo of our application’s current functionality, as well as a brief discussion of additional functionality in the works."
+  slug: 0031
+
+- presentation-title: "Get To Know WCAG 2.1"
+  abstract: "In the summer of 2018, W3C published a new version of Web Content Accessibility Guidelines (WCAG). WCAG 2.1 fills in gaps that were identified in WCAG 2.0 to improve accessibility across devices and for users with additional types of needs, particularly those with low vision or cognitive disabilities. This session will explain what developers and technologists need to know about these guidelines and how (and when) the guidelines will impact current practices. After this session, participants will have the information they need to decide whether and how to change the current accessibility policies and practices at their institution."
+  slug: 0032
+
+- presentation-title: "FICAT : Developing and Deploying a Faculty Involved Collection Analysis Tool"
+  abstract: "FICAT is a web-based application that facilitates the submission of per item feedback from various departmental faculty members on library collections that have been elected for deselection. The review and deselection process forms part of the library's effort to have the resulting collection reflect the current curriculum and directional aspirations of each academic unit within the university.  Campus faculty is at the heart of the teaching and learning process within the university community. Collaboration with faculty is therefore paramount when making deselection and retention decisions. This presentation will highlight the two major parts of the application. The faculty view, which enables campus faculty to view and make retention requests on items on a title-by-title basis. It also allows for viewing of a listing of retention requests made by each user. It will also highlight the library faculty view which aggregates submissions made on each item in both graphical and tabular representations. It will also highlight the various tools, platforms, and plugins used during development. Finally, the presentation will describe the testing methodologies used and roadblocks encountered during the development process and the steps that were taken to solve them."
+  slug: 0033
+
+- presentation-title: "Application of Boost Algorithm in Demand-Driven Acquisitions Prediction: A Machine-Learning Approach"
+  abstract: "This study provides a machine learning application in the context of predicting local purchase/use patterns for a demand-driven acquisition (DDA) program. DDA is playing an increasingly important role in libraries. Identifying driving forces of the DDA process, and therefore predicting purchasing occurrences, is beneficial to library collection management, budget planning, and provision of information services. However, the literature to date has shown a lack of robust and accurate solutions for predicting such outcomes, especially in the presence of complex data patterns. We propose deploying adaptive boosting algorithm (AdaBoost) as a means of supporting this type of predictive modeling. Our study shows AdaBoost provides superior predictive capacity when compared with traditional logistic regression approaches prescribed within the most current literature. This talk provides a useful toolkit for those who wish to apply machine learning in the library environment."
+  slug: 0034
+
+- presentation-title: "Building a Common Reading Robot: Creating Community Through Raspberry Pi"
+  abstract: "The NCSU Libraries, in collaboration with NC State University’s Common Reading Program, built an interactive device to spark conversation and drive discussion around this year’s common reading selection. Building on the success of the Poem Dispenser (http://hyperrhiz.io/hyperrhiz18/kits/wust-bookbot-poet.html), we designed, programmed, and built a portable “bot” that prints and plays quotations selected and read by Undergraduate students of NCSU. 
+This talk would describe the device, the code driving it, and the interaction it allows. Attendees will leave with the ability to make one to fit their context and theme."
+  slug: 0035
+
+- presentation-title: "Machine Learning and Metadata with the Charles Teenie Harris Archive"
+  abstract: "In July 2018, the project team (co-led by an archivist and a creative technologist) conducted a one-week of intensive, dedication to scripting and testing experimental code to document the limitations, capabilities, and costs of machine learning, text parsing, computer vision, and crowdsourcing technologies on making a meaningful contribution to archival metadata. This project is specifically designed to evaluate the viability of using technology to solve the problem of “dirty” data in the Charles Teenie Harris item-level catalog records. Charles “Teenie” Harris (1908-1998) was a photographer for The Pittsburgh Courier, one of the most influential black newspapers of the 20th century. In career spanning more than four decades, Harris captured the events and everyday experience of African American life in Pittsburgh in a collection of almost 80,000 images. This presentation will present the successes, challenges, and future opportunities (both archival and administrative) of this work, and how automation of metadata creation and cleaning can be applied to photography-based collections. "
+  slug: 0036
+
+- presentation-title: "Migrating Drupal to Jekyll and Gitlab"
+  abstract: "UNT Libraries is migrating our main website identity from Drupal with a dozen content types and several thousand nodes to a static site generator (Jekyll), hosting the Markdown, templates, and assets via a self-hosted GitLab instance while serving development instances via GitLab pages. We go live over the winter break and will talk about the migration process, opportunities and challenges faced, site/storage architecture, and the content creation and build workflows that would be applicable to anyone thinking of doing a similar project."
+  slug: 0037
+
+- presentation-title: "Open Textbook Workbook: Keys to Successful Collaborative Open Educational Resource Generation"
+  abstract: "Engaging collaborators to create an outstanding educational resource (OER) that capitalizes on technological capacity and serves students better than ever before involves a few key factors that will be outlined in this talk. As the lead on an OER project, technological capacity, technical ability, and subject expertise not the only necessary elements to success. Also critical are strategic political positioning within the institution, effective communication, and a sensitivity to psychological considerations. The wrap up will include an exhortation to go forth boldly and collaboratively create OERs."
+  slug: 0038
+
+- presentation-title: "Software development best practices for Information Literacy"
+  abstract: "Software engineering and development practices are not just ideal tools for technology growth in our libraries, but also for use by librarians in infusing information literacy education into project-based student coursework. Within STEM disciplines, where undergraduate assignments tend to focus on practice, experimentation, and implementation, there has been a tendency for information literacy practices to not be effectively integrated into instruction.  Software development processes and tools can be employed in providing information literacy instruction that engages students in research best practices in a novel and seamless manner. 
+
+Employing these tools in concert with information literacy instruction simultaneously promotes software engineering best practices, research best practices, and the development of desirable discipline specific skills. The talk will focus on the use of coding practices and tools to promote information literacy among students working on non-”library traditional” projects.
+"
+  slug: 0039
+
+- presentation-title: "Programmatic approaches to bias in descriptive metadata"
+  abstract: "\"Cleaning\" descriptive metadata is a frequent task in digital library work, often enabled by scripting or OpenRefine. But what about when the issue at hand isn't an odd schema, trailing whitespace, or inconsistent capitalization; but pervasive racial or gender bias in the descriptive language? Currently, the work of seeking to remediate the latter tends to be highly manual and reliant on individual judgment and prioritization, despite their systemic nature.
+
+This talk will explore what using programming to identify and address such biases might look like, and argue that seriously considering such an approach is essential to equitably publishing digital collections on a large scale. I'll discuss precedents and challenges for such work, and share two small experiments to this end in Python: one aided by Wikidata to replace LCSH terms for indigenous people in the U.S. with more currently preferred terminology, and another using natural language processing to identify where women are named as Mrs. [Husband's First Name] [Husband's Last Name]."
+  slug: 0040
+
+- presentation-title: "Searching and Retrieving Information in Digital Libraries by an Innovative No-Segmentation Pattern Recognition."
+  abstract: "This talk outlines a pattern recognition process based on a graphic matching algorithm, which works on shape contour recognition of image layout, no requiring any segmentation process. The algorithm starts the process by a region of interest (ROI) selected within the image. The ROI is the shape model used to seek similar patterns in one or many targeted images. The process was developed and tested with the goal to propose a new approach for searching and retrieving information within digital libraries. This approach is based on apply-ing data science fourth paradigm of knowledge development in the scientific field, that is at the basis of science informatics, to studies of data humanities. Following this approach, the algorithm is applied to find new research hypotheses through the discovery of patterns directly inferred from large digital libraries."
+  slug: 0041
+
+- presentation-title: "How Can We Identify Digital Cultural Heritage? From FAIR to FAIR4 Principles for Metadata Preservation"
+  abstract: "The Art. 2 of the EU Council conclusions of 21 May 2014 on cultural heritage as a strategic resource for a sustainable Europe (2014/C 183/08) states: “Cultural heritage consists of the resources inherited from the past in all forms and aspects - tangible, intangible and digital (born digital and digitized), including monuments, sites, landscapes, skills, practices, knowledge and expressions of human creativity, as well as collections conserved and managed by public and private bodies such as museums, libraries and archives”. Starting from this assumption, we have to rethink digital and digitization as social and cultural expressions of the contemporary age. We need to rethink digital libraries produced by digitization as cultural entities and no longer as mere dataset for enhancing fruition of cultural heritage, by defining clear and homogeneous criteria to validate and certify them as memory and sources of knowledge for future generations. By expanding R: Re-usable of the FAIR Guiding Principles for scientific data management and stewardship into R4: Re-usable, Relevant, Reliable and Resilient, this talk aims to propose a more reflective approach to creation of descriptive metadata for managing digital resource of cultural heritage, which can guarantee their long term preservation."
+  slug: 0042
+
+- presentation-title: "Building an Inexpensive People Counter using Raspberry Pi"
+  abstract: "The NCSU Libraries have created many new spaces in the last few years: the D. H. Hill Makerspace in 2015 and more recently the Dataspace in the James B. Hunt Jr. Library. In order to properly assess these spaces and staff them sufficiently, we need a good idea of the traffic these spaces receive. Additionally, the raw number of people isn't as important as a general idea of peaks of activity. Given all of the above, we decided to build our own people counter that could be mounted near a doorway or threshold.
+We've tried three different efforts to count people and have arrived at a method that is both inexpensive and accurate. This talk will detail our Raspberry Pi based solution and the lessons we learned along the way."
+  slug: 0043
+
+- presentation-title: "Need a new discovery layer? TRLN Discovery project: software and AWS architecture overview."
+  abstract: "TRLN Discovery is a collaborative software development project which allows users to find materials from all Triangle Research Libraries Network member libraries within a single search environment. This poster will include a summary of the software developed for this project as well as the AWS technical infrastructure. It will include the developer’s experience of using the software to transform, normalize and ingest library holdings into a consortial shared index and installing and customizing the discovery UI for one of the member universities. This content would be especially valuable for those who are looking for a solution to create or update a library or consortium level discovery service."
+  slug: 0044
+
+- presentation-title: "Improving Library Collections and Services Through Connected and Smarter Data"
+  abstract: "While libraries once offered only physical spaces and collections, they now offer much more - people with knowledge/technical expertise, event programming, services, and technologies that support a variety of activities. However, discovery tools and search engines have limited understanding of the dynamic nature of libraries. How might libraries leverage modern technologies to make their full range of offerings more discoverable through local tools, as well as web search engines?
+
+In this talk I will share research I have done to understand knowledge graphs and how libraries may utilize knowledge graphs and related technologies to integrate data across local silos (ex. website, ILS, repositories), as well as enhance this data through smarter metadata. I will also offer potential use cases and applications of a library knowledge graph."
+  slug: 0045
+
+- presentation-title: "Automating Chat Analysis"
+  abstract: "Chat transcripts at many institutions represent a common and steady library data stream. Averaging at approximately 10,000 chats per academic year, chat service provides a significant point of interaction with patrons at our institution.  Manual examination of chats established that patrons frequently refer to vendors of library products and services in their chat communications, both of which are recognized as “Organization” by the Named Entity Recognizer. This paper will focus on the results obtained from applying the Stanford Named Entity Recognizer on the chat transcripts that revealed which vendors, services were most frequently mentioned in chats during the 2013-2017 period as well as trends perceived with respect to the use of individual vendors or services. I will also demonstrate how applying named entity recognition to library text data streams can not only identify common topics in chats but also the issues that patrons are having with different interfaces as well as the reasons that motivate the patrons to use the chat service. "
+  slug: 0046
+
+- presentation-title: "From ILS to ArchivesSpace: Modeling, Migration and Maintenance"
+  abstract: "This talk will discuss migrating the bibliographic, holdings, and item records for archival materials from our ILS to ArchivesSpace. Modeling decisions, our migration techniques and tools, and the system design for pushing data to our ILS from ArchivesSpace will be discussed. This integration between our ILS and ArchivesSpace will allow for the creation and maintenance of archival data in ArchivesSpace, the system designed for that purpose, while still maintaining connections to our ILS, and therefore the catalog, discovery layer, and Aeon. The talk will discuss the importance of collaboration between archivists, catalogers, metadata librarians, library technical services, and developers to create this system that will improve workflows and provide a maintainable environment that does not require data to be entered multiple times."
+  slug: 0047
+
+- presentation-title: "Leveraging the Cloud"
+  abstract: "Delivering Outsized Results with Minimal Resources
+
+Emerging technologies and the cloud in particular have made it easier than ever for small teams to deliver big results. Like many teams, BiblioLabs did not start with its current process. Instead, necessity led the team to evolve to the processes used today. In this presentation I will examine the tools, processes, and methodologies that are used at BiblioLabs to deliver and maintain great software. I will also contrast where we started with few tools and minimal process with where we are today, and want to go in the future. Whether it is running the entire business on sprints, deploying multiple times per day, or running containerized microservices, I think others can learn from our mistakes and successes."
+  slug: 0048
+
+- presentation-title: "Machine Learning based metadata generation for library archives"
+  abstract: "As libraries and cultural heritage organizations continue to acquire and digitize cultural and historical treasures, in the hopes of making them available to the general public, it is important to create quality descriptive metadata to increase the visibility of content. Creating quality metadata is a time-consuming process, and not all organizations may have enough metadata experts to describe the content quickly & accurately. We received funding from LYRASIS Catalyst grant to explore opportunities in using Machine Learning technology to simplify descriptive metadata generation for historical images. We will share updates on our work so far with a particular focus on the tools, techniques, and the outcomes of the project."
+  slug: 0049
+
+- presentation-title: "De-Siloing Archival Description with ArchivesSpace"
+  abstract: "Responding to strategic goals of surfacing hidden collections and consolidating archival data processing, Columbia University Libraries embarked on a multi-phase project to adopt ArchivesSpace as the central hub of archival description across four distinctive collection repositories. This entailed coordination across divisions, outreach to peer institutions, and development of custom workflows and tooling for migration, reporting, and integration with other systems. 
+Phase 1 encompassed remediation and migration of over 8,000 collection and accession records, drawn from disparate systems across the Libraries. It culminated in the launch of the staff interface, initiation of native accessioning in ArchivesSpace, use of APIs to enrich authority records and remediate data, and deployment of custom integrations to feed collection-level data to the Voyager ILS and discovery services. Phase 2 (currently underway) involves regularization and import of over 1,000 legacy EAD finding aids into ArchivesSpace to be managed and eventually published in a new interface integrated with the Library’s discovery services. 
+Kevin Schlottmann and David Hodges will discuss tools adapted from the ArchivesSpace community (Python, XSLT, Schematron) to serve the unique requirements of the project; the good, bad, and ugly solutions tried; and the lessons learned along the way applicable to library tech more generally."
+  slug: 0050
+
+- presentation-title: "Consortial discovery and resource sharing: making it happen with (mostly) standard tools"
+  abstract: "With decreasing buying power in collections budgets and increasing emphasis on collaborative collection building across local and regional consortia, institutions may be looking for easier ways to expose and deliver these shared resources. The Triangle Research Libraries Network members (Duke, NCCU, NCSU, and UNC-CH libraries) have been building shared collections for decades and running a shared index for over 10 years. With the TRLN Discovery project, our consortium is migrating away from a customized vendor solution and leveraging common, open source tools (Solr, Blacklight) and shared infrastructure (AWS) to build a new discovery and delivery environment. This talk will broadly outline how these tools are being used and highlight a few interesting components that have been added to support consortial discovery. It will also cover how we have organized our development and governance processes on a consortial project with limited central resources and how we are approaching exposing the shared collection to institutional users in the interface. This talk is intended to expose alternatives to buying off-the-shelf products to support consortial discovery for other institutions interested in similar outcomes."
+  slug: 0051
+
+- presentation-title: "Building static websites and leading librarians to a new level of project engagement"
+  abstract: "Web design seems a complicated task and librarians often think, “It’s definitely not my thing”. The numerous opportunities for grant-funded projects bring the need of websites that promote the initiative and showcase the outcome. The constantly developing librarian skill set requires a new toolbox to keep up with the new trends – fundamental web design and web development skills and free technologies to make sleek websites. 
+
+This talk aims to spark ideas and inspiration, as well as to showcase examples of library grant-funded project websites. The attendee can get inspiration to design custom static websites and to bring their projects to a new level of librarian and community engagement. Attendees will learn the fundamentals of web design and some of the important practical skills they need to acquire for their toolbox.  
+
+The talk puts emphasis on web design basics such as navigation, information architecture, user experience, project needs assessment, graphic design and graphic layout, as well as the benefits of custom-designed websites for grant-funded projects. Additionally, attendees will get familiar with a popular tool Wordpress (a content management system; its free version and the paid options; also options with and without client's hosting and domain). Lastly, they will learn tips and tricks how to get out of the framed templates and customize them according to their taste/needs by applying some HTML and CSS coding.
+"
+  slug: 0052
+
+- presentation-title: "Annotation of IIIF resources: Providing tools for the present while looking to the future"
+  abstract: "This presentation will discuss and demo a new open source JavaScript library for presenting annotations of IIIF resources. The library embeds an annotation or annotation list’s image objects, notes, and tags into an HTML object. This rich display of annotations demonstrates the reuse value of annotations and provides the opportunity for new forms of scholarly output. Annotations also enable discovery and provide the opportunity for collaborative discussions, commenting, and tagging. This presentation will give an introduction to annotations, demonstrate the low barrier of entry to using the library, challenges around creating and using annotations of IIIF resources from multiple data models, potential use cases, and future development opportunities."
+  slug: 0053
+
+- presentation-title: "Community-driven, community-owned open data: An open source tool for indexing data repositories"
+  abstract: "Most out-of-the-box institutional repository systems don’t provide the workflows and metadata features required for research data. Consequently, many libraries now support two institutional repository systems—one for publications, and one for research data—even when there are nearly a thousand data repositories in the United States. Libraries are either increasing spending by purchasing data repository solutions from vendors, or replicating work by building, customizing, and managing individual instances of data repository software. Especially for small and midsized institutions, this feels like a lose-lose situation. We suggest a potential solution: a centralized metadata store for datasets produced by an institution's researchers. We have created a prototype for an open source Institutional Research Data Index (IRDI) that promotes discovery of existing institutional datasets that are housed in third-party repositories. IRDI promotes discovery and reuse of institutional research datasets, while expending far fewer resources than an institutional data repository system. Google Dataset Search has recently come onto the scene and piqued our imaginations around what is possible for research data discovery. IRDI complements Google Dataset Search, SHARE, DataMed, and other research data indexes, adding to the conversation a three-pronged focus. First, IRDI promotes discovery for institution-specific research datasets, thus allowing institutions to showcase research data as a scholarly product and a driver of institutional reputation. Second, IRDI provides newly-generated descriptive metadata for individual datasets, gleaned through topic mining of scholarly profile sources like ORCID and Google Scholar Profiles. Third, IRDI content is optimized for discovery by commercial search engines. IRDI is one step toward community-driven, community-owned index for academic institutional research data. Such an index would in turn not only increase discovery, reuse, and citation of open research data, but also promote open source, library-built systems that promote open scholarship. This presentation will demonstrate a prototype of IRDI, discuss challenges and opportunities, request feedback from the Code4Lib community, and generate discussion around open source data discovery tools."
+  slug: 0054
+
+- presentation-title: "The RIALTO research intelligence system"
+  abstract: "RIALTO is a new research intelligence system that we are building to analyze data and present actionable information to help deans, department heads, and research administrators make informed decisions about publications, collaborations and funding.  This system harvests data from the university's user profile system, grants API, Web of Science and integrates these streams through a ETL pipeline and persists data in a triple-store, thus enabling complex graph queries.
+
+RIALTO is build as a highly scalable, cloud native system, using a collection of AWS services.  It leverages a number of open source projects including Blacklight, Traject and VueJS to visualize and organize data to the users. This presentation offers the Code4Lib community an update on all aspects of the project. 
+
+We will show:
+
+  * an overview of the application and the features and functionality it supports, including the ease of deploying it to the cloud
+  * the data architecture we've designed to meet our goals
+  * how the APIs we consume are not particularly well suited for big data
+  * how we are working with the Blacklight community to add new functionality and have been inspired by the VIVO community"
+  slug: 0055
+
+- presentation-title: "FOLIO Update: Review of the current state and what’s on the roadmap for first implementers"
+  abstract: "FOLIO’s design puts the “platform” in “library services platform” and this year the first implementers are putting it into production.  See what the system looks like in mid-February 2019 and hear what is on the roadmap for the rest of the year.  It’s APIs all of the way down:  everything from initializing the first tenant on the platform to upgrading the circulation business logic module to adding a line in an order is handled with a well-defined, versioned RESTful API.  Not interested in replacing your ILS?  FOLIO can be your path to offering new services that your ILS can’t do.  What new service could you create if the details of handling patrons, setting item statuses, and registering/cataloging new content was handled by modules you could extend?  The community of developers and library experts has grown dramatically since Sebastian Hammer first introduced what would be come FOLIO in his 2016 Code4Lib talk “Constructive disintegration -- re-imagining the library platform as microservices”.  Hear how the microservices platform concepts have matured and what it means for services in your library."
+  slug: 0056
+
+- presentation-title: "A two way street: vendor and library collaboration"
+  abstract: "The role of libraries in the product development process is now more prevalent than ever before. Customers using Ex Libris services can not only share code with each other through various vendor-supported channels, but customers also help Ex Libris prioritize and work on new feature enhancements, bug fixes, content coverage, and broad strategic initiatives. This session will highlight the contributions of the user community to Ex Libris product development lifecycle. Special attention will focus on a recent collaborative initiative – Primo Studio – an online tool for customizing the user interface and for sharing add-ons and user interface elements contributed by community members."
+  slug: 0057
+
+- presentation-title: "Algorithm Bias Study"
+  abstract: "Recent discourse in information literacy has raised questions about bias in the Google search algorithm.  In our study, we consider whether pedagogy that raises awareness about how databases are designed by humans with pre-existing biases should be an important aspect of how librarians teach information literacy. As a first step in this process of developing information literacy modules for students about algorithmic bias, we surveyed computer science and engineering student population for their current perceptions about search engine and “big-data” algorithms. We will introduce the topic with a short summary of the book Algorithms of Oppression (2018) by Safiya Noble, present our preliminary findings and lessons learned, and conclude with proposed pathways for future research."
+  slug: 0058
+
+- presentation-title: "Providing Computational Access to Records of American Capital Punishment"
+  abstract: "This talk will overview a two-year project to digitize and expose data from the most complete collection on American executions using the open architectures of Hyrax and Arclight. We’ll show how connecting data to digital source material provides important context for executions with limited or conflicting documentation, and allows for significant additions to the known set of executions that alters the overall makeup of the collection. This talk will discuss the challenges of presenting this material transparently and empathetically, and show how Linked Data can actually work to undermine these goals. Finally, we’ll discuss how this project will support computational access to all archival materials at our repository, and overview the ongoing challenges we face implementing and maintaining complex tools at a mid-size institution."
+  slug: 0059
+
+- presentation-title: "You're doing it wrong... you can do so much more with that!"
+  abstract: "I am proposing a talk that will show you how a library adopted traditional IT software and expanded it beyond its original design scope and how it helped us become a better team. As a fully digital library, we implemented Atlassian’s Service Desk as a conjoined library + Library IT system. Out of the box Service Desk is designed to serve the dominant needs and purposes of an IT ticketing system but it can do so much more and I aim to show you how. With software that is built around for a Dev+Ops culture it allowed us to utilize the best parts of these cultures and processes to enhance how we manage our work and it helped us become a better cohesive organization and work better as a team. "
+  slug: 0060
+
+- presentation-title: "Shear forces: a conceptual model for understanding (and coping with) risk, change, and technical debt"
+  abstract: "A student searches in vain for a seat close enough to a power outlet to plug in her laptop. The IT department maintains a Windows XP server to support critical software for which there's no modern replacement. Your local fitness studio has a never-used, wall-mounted iPod dock set into the drywall.
+
+Our work processes naturally evolve, improve, and adapt to changing environments. Because of this, we often find ourselves in situations where the supporting components of the system struggle to keep up. This is because the various layers of a system evolve at different speeds: software can be purchased and deployed relatively quickly, but hardware is only refreshed every three years; furniture is easy to rearrange, but updating building infrastructure is costly and disruptive; complex workflows are built on legacy components that linger long after their normal service life. To borrow a concept from fluid dynamics, the result is a \"shear force\" where layers at different velocities interact. Too much shear leads to turbulence, which can actively disrupt the useful work of the system.
+
+Shear forces can't be completely avoided, and indeed attempts to proactively manage them sometimes lead to significant sunk costs. But considering change, risk, and technical debt in terms of shear can help us to make decisions in a more flexible and future-resistant way. In this presentation we'll look at examples of shear forces in both physical spaces and library systems, to better understand how we can observe, predict, and account for shear in our work. We'll explore how shear as a conceptual model can help us plan for changes not yet upon us, and consider how to make the liminal aspects of our systems, where the layers come into contact, more tolerant of shear forces, in order to ensure that the system remains performant even in times of change."
+  slug: 0061
+
+- presentation-title: "Looking for Some Hot Stuff: Collaborating on the Disco Index Project"
+  abstract: "The MIT Libraries has recently experimented with creating our own Discovery Index, an indexing platform that will be used to populate searches and discovery from multiple sources across the Libraries via a public API. The “Disco Index” will allow us to rely less on vended sources while maintaining more control over our privacy and metadata. During this foundational exploration into creating the Disco Index, engineers teamed up with catalogers to analyze and map data elements from our library catalog. In this presentation we will discuss the project, plus how we worked together to demystify engineering and MARC, and learned a lot about each other’s work."
+  slug: 0062
+
+- presentation-title: "Technology Enabled Outreach Programs"
+  abstract: "The uptake of a new library service after an outreach push can be slow. Some users may not realize their need for your service when outreach efforts are at their peak. What if you advocate and no one changes? How can we improve the adoption curve of new services? 
+
+We'll present an example where we're using a strategy which includes technology and value-added services in support of library advocacy to increase adoption of ORCID by faculty researchers on campus. Advocating for faculty researchers to change can be difficult. Our approach focuses on aligning with researcher incentives, saving the time of users, and a targeted, personalized approach to outreach efforts all enabled through new technical development. We'll show what has and hasn't worked for us, and dive into the technical challenges we've encountered along the way. Finally, we'll present strategies for how you too can change the adoption curve for your outreach and advocacy and the role technology can play in improving your chance of success."
+  slug: 0063
+
+- presentation-title: "Distributed Fixity Service Based on LOCKSS Technology"
+  abstract: "LOCKSS-style fixity maintenance is predicated in part on a higher number of replicas. However, this approach may not be practical for large data corpora, as the cost of each additional replica may be prohibitive or the technical infrastructure cannot otherwise scale. A traditional fixity-checking system with fewer replicas requires that the delay in detecting data degradation be shorter and the degree of confidence in fixity information be greater. A proposed approach to enhance a preservation system with few replicas is a distributed fixity service backed by LOCKSS technology. By externalizing the fixity information into many replicas, subjecting them to LOCKSS polling and repair, and offering an API to store and retrieve fixity information, the overall system can achieve better resistance to preservation threats."
+  slug: 0064
+
+- presentation-title: "LOCKSS Architected As Web Services (LAAWS)"
+  abstract: "The LOCKSS Program is nearing completion on a multi-year effort to re-engineer the functional components of the LOCKSS software - metadata extraction, discovery system integrations, the core polling and repair protocol, and others - as externally reusable RESTful web services. Once finished, this will enable the LOCKSS peer-to-peer, distributed integrity auditing and maintenance to be used in contexts other than LOCKSS networks; a more expansive range of possible storage back-ends; a more flexible array of archiving agents; better horizontal scaling; and more. This talk will detail the capabilities of the LOCKSS software components, outline the mature API specifications, briefly demo the operation of the new RESTful web services, and share examples of where LOCKSS Architected As Web Services (LAAWS) is enabling new digital preservation applications."
+  slug: 0065
+
+- presentation-title: "Taking the plunge: deep learning in libraries"
+  abstract: "Deep learning has become ubiquitous in our everyday life. It enables computers to learn to solve problems that humans have traditionally been far better at solving, particularly in areas like computer vision and textual analysis. Through demos of prototype applications we have developed, we will show how deep learning could be integrated into library and archives applications. We will share our approaches to supporting users who are interested in applying deep learning to their research and how we hope to improve the general understanding of deep learning in our university community. We will outline the tools and types of computing we used for different stages of development and how we got started with deep learning. Finally, we will talk about opportunities for collaboration in the community around creating distributed, shared training datasets for library-specific problems.
+"
+  slug: 0066
+
+- presentation-title: "Assembling a Modular Digital Repository Environment"
+  abstract: "BC Digitized Collections (codenamed MiraSpace) is a new repository environment for digital special collections materials at Boston College. Developed over the past year, it leverages open-source and proprietary software to replicate the functionality of a full-fledged repository system. This approach focuses on integrating technologies that have already been implemented, resulting in a cost-efficient platform. We designed the architecture to be extensible and modular, such that each component can be replaced as needed with a similar system. Our hope is that the design principles underpinning BC Digitized Collections will be useful to other mid-sized institutions interested in creating their own homegrown repository solutions."
+  slug: 0067
+
+- presentation-title: "Ringers of Jupyter: The Jupyter Notebook As Faux Web App"
+  abstract: "In the dark basement of an academic library, a project manager ponders. The current dilemma, involving data entry, metadata manipulation, and file management, is a poser. It requires a hefty dose of automation, a smattering of written instruction, a handful of hyperlinks, and manual examination of image files. Oh, and also, the scale of the project would require multiple workers, including student employees. The librarian, an amateur programmer, sighs. A polished web app could surely do the job, but feels far out of reach. A tangle of batch scripts and Python code, which the perplexed manager could happily patch together, seems like it would too intimidating and complex for student workers to run. 
+
+But what about Jupyter Notebooks? Could they, by providing a familiar web browser interface, mask hacky Python code and fill in the gap between the frightening command line and a full-fledged application? Could the library deploy Jupyter Notebooks at (small) scale, as a user-friendly, in-browser method of running handcrafted code? And could your library do the same?
+"
+  slug: 0068
+
+- presentation-title: "CollabVT: Build a efficient collaboration scholar environment for researchers "
+  abstract: "Virginia Tech uses Symplectic Elements to collect and manage information about research and scholarship activities. This system automates the production of annual faculty activity reports, promotion and tenure dossiers, and CVs, as well as department, college, and university level reports. It also enables direct deposit of scholarly works into the VTechWorks institutional repository (Based on DSpace) and feeds public web profiles using CollabVT (Based on VIVO).  
+
+CollabVT is in development as a searchable researcher profile system that supports communities of discovery by enabling users to identify collaborators and connect with research across disciplines. CollabVT profiles increase the reach of Virginia Tech's research profile and support its global land-grant mission through public profiles of researcher expertise.
+
+At Virginia Tech Libraries, we design the data workflow and develop a harvester tool to sync faculty information between these systems. Our approach is to communicate effectively with Elements and VIVO API Endpoints, process and transform data to our need in an incremental way. In this talk, we present our solution, tool, share our experience, and project demonstration."
+  slug: 0069
+
+- presentation-title: "Scientific literature as data: helping shape science through table mining"
+  abstract: "In knowledge extraction research, much attention is paid to natural language processing. Progress in  text-based data mining has led to powerful tools and techniques to extract named entities and relationships from prose. However, much of the important data in scientific literature is contained in tables, figures, and graphs. When combined with existing databases, the amount of tabular scientific data dwarfs that available by analysis of text alone. This presentation will explore a variety of techniques for attempting to parse, merge, and eventually understand tables presented in articles. These techniques include header parsing and normalization, cell value type and measurement unit normalization, header co-occurrence analysis, and more. Through analysis and aggregation of tables, we can help scientists identify patterns across publications - patterns that may help them make better decisions about where to invest and what new research to undertake. Attention will be given to a number of use cases, including analysis of ocean plastic accumulation and extraction of measurements of the electrical properties of neurons. The presentation will conclude with discussion of the challenges faced in collecting necessary context around tabular data, such as experimental methods, and will introduce future research to recover data and meaning from charts and figures.
+"
+  slug: 0070
+
+- presentation-title: "Bring on the barcodes!"
+  abstract: "Barcodes are so ubiquitous that we often forget about their very existence. We seldom consider how they emerged and why they have come to be ingrained in so many mission critical workflows in libraries and beyond. But, on close examination, barcodes can be viewed as wonder technology that has transformed the lives of millions, perhaps billions of people throughout the world. This talk would discuss the history and importance of the barcode and will examine several common uses of barcodes in libraries. It will dispel several common myths and provide suggestions for how to make better use of barcodes within libraries and beyond."
+  slug: 0071
+
+- presentation-title: "Natural Language Processing for Discovery of Born-Digital Records"
+  abstract: "How do we move from discussing new technologies to actually implementing them? This presentation will cover several applications of NLP (natural language processing) for improving discovery of born-digital records in special collections and archives, focusing on two NLP-centered projects at the North Carolina State University Special Collections Research Center. The first is the implementation of out-of-the-box software tools to enable browsing collections by named entities in the reading room. The second project is the integration of named entity recognition and topic modeling into born-digital processing workflows in order to improve and automate aggregate description of collections. The presentation evaluates the success of these projects and describes possibilities for the future extension of these tools vis-à-vis practical applications. This presentation is framed in terms of working solutions that add value to the researcher experience in the library, and works to fill the gap between theoretical discussion of these tools and realized application."
+  slug: 0072
+
+- presentation-title: "Of Ethics, Users, and Data: Building a National Conversation for Web Privacy and Web Analytics"
+  abstract: "Privacy is still a thing today—despite the best efforts of our favorite commercial web giants and state governments to turn privacy fully into a thing of the past. In the face of overwhelming surveillance and tracking pressures, libraries continue fighting for privacy on behalf of ourselves and our communities. 
+
+To aid in this battle, we convened “A National Forum on Web Privacy and Web Analytics.” This IMLS-funded project brought together 40 librarians, technologists, and privacy researchers from across the US and Canada to critically address library values and practices related to third-party analytics. Libraries have historically offered safe spaces of intellectual freedom, but the widespread implementation of third-party analytics may conflict with our commitments to privacy. With these challenges in mind, our Forum essentially asked, “How can libraries implement privacy-focused, values-driven analytics practices?” 
+
+This presentation will provide an overview of our National Forum and its results, including discussion of key challenges, strengths, partners, and strategies for achieving privacy on web. We will also focus on generating dialogue within the Code4Lib community, especially regarding analytics needs, implementation approaches, and real-world challenges for achieving privacy."
+  slug: 0073
+
+- presentation-title: "Deploying Modules in an Open Source Ecosystem: Building a SOLR Indexer on the FOLIO Platform"
+  abstract: "As the open source FOLIO platform comes into fruition, building and extending functionality is becoming easier and easier – it is what a platform is all about. In this session I will show how we built a proof-of-concept for a SOLR indexer in FOLIO. As FOLIO begins to manage a library’s collection as a whole, exposing the collection in many different access points can be extremely powerful and lead to further innovations for a library’s collection. In this session, we will explore brining Apache SOLR to FOLIO to expose the library’s collection as an index to be consumed by other services for both internal use as well as patron facing uses such as VuFind or Blacklight."
+  slug: 0074
+
+- presentation-title: "Supporting the Evolution of a Library Research Platform"
+  abstract: "Gone are the days of quietly sitting in some corner staff area of the library where we are left to work only on library systems and websites. 
+
+We are still doing that but our library was fortunate enough to receive a grant from the Andrew W. Mellon foundation that made us rethink how we worked to
+-Develop a platform for supporting research
+-Enhance campus-wide partnerships
+-Reposition libraries within the research enterprise
+
+This was an exciting opportunity for us as a Dev Team to work with researchers on campus to create interactive websites in support of their research needs.
+
+It also meant that we had to present solutions to challenges these researchers were facing while designing, developing and launching websites in much tighter timeframes while making it scaleable to many projects at once.
+
+I’ll share changes we made as a Dev Team, tools we used, processes we put in place to adapt to the needs of our campus while making us better at supporting our library’s own digital tools.
+"
+  slug: 0075
+
+- presentation-title: "Why building a complete index of open access to research articles is hard and how you can help"
+  abstract: "Our nonprofit has gathered every open access scholarly article--over 20 million of them--into one free database. Come hear about the obstacles in assembling the index: confusing definitions!  poor metadata quality!  standards that weren't standard!  And more!  We'll detail the issues, how we've overcome them with a completely open-source solution, and how you can help :)"
+  slug: 0076
+
+- presentation-title: "Bringing All the peer reviewed science to All the libraries via Open Everything"
+  abstract: "We're a nonprofit that has gathered all the open access scholarly articles--over 20 million of them--into one completely free database using an open-source codebase. The database, called Unpaywall, is now used in over 2,000 libraries worldwide and supports a free and open-source browser extension used by 180,000 active users. We're excited to help all kinds of libraries bring this free resource to their users, and we'll be discussing some of the ways to do that: integration into link resolvers, discovery systems, interlibrary loan systems, and much more!"
+  slug: 0077
+
+- presentation-title: "Webrecorder: Developing an Open-Source High-Fidelity Web Archiving Toolset"
+  abstract: "The talk will present the open source technology stack that powers Webrecorder and address some of the many challenges and possible solutions facing web archiving today. First, it will include a brief technical overview of high-fidelity web capture and replay, and general approaches to make high-fidelity web content accessible in the future will be presented. A practical guide to the open source tools developed as part of the Webrecorder toolset will also be included, aiming to help users and developers of all levels to improve their understanding, usage and creation of web archives to meet their personal and institutional needs. At the end, I hope to leave some time to answer any general questions about Webrecorder or web archiving technology in general."
+  slug: 0078

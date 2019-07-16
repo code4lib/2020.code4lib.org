@@ -1,0 +1,10 @@
+.idea/*
+_site/*
+.DS_Store
+.jekyll-metadata
+npm-debug.log
+nbproject/*
+node_modules/*
+.sass-cache/*
+.ruby-version
+.vscode/*

@@ -1,0 +1,59 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+
+    <div class="hero-image">
+        <img src="{{ "/assets/img/theme-images/hero-image6a.jpg" | relative_url }}" alt="{{ site.data.conf.hero-image-alt }}">
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12" id="conferenceInfo">
+
+                <h1 class="text-right">
+                    <span class="sr-only">code for lib {{site.data.conf.year}}</span>
+                    {{site.data.conf.location}}
+                    <small>19-22 February 2019</small>
+                </h1>
+
+                <div id="conferenceActions">
+                    <!-- Livestream -->
+                    {% if site.data.conf.livestream.show %}
+                        <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.livestream.url }}">
+                            Livestream {% if site.data.conf.homepage-display == 'post' %} Archive{% endif %}
+                        </a>
+                    {% endif %}
+                    {% if site.data.conf.closed-captioning.show %}
+                        <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.closed-captioning.url }}">
+                            Closed captioning
+                        </a>
+                    {% endif %}
+
+                    <!-- Register -->
+                    {% if site.data.conf.conference-registration.show %}
+                      {% if site.data.conf.conference-registration.open %}
+                      <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.conference-registration.url }}">Register Now!</a>
+                      {% endif %}
+                    {% endif %}
+
+                    <!-- Sponsors -->
+                    {% if site.data.conf.homepage-sponsor-button %}
+                        <a class="btn btn-lg jumbotron-btn" href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsor Code4Lib!</a>
+                    {% endif %}
+
+                    <!-- Slides -->
+                    {% if site.data.conf.slides.show %}
+                      <a class="btn btn-lg jumbotron-btn" href="{{ site.data.conf.slides.url }}">Slides</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="heroImageAttribution">
+            <div class="col-xs-12 text-right">
+              <a href="attributions.html">image attributions</a>
+            </div>
+        </div>
+
+    </div>
+</div>

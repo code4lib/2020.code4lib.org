@@ -1,0 +1,39 @@
+---
+layout: default
+title: Poster Sessions
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="row" id="workshop-sorting-div">
+        <div class="col-xs-12 col-sm-6">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 sequence">
+            {% assign posts = site.posts | where: 'type', 'poster' | sort: 'title' %}
+            {% for post in posts %}
+                <div class="well workshop-well" data-length="full" data-location="lobby">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                            <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more</a></p>
+                        </div>
+                        {% if post.location %}
+                            <div class="col-xs-12">
+                                <h5>Location</h5>
+                                <p>{{ post.location }}</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

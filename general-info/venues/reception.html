@@ -1,0 +1,46 @@
+<section class="general-info">
+
+    <div class="col-xs-12">
+        <h2 id="reception">Reception</h2>
+
+        <h3>{{site.data.conf.reception-venue}}</h3>
+        <div class="row">
+            <div class="col-xs-6">
+                <a href="https://www.flickr.com/photos/techmuseum/9401362811">
+                    <img src="/assets/img/venues/techmuseum.jpg" class="img-responsive" title="Photograph from the Tech Museum of Innovation (flickr)" alt="Tech Museum of Innovation"></a>
+            </div>
+            <div class="col-xs-6">
+                <p>
+                    {{site.data.conf.reception-venue}}<br />
+                    {{site.data.conf.reception-street}}<br />
+                    {{site.data.conf.city-state}} {{site.data.conf.reception-postal-code}}<br />
+                    <a href="tel:{{site.data.conf.reception-phone}}">{{site.data.conf.reception-phone}}</a> or <a href="mailto:{{site.data.conf.reception-contact}}">{{site.data.conf.reception-contact}}</a> | <a href="https://www.thetech.org/plan-your-visit">Visiting the Museum</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <h3>Directions</h3>
+        <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> <strong>Don't forget your conference name tag and lanyard!</strong></p>
+        <p>Shuttle buses travelling from the hotel to the reception will be available for attendees, starting at 6:15 PM. They will pick up outside the hotel's Convention Entrance—the entrance directly in front of the conference registration area. Buses will loop between the museum and hotel for the duration of the reception, with the last one leaving the museum at 8:40 PM after the reception has ended.</p>
+        <h4>Transit</h4>
+        <p><strong>Using plain words</strong>: From the Doubletree, walk 0.4 miles east to Karina Court Station. Take either the 901 or 902 train 7 stops to San Antonio Station (South). Walk 0.3 miles southeast to the Tech Museum. Estimated travel time is roughly 35 minutes.
+        </p>
+        <p><strong>Using technology</strong>:</p>
+        <div style="margin: auto; max-width: 600px;" class="embed-responsive embed-responsive-4by3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d25372.395102363458!2d-121.92245124581883!3d37.35317545330932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x808fcbea46de432b%3A0x143d6b946b2164f5!2sDoubleTree+by+Hilton+Hotel+San+Jose%2C+Gateway+Place%2C+San+Jose%2C+CA%2C+USA!3m2!1d37.3717721!2d-121.9227129!4m5!1s0x808fccbad5c8c147%3A0xa91fc533e16cb7da!2sThe+Tech+Museum+of+Innovation%2C+South+Market+Street%2C+San+Jose%2C+CA%2C+USA!3m2!1d37.3316101!2d-121.8901343!5e0!3m2!1sen!2sca!4v1544040285692" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <h3>Reception Details</h3>
+
+        <p><strong>When: </strong>
+            {{site.data.conf.reception.date | date: '%A, %B %-d, %Y'}} from 6:30pm-8:30pm
+        </p>
+        <p>
+             We will be on the lower level of the museum. Light refreshments and drinks will be provided. You should receive one green drink ticket when you pick up your name badge at the registration desk.
+        </p>
+    </div>
+</section>

@@ -1,0 +1,11 @@
+- title: Event 1
+  officers:
+    - name: Joe Smith
+      img: /assets/img/nopics/nopics1.png
+    - name: Jane Sampson
+      img: /assets/img/nopics/nopics2.png
+
+- title: Event 2
+  officers:
+    - name: Jill Smith
+      img: /assets/img/nopics/nopics3.png

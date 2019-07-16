@@ -1,0 +1,278 @@
+###################
+# "Global" Vars
+###########
+year: 2019
+hashtag: 'c4l19'
+location: 'San José, California'
+hero-image-alt: "a collage of several San José landmarks"
+
+search: false
+# If false (we don't have program info yet), the main nav links go:
+# schedule -> preparation timeline, speakers -> past keynotes
+program-nav-links: true
+
+# day 0 = preconf day
+days:
+  - weekday: Tuesday
+    date: February 19th
+    # date in a form that JS Date() constructor understands
+    date-data: 2019-02-19T23:59
+  - weekday: Wednesday
+    date: February 20th
+    date-data: 2019-02-20T23:59
+  - weekday: Thursday
+    date: February 21st
+    date-data: 2019-02-21T23:59
+  - weekday: Friday
+    date: February 22nd
+    date-data: 2019-02-22T23:59
+
+#############################
+# Venue Information
+################
+#Short Form for location
+city-state: 'San Jose CA'
+
+#Conference
+venue-street: '2050 Gateway Pl'
+venue-postal-code:  '95110'
+venue-phone: '+1(408)453-4000'
+venue-website: 'http://doubletree3.hilton.com/en/hotels/california/doubletree-by-hilton-hotel-san-jose-JOSE-DT/index.html'
+
+reception-venue: 'The Tech Museum of Innovation'
+reception-street: '201 South Market Street'
+reception-postal-code: '95113'
+reception-phone: '+1(408) 294-8324'
+reception-contact: 'info@thetech.org'
+
+#############################
+# C4l Links
+################
+#twitter and instagram are both managed using the code4lib hashtag data
+social-links:
+  slack: 'http://code4lib.slack.com/'
+  irc: 'http://code4lib.org/irc'
+  youtube: 'https://www.youtube.com/user/code4lib/videos'
+
+#############################
+# Various Emails/contact info
+################
+main-conf-email: "code4lib@concentra-cms.com"
+sponsor-contact-email: "code4lib.sponsorship@gmail.com"
+scholarship-contact-email: "code4libaward@gmail.com"
+lpc-contact-email: "code4liblpc@gmail.com"
+accessibility-email: "code4lib.accessibility@gmail.com"
+# when empty, community support volunteers page will use main-conf-email
+duty-officer-email: "c4l19-duty-officers@googlegroups.com"
+duty-officer-phone: "408-309-4560"
+anonymous-form: "https://c4l19.libraryexchange.org/"
+
+###################
+# Homepage section
+# Values can be one of
+# - pre :   displays the _includes/homepage/timeline.html partial
+#           this section provides an overview of important conference dates.
+# - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
+# - post:   for after the conference is close (NOTE: we never made a template for 2018)
+#
+###########
+homepage-display: peri
+
+###########
+# Sponsors
+###########
+# If true, any "Sponsors" links will go to /prospectus instead of /sponsors
+call-for-sponsors: false
+homepage-sponsor-button: false
+
+##########
+# !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
+# e.g., 2013-11-29
+##########
+
+###########
+# Proposals
+###########
+# data from 2019 is left here but not displayed to show the format
+keynote-proposals:
+  show: false
+  submission-form: "https://wiki.code4lib.org/2019_Keynote_Speakers_Nominations"
+  end-date: "2018-10-22"
+
+workshop-proposals:
+  show: false
+  submission-form: "https://goo.gl/forms/DXyX8OGKBtHKkXzv1"
+  end-date: "2018-10-11"
+
+talk-proposals:
+  show: false
+  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSeGNEkTAVyeUAhQViIrr-dE0WgUNPQ6s55EOqxj6T5KDKJqMw/viewform?c=0&w=1"
+  end-date: "2018-10-04"
+
+panel-proposals:
+  show: false
+  submission-form: ""
+  end-date:
+
+poster-proposals:
+  show: false
+  submission-form: "https://tinyurl.com/y9489rmc"
+  end-date: "2018-11-12"
+
+shirt-proposals:
+  show: false
+  submission-form: "https://wiki.code4lib.org/2019_Code4Lib_T-Shirt_Design_Competition"
+  end-date: "2018-11-15"
+
+host-proposals:
+  show: false
+  submission-form: "https://wiki.code4lib.org/2019_Hosting_Proposals"
+  end-date: "2018-02-23"
+
+###########
+# Voting
+###########
+keynote-voting:
+  show: false
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSc2d67EAhQR9SC05EKyHzV6jWCYR8yf8Vx3FEg5J-x7zvNxMA/viewform"
+  end-date: "2018-11-16"
+
+workshop-voting:
+  show: false
+  url: "https://www.surveymonkey.com/r/c4l2018-precon"
+  end-date: "2017-10-20"
+
+talk-voting:
+  show: false
+  url: "https://goo.gl/xvQXyu"
+  end-date: "2018-10-25"
+
+panel-voting:
+  show: false
+  url: ""
+  end-date:
+
+poster-voting:
+  show: false
+  url: "https://goo.gl/tM4JJq"
+  end-date: "2018-11-29"
+
+shirt-voting:
+  show: false
+  url: "https://goo.gl/forms/Bgo590LPEhjfJGkT2"
+  end-date: "2018-12-07"
+
+###############
+# Registration
+###############
+
+workshop-registration:
+  show: false
+  url: ""
+
+# "show" just means display on home page, "open" means people can register
+conference-registration:
+  show: false
+  url: http://www.cvent.com/d/ybq5dx/4W
+  start-date: "2018-12-05"
+  end-date: Null
+  open: true
+
+##################
+# Schedule events
+##################
+
+newcomer-dinner:
+    show: true
+    # entering the URL doubles as a "show more info" switch, too
+    signup-url: https://drive.google.com/open?id=1XQg7jRiI4YWaCwJo3GiTt98l7eBmXTAyHKoFkdgfJnI
+    transit-info: https://docs.google.com/document/d/1zThXYjzsnXN0V7f1U_iEzgy2pZJna0EMTg59GQJClac/edit
+    activities-info: https://drive.google.com/open?id=1UqZIAHg2qllhbHCsv4JRXkbNqJ1qGOht&usp=sharing
+    date: "2019-02-19"
+
+game-night:
+    show: true
+    url: https://wiki.code4lib.org/2019_Social_Activities#Game_Night.2C_Thursday.2C_February_21st
+    date: "2019-02-21"
+    time: "6:30PM - 9:30PM"
+
+libtech-women:
+    show: true
+    date: "2019-02-21"
+    time: "5:30PM - 7:30PM"
+    location: "2050 Lobby Bar, DoubleTree San José"
+    hashtag: libtechwomen
+
+reception:
+    show: true
+    date: "2019-02-20"
+
+karaoke-night:
+    show: true
+    url: https://wiki.code4lib.org/2019_Social_Activities#Karaoke_Night.2C_Thursday.2C_February_21st
+    date: "2019-02-21"
+    time: "TBA"
+
+self-event:
+    show: true
+    url: https://docs.google.com/document/d/1VVfaRFpYwXyZfRI5hRTorIW4hSzu4yg13S-R-M-EGoE/edit
+###############
+# Volunteer
+###############
+
+volunteer-committee:
+  show: false
+  url: https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees
+  end-date: "2019-01-18"
+
+volunteer-dutyoff:
+  show: false
+  url: https://goo.gl/forms/2DkdbUUDSSOMi1f33
+  end-date: "2018-11-18"
+
+# for volunteers during conference like MCs, mic-minders, etc.
+volunteer-onsite:
+  show: false
+  url: https://wiki.code4lib.org/2019_Conference_Volunteers
+  end-date: "2019-02-22"
+
+###########
+# Misc
+###########
+livestream:
+  show: true
+  url: "https://www.youtube.com/playlist?list=PLw-ls5JXzeNYcmotU2peVxu27nH2qIrV6"
+
+slides:
+  show: true
+  url: "https://osf.io/view/c4l19/"
+  contact: "Roy Tennant"
+  email: "roytennant@gmail.com"
+
+closed-captioning:
+  url: "https://2020archive.1capapp.com/event/cod4lib"
+  show: true
+
+################
+# Scholarships
+################
+
+angel-fund:
+    show: false
+    # whether to show the "donation thermometer" & Google Spreadsheet key for it
+    thermometer: false
+    # NOTE: spreadsheet needs to be "published to the web"
+    spreadsheet-key: "1DTMECsa9KznCK90UQRjyZ6X_SqI0Zeq7-DZ_ByDsM6w"
+    url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
+
+diversity-scholarship-applications:
+  show: false
+  url: "/general-info/scholarships#how-to-apply"
+  url-text: "How to Apply"
+  end-date: "2018-11-16"
+  notification-date: "2018-12-05"
+  apply-url: "https://docs.google.com/forms/d/e/1FAIpQLSetEMsBxZYXj_GGyxwWj_FnIxgxDRjxuZ-t16QqPtKuKKQ8Eg/viewform?usp=sf_link"
+
+# show sponsors for diversity scholarships on general-info/scholarships
+diversity-scholarship-general-sponsors:
+  show: true

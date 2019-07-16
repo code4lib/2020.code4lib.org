@@ -1,0 +1,243 @@
+- id: evergreen-team
+  name: Evergreen Team
+  bio: "The Evergreen Project was initiated by the Georgia Public Library System in 2006 to serve their need for a scalable catalog shared by (as of now) more than 275 public libraries in the state of Georgia. After Evergreen was released, it has since been adopted by a number of library consortia in the US and Canada as well as various individual libraries, and has started being adopted by libraries outside of North America. The Evergreen development community is still growing, with about eleven active committers and roughly 65 individuals who have contributed patches (as of March 3, 2013). However, the Evergreen community is also marked by a high degree of participation by the librarians who use the software and contribute documentation, bug reports, and organizational energy. As such, Evergreen is very much about both the developers *and* the users."
+  twitter_handle: EvergreenILS
+  work_title:
+  institution:
+  image_src: /assets/img/past-keynotes/evergreen.jpeg
+  year: 2006
+
+- id: karen-schneider
+  name: K.G. Schneider
+  bio:  "I am the Dean of the Library at Sonoma State University, an august entity that disavows everything written on this blog and through the wriggling of eyebrows hints around that perhaps I could be doing something better with my time like running a university library, yo. I was formerly the University Librarian at Holy names University in Oakland, California (a place that seems remarkably similar to the 'Cupcake U' I sometimes blogged about)."
+  twitter_handle: kgs
+  work_title: Dean of the Library
+  institution: Sonoma State University
+  image_src: /assets/img/past-keynotes/karenscheider.jpg
+  year: 2007
+
+- id: erik-hatcher
+  name: Erik Hatcher
+  bio:  "Co-author, Lucene in Action and Java Development with Ant (aka Ant in Action). Authored many articles at java.net, IBM developerWorks, and JavaPro. Frequent speaker at industry conferences, particularly the No Fluff, Just Stuff symposium circuit."
+  twitter_handle: erikhatcher
+  work_title: Senior Solutions Architect
+  institution: Lucidworks
+  image_src: /assets/img/past-keynotes/erikhatcher.jpeg
+  year: 2007
+
+- id: brewster-kahle
+  name: Brewster Kahle
+  bio: "Digital Librarian and Founder of the Internet Archive, has been working to provide universal access to all knowledge for more than twenty-five years."
+  twitter_handle: brewster_kahle
+  work_title: Digital Librarian
+  institution: Internet Archive
+  image_src: /assets/img/past-keynotes/brewsterkahle.jpg
+  year: 2008
+
+- id: karen-coyle
+  name: Karen Coyle
+  bio: "Karen Coyle is a librarian with over thirty years of experience with library technology. She now consults in a variety of areas relating to digital libraries. Karen has published dozens of articles and reports, most available on her web site, kcoyle.net."
+  twitter_handle:
+  work_title:
+  institution:
+  image_src: /assets/img/past-keynotes/karencoyle.jpg
+  year: 2008
+
+- id: jon-udell
+  name: Jon Udell
+  bio: "Working for Hypothesis on an open annotation layer."
+  twitter_handle: judell
+  work_title:
+  institution: Hypthesis
+  image_src: /assets/img/past-keynotes/jonudell.jpg
+  year: 2008
+
+- id: stefano-mazzocchi
+  name: Stefano Mazzocchi
+  bio: "Previously, he worked as an Application Catalyst at Metaweb Technologies Inc. tasked to help enabling a development ecosystem around Freebase as a platform. Metaweb was acquired by Google in 2010. Before that, he was a research scientist at MIT working on the SIMILE Project for the Digital Library Research Group of the MIT Libraries."
+  twitter_handle: stefanomaz
+  work_title: Software Engineer
+  institution: Google
+  image_src: /assets/img/past-keynotes/mazzocchi.jpg
+  year: 2009
+
+- id: sebastian-hammer
+  name: Sebastian Hammer
+  bio: "My talent is to discern structure within a complex maze of needs and requirements, to see realistic solutions to problems, and to bridge the gap between customers and technical teams."
+  twitter_handle: shammer46
+  work_title: Information Retrieval Consultant
+  institution: Index Data LLC
+  image_src: /assets/img/past-keynotes/hammer.jpg
+  year: 2009
+
+- id: ian-davis
+  name: Ian Davis
+  bio: "British technology entrepreneur. Primary interests are open data, the semantic web and decentralization."
+  twitter_handle: iand
+  work_title: VP Engineering
+  institution: Avocet Systems
+  image_src: /assets/img/past-keynotes/iandavis.jpg
+  year: 2009
+
+- id: cathy-marshall
+  name: Cathy Marshall
+  bio:
+  twitter_handle:
+  work_title: Principal Researcher
+  institution: Microsoft
+  image_src: /assets/img/nopics/nopic1.jpg
+  year: 2010
+
+- id: paul-jones
+  name: Paul Jones
+  bio: "As a teacher, I try to help smart people get smarter. If I do my work right, they think they did it all themselves. Perhaps they did. At ibiblio.org, we help people who want to share their information freely and legally do so."
+  twitter_handle: smalljones
+  work_title: Director
+  institution: ibiblio.org
+  image_src: /assets/img/past-keynotes/pauljones.jpg
+  year: 2010
+
+- id: diane-hillmann
+  name: Diane Hillmann
+  bio: "She is the editor of Using Dublin Core, former administrator of the AskDCMI Service, co-moderator of the DC Education Community, and former member of the DCMI Usage Board. She is active in the library standards community, having served several terms on the MARC Standards Advisory Committee (MARBI) as a liaison from the law library community and as a LITA representative."
+  twitter_handle:
+  work_title: Director of Metadata Initiatives
+  institution: Information Institute of Syracuse
+  image_src: /assets/img/past-keynotes/dianehillmann.jpg
+  year: 2011
+
+- id: dan-chudnov
+  name: Dan Chudnov
+  bio: "20-year hacker / librarian and newly-trained data scientist."
+  twitter_handle: dchud
+  work_title: Director, Scholarly Technology
+  institution: George Washington University
+  image_src: /assets/img/past-keynotes/danchudnov.jpg
+  year: 2012
+
+- id: bethany-nowviskie
+  name: Bethany Nowviskie
+  bio: "Computing humanist/humane computationalist since 1996."
+  twitter_handle: nowviskie
+  work_title: Director of the Digital Library Federation
+  institution: University of Virginia
+  image_src: /assets/img/past-keynotes/nowviskie.jpeg
+  year: 2012
+
+- id: leslie-johnston
+  name: Leslie Johnston
+  bio: "Leslie Johnston has over twenty years’ experience in digitization and digital conversion, setting and applying metadata and content standards, and overseeing the development of digital content management and delivery systems and services."
+  twitter_handle: lljohnston
+  work_title: Director of Digital Preservation
+  institution: The National Archives (NARA)
+  image_src: /assets/img/past-keynotes/lesliejohnston.jpeg
+  year: 2013
+
+- id: gordon-dunsire
+  name: Gordon Dunsire
+  bio: "linked data. semantic web. metadata. digital libraries. collection-level description. databases for information."
+  twitter_handle: gordondunsire
+  work_title: Independent Consultant
+  institution:
+  image_src: /assets/img/past-keynotes/gordondunsire.jpg
+  year: 2013
+
+- id: sumana-harihareswara
+  name: Sumana Harihareswara
+  bio: "I contribute to and lead open source software communities. More generally, I'm a programmer, technology executive and open source expert who teaches both technical and process skills."
+  twitter_handle: brainwane
+  work_title: Open source programmer
+  institution: The Ada Initiative
+  image_src: /assets/img/past-keynotes/harihareswara.jpg
+  year: 2014
+
+- id: valerie-aurora
+  name: Valerie Aurora
+  bio: "A writer, programmer, and feminist activist. I am a co-founder of the Ada Initiative, a non-profit to promote women in open technology and culture, and also Double Union, a feminist makerspace in San Francisco."
+  twitter_handle: vaurorapub
+  work_title: Interim Executive Director
+  institution: The Ada Initiative
+  image_src: /assets/img/past-keynotes/valerieaurora.jpg
+  year: 2014
+
+- id: andromeda-yelton
+  name: Andromeda Yelton
+  bio: "I’ve been a math major and a middle school Latin teacher. Now I’m a librarian and technologist, and the thing that keeps me up at night and makes me smile is empowering librarians through code."
+  twitter_handle: thatandromeda
+  work_title: Library Consultant
+  institution: Small Beautiful Useful
+  image_src: /assets/img/past-keynotes/andromeda.jpg
+  year: 2015
+
+- id: selena-deckelmann
+  name: Selena Deckelmann
+  bio: "I contribute to PostgreSQL, run Postgres Open and keep chickens."
+  twitter_handle: selenamarie
+  work_title: Data Architect
+  institution: Mozilla
+  image_src: /assets/img/past-keynotes/selenadeckelmann.jpg
+  year: 2015
+
+- id: kate-krauss
+  name: Kate Krauss
+  bio: |
+    Katie has been an influential political strategist and organizer since the late 1980s. An early member of ACT UP, she lead and organized a diverse statewide coalition that succeeded in tripling the budget of California's AIDS Drug Assistance Program and restructuring the State of California's AIDS funding priorities. One of the first US activists to embrace international AIDS advocacy, she was a key strategist behind the global AIDS treatment movement in the late 1990s, working with groups such as Health GAP and TAC of South Africa.<br>In 2002, Katie founded the AIDS Policy Project (www.AIDSPolicyProject.org) to work on AIDS issues relevant to the global community. She currently directs a national advocacy campaign focused on re-establishing a cure for AIDS as major public goal. She works with leading researchers and international health societies to identify and overcome obstacles to this critical research<br>Katie also works closely with Chinese AIDS activists and human rights defenders and has built a diverse, powerful coalition of western advocacy groups interested in AIDS in China. Her advocacy was influential in securing some $90 million in aid for China's HIV/AIDS programs and institutionrumental in the release of nearly three dozen Chinese activists detained by Chinese authorities for their work since 2002. She organized the successful international campaign for the release of Wan Yanhai, which was covered on the front page of the New York Times.<br>As Communications Coordinator for the AIDS campaign at Physicians for Human Rights, Katie has placed front page stories in the Washington Post and many other outlets.<br>Katie has worked as an advocate on diverse AIDS issues such as clinical trial ethics, vaccine advocacy, the structure of medical research, pediatric AIDS, trade and IP issues, harm reduction, prison health care, Medicaid, the AIDS Drug Assistance Program, Africa's health worker shortage, financing for the Global Fund, and PEPFAR reauthorization.
+  twitter_handle:
+  work_title: Director of Communications and Public Policy
+  institution: The Tor Project
+  image_src: /assets/img/past-keynotes/krauss.jpg
+  year: 2016
+
+- id: gabriel-weinberg
+  name: Gabriel Weinberg
+  bio: |
+    Gabriel Weinberg is the CEO & Founder of DuckDuckGo, the search engine that doesn't track you, and the co-author of Traction, the book that helps you get traction.
+  twitter_handle: yegg
+  work_title: CEO & Founder
+  institution: DuckDuckGo
+  image_src: /assets/img/past-keynotes/weinberg.jpg
+  year: 2016
+
+- id: andreas-orphanides
+  name: Andreas "Dre" Orphanides
+  Last: Orphanides
+  bio: |
+    Dre is the Associate Head of User Experience at NCSU. He is also a long time participating Code4Lib community member. He is one of the co-founders of the beloved Code4Lib workshop, Fail4Lib, which created an inclusive and safe space to talk about project failures and generate constructive conversation around the failures. He's given brilliant and thoughtful talks on user experience and system design.
+  twitter_handle:
+  work_title: Associate Head, User Experience
+  institution: NC State University Libraries
+  image_src: /assets/img/past-keynotes/orphanides.jpg
+  year: 2017
+
+- id: christina-harlow
+  name: Christina Harlow
+  Last: Harlow
+  bio: |
+    Christina works with metadata at Cornell University Library. She thinks her area of work could be called ‘data operations’, but maybe she just made that up. She likes collaborating with folks on library tech- and data-focused work and events.
+  twitter_handle: cm_harlow
+  work_title: Metadata Librarian
+  institution: Cornell University Library
+  image_src: /assets/img/past-keynotes/harlow.jpg
+  year: 2017
+
+- id: chris-bourg
+  name: Chris Bourg
+  Last: Bourg
+  bio: |
+    Chris Bourg is the Director of Libraries at Massachusetts Institute of Technology (MIT), where she also has oversight of the MIT Press. She chooses to believe that libraries can and should promote social justice. Read <a class="speaker-bio-link" href="http://bit.ly/cbourgbio">Chris's detailed bio here</a>.
+  twitter_handle: mchris4duke
+  work_title: Director of Libraries
+  institution: Massachusetts Institute of Technology
+  image_src: /assets/img/past-keynotes/bourg_chris.jpg
+  year: 2018
+
+- id: mega-subramaniam
+  name: Mega Subramaniam
+  Last: Subramaniam
+  bio: |
+    Mega Subramaniam is an Associate Professor at the College of Information Studies at the University of Maryland. Dr. Subramaniam’s research focuses on enhancing the role of libraries in fostering the mastery of emerging literacies that are essential for STEM learning among underserved young people. Dr. Subramaniam serves as a fellow for the Libraries Ready to Code (RtC) project led by the Office for Information Technology Policy at the American Library Association (ALA OITP). Read <a class="speaker-bio-link" href="http://bit.ly/msubramaniambio">Dr. Subramaniam’s detailed bio here</a>.
+  twitter_handle: mmsubram
+  work_title: Associate Professor, College of Information Studies
+  institution: University of Maryland
+  image_src: /assets/img/past-keynotes/Subramaniam_Mega.jpg
+  year: 2018
