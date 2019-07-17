@@ -10,7 +10,7 @@ hero-image-alt: ""
 search: false
 # If false (we don't have program info yet), the main nav links go:
 # schedule -> preparation timeline, speakers -> past keynotes
-program-nav-links: true
+program-nav-links: false
 
 # day 0 = preconf day
 # days:
@@ -103,6 +103,8 @@ closed-captioning:
 # If true, any "Sponsors" links will go to /prospectus instead of /sponsors
 call-for-sponsors: true
 homepage-sponsor-button: true
+# can be relative or absolute URL to document
+prospectus-document: ''
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD

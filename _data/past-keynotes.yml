@@ -241,3 +241,21 @@
   institution: University of Maryland
   image_src: /assets/img/past-keynotes/Subramaniam_Mega.jpg
   year: 2018
+
+- id: sarah-roberts
+  name: Sarah Roberts
+  last: Roberts
+  title: Assistant Professor of Information Studies
+  institution: UCLA
+  image_src: /assets/img/past-keynotes/roberts_sara.jpg
+  bio: "Sarah T. Roberts is assistant professor of information studies in the Graduate School of Education and Information Studies at the University of California, Los Angeles. She is internationally recognized as a leading scholar on the emerging topic of commercial content moderation of social media; her book on the topic, <a href=https://yalebooks.yale.edu/book/9780300235883/behind-screen>Behind the Screen: Content Moderation in the Shadows of Social Media</a>, is forthcoming in 2019 from Yale University Press. Professor Roberts is a 2018 Carnegie Fellow and a 2018 winner of the EFF Pioneer Award."
+  year: 2019
+
+- id: tara-robertson
+  name: Tara Robertson
+  last: Robertson
+  title: Diversity & Inclusion Strategic Partner
+  institution: Mozilla
+  image_src: /assets/img/past-keynotes/robertson_tara.jpg
+  bio: "Tara Robertson is an intersectional feminist who uses data and research to advocate for equality and inclusion. She has more than 10 years experience making open source and tech communities more diverse and welcoming. Her core values are social justice, collaboration and all things open–open source, open access and open education. Her curiosity and delight in connecting people come together in person and online, where she can often be found asking good questions. <a href=https://tararobertson.ca/about/>Read more on her personal website</a>."
+  year: 2019
