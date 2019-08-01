@@ -1,5 +1,5 @@
 {
-  "name": "2018.code4lib.org",
+  "name": "2020.code4lib.org",
   "version": "1.0.0",
   "description": "Code4Lib 2018 Conference Site",
   "main": "index.html",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/code4lib/2018.code4lib.org.git"
+    "url": "git+https://github.com/code4lib/2020.code4lib.org.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/code4lib/2018.code4lib.org/issues"
+    "url": "https://github.com/code4lib/2020.code4lib.org/issues"
   },
-  "homepage": "https://github.com/code4lib/2018.code4lib.org#readme"
+  "homepage": "https://github.com/code4lib/2020.code4lib.org#readme"
 }

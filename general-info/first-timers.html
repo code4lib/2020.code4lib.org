@@ -57,6 +57,7 @@ active: First Timers
         In addition, if you have any events that you’d like to organize, please feel free to add the event to the DIY Event Google Doc!
       </p>
 
+      {% if site.data.conf.newcomer-dinner.show %}
       <h3>Newcomer Dinner</h3>
       <p>
         One activity we want to highlight is the Newcomer dinner on {{site.data.conf.newcomer-dinner.date | date: '%A, %B %-d, %Y'}}.
@@ -64,17 +65,20 @@ active: First Timers
            See <a target="blank" href="{{site.data.conf.newcomer-dinner.signup-url}}">information about the dinner and the sign-up list here</a>. Attendees are responsible in assessing the accessibility of the restaurant space of their choice.
         {% endif %}
       <p>
+      {% endif %}
 
       <h3>All-Conference Reception</h3>
       <p>
         There will be an all-conference reception on the second night of the conference at the Tech Museum of Innovation. See <a href="{{ '/general-info/venues/#reception' | relative_url }}">the venues page</a> for more information.
       </p>
 
+      {% if site.data.conf.game-night.show %}
       <h3>Game Night</h3>
       <p>
         Another event is <a href="/general-info/venues/#gaming">Game Night on {{site.data.conf.game-night.date | date: '%A, %B %-d, %Y'}}</a>. While you do not need to bring something to participate, please let us know if you do plan to bring games.
         Most importantly, bring yourself!
       </p>
+      {% endif %}
 
       <h2>Volunteering</h2>
       <p>

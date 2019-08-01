@@ -3,7 +3,7 @@
         <h2 id="conference-hotel">Conference Hotel</h2>
         <p><a href="http://doubletree3.hilton.com/resources/media/dt/JOSE-DT/en_US/pdf/JOSE.Floorplans.May04.pdf">Hotel Floor Plan</a></p>
 
-        <p>Code4Lib {{site.data.conf.year}} will be held at the DoubleTree by Hilton in San Jose.</p>
+        <p>Code4Lib {{site.data.conf.year}} will be held at {{site.data.conf.venue-name}} in {{site.data.conf.location}}.</p>
 
         <div class="col-xs-6">
             <a href="{{site.data.conf.venue-website}}">
@@ -16,7 +16,7 @@
                 {{site.data.conf.city-state}} {{site.data.conf.venue-postal-code}}<br>
                 <a href="tel:{{site.data.conf.venue-phone}}">{{site.data.conf.venue-phone}}</a>
                  | <a href="{{site.data.conf.venue-website}}">website</a>
-                 | <a href="http://doubletree3.hilton.com/resources/media/dt/JOSE-DT/en_US/pdf/JOSE.Floorplans.May04.pdf">Floor Plan</a>
+                 | <a href="{{site.data.conf.venue-floorplan}}">Floor Plan</a>
             </p>
             <p>
                 <strong><a href="http://doubletree3.hilton.com/en/hotels/california/doubletree-by-hilton-hotel-san-jose-JOSE-DT/maps-directions/index.html">Getting to DoubleTree San Jose</a></strong>
@@ -24,6 +24,7 @@
         </div>
     </div>
 
+    {% comment %}
     <div class="col-xs-12">
         <h3>Lodging</h3>
         <p>
@@ -52,4 +53,5 @@
 
         <p><strong>Overnight Self-Parking</strong>: Daily rate is $12.00 per car/per night.  Individuals are responsible for own self-parking fees. In and out parking privileges are given to each guest upon check in at the front desk.</p>
     </div>
+    {% endcomment %}
 </section>

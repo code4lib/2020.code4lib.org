@@ -43,7 +43,7 @@ layout: null
     {% endfor %}
 
 
-      {% if year == "2016" %}
+      {% if year == "2020" %}
       {% unless forloop.first %},{% endunless %}
       "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",

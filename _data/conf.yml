@@ -13,20 +13,20 @@ search: false
 program-nav-links: false
 
 # day 0 = preconf day
-# days:
-#   - weekday: Tuesday
-#     date: February 19th
-#     # date in a form that JS Date() constructor understands
-#     date-data: 2019-02-19T23:59
-#   - weekday: Wednesday
-#     date: February 20th
-#     date-data: 2019-02-20T23:59
-#   - weekday: Thursday
-#     date: February 21st
-#     date-data: 2019-02-21T23:59
-#   - weekday: Friday
-#     date: February 22nd
-#     date-data: 2019-02-22T23:59
+days:
+  - weekday: Sunday
+    date: March 8th
+    # date in a form that JS Date() constructor understands
+    date-data: 2020-03-08T23:59
+  - weekday: Monday
+    date: March 9th
+    date-data: 2020-03-09T23:59
+  - weekday: Tuesday
+    date: March 10th
+    date-data: 2020-03-10T23:59
+  - weekday: Wednesday
+    date: March 11th
+    date-data: 2020-03-11T23:59
 
 #############################
 # Venue Information
@@ -36,10 +36,13 @@ program-nav-links: false
 city-state: 'Pittsburgh PA'
 
 #Conference
-# venue-street: '2050 Gateway Pl'
-# venue-postal-code:  '95110'
-# venue-phone: '+1(408)453-4000'
-# venue-website: 'http://doubletree3.hilton.com/en/hotels/california/doubletree-by-hilton-hotel-san-jose-JOSE-DT/index.html'
+venue-name: 'The Westin Pittsburgh'
+venue-street: '1000 Penn Avenue'
+venue-postal-code:  '15222'
+venue-phone: '+1(412)281-3700'
+venue-website: 'https://www.marriott.com/hotels/travel/pitwi-the-westin-pittsburgh/'
+venue-floorplan: 'https://www.marriott.com/hotels/event-planning/business-meeting/pitwi-the-westin-pittsburgh/#FloorplanLayoutf689'
+venue-a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
 #
 # reception-venue: 'The Tech Museum of Innovation'
 # reception-street: '201 South Market Street'

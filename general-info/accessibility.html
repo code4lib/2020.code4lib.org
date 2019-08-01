@@ -6,8 +6,8 @@ active: Accessibility
 subnav:
 - name: 'Contact'
   url: '#contactus'
-- name: 'Quiet Room'
-  url: '#quietroom'
+#- name: 'Quiet Room'
+#  url: '#quietroom'
 - name: 'For Presenters'
   url: '#presenters'
 ---
@@ -23,6 +23,7 @@ subnav:
             <h2 id="contactus">Contact</h2>
             <p>Contact <a href="mailto:{{site.data.conf.accessibility-email}}">{{site.data.conf.accessibility-email}}</a> with any questions or concerns related to the conference's accessibility.</p>
 
+            {% comment %}
             <h2 id="quietroom">Quiet Room</h2>
             <p>
                From Tuesday to Friday a quiet room will be available at the conference hotel,
@@ -59,6 +60,7 @@ subnav:
                      so that all of you can find a bit of quiet.
                </li>
             </ul>
+            {% endcomment %}
 
             <h2>Live Captioning</h2>
             <p>During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning.

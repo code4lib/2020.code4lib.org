@@ -1,7 +1,7 @@
-url: http://2019.code4lib.org
+url: http://2020.code4lib.org
 permalink: /:categories/:title
 exclude: [node_modules]
-repository: code4lib/2019.codelib.org
+repository: code4lib/2020.codelib.org
 future: true
 timezone: America/New_York
 sass:

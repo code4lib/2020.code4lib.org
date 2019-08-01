@@ -8,7 +8,7 @@ This site was designed with future users in mind, so the group chose platforms t
 
 ## Resources
 
-More details are available in the [GitHub wiki](https://github.com/code4lib/2019.code4lib.org/wiki).
+More details are available in the [GitHub wiki](https://github.com/code4lib/2020.code4lib.org/wiki).
 
 ## About Jekyll
 

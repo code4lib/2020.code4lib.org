@@ -13,7 +13,7 @@
                 <h1 class="text-right">
                     <span class="sr-only">code for lib {{site.data.conf.year}}</span>
                     {{site.data.conf.location}}
-                    <small>19-22 February 2019</small>
+                    <small>{{site.data.conf.days[0].date-data | date: "%B %-d"}} - {{site.data.conf.days.last.date-data | date: "%-d"}} {{site.data.conf.year}}</small>
                 </h1>
 
                 <div id="conferenceActions">
