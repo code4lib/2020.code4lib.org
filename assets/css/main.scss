@@ -21,7 +21,7 @@ body {
   margin-bottom: 20.3125em;
   padding-bottom: 20px;
   color: $gray-base;
-  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+  font-family: $primary-font;
   font-weight: 300;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+  font-family: $primary-font;
   letter-spacing: .02em;
 
   &.expo {
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar {
-  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+  font-family: $primary-font;
   font-weight: 300;
 }
 
@@ -90,7 +90,7 @@ p {
   h1 {
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-    font-family: "Alegreya SC","Alegreya",Georgia,Times,serif;
+    font-family: $accent-font;
     font-weight: normal;
     letter-spacing: .02em;
     font-size: 2em;
@@ -462,7 +462,6 @@ p.speaker-inst {
 
 .speaker-info.show {
   max-height: 600px;
-  border: 2px solid $primary;
   -webkit-transition: max-height .35s ease;
   -o-transition: max-height .35s ease;
   -moz-transition: max-height .35s ease;

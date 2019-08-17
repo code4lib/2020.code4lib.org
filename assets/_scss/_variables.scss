@@ -11,11 +11,11 @@ $gray:                    #8E908C;
 $gray-light:              #D4D8D1 !default;
 $gray-lighter:            #F6FDFD !default;
 
-$primary:                 #006272;
+$primary:                 #27251F;
 $primary-dark:            #000;
 $primary-light:           lighten($primary, 10%) !default;
 
-$accent:                  #E57200;
+$accent:                  #FDB827;
 $accent-dark:             darken($accent, 10%) !default;
 $accent-light:            lighten($accent, 10%);
 $accent-darker:           darken($accent, 20%);
@@ -29,6 +29,10 @@ $brand-danger:            #d9534f !default;
 
 $accent-link-primary:    #fdb771 !default;
 $accent-primary-hover:   lighten($accent-link-primary, 10%) !default;
+
+//== Fonts
+$primary-font: "Ubuntu",Helvetica,Arial,sans-serif;
+$accent-font: "Alegreya SC","Alegreya",Georgia,Times,serif;
 
 //== Code4Lib
 //
@@ -84,8 +88,8 @@ $timeline-content-shadow: $gray;
 
 // Testimonials
 $testimonial-bg:          $accent-dark;
-$testimonial-border:      $primary-dark;
-$testimonial-color:       $gray-lighter;
+$testimonial-border:      $gray-base;
+$testimonial-color:       $primary-dark;
 
 // Presentation Info Box
 $talk-box-bg:             $gray-lighter;
@@ -235,8 +239,8 @@ $btn-default-color:              #333 !default;
 $btn-default-bg:                 #fff !default;
 $btn-default-border:             #ccc !default;
 
-$btn-primary-color:              #fff !default;
-$btn-primary-bg:                 #C15806 !default;
+$btn-primary-color:              #000 !default;
+$btn-primary-bg:                 $accent !default;
 $btn-primary-border:             darken($btn-primary-bg, 5%) !default;
 
 $btn-success-color:              #fff !default;
