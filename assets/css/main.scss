@@ -21,7 +21,7 @@ body {
   margin-bottom: 20.3125em;
   padding-bottom: 20px;
   color: $gray-base;
-  font-family: $primary-font;
+  font-family: $font-family-sans-serif;
   font-weight: 300;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: $primary-font;
+  font-family: $font-family-sans-serif;
   letter-spacing: .02em;
 
   &.expo {
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar {
-  font-family: $primary-font;
+  font-family: $font-family-sans-serif;
   font-weight: 300;
 }
 
@@ -90,7 +90,7 @@ p {
   h1 {
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-    font-family: $accent-font;
+    font-family: $font-family-serif;
     font-weight: normal;
     letter-spacing: .02em;
     font-size: 2em;
@@ -216,7 +216,7 @@ section:nth-of-type(3n+1) {
 }
 
 section:nth-of-type(3n+2) {
-  border-top: 2px solid $primary; 
+  border-top: 2px solid $primary;
 }
 
 section:nth-of-type(3n+3) {

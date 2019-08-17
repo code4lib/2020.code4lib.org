@@ -38,42 +38,48 @@
   display: inline-block;
   margin: 1rem;
   position: relative;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+  transition: all .3s cubic-bezier(.25, .8, .25, 1);
   padding: 1em;
   text-align: center;
 
   img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
   }
 }
+
 .sponsor-card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
 }
 
 .sponsor-card.contributor {
   width: 20em;
 }
+
 .sponsor-card.bronze {
   width: 27em;
 }
+
 .sponsor-card.silver {
   width: 35em;
 }
+
 .sponsor-card.gold {
   width: 50em;
 }
+
 .sponsor-card.platinum {
   width: 65em;
 }
+
 .sponsor-card.diamond {
   width: 80em;
 }
+
 .sponsor-card.adamantium {
   width: 100em;
 }
-
 
 #targetedSponsorship div:nth-child(even) .thumbnail {
   background-color: lighten($accent-light, 30%);
@@ -85,7 +91,7 @@
 }
 
 #sponsorships .thumbnail img {
-  width:500px;
+  width: 500px;
 }
 
 @media(max-width: 992px) {
@@ -94,10 +100,11 @@
   }
 }
 
-.prospectus-padder .thumbnail, .childcare-faqs {
+.prospectus-padder .thumbnail,
+.childcare-faqs {
   background-color: #fff;
   color: $gray-darker;
-  padding: 10px 20px 10px 20px !important;
+  padding: 10px 20px !important;
   margin: 10px;
 }
 
@@ -106,30 +113,31 @@
 }
 
 .past-slides {
-  font-size: 2em;
   display: block;
+  font-size: 2em;
 }
 
 // "contact" slide out on prospectus page
 #contact {
-  position: fixed;
-  top: 60px;
-  left: 0;
-  width: 35px;
-  padding: 12px 0;
-  text-align: center;
-  background-color: $accent-light;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-border-radius: 0 5px 5px 0;
   -moz-border-radius: 0 5px 5px 0;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  -webkit-border-radius: 0 5px 5px 0;
+  -webkit-transition-duration: .3s;
+  background-color: $accent-light;
   border-radius: 0 5px 5px 0;
+  left: 0;
+  padding: 12px 0;
+  position: fixed;
+  text-align: center;
+  top: 60px;
+  transition-duration: .3s;
+  width: 35px;
 
   &:hover {
     left: 300px;
   }
+
   &:hover #contact_inner {
     left: 0;
   }
@@ -138,14 +146,14 @@
     background-color: $accent-light;
     color: #fff;
     padding: 20px;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
     text-align: left;
     -webkit-border-radius: 0 0 5px 0;
     -moz-border-radius: 0 0 5px 0;
-    border-radius: 0 0 5px 0;
+    border-radius: 0 0 5px;
   }
 
   // contact links need own color to stand out against orange background

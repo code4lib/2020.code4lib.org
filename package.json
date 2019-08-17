@@ -6,7 +6,9 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sass-lint": "^1.13.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
