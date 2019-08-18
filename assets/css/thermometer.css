@@ -10,15 +10,15 @@
 }
 
 .label {
-  color: #000;
-  float: left;
-  white-space: normal;
+    color: #000;
+    float: left;
+    white-space: normal;
 }
 
 .goal {
-  float: right;
-  max-width: 50%;
-  text-align: right;
+    float: right;
+    max-width: 50%;
+    text-align: right;
 }
 
 .glass {
@@ -50,8 +50,7 @@
   }
 }
 
-.goal-number,
-.goal-label {
+.goal-number, .goal-label {
   display: block;
 }
 
