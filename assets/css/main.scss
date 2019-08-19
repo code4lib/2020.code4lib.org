@@ -88,7 +88,7 @@ p {
 #conferenceInfo {
   background-color: $primary;
   h1 {
-    color: #fff;
+    color: $white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
     font-family: $font-family-serif;
     font-weight: normal;
@@ -518,7 +518,7 @@ p.speaker-inst {
 }
 
 .speaker-box.selected p {
-  color: #fff;
+  color: $white;
 }
 
 .arrow-down {
@@ -567,7 +567,7 @@ p.speaker-inst {
   margin: 10px 0;
   display: block;
   padding: 10px 0 5px 0;
-  border-top: solid 1px white;
+  border-top: solid 1px $white;
 }
 
 .talk-detail-box {
@@ -631,7 +631,7 @@ p.speaker-inst {
 }
 
 .workshop-well {
-  background-color: #ffffff;
+  background-color: $white;
   padding: 10px 10px 0px 10px;
   width: 300px;
   margin-top: 10px;
@@ -662,7 +662,7 @@ p.speaker-inst {
 
 .sched-well {
   text-align: left;
-  background-color: #ffffff;
+  background-color: $white;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
@@ -760,7 +760,7 @@ p.speaker-inst {
 .search_results {
   position: relative;
   display: none;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .search_results i {
@@ -868,7 +868,7 @@ p.speaker-inst {
 }
 
 .event-card {
-  background: #fff;
+  background: $white;
   border-radius: 5px;
   box-shadow: 3px 3px 9px rgba(0,0,0,0.2);
   box-sizing: border-box;
@@ -883,14 +883,14 @@ p.speaker-inst {
   .img-avatar {
     height: auto;
     width: 4em;
-    border: 2px solid #fff;
+    border: 2px solid $white;
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.25);
     box-sizing: border-box;
     max-width: 100px;
-    background: #fff;
+    background: $white;
     --primary-color: #{$sponsor-badge-primary};
-    --background-color: #fff;
+    --background-color: $white;
   }
   %card-content {
     padding: 1em;
@@ -899,7 +899,7 @@ p.speaker-inst {
   .card-toolbar {
     @extend %card-content;
     background: $day-event;
-    color: #fff;
+    color: $white;
     height: 3em;
 
     .img-avatar {
@@ -997,10 +997,10 @@ p a:-webkit-any-link {
 
 /* above rule causes buttons within <p>s to have dark text on dark bg */
 p a.btn {
-    color: #fff;
+    color: $white;
 
     &:hover {
-      color: #fff;
+      color: $white;
     }
 }
 

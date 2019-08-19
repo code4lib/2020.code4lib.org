@@ -267,7 +267,7 @@
 .speaker-overlay:before {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fff;
+  color: $white;
   content: attr(data-content);
   height: 85px;
   text-align: center;
