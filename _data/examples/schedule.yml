@@ -62,6 +62,8 @@
   menu: day3-menus
   submenu: Morning
 
+# NOTE: first-timers page uses the link properties of the first events with
+# titles like "Breakout Sessions" and "Lightning Talks"
 # Breakouts
 - timeImg: 2.45.png
   title: Breakout Sessions 1

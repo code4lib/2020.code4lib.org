@@ -200,8 +200,8 @@ workshop-registration:
 # "show" just means display on home page, "open" means people can register
 conference-registration:
   show: false
-  url: http://www.cvent.com/d/ybq5dx/4W
-  start-date: "2018-12-05"
+  url: ""
+  start-date: Null
   end-date: Null
   open: false
 
@@ -209,40 +209,43 @@ conference-registration:
 # Schedule events
 ##################
 
+# usually on the wiki
+social-activities-url: ""
+
 newcomer-dinner:
     show: false
     # entering the URL doubles as a "show more info" switch, too
-    signup-url: https://drive.google.com/open?id=1XQg7jRiI4YWaCwJo3GiTt98l7eBmXTAyHKoFkdgfJnI
-    transit-info: https://docs.google.com/document/d/1zThXYjzsnXN0V7f1U_iEzgy2pZJna0EMTg59GQJClac/edit
-    activities-info: https://drive.google.com/open?id=1UqZIAHg2qllhbHCsv4JRXkbNqJ1qGOht&usp=sharing
-    date: "2019-02-19"
+    signup-url: ""
+    transit-info: ""
+    activities-info: ""
+    date: ""
 
 game-night:
     show: false
-    url: https://wiki.code4lib.org/2019_Social_Activities#Game_Night.2C_Thursday.2C_February_21st
-    date: "2019-02-21"
-    time: "6:30PM - 9:30PM"
+    url: ""
+    date: ""
+    time: ""
 
 libtech-women:
     show: false
-    date: "2019-02-21"
-    time: "5:30PM - 7:30PM"
-    location: "2050 Lobby Bar, DoubleTree San José"
+    date: ""
+    time: ""
+    location: ""
     hashtag: libtechwomen
 
 reception:
     show: false
-    date: "2019-02-20"
+    date: ""
 
 karaoke-night:
     show: false
-    url: https://wiki.code4lib.org/2019_Social_Activities#Karaoke_Night.2C_Thursday.2C_February_21st
-    date: "2019-02-21"
-    time: "TBA"
+    url: ""
+    date: ""
+    time: ""
 
 self-event:
     show: false
-    url: https://docs.google.com/document/d/1VVfaRFpYwXyZfRI5hRTorIW4hSzu4yg13S-R-M-EGoE/edit
+    url: ""
 
 ###############
 # Volunteer
@@ -250,19 +253,19 @@ self-event:
 
 volunteer-committee:
   show: true
-  url: https://wiki.code4lib.org/Code4Lib_2020_Conference_Committees
+  url: "https://wiki.code4lib.org/Code4Lib_2020_Conference_Committees"
   end-date: "2020-01-18"
 
 volunteer-dutyoff:
   show: false
-  url: https://goo.gl/forms/2DkdbUUDSSOMi1f33
-  end-date: "2018-11-18"
+  url: "https://goo.gl/forms/2DkdbUUDSSOMi1f33"
+  end-date: ""
 
 # for volunteers during conference like MCs, mic-minders, etc.
 volunteer-onsite:
   show: false
-  url: https://wiki.code4lib.org/2019_Conference_Volunteers
-  end-date: "2019-02-22"
+  url: ""
+  end-date: ""
 
 ################
 # Scholarships
@@ -287,3 +290,10 @@ diversity-scholarship-applications:
 # show sponsors for diversity scholarships on general-info/scholarships
 diversity-scholarship-general-sponsors:
   show: true
+
+################
+# Other
+################
+
+quiet-room:
+    show: false
