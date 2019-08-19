@@ -25,14 +25,27 @@ active: First Timers
         No one is an expert in everything, so don't worry that you don't know every single thing that is mentioned in the presentations.
       </p>
       <p>
-        Even if you don’t have a scheduled talk, there are two ways you can still share with other conference goers:
+        Even if you don’t have a scheduled talk, there are other ways you can share with other conference goers.
       </p>
-      <p>
-        <a href="https://wiki.code4lib.org/Code4Lib2019_Breakout_Sessions"><strong>Breakout sessions</strong></a> are facilitated unconference discussions about a particular topic. Some present on a project that is in progress to get other’s feedback, others talk about standards, formats, and tools of the trade. You can also have breakout sessions about big picture topics, or possibly get like minded folks together to start planning a local/regional code4lib community gathering.
-      </p>
-      <p>
-        <a href="https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks"><strong>Lightning talks</strong></a> are five minute talks on a topic of the presenter’s choosing. The lightning talks are an opportunity to provide a platform for someone who is just getting started with public speaking, who wants to ask a question or invite people to help with a project, or for someone to boast about something they did or tell a short cautionary story. Some lighting talks tend to steal the show at the conference!
-      </p>
+
+      {% comment %} iterate over schedule to see if we have breakout/lightning
+      talk events & then use their links below {% endcomment %}
+      {% for event in site.data.schedule %}
+          {% if event.title contains 'Breakout Session' %}
+          <p>
+            <a href="{{ event.link }}"><strong>Breakout sessions</strong></a> are facilitated unconference discussions about a particular topic. Some present on a project that is in progress to get other’s feedback, others talk about standards, formats, and tools of the trade. You can also have breakout sessions about big picture topics, or possibly get like minded folks together to start planning a local/regional code4lib community gathering.
+          </p>
+          {% break %}
+          {% endif %}
+      {% endfor %}
+      {% for event in site.data.schedule %}
+          {% if event.title contains 'Lightning Talks' %}
+          <p>
+            <a href="{{ event.link }}"><strong>Lightning talks</strong></a> are five minute talks on a topic of the presenter’s choosing. The lightning talks are an opportunity to provide a platform for someone who is just getting started with public speaking, who wants to ask a question or invite people to help with a project, or for someone to boast about something they did or tell a short cautionary story. Some lighting talks tend to steal the show at the conference!
+          </p>
+          {% break %}
+          {% endif %}
+      {% endfor %}
       <p>
         Both lightning talks and breakout sessions signups take place at the conference. Signups are usually on a posterboard by the registration; specific details about signup times and places will be announced from the podium, as well as social media.
       <p>
@@ -50,12 +63,13 @@ active: First Timers
         The venue will provide lunch Wednesday and Thursday, as well as morning and afternoon break snacks Wednesday through Friday morning. Menus will be posted on the website soon. There will be caffeine.
       </p>
 
-
+      {% if site.data.conf.social-activities-url != '' %}
       <h2>Social Activities</h2>
       <p>
-        There's a lot going on outside of the sessions, and <a href="https://wiki.code4lib.org/2019_Social_Activities">this page has information about various gatherings, events, meals, etc.</a>
+        There's a lot going on outside of the sessions, and <a href="{{site.data.conf.social-activities-url}}">this page has information about various gatherings, events, meals, etc.</a>
         In addition, if you have any events that you’d like to organize, please feel free to add the event to the DIY Event Google Doc!
       </p>
+       {% endif %}
 
       {% if site.data.conf.newcomer-dinner.show %}
       <h3>Newcomer Dinner</h3>
@@ -83,7 +97,7 @@ active: First Timers
       <h2>Volunteering</h2>
       <p>
         A round of applause for everyone who has helped to plan the conference! So much of what goes into making this event possible each year happens through the tireless efforts of our community members.
-        The work isn't quite done yet, and we're still looking for <a href="https://wiki.code4lib.org/Code4Lib_2019_Conference_Committees#Onsite_Volunteer_Committee">volunteers for a few on-site tasks</a> -
+        The work isn't quite done yet, and we're still looking for <a href="{{ site.data.conf.volunteer-committee.url }}">volunteers for a few on-site tasks</a> -
         the Whatever Crew is always looking for more volunteers, if you’re not quite sure what you want to do, but still want to help with the conference.
       </p>
 
@@ -98,7 +112,7 @@ active: First Timers
       <p>
         There will be A LOT of information thrown at you in a short period of time at code4lib. You will be mentally exhausted before conference end.
         For reference, the majority of folks “hit the wall” around the afternoon of the second full day. If you need to take a break, do so.
-        Decompress outside the conference room, use <a href="{{ '/general-info/accessibility#quietroom' | relative_url }}">the quiet room</a>, or try a <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23nap4lib&src=typd">#nap4lib</a>!
+        {% if site.data.conf.quiet-room.show %}You can decompress outside the conference hall in <a href="{{ '/general-info/accessibility#quietroom' | relative_url }}">the quiet room</a>.{% endif %} Try a <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23nap4lib&src=typd">#nap4lib</a>!
         The talks are recorded, so you can catch up on anything you might have missed during your break.
       </p>
 
