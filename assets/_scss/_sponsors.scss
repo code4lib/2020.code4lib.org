@@ -94,6 +94,20 @@
   width: 500px;
 }
 
+#prospectus a {
+  &:not(.btn) {
+    @include link-styles;
+  }
+}
+
+#prospectus a:active,
+#prospectus a:hover,
+#prospectus a:focus {
+  &:not(.btn) {
+    @include link-styles-states;
+  }
+}
+
 @media(max-width: 992px) {
   .prospectus-padder {
     padding-left: 35px;
