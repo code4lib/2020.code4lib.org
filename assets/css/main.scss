@@ -275,13 +275,17 @@ section .general-info {
 }
 
 section .general-info a {
-  @include link-styles;
+  &:not(.thumbnail) {
+    @include link-styles;
+  }
 }
 
 section .general-info a:hover,
 section .general-info a:focus,
 section .general-info a:active {
-  @include link-styles-states;
+  &:not(.thumbnail) {
+    @include link-styles-states;
+  }
 }
 
 /* ==========================================================================
