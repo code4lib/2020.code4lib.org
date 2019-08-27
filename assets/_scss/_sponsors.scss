@@ -108,6 +108,16 @@
   padding: 10px 20px !important;
 }
 
+.prospectus-padder .thumbnail a {
+  @include link-styles;
+}
+
+.prospectus-padder .thumbnail a:hover,
+.prospectus-padder .thumbnail a:focus,
+.prospectus-padder .thumbnail a:active {
+  @include link-styles-states;
+}
+
 .past-slides {
   display: block;
   font-size: 2em;
@@ -123,12 +133,12 @@
   background-color: $accent-light;
   border-radius: 0 5px 5px 0;
   left: 0;
-  padding: 12px 0;
+  padding: 30px 0;
   position: fixed;
   text-align: center;
-  top: 60px;
+  top: 50px;
   transition-duration: .3s;
-  width: 35px;
+  width: 40px;
 
   &:hover {
     left: 300px;
@@ -146,16 +156,27 @@
     -webkit-transition-duration: .3s;
     background-color: $accent-light;
     border-radius: 0 0 5px;
-    color: $white;
+    color: $black;
     padding: 20px;
     text-align: left;
     transition-duration: .3s;
   }
 
-  // contact links need own color to stand out against orange background
   a {
-    color: $primary-dark;
+    @include link-styles;
   }
+
+  a:hover,
+  a:focus,
+  a:active {
+    @include link-styles-states;
+  }
+}
+
+.contact-tab {
+  transform: rotate(90deg);
+  font-weight: 500;
+  font-size: 0.8em;
 }
 
 #contact_inner {
@@ -172,7 +193,7 @@
   padding: 25px;
   position: fixed;
   text-align: left;
-  top: 60px;
+  top: 50px;
   transition: all .3s;
   width: 300px;
 }

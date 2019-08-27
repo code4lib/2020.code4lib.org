@@ -1,20 +1,20 @@
-<div class="row" style="margin-top: 1em;">
+<div class="row going-on">
     <div class="col-xs-12 col-sm-6 col-md-5">
         {% if include.primary %}
-        <h3 style="margin-top:0;">{{ include.title }}</h3>
+        <h3>{{ include.title }}</h3>
         {% else %}
-        <h5 style="margin-top:0;">{{ include.title }}</h5>
+        <h5>{{ include.title }}</h5>
         {% endif %}
         {% if include.more-info-link.size %}
             <a href="{{ include.more-info-link }}">
         {% endif %}
-                <small>
-                {% if include.more-info-text.size %}
-                    {{ include.more-info-text }}
-                {% elsif include.more-info-text.size %}
-                    More info
-                {% endif %}
-                </small>
+            <small>
+            {% if include.more-info-text.size %}
+                {{ include.more-info-text }}
+            {% elsif include.more-info-text.size %}
+                More info
+            {% endif %}
+            </small>
         {% if include.more-info-link.size %}
             </a>
         {% endif %}

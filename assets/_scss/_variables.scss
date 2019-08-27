@@ -40,12 +40,12 @@ $accent-primary-hover:   lighten($accent-link-primary, 10%) !default;
 // Sections
 $section-2-bg:            $primary;
 $section-2-color:         color-contrast($primary);
-$section-2-link:          $accent-light;
+$section-2-link:          $accent-dark;
 $section-2-hover:         $accent-lighter;
 
 $section-3-bg:            $primary-dark;
 $section-3-color:         $gray-lighter;
-$section-3-link:          $accent-light;
+$section-3-link:          $accent-dark;
 $section-3-hover:         darken($accent-light, 6.5%);
 
 $footer-bg:               $gray-darker;
@@ -64,7 +64,7 @@ $sponsor-badge-ribbon:    $accent-light;
 $sponsor-badge-bg:        $gray-lighter;
 
 // Speaker Box
-$speaker-selected-bg:     $accent;
+$speaker-selected-bg:     $primary;
 $speaker-selected-color:  $gray-lighter;
 $speaker-info-bg:         $gray-light;
 $speaker-info-color:      $gray-base;
@@ -87,7 +87,7 @@ $timeline-content-bg:     $gray-lighter;
 $timeline-content-shadow: $gray;
 
 // Testimonials
-$testimonial-bg:          $accent-dark;
+$testimonial-bg:          $accent;
 $testimonial-border:      $gray-base;
 $testimonial-color:       $primary-dark;
 
@@ -118,9 +118,9 @@ $body-bg:               $gray-lighter !default;
 $text-color:            $gray-base !default;
 
 //** Global textual link color.
-$link-color:            $accent-dark !default;
+$link-color:            $primary !default;
 
-$link-hover-color:      $accent-darker !default;
+$link-hover-color:      $primary-dark !default;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
 
@@ -547,7 +547,7 @@ $pagination-hover-color:               $link-hover-color !default;
 $pagination-hover-bg:                  $gray-lighter !default;
 $pagination-hover-border:              #ddd !default;
 
-$pagination-active-color:              $white !default;
+$pagination-active-color:              $black !default;
 $pagination-active-bg:                 $brand-primary !default;
 $pagination-active-border:             $brand-primary !default;
 
