@@ -2,6 +2,7 @@
 ---
 
 @import '_color-contrast';
+@import '_links';
 @import '_variables';
 @import 'bootstrap/bootstrap';
 @import '_timeline';
@@ -21,7 +22,7 @@ body {
   margin-bottom: 20.3125em;
   padding-bottom: 20px;
   color: $gray-base;
-  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+  font-family: $font-family-sans-serif;
   font-weight: 300;
 }
 
@@ -32,8 +33,12 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-family-sans-serif;
   letter-spacing: .02em;
 
   &.expo {
@@ -42,7 +47,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar {
-  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+  font-family: $font-family-sans-serif;
   font-weight: 300;
 }
 
@@ -88,9 +93,9 @@ p {
 #conferenceInfo {
   background-color: $primary;
   h1 {
-    color: #fff;
+    color: $white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-    font-family: "Alegreya SC","Alegreya",Georgia,Times,serif;
+    font-family: $font-family-serif;
     font-weight: normal;
     letter-spacing: .02em;
     font-size: 2em;
@@ -216,7 +221,7 @@ section:nth-of-type(3n+1) {
 }
 
 section:nth-of-type(3n+2) {
-  border-top: 2px solid $primary; 
+  border-top: 2px solid $primary-light;
 }
 
 section:nth-of-type(3n+3) {
@@ -225,8 +230,38 @@ section:nth-of-type(3n+3) {
   a {
     color: $section-3-link;
   }
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     color: $section-3-hover;
+  }
+}
+
+
+/* ==========================================================================
+   'Going On' Block
+   ========================================================================== */
+
+
+.going-on {
+  margin-top: 1em;
+}
+
+.going-on h3,
+.going-on h5 {
+  margin-top: 0;
+}
+
+.going-on a {
+  &:not(.btn) {
+    @include link-styles;
+  }
+}
+
+.going-on a:hover,
+.going-on a:focus,
+.going-on a:active {
+  &:not(.btn) {
+    @include link-styles-states;
   }
 }
 
@@ -239,17 +274,23 @@ section .general-info {
   color: $gray-base;
 }
 
-section .general-info h2 {
-  border-bottom: 1px solid #eeeeee;
+section .general-info a {
+  &:not(.thumbnail) {
+    @include link-styles;
+  }
+}
+
+section .general-info a:hover,
+section .general-info a:focus,
+section .general-info a:active {
+  &:not(.thumbnail) {
+    @include link-styles-states;
+  }
 }
 
 /* ==========================================================================
    Secondary Navigation
    ========================================================================== */
-
-ul.secondarynav {
-  border: solid 1px light-gray;
-}
 
 ul.secondarynav > li:not(.active):hover {
   border-left: solid 3px $accent;
@@ -265,7 +306,7 @@ ul.secondarynav > li.active > a:hover,
 ul.secondarynav > li.active > a:focus {
   background-color: transparent;
   font-weight: 500;
-  color: $accent-dark;
+  color: $primary;
 }
 
 ul.secondarynav > li.active > a > .secondnav-item,
@@ -275,6 +316,7 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
   text-decoration: none;
   border-bottom: 3px solid $accent;
   margin-bottom: -1px;
+  color: $primary-dark;
 }
 
 /* ==========================================================================
@@ -327,7 +369,8 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
   -webkit-justify-content: space-between;
 }
 
-#testimonials:before, #testimonials:after {
+#testimonials:before,
+#testimonials:after {
   display: none;
 }
 
@@ -403,16 +446,12 @@ ul.secondarynav > li.active > a:focus > .secondnav-item {
   padding: 0 15px;
 }
 
-a.speaker-bio-link {
-  color: darken($accent, 10%);
-  font-weight: 500;
-}
-
 a.speaker-info-toggle {
-  color: $accent;
+  color: $primary-light;
 }
 
-p.speaker-title, p.speaker-bio {
+p.speaker-title,
+p.speaker-bio {
   line-height: 1.5em;
   font-size: 1.1em;
 }
@@ -425,6 +464,24 @@ p.speaker-title {
 p.speaker-bio {
   color: $speaker-info-color;
   padding: 0.5em;
+}
+
+p.speaker-bio a {
+  &:not(.icon) {
+    @include link-styles;
+  }
+}
+
+p.speaker-bio a:hover,
+p.speaker-bio a:focus,
+p.speaker-bio a:active {
+  &:not(.icon) {
+    @include link-styles-states;
+  }
+}
+
+p.speaker-bio .icon--twitter a {
+  border-bottom: none;
 }
 
 p.speaker-bio:not(:nth-of-type(1)) {
@@ -462,7 +519,6 @@ p.speaker-inst {
 
 .speaker-info.show {
   max-height: 600px;
-  border: 2px solid $primary;
   -webkit-transition: max-height .35s ease;
   -o-transition: max-height .35s ease;
   -moz-transition: max-height .35s ease;
@@ -513,13 +569,15 @@ p.speaker-inst {
   color: white;
 }
 
-.speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited {
+.speaker-box.selected a:hover,
+.speaker-box.selected a:focus,
+.speaker-box.selected a:visited {
   color: $speaker-selected-color;
   border: none;
 }
 
 .speaker-box.selected p {
-  color: #fff;
+  color: $white;
 }
 
 .arrow-down {
@@ -568,7 +626,7 @@ p.speaker-inst {
   margin: 10px 0;
   display: block;
   padding: 10px 0 5px 0;
-  border-top: solid 1px white;
+  border-top: solid 1px $white;
 }
 
 .talk-detail-box {
@@ -632,7 +690,7 @@ p.speaker-inst {
 }
 
 .workshop-well {
-  background-color: #ffffff;
+  background-color: $white;
   padding: 10px 10px 0px 10px;
   width: 300px;
   margin-top: 10px;
@@ -663,7 +721,7 @@ p.speaker-inst {
 
 .sched-well {
   text-align: left;
-  background-color: #ffffff;
+  background-color: $white;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
@@ -672,6 +730,16 @@ p.speaker-inst {
 .sched-well h3 {
   padding: 0px 0px 5px 0px;
   text-align: left;
+}
+
+.sched-well h3 a {
+  @include link-styles;
+}
+
+.sched-well h3 a:active,
+.sched-well h3 a:focus,
+.sched-well h3 a:hover {
+  @include link-styles-states;
 }
 
 .sched-well p {
@@ -761,7 +829,7 @@ p.speaker-inst {
 .search_results {
   position: relative;
   display: none;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .search_results i {
@@ -869,9 +937,9 @@ p.speaker-inst {
 }
 
 .event-card {
-  background: #fff;
+  background: $white;
   border-radius: 5px;
-  box-shadow: 3px 3px 9px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, .2);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -884,15 +952,16 @@ p.speaker-inst {
   .img-avatar {
     height: auto;
     width: 4em;
-    border: 2px solid #fff;
+    border: 2px solid $white;
     border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
     box-sizing: border-box;
     max-width: 100px;
-    background: #fff;
+    background: $white;
     --primary-color: #{$sponsor-badge-primary};
-    --background-color: #fff;
+    --background-color: $white;
   }
+
   %card-content {
     padding: 1em;
   }
@@ -900,7 +969,7 @@ p.speaker-inst {
   .card-toolbar {
     @extend %card-content;
     background: $day-event;
-    color: #fff;
+    color: $white;
     height: 3em;
 
     .img-avatar {
@@ -959,7 +1028,8 @@ p.speaker-inst {
     color: $footer-link !important;
   }
 
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     color: $footer-hover;
   }
 
@@ -976,10 +1046,12 @@ p.speaker-inst {
   border-radius: 5px;
   margin-left: 5px;
 
-  &:focus, &:hover {
+  &:focus,
+  &:hover {
     text-decoration: none;
     border: none;
     background: $accent;
+    color: $black;
   }
 }
 
@@ -998,10 +1070,10 @@ p a:-webkit-any-link {
 
 /* above rule causes buttons within <p>s to have dark text on dark bg */
 p a.btn {
-    color: #fff;
+    color: $white;
 
     &:hover {
-      color: #fff;
+      color: $white;
     }
 }
 

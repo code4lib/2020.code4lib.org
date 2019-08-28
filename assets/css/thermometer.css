@@ -50,7 +50,8 @@
   }
 }
 
-.goal-number, .goal-label {
+.goal-number,
+.goal-label {
   display: block;
 }
 
