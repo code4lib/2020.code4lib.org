@@ -146,9 +146,10 @@ p {
 /*
  The following breakpoint is based on the dimensions of the selected hero image
  It should be equal to 325 * (image's natural width) / (image's natural height)
+ 2019 note: This math did not work out for a 2876x913 image, where min-width in line 152 should have, according to above math, been 1020. Instead 1160 is the number that works with this year's hero image.
  */
 
-@media (min-width: 651px) {
+@media (min-width: 1160px) {
   .hero-image img{
     width: 100%;
     height: auto;
@@ -216,7 +217,7 @@ section:nth-of-type(3n+1) {
 }
 
 section:nth-of-type(3n+2) {
-  border-top: 2px solid $primary; 
+  border-top: 2px solid $primary;
 }
 
 section:nth-of-type(3n+3) {
