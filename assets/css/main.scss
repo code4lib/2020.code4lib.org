@@ -19,11 +19,11 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 20.3125em;
-  padding-bottom: 20px;
   color: $gray-base;
   font-family: $font-family-sans-serif;
   font-weight: 300;
+  margin-bottom: 20.3125em;
+  padding-bottom: 20px;
 }
 
 // halve blockquote padding on smaller screens
@@ -127,7 +127,6 @@ p {
     background-color: $jumbotron-btn-color;
     color: $gray-base;
   }
-
 }
 
 #heroImageAttribution{
@@ -155,7 +154,7 @@ p {
  */
 
 @media (min-width: 1160px) {
-  .hero-image img{
+  .hero-image img {
     width: 100%;
   }
 }
@@ -166,12 +165,12 @@ p {
     height: 370px;
   }
 
-  .hero-image img{
+  .hero-image img {
     position: absolute;
     z-index: -9999;
   }
 
-  #conferenceInfo h1{
+  #conferenceInfo h1 {
       max-width: 1170px;
       margin-left: auto;
       margin-right: auto;
@@ -206,6 +205,16 @@ p {
   }
 }
 
+// "Welcome to..." section of the home page
+.welcome a {
+  @include link-styles;
+  &:hover,
+  &:focus,
+  &:active {
+    @include link-styles-states;
+  }
+}
+
 /* ==========================================================================
    Sections
    ========================================================================== */
@@ -221,7 +230,7 @@ section:nth-of-type(3n+1) {
 }
 
 section:nth-of-type(3n+2) {
-  border-top: 2px solid $primary-light;
+  border-top: 2px solid $gray-light;
 }
 
 section:nth-of-type(3n+3) {
@@ -277,16 +286,15 @@ section .general-info {
 section .general-info a {
   &:not(.thumbnail) {
     @include link-styles;
+    &:hover,
+    &:focus,
+    &:active {
+      @include link-styles-states;
+    }
   }
 }
 
-section .general-info a:hover,
-section .general-info a:focus,
-section .general-info a:active {
-  &:not(.thumbnail) {
-    @include link-styles-states;
-  }
-}
+
 
 /* ==========================================================================
    Secondary Navigation
@@ -789,32 +797,30 @@ p.speaker-inst {
 }
 
 .tasting-menu h4 {
-  text-align: center;
-  color: $menu-banner-color;
-  text-transform: uppercase;
   background: $menu-banner-bg;
-  text-align: center;
-  padding: 20px 60px;
+  border-bottom: 10px solid $menu-banner-accent;
+  color: $menu-banner-color;
+  font: 48px/1 $font-family-serif, serif;
   margin-bottom: 26px;
-  font: 48px/1 din-condensed-web, sans-serif;
-  background-color: $menu-banner-bg;
-  padding: 10px 20px;
   margin-top: 0;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .tasting-menu .tasting-options h5 {
-  font-style: normal;
   color: $menu-headers;
-  font-family: din-condensed-web, sans-serif;
-  font-size: 20px;
+  font-family: $font-family-serif, serif;
+  font-size: 28px;
+  font-style: normal;
 }
 
 .tasting-menu .tasting-options .items li {
-  text-transform: none;
+  border: 0;
+  color: $menu-color;
   font-style: italic;
   margin: 0;
-  color: $menu-color;
-  border: 0;
+  text-transform: none;
 }
 
 .tasting-menu img {
@@ -858,7 +864,6 @@ p.speaker-inst {
 #search_results li {
   padding: 1em;
 }
-
 
 /* ==========================================================================
    Ajax Loader (may be unused)
@@ -1060,21 +1065,14 @@ a:-webkit-any-link {
 }
 
 p a:-webkit-any-link {
-  text-decoration: none;
-  color: $accent-dark;
-  font-weight: 500;
-  &:hover {
-    color: $accent-darker;
-  }
-}
-
-/* above rule causes buttons within <p>s to have dark text on dark bg */
-p a.btn {
-    color: $white;
-
-    &:hover {
-      color: $white;
+  &:not(.btn) {
+    @include link-styles;
+    &:hover,
+    &:focus,
+    &:active {
+      @include link-styles-states;
     }
+  }
 }
 
 .subfoot {
