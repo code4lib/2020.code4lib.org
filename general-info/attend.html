@@ -17,7 +17,7 @@ active: Attend Code4Lib
                             <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.conf.conference-registration.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
                         {% endif %}
                     {% else %}
-                        <p>Code4Lib will be held from {{site.data.conf.days[0].date}} to {{site.data.conf.days.last.date}} this year. We have reserved a block at the {{site.data.conf.venue-name}}; see more details on the <a href="venues/">Venues</a> page.</p>
+                        <p>Code4Lib will be held from {{site.data.conf.days[0].date}} to {{site.data.conf.days.last.date}} this year. We have reserved a block at the {{site.data.conf.venue.name}}; see more details on the <a href="venues/">Venues</a> page.</p>
                     {% endif %}
 
                     {% if site.data.conf.workshop-registration.show %}
@@ -36,7 +36,7 @@ active: Attend Code4Lib
                     <li><strong>Main Conference (after January 23rd)</strong> : $450</li>
                     <li><strong>Pre-Conference </strong>: $50 per half day ($100 for full day)</li>
                     <li><strong>Reception "plus one"</strong>: $60 (limit one "plus one" per registration)</li>
-                    <li><strong>{{site.data.conf.venue-name}}</strong>: $200/night plus taxes</li>
+                    <li><strong>{{site.data.conf.venue.name}}</strong>: $200/night plus taxes</li>
                 </ul>
 
                 <p>

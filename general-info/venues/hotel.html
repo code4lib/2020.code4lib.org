@@ -1,25 +1,26 @@
 <section class="general-info">
     <div class="col-xs-12">
         <h2 id="conference-hotel">Conference Hotel</h2>
-        <p><a href="http://doubletree3.hilton.com/resources/media/dt/JOSE-DT/en_US/pdf/JOSE.Floorplans.May04.pdf">Hotel Floor Plan</a></p>
 
-        <p>Code4Lib {{site.data.conf.year}} will be held at {{site.data.conf.venue-name}} in {{site.data.conf.location}}.</p>
+        <p>Code4Lib {{site.data.conf.year}} will be held at {{site.data.conf.venue.name}} in {{site.data.conf.location}}.</p>
 
+        {% if site.data.conf.venue.image %}
         <div class="col-xs-6">
-            <a href="{{site.data.conf.venue-website}}">
-            <img class="img-responsive" src="/assets/img/venues/doubletree.jpg" alt="DoubleTree San Jose"></a>
+            <a href="{{site.data.conf.venue.website}}">
+            <img class="img-responsive" src="{{ site.data.conf.venue.image | relative_url }}" alt="{{ site.data.conf.venue.name }}"></a>
         </div>
+        {% endif %}
 
         <div class="col-xs-6">
             <p>
-                {{site.data.conf.venue-street}}<br>
-                {{site.data.conf.city-state}} {{site.data.conf.venue-postal-code}}<br>
-                <a href="tel:{{site.data.conf.venue-phone}}">{{site.data.conf.venue-phone}}</a>
-                 | <a href="{{site.data.conf.venue-website}}">website</a>
-                 | <a href="{{site.data.conf.venue-floorplan}}">Floor Plan</a>
+                {{site.data.conf.venue.street}}<br>
+                {{site.data.conf.city-state}} {{site.data.conf.venue.postal-code}}<br>
+                <a href="tel:{{site.data.conf.venue.phone}}">{{site.data.conf.venue.phone}}</a>
+                 | <a href="{{site.data.conf.venue.website}}">website</a>
+                 | <a href="{{site.data.conf.venue.floorplan}}">Floor Plan</a>
             </p>
             <p>
-                <strong><a href="http://doubletree3.hilton.com/en/hotels/california/doubletree-by-hilton-hotel-san-jose-JOSE-DT/maps-directions/index.html">Getting to DoubleTree San Jose</a></strong>
+                <strong><a href="{{site.data.conf.venue.directions}}">Getting to {{site.data.conf.venue.name}}</a></strong>
             </p>
         </div>
     </div>
