@@ -35,14 +35,15 @@ days:
 #Short Form for location
 city-state: 'Pittsburgh PA'
 
-#Conference
-venue-name: 'The Westin Pittsburgh'
-venue-street: '1000 Penn Avenue'
-venue-postal-code:  '15222'
-venue-phone: '+1(412)281-3700'
-venue-website: 'https://www.marriott.com/hotels/travel/pitwi-the-westin-pittsburgh/'
-venue-floorplan: 'https://www.marriott.com/hotels/event-planning/business-meeting/pitwi-the-westin-pittsburgh/#FloorplanLayoutf689'
-venue-a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
+venue:
+    name: 'The Westin Pittsburgh'
+    street: '1000 Penn Avenue'
+    postal-code:  '15222'
+    phone: '+1(412)281-3700'
+    image: '/assets/img/venues/westin.jpg'
+    website: 'https://www.marriott.com/hotels/travel/pitwi-the-westin-pittsburgh/'
+    floorplan: 'https://www.marriott.com/hotels/event-planning/business-meeting/pitwi-the-westin-pittsburgh/#FloorplanLayoutf689'
+    a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
 #
 # reception-venue: 'The Tech Museum of Innovation'
 # reception-street: '201 South Market Street'
