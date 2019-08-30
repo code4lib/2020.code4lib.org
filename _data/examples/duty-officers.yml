@@ -1,7 +1,20 @@
-- id: lastname
-  name: Full Name
-  img: assets/img/duty-officers/image.jpg
+surname:
+    name: Full Name
+    img: assets/img/nopics/nopic2.jpg
+    slack_handle: fnslack
+    onsite: true
+    online: false
 
-- id: lastname
-  name: Full Name2
-  img: assets/img/duty-officers/image2.jpg
+othersurname:
+    name: Duty Officer
+    img: assets/img/nopics/nopic3.jpg
+    slack_handle: dutydude
+    onsite: true
+    online: false
+
+drrobot:
+    name: Dr Robot
+    img: assets/img/nopics/nopic1.jpg
+    slack_handle: drrobot
+    onsite: false
+    online: true
