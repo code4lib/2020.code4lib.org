@@ -3,17 +3,17 @@
    ========================================================================== */
 
 .footer {
+  background-color: $footer-bg;
   bottom: 0;
   box-sizing: border-box;
-  left: 0;
+  color: $footer-color;
   height: 21.6125em;
+  left: 0;
+  padding-top: 3em;
   position: absolute;
   right: 0;
-  width: 100%;
-  color: $footer-color;
-  background-color: $footer-bg;
-  padding-top: 3em;
   text-align: center;
+  width: 100%;
 
   p {
     font-size: .8em;
@@ -29,24 +29,24 @@
   }
 
   ul {
-    margin-top: 1.25em;
     margin-bottom: 1.25em;
+    margin-top: 1.25em;
   }
 }
 
 .username {
-  color: $gray-lighter;
   background: $primary;
-  padding: 5px 10px;
   border-radius: 5px;
+  color: $gray-lighter;
   margin-left: 5px;
+  padding: 5px 10px;
 
   &:focus,
   &:hover {
-    text-decoration: none;
-    border: none;
     background: $accent;
+    border: none;
     color: $black;
+    text-decoration: none;
   }
 }
 
@@ -55,8 +55,10 @@ a:-webkit-any-link {
 }
 
 p a:-webkit-any-link {
+
   &:not(.btn) {
     @include link-styles;
+
     &:hover,
     &:focus,
     &:active {
@@ -70,7 +72,7 @@ p a:-webkit-any-link {
 }
 
 @media (min-width: $screen-sm-min) {
-  .footer{
+  .footer {
     padding: 5em 0;
   }
 }

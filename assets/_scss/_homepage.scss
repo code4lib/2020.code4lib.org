@@ -3,24 +3,25 @@
    ========================================================================== */
 
 .jumbotron {
-  padding: 0;
   background-color: transparent;
   overflow: hidden;
+  padding: 0;
 }
 
 #conferenceInfo {
   background-color: $primary;
+
   h1 {
+    background-color: fade-out($primary-light, .35);
     color: $white;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
     font-family: $font-family-serif;
+    font-size: 2em;
     font-weight: normal;
     letter-spacing: .02em;
-    font-size: 2em;
-    margin-top: -1.2em;
     margin-bottom: 0;
+    margin-top: -1.2em;
     padding: .2em;
-    background-color: fade-out($primary-light, .35);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 
     small {
       color: inherit;
@@ -30,20 +31,20 @@
 }
 
 #conferenceActions {
-  text-align: center;
   margin-bottom: 1em;
+  text-align: center;
 
   .btn {
     background-color: transparent;
     border: 2px solid $jumbotron-btn-color;
-    color: $jumbotron-btn-color;
     border-radius: 0;
+    color: $jumbotron-btn-color;
     margin: .5em .5em 0 0;
-  }
 
-  .btn:hover {
-    background-color: $jumbotron-btn-color;
-    color: $gray-base;
+    &:hover {
+      background-color: $jumbotron-btn-color;
+      color: $gray-base;
+    }
   }
 }
 
@@ -51,10 +52,11 @@
    Hero Image
    ========================================================================== */
 
-#heroImageAttribution{
+#heroImageAttribution {
   background-color: $accent;
   color: $primary-dark;
   font-size: .9em;
+
   a {
     color: $primary-dark;
   }
@@ -93,24 +95,26 @@
   }
 
   #conferenceInfo h1 {
-      max-width: 1170px;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 3em;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
   }
 
   #conferenceActions {
-    text-align: left;
-    max-width: 1050px;
     margin: 0 auto;
+    max-width: 1050px;
+    text-align: left;
+
     .btn {
-      margin-right: 1em;
       float: left;
+      margin-right: 1em;
     }
   }
 }
 
 @media (min-width: $screen-md-min) {
+
   #conferenceInfo h1 {
     font-size: 4.5em;
   }
@@ -130,6 +134,7 @@
 // "Welcome to..." section of the home page
 .welcome a {
   @include link-styles;
+
   &:hover,
   &:focus,
   &:active {

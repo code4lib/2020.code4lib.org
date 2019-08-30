@@ -17,7 +17,7 @@
 }
 
 .sponsor-annotation {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid $gray-lighter;
   font-size: 1.2em;
   font-style: italic;
   margin: 1em 2em -.8em;
@@ -97,15 +97,14 @@
 #prospectus a {
   &:not(.btn) {
     @include link-styles;
-  }
-}
 
-#prospectus a:active,
-#prospectus a:hover,
-#prospectus a:focus {
-  &:not(.btn) {
-    @include link-styles-states;
+    &:active,
+    &:focus,
+    &:hover {
+      @include link-styles-states;
+    }
   }
+
 }
 
 @media(max-width: 992px) {

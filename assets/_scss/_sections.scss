@@ -19,12 +19,15 @@ section:nth-of-type(3n+2) {
 section:nth-of-type(3n+3) {
   background: $section-3-bg;
   color: $section-3-color;
+
   a {
     color: $section-3-link;
-  }
-  a:hover,
-  a:focus {
-    color: $section-3-hover;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $section-3-hover;
+    }
   }
 }
 
@@ -38,8 +41,9 @@ section .general-info {
 }
 
 section .general-info a {
-  &:not(.thumbnail) {
+  &:not(.thumbnail):not(.btn) {
     @include link-styles;
+
     &:hover,
     &:focus,
     &:active {

@@ -38,7 +38,7 @@
             {% for talk in talks  %}
                 {% for speaker_id in talk.speakers %}
                     {% if speaker_id == speaker.id %}
-                    <h4>Talk: <a href="{{ talk.url }}">{{ talk.title }}</a></h4>
+                    <p class="speaker-session">Talk: <a href="{{ talk.url }}">{{ talk.title }}</a></p>
                     {% endif %}
                 {% endfor %}
             {% endfor %}
@@ -47,7 +47,7 @@
             {% for shop in workshops  %}
                 {% for speaker_id in shop.speakers %}
                     {% if speaker_id == speaker.id %}
-                    <h4>Workshop: <a href="{{ shop.url }}">{{ shop.title }}</a></h4>
+                    <p class="speaker-session">Workshop: <a href="{{ shop.url }}">{{ shop.title }}</a></p>
                     {% endif %}
                 {% endfor %}
             {% endfor %}

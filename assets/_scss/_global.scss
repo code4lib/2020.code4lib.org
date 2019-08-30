@@ -3,8 +3,8 @@
    ========================================================================== */
 
 html {
-  position: relative;
   min-height: 100%;
+  position: relative;
 }
 
 body {
@@ -18,9 +18,9 @@ body {
 
 // halve blockquote padding on smaller screens
 @media screen and (max-width: $screen-sm) {
-    blockquote {
-        padding: ($line-height-computed / 4) ($line-height-computed / 2);
-    }
+  blockquote {
+    padding: ($line-height-computed / 4) ($line-height-computed / 2);
+  }
 }
 
 h1,
@@ -46,8 +46,8 @@ p {
 }
 
 .modal-backdrop.in {
-  opacity: 0.5;
   filter: alpha(opacity=50);
+  opacity: .5;
   z-index: 0;
 }
 
@@ -56,10 +56,10 @@ p {
 }
 
 .sequence {
-  padding: 0;
-  margin: 0;
-  display: flex;
   -webkit-flex-flow: row wrap;
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
