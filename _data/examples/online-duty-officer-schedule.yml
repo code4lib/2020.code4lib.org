@@ -1,47 +1,47 @@
 - day: Tuesday
   interval: 9 a.m. - 12 p.m. EST
-  officer: locascio
+  officer: drrobot
 
 - day: Tuesday
   interval: 2 p.m. - 5 p.m. EST
-  officer: quon
+  officer: drrobot
 
 - day: Wednesday
   interval: 9 a.m. - 11 a.m. EST
-  officer: locascio
+  officer: drrobot
 
 - day: Wednesday
   interval: 11 a.m. - 1 p.m. EST
-  officer: coyle
+  officer: surname
 
 - day: Wednesday
   interval: 1 p.m. - 3 p.m. EST
-  officer: kim
+  officer: surname
 
 - day: Wednesday
   interval: 3 p.m. - 5 p.m. EST
-  officer: hutchinson
+  officer: surname
 
 - day: Thursday
   interval: 9 a.m. - 11 a.m. EST
-  officer: locascio
+  officer: drrobot
 
 - day: Thursday
   interval: 11 a.m. - 1 p.m. EST
-  officer: coyle
+  officer: surname
 
 - day: Thursday
   interval: 1 p.m. - 3 p.m. EST
-  officer: quon
+  officer: drrobot
 
 - day: Thursday
   interval: 3 p.m. - 5:15 p.m. EST
-  officer: hutchinson
+  officer: surname
 
 - day: Friday
   interval: 9 a.m. - 11 a.m. EST
-  officer: kim
+  officer: surname
 
 - day: Friday
   interval: 11 a.m. - 12:35 p.m. EST
-  officer: coyle
+  officer: surname
