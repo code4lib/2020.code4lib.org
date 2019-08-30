@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Single Presentation/Workshop page
+   ========================================================================== */
+
+.past-slides {
+  font-size: 2em;
+  display: block;
+}
+
+.talk-row:nth-child(odd) {
+  background-color: #e9e9e9;
+}
+
+.talk-row {
+  padding: 11px 0 11px 11px;
+  margin-top: 11px;
+}
+
+.back-workshops {
+  color: white;
+  margin: 10px 0;
+  display: block;
+  padding: 10px 0 5px 0;
+  border-top: solid 1px $white;
+}
+
+.talk-detail-box {
+  animation: intro .34s .4s cubic-bezier(1.000, 1.400, 0.410, 1.010) forwards;
+  transform: translateY(-50%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+  border-radius: 10px;
+  background: $talk-box-bg;
+  box-shadow: 4px 5px 0px $talk-box-shadow;
+  margin-bottom: 100px;
+  color: $talk-box-color;
+}
+
+.talk-detail-box .time-slot {
+  background: $talk-box-2-bg;
+  color: $talk-box-2-color;
+}
+
+.talk-detail-box .building {
+  background: $talk-box-bg;
+  background: $talk-box-color;
+}
+
+.talk-detail-box .time-length {
+  background: $talk-box-3-bg;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: $talk-box-3-color;
+}
+
+.talk-box-detail-icon {
+  display: table-cell;
+  width: 50px;
+  height: 100px;
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.talk-box-detail-value {
+  display: table-cell;
+  width: 100%;
+  height: 100px;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+@keyframes intro {
+  0%{transform: translateY(25%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(40deg)}
+  100%{transform: translateY(25%) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
+}
+
+/* ==========================================================================
+   Presentation/Workshop index page
+   ========================================================================== */
+
+#workshop-sorting-div {
+  margin-bottom: 20px;
+}
+
+.workshop-well {
+  background-color: $white;
+  padding: 10px 10px 0px 10px;
+  width: 300px;
+  margin-top: 10px;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.workshop-well p {
+  line-height: 1.3em;
+  font-size: .9em;
+  word-break: break-all;
+}
+
+.workshop-well.top-10 {
+  background-color: lightgoldenrodyellow;
+}
+
+.sched-date {
+  margin-bottom: 20px;
+}

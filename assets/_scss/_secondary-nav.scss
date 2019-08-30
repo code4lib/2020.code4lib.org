@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Secondary Navigation
+   ========================================================================== */
+
+ul.secondarynav > li:not(.active):hover {
+  border-left: solid 3px $accent;
+}
+
+ul.secondarynav > li.active > ul > li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+ul.secondarynav > li.active > a,
+ul.secondarynav > li.active > a:hover,
+ul.secondarynav > li.active > a:focus {
+  background-color: transparent;
+  font-weight: 500;
+  color: $primary;
+}
+
+ul.secondarynav > li.active > a > .secondnav-item,
+ul.secondarynav > li.active > a:hover > .secondnav-item,
+ul.secondarynav > li.active > a:focus > .secondnav-item {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 3px solid $accent;
+  margin-bottom: -1px;
+  color: $primary-dark;
+}

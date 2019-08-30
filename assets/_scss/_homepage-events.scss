@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Homepage event-cards
+   ========================================================================== */
+
+.event-day {
+  &.active {
+    transform: scale(1.1);
+  }
+  &.past {
+    opacity: .7;
+  }
+}
+
+.event-card {
+  background: $white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, .2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: .5em 0;
+  overflow: hidden;
+  padding: 0;
+  min-height: 13em;
+  width: 100%;
+
+  .img-avatar {
+    height: auto;
+    width: 4em;
+    border: 2px solid $white;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    max-width: 100px;
+    background: $white;
+    --primary-color: #{$sponsor-badge-primary};
+    --background-color: $white;
+  }
+
+  %card-content {
+    padding: 1em;
+  }
+
+  .card-toolbar {
+    @extend %card-content;
+    background: $day-event;
+    color: $white;
+    height: 3em;
+
+    .img-avatar {
+      position: relative;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      z-index:999;
+    }
+
+    &.night {
+      background: $night-event;
+    }
+  }
+
+  .card-body {
+    @extend %card-content;
+    padding: 1em 1em .4em;
+    overflow: hidden;
+    text-align: center;
+
+    h3 {
+      font-size: 1.5em;
+    }
+
+    p {
+      color: #a1a1a1;
+      margin: 0;
+      line-height: initial;
+    }
+  }
+}
