@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Clip-circles
+   ========================================================================== */
+
+.clip-circle {
+  display: block;
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  margin: 0 auto .2em;
+  background: $clip-circle-border;
+  border: 6px solid $clip-circle-border;
+  box-sizing: content-box;
+}
+
+.clip-circle-speaker {
+  background: $clip-circle-border;
+  border: 6px solid $clip-circle-border;
+  display: block;
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  margin: 0 auto .2em;
+  box-sizing: content-box;
+}
+
+.clip-circle-lg {
+  display: block;
+  height: 172px;
+  width: 172px;
+  border-radius: 50%;
+  margin: 0 auto .2em;
+  background: $clip-circle-border;
+  border: 3px solid $clip-circle-border;
+  box-sizing: content-box;
+}

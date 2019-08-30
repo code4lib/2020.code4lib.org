@@ -1,0 +1,27 @@
+/* ==========================================================================
+   'Going On' Block
+   ========================================================================== */
+
+
+.going-on {
+  margin-top: 1em;
+}
+
+.going-on h3,
+.going-on h5 {
+  margin-top: 0;
+}
+
+.going-on a {
+  &:not(.btn) {
+    @include link-styles;
+  }
+}
+
+.going-on a:hover,
+.going-on a:focus,
+.going-on a:active {
+  &:not(.btn) {
+    @include link-styles-states;
+  }
+}

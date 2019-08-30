@@ -1,0 +1,171 @@
+/* ==========================================================================
+   Speaker Boxes
+   ========================================================================== */
+
+.speaker-name {
+  margin-top: 8px;
+  font-size: 1.65em;
+  margin-bottom: 5px;
+}
+
+.speaker-mini {
+  height: 5.2em;
+  padding: 0 15px;
+}
+
+a.speaker-info-toggle {
+  color: $primary-light;
+}
+
+p.speaker-title,
+p.speaker-bio {
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+p.speaker-title {
+  padding: 0.2em 0.5em;
+  margin-bottom: 0;
+}
+
+p.speaker-bio {
+  color: $speaker-info-color;
+  padding: 0.5em;
+}
+
+p.speaker-bio a {
+  &:not(.icon) {
+    @include link-styles;
+  }
+}
+
+p.speaker-bio a:hover,
+p.speaker-bio a:focus,
+p.speaker-bio a:active {
+  &:not(.icon) {
+    @include link-styles-states;
+  }
+}
+
+p.speaker-bio .icon--twitter a {
+  border-bottom: none;
+}
+
+p.speaker-bio:not(:nth-of-type(1)) {
+  margin-bottom: 5px;
+  padding-top: 0;
+}
+
+p.speaker-title {
+  font-weight: 400;
+}
+
+p.speaker-inst {
+  line-height: 1.4em;
+  font-size: 1.1em;
+  position: relative;
+  z-index: 100;
+}
+
+.speaker-info {
+  background-color: $speaker-info-bg;
+  width: 900px;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-radius: 5px;
+  max-height:0;
+  border: none;
+  overflow: hidden;
+  -webkit-transition: max-height .15s ease;
+  -o-transition: max-height .15s ease;
+  -moz-transition: max-height .15s ease;
+  transition: max-height .15s ease;
+}
+
+.speaker-info.show {
+  max-height: 600px;
+  -webkit-transition: max-height .35s ease;
+  -o-transition: max-height .35s ease;
+  -moz-transition: max-height .35s ease;
+  transition: max-height .35s ease;
+  transition-delay: .15s;
+}
+
+.speaker-info-inner {
+  padding: 20px 15px 10px 15px;
+}
+
+.speaker-info-inner h4 {
+  padding: 0.5em;
+  color: $speaker-info-color;
+}
+
+.speaker-info-inner h4 a {
+  color: $accent-dark;
+}
+
+.speaker-info-inner h4 a:focus,
+.speaker-info-inner h4 a:hover {
+  color: $accent-darker;
+}
+
+.speaker-box {
+  padding: 10px 10px 0px 10px;
+  width: 300px;
+  margin-top: 10px;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.speaker-box-inner {
+  padding: 15px 0;
+  width: 100%
+}
+
+.speaker-box.selected .speaker-box-inner {
+  background-color: $speaker-selected-bg;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.speaker-box.selected a {
+  color: white;
+}
+
+.speaker-box.selected a:hover,
+.speaker-box.selected a:focus,
+.speaker-box.selected a:visited {
+  color: $speaker-selected-color;
+  border: none;
+}
+
+.speaker-box.selected p {
+  color: $white;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  position: absolute;
+  z-index: 99;
+  border-top: 15px solid $speaker-selected-bg;
+  margin-top: 15px;
+  opacity: 0;
+}
+
+.speaker-box.selected .arrow-down{
+  opacity: 1;
+}
+
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}

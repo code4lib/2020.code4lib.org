@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Global
+   ========================================================================== */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  color: $gray-base;
+  font-family: $font-family-sans-serif;
+  font-weight: 300;
+  margin-bottom: 20.3125em;
+  padding-bottom: 20px;
+}
+
+// halve blockquote padding on smaller screens
+@media screen and (max-width: $screen-sm) {
+    blockquote {
+        padding: ($line-height-computed / 4) ($line-height-computed / 2);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-family-sans-serif;
+  letter-spacing: .02em;
+
+  &.expo {
+    border-bottom: 1px solid $gray-light;
+  }
+}
+
+.navbar {
+  font-family: $font-family-sans-serif;
+  font-weight: 300;
+}
+
+p {
+  line-height: 2em;
+}
+
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  z-index: 0;
+}
+
+.modal-dialog {
+  z-index: 1;
+}
+
+.sequence {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
