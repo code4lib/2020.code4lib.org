@@ -128,9 +128,9 @@ keynote-proposals:
   end-date: "2018-10-22"
 
 workshop-proposals:
-  show: false
-  submission-form: "https://goo.gl/forms/DXyX8OGKBtHKkXzv1"
-  end-date: "2018-10-11"
+  show: true
+  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLScx95r2tJExNVDkBOdKdKe2jKij7lHhTcja7aXgDS1z9mmFPQ/viewform"
+  end-date: "2019-10-04"
 
 talk-proposals:
   show: false
