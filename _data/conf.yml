@@ -69,6 +69,7 @@ social-links:
 main-conf-email: "code4lib@concentra-cms.com"
 sponsor-contact-email: "code4lib.sponsorship@gmail.com"
 scholarship-contact-email: "code4libaward@gmail.com"
+workshop-contact-email: "jglenn@andrew.cmu.edu"
 lpc-contact-email: "code4liblpc@gmail.com"
 accessibility-email: "code4lib.accessibility@gmail.com"
 # when empty, community support volunteers page will use main-conf-email
