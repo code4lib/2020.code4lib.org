@@ -19,7 +19,7 @@ categories: preconf
     <div class="row">
         <div class="col-xs-12">
             <p>
-                Pre-conferences can either be a 1-day (six hour) or a 1/2-day (three hour) session and will occur on Tuesday, February 19, {{site.data.conf.year}}.
+                Pre-conferences can either be a 1-day (six hour) or a 1/2-day (three hour) session and will occur on {{ site.data.conf.days[0].weekday }}, {{ site.data.conf.days[0].date }}, {{ site.data.conf.year }}.
             </p>
             <p>
                 The pre-conference sessions give folks a space to share and build
@@ -32,19 +32,19 @@ categories: preconf
             </p>
             <p>
                 If you're looking for inspiration, there are many great examples of pre-conferences from previous years.
-                <ul>
-                    <li><a href="http://2018.code4lib.org/workshops/">2018 Conference</a></li>
-                    <li><a href="http://2017.code4lib.org/workshops/">2017 Conference</a></li>
-                    <li><a href="http://2016.code4lib.org/workshops/">2016 Conference</a></li>
-                </ul>
+                {% assign lastyear =  site.data.conf.year | minus: 1 %}
+                <ul>{% for year in (2016..lastyear) reversed %}
+                    <li><a href="http://{{year}}.code4lib.org/workshops/">{{year}} Conference</a></li>
+                {% endfor %}</ul>
             </p>
             <p>
-                We are taking proposals until October 11, 2018, 5pm PST/8pm EST. After a period
-                of public voting on workshops, we hope to confirm sessions with
+                We are taking proposals until
+                {{ site.data.conf.workshop-proposals.end-date | date: '%A, %B %d' }}.
+                After a period of public voting on workshops, we hope to confirm sessions with
                 facilitators shortly after.
             </p>
             <p>
-                If you have any questions, please do not hesitate to contact us by emailing Kathleen Haley at <a href="mailto:KHaley@mwa.org">KHaley@mwa.org</a>.
+                If you have any questions, please do not hesitate to contact us by emailing <a href="mailto:{{ site.data.conf.workshop-contact-email }}">{{ site.data.conf.workshop-contact-email }}</a>.
             </p>
         </div>
     </div>
