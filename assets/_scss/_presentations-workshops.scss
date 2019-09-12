@@ -3,35 +3,35 @@
    ========================================================================== */
 
 .past-slides {
-  font-size: 2em;
   display: block;
+  font-size: 2em;
 }
 
 .talk-row:nth-child(odd) {
-  background-color: #e9e9e9;
+  background-color: $gray-lighter;
 }
 
 .talk-row {
-  padding: 11px 0 11px 11px;
   margin-top: 11px;
+  padding: 11px 0 11px 11px;
 }
 
 .back-workshops {
-  color: white;
-  margin: 10px 0;
-  display: block;
-  padding: 10px 0 5px 0;
   border-top: solid 1px $white;
+  color: $black;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 0 5px 0;
 }
 
 .talk-detail-box {
-  animation: intro .34s .4s cubic-bezier(1.000, 1.400, 0.410, 1.010) forwards;
-  transform: translateY(-50%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(10deg);
-  border-radius: 10px;
+  animation: intro .34s .4s cubic-bezier(1, 1.4, .41, 1.01) forwards;
   background: $talk-box-bg;
+  border-radius: 10px;
   box-shadow: 4px 5px 0px $talk-box-shadow;
-  margin-bottom: 100px;
   color: $talk-box-color;
+  margin-bottom: 100px;
+  transform: translateY(-50%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(10deg);
 }
 
 .talk-detail-box .time-slot {
@@ -41,7 +41,6 @@
 
 .talk-detail-box .building {
   background: $talk-box-bg;
-  background: $talk-box-color;
 }
 
 .talk-detail-box .time-length {
@@ -53,27 +52,27 @@
 
 .talk-box-detail-icon {
   display: table-cell;
-  width: 50px;
+  font-size: 20px;
   height: 100px;
-  vertical-align: middle;
   padding: 10px;
-  font-size: 16px;
+  vertical-align: middle;
+  width: 50px;
 }
 
 .talk-box-detail-value {
   display: table-cell;
-  width: 100%;
-  height: 100px;
-  vertical-align: middle;
   font-size: 25px;
   font-weight: bold;
-  text-align: left;
+  height: 100px;
   padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
 }
 
 @keyframes intro {
-  0%{transform: translateY(25%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(40deg)}
-  100%{transform: translateY(25%) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
+  0% {transform: translateY(25%) scale(0) rotateX(10deg) rotateY(10deg) rotateZ(40deg)}
+  100% {transform: translateY(25%) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
 }
 
 /* ==========================================================================
@@ -85,21 +84,31 @@
 }
 
 .workshop-well {
-  background-color: $white;
-  padding: 10px 10px 0px 10px;
-  width: 300px;
-  margin-top: 10px;
-  display: flex;
   -webkit-flex-flow: row wrap;
+  background-color: $white;
+  border-radius: 5px;
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 10px 0px;
+  width: 300px;
 }
 
 .workshop-well p {
-  line-height: 1.3em;
   font-size: .9em;
+  line-height: 1.3em;
   word-break: break-all;
+}
+
+.workshop-well a {
+  @include link-styles;
+
+  &:hover,
+  &:focus,
+  &:active {
+    @include link-styles-states;
+  }
 }
 
 .workshop-well.top-10 {
