@@ -45,12 +45,13 @@ venue:
     floorplan: 'https://www.marriott.com/hotels/event-planning/business-meeting/pitwi-the-westin-pittsburgh/#FloorplanLayoutf689'
     directions: 'https://www.marriott.com/hotels/maps/travel/pitwi-the-westin-pittsburgh/'
     a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
-#
-# reception-venue: 'The Tech Museum of Innovation'
-# reception-street: '201 South Market Street'
-# reception-postal-code: '95113'
-# reception-phone: '+1(408) 294-8324'
-# reception-contact: 'info@thetech.org'
+
+# Reception
+reception-venue: 'Carnegie Museum of Pittsburgh - Oakland'
+reception-street: '4400 Forbes Ave'
+reception-postal-code: '15213'
+reception-phone: '+1(412)-353-4795'
+reception-contact: 'straubn@carnegiemuseums.org'
 
 #############################
 # C4l Links
@@ -237,8 +238,8 @@ libtech-women:
     hashtag: libtechwomen
 
 reception:
-    show: false
-    date: ""
+    show: true
+    date: "2020-03-09"
 
 karaoke-night:
     show: false
