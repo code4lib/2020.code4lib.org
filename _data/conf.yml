@@ -112,7 +112,7 @@ call-for-sponsors: true
 homepage-sponsor-button: true
 # can be relative or absolute URL to document
 prospectus-document: ''
-sponsor-btn-link: 'mailto:code4lib.sponsorship@gmail.com'
+sponsor-btn-link: 'https://www.eiseverywhere.com/sponsor.c4l20'
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
