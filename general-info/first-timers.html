@@ -61,7 +61,7 @@ active: First Timers
 
       <h2>Food</h2>
       <p>
-        The venue will provide lunch Wednesday and Thursday, as well as morning and afternoon break snacks Wednesday through Friday morning. Menus will be posted on the website soon. There will be caffeine.
+        Morning and afternoon breaks will include snacks and caffeine. On full conference days, lunch will also be provided. No lunch or snacks will be provided on the preconference day. <a href="/schedule">See the schedule for more details</a>
       </p>
 
       {% if site.data.conf.social-activities-url != '' %}
@@ -82,10 +82,12 @@ active: First Timers
       <p>
       {% endif %}
 
+      {% if site.data.conf.reception.show %}
       <h3>All-Conference Reception</h3>
       <p>
-        There will be an all-conference reception on the second night of the conference at the Tech Museum of Innovation. See <a href="{{ '/general-info/venues/#reception' | relative_url }}">the venues page</a> for more information.
+        There will be an all-conference reception at the {{site.data.conf.reception-venue}}. See <a href="{{ '/general-info/venues/#reception' | relative_url }}">the venues page</a> for more information.
       </p>
+      {% endif %}
 
       {% if site.data.conf.game-night.show %}
       <h3>Game Night</h3>
