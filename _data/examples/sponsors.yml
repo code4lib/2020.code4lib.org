@@ -4,6 +4,7 @@
   # link: http://www.google.com
   # level: platinum
   # diversity: true
+  # transcription: false
 
 # if img is omitted, the name will be displayed instead.
 
@@ -42,6 +43,7 @@
 - name: Gabirel's Sporting Goods
   img: /assets/img/examples/sponsors/three.svg
   level: gold
+  transcription: true
 
 - name: Oskar's Finery
   img: /assets/img/examples/sponsors/one.svg

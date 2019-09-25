@@ -118,23 +118,37 @@ active: Attend Code4Lib
                 </p>
 
                 <h3>Live Transcription</h3>
+                {% assign sponsors = site.data.sponsors | where:"transcription","true" %}
                 <p>
                     We are thrilled to be able to provide
                     {% if site.data.conf.closed-captioning.show %}
                         <a href="{{site.data.conf.closed-captioning.url}}">
                     {% endif %}
                         live transcriptions of all the presentations
-                    {% if site.data.conf.closed-captioning.show %}</a>{% endif %},
-                    thanks to Temple University Libraries.
+                    {% if site.data.conf.closed-captioning.show %}</a>{% endif %}.
                 </p>
+                {% if sponsors.size > 0 %}
+                    <p>
+                        Thank you to our Transcription sponsor{% if sponsors.size > 1 %}s{% endif %}:
+                    </p>
+                    <ul>
+                        {% for sponsor in sponsors %}
+                            <li>{{ sponsor.name }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
 
-                <div class="row sponsor-row">
-                    <div class="col-xs-12 col-md-6">
-                        <a href="http://library.temple.edu/" class="thumbnail" style="background: white;">
-                            <img src="https://assets.temple.edu/sites/assets/files/images/svg/temple-university-main-logo.svg" alt="Temple University Libraries">
-                        </a>
+                {% for sponsor in sponsors %}
+                    {% if sponsor.img != '' %}
+                    <div class="row sponsor-row">
+                        <div class="col-xs-12 col-md-6">
+                            <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                                <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                            </a>
+                        </div>
                     </div>
-                </div>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
