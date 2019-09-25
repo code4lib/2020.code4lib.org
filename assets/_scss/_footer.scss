@@ -21,11 +21,11 @@
 
   a {
     color: $footer-link !important;
-  }
 
-  a:hover,
-  a:focus {
-    color: $footer-hover;
+    &:hover,
+    &:focus {
+      color: $footer-hover;
+    }
   }
 
   ul {
@@ -43,8 +43,8 @@
 
   &:focus,
   &:hover {
-    background: $accent;
-    border: none;
+    background: $accent-light;
+    border: 0;
     color: $black;
     text-decoration: none;
   }

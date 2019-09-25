@@ -54,8 +54,18 @@ p.speaker-session a {
   }
 }
 
-p.speaker-bio .icon--twitter a {
-  border-bottom: none;
+// Links to twitter usernames for speakers & scholarships
+p.speaker-bio .icon--twitter a,
+dt .speaker-bio .icon.icon--twitter a {
+  border-bottom: 0;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    border-bottom: 0;
+    color: $black;
+  }
 }
 
 p.speaker-bio:not(:nth-of-type(1)) {
@@ -166,9 +176,10 @@ p.speaker-inst {
   opacity: 1;
 }
 
-.icon > svg {
+.icon > svg,
+.icon > a > svg {
   display: inline-block;
-  width: 16px;
   height: 16px;
   vertical-align: middle;
+  width: 16px;
 }
