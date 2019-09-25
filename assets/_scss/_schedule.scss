@@ -3,11 +3,11 @@
    ========================================================================== */
 
 .sched-well {
-  text-align: left;
   background-color: $white;
-  margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 4px 5px 0px rgba(0, 0, 0, .11);
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .sched-well h3 {
@@ -15,18 +15,18 @@
   text-align: left;
 }
 
-.sched-well h3 a {
+.sched-well a {
   @include link-styles;
-}
 
-.sched-well h3 a:active,
-.sched-well h3 a:focus,
-.sched-well h3 a:hover {
-  @include link-styles-states;
+  &:active,
+  &:focus,
+  &:hover {
+    @include link-styles-states;
+  }
 }
 
 .sched-well p {
-  line-height: 1.7em;
   font-size: .9em;
+  line-height: 1.7em;
   word-break: break-word;
 }
