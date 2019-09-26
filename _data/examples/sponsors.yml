@@ -42,6 +42,7 @@
 
 - name: Gabirel's Sporting Goods
   img: /assets/img/examples/sponsors/three.svg
+  link: https://www.google.com
   level: gold
   transcription: true
 
