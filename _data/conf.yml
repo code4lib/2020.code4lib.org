@@ -135,9 +135,9 @@ workshop-proposals:
   end-date: "2019-10-04"
 
 talk-proposals:
-  show: false
-  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSeGNEkTAVyeUAhQViIrr-dE0WgUNPQ6s55EOqxj6T5KDKJqMw/viewform?c=0&w=1"
-  end-date: "2018-10-04"
+  show: true
+  submission-form: "https://docs.google.com/forms/d/e/1FAIpQLSehrUxXxcc_jPE_OwiY7Ou0mG0bgU2FIZeB7_F1B0DG8PQaEA/viewform"
+  end-date: "2019-10-16"
 
 panel-proposals:
   show: false
