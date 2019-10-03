@@ -33,6 +33,10 @@ $brand-danger:            #d9534f !default;
 $accent-link-primary:    #fdb771 !default;
 $accent-primary-hover:   lighten($accent-link-primary, 10%) !default;
 
+// General
+// see fixed-tab-focus in _mixins
+$tab-focus-color: gba(0, 103, 244, 0.43);
+
 //== Code4Lib
 //
 //## Unique Code4Lib conference site components
