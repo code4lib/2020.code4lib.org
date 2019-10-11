@@ -110,8 +110,8 @@ closed-captioning:
 # If true, any "Sponsors" links will go to /prospectus instead of /sponsors
 call-for-sponsors: true
 homepage-sponsor-button: true
-# can be relative or absolute URL to document
-prospectus-document: ''
+# URL to document
+prospectus-document: '/assets/2020_c4l_Infosheet.pdf'
 sponsor-btn-link: 'https://www.eiseverywhere.com/sponsor.c4l20'
 
 ##########
