@@ -36,6 +36,10 @@ h5 {
   }
 }
 
+.btn:focus {
+    @include fixed-tab-focus;
+}
+
 .navbar {
   font-family: $font-family-sans-serif;
   font-weight: 300;
