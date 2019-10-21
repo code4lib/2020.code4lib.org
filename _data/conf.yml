@@ -174,9 +174,9 @@ workshop-voting:
   end-date: "2017-10-20"
 
 talk-voting:
-  show: false
-  url: "https://goo.gl/xvQXyu"
-  end-date: "2018-10-25"
+  show: true
+  url: "https://forms.gle/DuNEqZ5gGtvmDtUZ8"
+  end-date: "2019-11-01"
 
 panel-voting:
   show: false
