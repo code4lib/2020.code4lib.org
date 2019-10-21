@@ -118,3 +118,25 @@
 .sched-date {
   margin-bottom: 20px;
 }
+
+/* ==========================================================================
+   Proposals listing page
+   ========================================================================== */
+
+.proposals {
+  padding-top: 20px;
+
+  h3 {
+    padding-bottom: 20px;
+  }
+
+  .panel-body a {
+    @include link-styles;
+
+    &:hover,
+    &:focus,
+    &:active {
+      @include link-styles-states;
+    }
+  }
+}
