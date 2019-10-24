@@ -1,6 +1,7 @@
 url: http://2020.code4lib.org
 permalink: /:categories/:title
 exclude: [node_modules]
+exclude: [vendor]
 repository: code4lib/2020.codelib.org
 future: true
 timezone: America/New_York
