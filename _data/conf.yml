@@ -123,11 +123,10 @@ sponsor-btn-link: 'https://www.eiseverywhere.com/sponsor.c4l20'
 # Proposals
 ###########
 
-# data from 2019 is left here but not displayed to show the format
 keynote-proposals:
   show: true
   submission-form: "https://wiki.code4lib.org/2020_Keynote_Speakers_Nominations"
-  end-date: "2019-10-28"
+  end-date: "2019-11-04"
 
 workshop-proposals:
   show: false
