@@ -1,0 +1,53 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.svg
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+  # transcription: false
+
+# for more examples, check out _data/examples/sponsors.yml
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
+# Available Levels
+# - adamantium
+# - platinum
+# - diamond
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+
+- name: Blacklight
+  link: http://projectblacklight.org/
+  level: Diamond
+  
+- name: Bywater Solutions
+  link: https://bywatersolutions.com
+  level: supporter
+
+- name: Springer Nature
+ link: https://www.springernature.com/
+ level: supporter
+
+- name: EBSCO Information Services
+  img: /assets/img/sponsors/ebsco.png
+  link: https://www.ebsco.com/
+  level: platinum
+
+- name: Metropolitan New York Library Council
+  link: https://metro.org/
+  level: supporter
+
+- name: Balsamiq
+  link: https://balsamiq.com/
+  annotation: "Giveaway"
+  diversity: true
