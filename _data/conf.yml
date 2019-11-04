@@ -124,7 +124,7 @@ sponsor-btn-link: 'https://www.eiseverywhere.com/sponsor.c4l20'
 ###########
 
 keynote-proposals:
-  show: true
+  show: false
   submission-form: "https://wiki.code4lib.org/2020_Keynote_Speakers_Nominations"
   end-date: "2019-11-04"
 
