@@ -163,7 +163,7 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: true
+  show: false
   url: "http://example.com/"
   end-date: "2019-11-16"
 
