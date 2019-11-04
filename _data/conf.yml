@@ -164,8 +164,8 @@ host-proposals:
 
 keynote-voting:
   show: true
-  url: "https://docs.google.com/forms/d/e/1FAIpQLSc2d67EAhQR9SC05EKyHzV6jWCYR8yf8Vx3FEg5J-x7zvNxMA/viewform"
-  end-date: "2018-11-16"
+  url: "http://example.com/"
+  end-date: "2019-11-16"
 
 workshop-voting:
   show: false
