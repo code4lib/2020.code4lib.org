@@ -163,7 +163,7 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: false
+  show: true
   url: "https://docs.google.com/forms/d/e/1FAIpQLSc2d67EAhQR9SC05EKyHzV6jWCYR8yf8Vx3FEg5J-x7zvNxMA/viewform"
   end-date: "2018-11-16"
 
