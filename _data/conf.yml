@@ -291,8 +291,9 @@ diversity-scholarship-applications:
   apply-url: "https://docs.google.com/forms/d/e/1FAIpQLSetEMsBxZYXj_GGyxwWj_FnIxgxDRjxuZ-t16QqPtKuKKQ8Eg/viewform?usp=sf_link"
 
 # show sponsors for diversity scholarships on general-info/scholarships
-diversity-scholarship-general-sponsors:
-  show: false
+diversity-scholarship-sponsors:
+  seeking: true
+  show: true
 
 ################
 # Other
