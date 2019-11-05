@@ -124,7 +124,7 @@ sponsor-btn-link: 'https://www.eiseverywhere.com/sponsor.c4l20'
 ###########
 
 keynote-proposals:
-  show: true
+  show: false
   submission-form: "https://wiki.code4lib.org/2020_Keynote_Speakers_Nominations"
   end-date: "2019-11-04"
 
@@ -168,9 +168,9 @@ keynote-voting:
   end-date: "2019-11-16"
 
 workshop-voting:
-  show: false
-  url: "https://www.surveymonkey.com/r/c4l2018-precon"
-  end-date: "2017-10-20"
+  show: true
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSfEAwmP9Wnrk2aXLgfEpnk0zS3W8M4rukx_DL3tCeaMjqHwdg/viewform"
+  end-date: "2019-11-19"
 
 talk-voting:
   show: false
