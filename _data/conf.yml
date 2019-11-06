@@ -283,12 +283,12 @@ angel-fund:
     url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
 
 diversity-scholarship-applications:
-  show: false
+  show: true
   url: "/general-info/scholarships#how-to-apply"
   url-text: "How to Apply"
-  end-date: "2018-11-16"
-  notification-date: "2018-12-05"
-  apply-url: "https://docs.google.com/forms/d/e/1FAIpQLSetEMsBxZYXj_GGyxwWj_FnIxgxDRjxuZ-t16QqPtKuKKQ8Eg/viewform?usp=sf_link"
+  end-date: "2019-11-26"
+  notification-date: "2018-12-17"
+  apply-url: "https://forms.gle/XFxkujq5HQhyac1eA"
 
 # show sponsors for diversity scholarships on general-info/scholarships
 diversity-scholarship-sponsors:
