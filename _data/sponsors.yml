@@ -27,8 +27,9 @@
 # - supporter
 
 - name: Blacklight
+  img: /assets/img/sponsors/blacklight.svg
   link: http://projectblacklight.org/
-  level: Diamond
+  level: diamond
 
 - name: Bywater Solutions
   link: https://bywatersolutions.com
@@ -48,6 +49,7 @@
   level: supporter
 
 - name: Balsamiq
+  img: /assets/img/sponsors/balsamiq.png
   link: https://balsamiq.com/
   annotation: "Giveaway"
   diversity: true
