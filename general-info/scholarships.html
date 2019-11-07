@@ -125,7 +125,7 @@ subnav:
       {% assign sponsors = site.data.sponsors | where: "diversity", true %}
       <div class="sponsor-group">
         {% for sponsor in sponsors %}
-          {% include sponsors/logo.html sponsor=sponsor %}
+          {% include sponsors/logo.html sponsor=sponsor no-annotation=true %}
         {% endfor %}
       </div>
     </div>

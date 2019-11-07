@@ -6,7 +6,7 @@
         <span class="sponsor-name-only">{{ sponsor.name }}</span>
         {% endif %}
     </a>
-    {% if sponsor.annotation.size %}
+    {% if !no-annotation and sponsor.annotation.size %}
         <div class="sponsor-annotation">{{ sponsor.annotation}}</div>
     {% endif %}
 </div>
