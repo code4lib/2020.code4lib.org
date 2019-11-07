@@ -275,9 +275,9 @@ volunteer-onsite:
 ################
 
 angel-fund:
-    show: false
+    show: true
     # whether to show the "donation thermometer" & Google Spreadsheet key for it
-    thermometer: false
+    thermometer: true
     # NOTE: spreadsheet needs to be "published to the web"
     spreadsheet-key: "1IBDcAgamPKlEL-HcyfiHA6bLGf1KU8-5C1w-GN2Rze0"
     url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
