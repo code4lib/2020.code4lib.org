@@ -28,7 +28,7 @@
 
 - name: Blacklight
   img: /assets/img/sponsors/blacklight.svg
-  link: http://projectblacklight.org/
+  link: https://projectblacklight.org/
   level: diamond
 
 - name: Bywater Solutions
