@@ -1,6 +1,6 @@
 ---
 ---
-const key = '{{ site.data.conf.angel-fund.spreadsheet-key }}'
+const key = '1IBDcAgamPKlEL-HcyfiHA6bLGf1KU8-5C1w-GN2Rze0'
 // data is on separate worksheets of the same spreadsheet
 const donations_url = `https://spreadsheets.google.com/feeds/cells/${key}/1/public/basic?alt=json`
 const goals_url = `https://spreadsheets.google.com/feeds/cells/${key}/2/public/basic?alt=json`
@@ -23,7 +23,7 @@ fetch(goals_url)
             // -2 because a) indexed from 0, b) 1st row is ignored
             let index = cell.row - 2
             // if no entry yet, initialize with empty object
-            if (!goals[index]) goals[index] = {}
+            if (index >= 0 && !goals[index]) goals[index] = {}
 
             // if it's first row it's a header, ignore it
             // columns: A is label, B is fund code, C is goal amount
@@ -54,7 +54,7 @@ fetch(goals_url)
                         row: parseInt(item.title.$t.match(/[A-Z]+(\d+)/)[1])
                     }
                     let index = cell.row - 2
-                    if (!donations[index]) donations[index] = {}
+                    if (index >= 0 && !donations[index]) donations[index] = {}
 
                     // cols: A = org name, B = donation amount, C = fund code
                     if (cell.row === 1) {
@@ -72,7 +72,7 @@ fetch(goals_url)
                 // now add sums to goals hash
                 donations.forEach(donation => {
                     goals.forEach(goal => {
-                        if (goal.fund.toLowerCase() === donation.fund.toLowerCase()) {
+                        if (donation.fund && goal.fund.toLowerCase() === donation.fund.toLowerCase()) {
                             // add to total amount & number of donations
                             goal.total += donation.amount
                             goal.donations++

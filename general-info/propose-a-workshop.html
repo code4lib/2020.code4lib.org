@@ -7,7 +7,7 @@ categories: preconf
 <div class="container-fluid" id="preconference">
     <div class="row">
         <div class="col-xs-12">
-            <h2>Proposals for Preconference Workshops</h2>
+            <h1>Proposals for Preconference Workshops</h1>
 
             {% if site.data.conf.workshop-proposals.show %}
             <a class="btn btn-primary btn-lg pull-right" href="{{ site.data.conf.workshop-proposals.submission-form }}">
@@ -38,7 +38,7 @@ categories: preconf
                 {% endfor %}</ul>
             </p>
             <p>
-                We are taking proposals until
+                We are taking proposals through
                 {{ site.data.conf.workshop-proposals.end-date | date: '%A, %B %d' }}.
                 After a period of public voting on workshops, we hope to confirm sessions with
                 facilitators shortly after.

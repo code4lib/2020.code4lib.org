@@ -1,0 +1,61 @@
+- name: "Lea Kissner"
+  slug: 00000000001
+  bio: |
+    Lea formerly built the privacy engineering team at Google (where she specifically valued building a diverse team to capture all sorts of threat models) and is now the Chief Privacy Officer at Humu and cofounder of the USENIX Conference on Privacy Engineering Practice and Respect. She's whip-smart, candid, and funny.
+
+- name: "James Mickens"
+  slug: 00000000002
+  bio: |
+    James Mickens is a computer science professor and researcher currently at Harvard University and formerly of Microsoft Research. A well-travelled conference speaker, James has given keynotes and presentations from Oslo to Sidney, with hilarious titles such as "Life is Terrible: Let's Talk About the Web," and "Life As A Developer: My Code Does Not Work Because I Am A Victim Of Complex Societal Factors That Are Beyond My Control." James' presentation style reveals a breadth of experience in technology that few possess, and a zany and brilliant sense of humor.
+
+- name: "Karen Sandler"
+  slug: 00000000003
+  bio: |
+    "Karen Sandler is the executive director of the Software Freedom Conservancy, former executive director of the GNOME Foundation, an attorney, and former general counsel of the Software Freedom Law Center." She's known for advocacy on copyleft and other copyright issues as well as on free software more generally; notably, e.g., because proprietary software means she cannot audit the implantable medical device that keeps her alive. The Software Freedom Conservancy is a fiscal sponsor, copyright holder & advocate, etc. for open source software projects. Sandler also co-organizes Outreachy, a paid internship program that particularly encourages people from underrepresented genders and races to contribute to FOSS, and was formerly on the advisory board of the Ada Initiative. She teaches entertainment law at Columbia from a copyright-rebel perspective.
+
+- name: "Leo Lo"
+  slug: 00000000004
+  bio: |
+    Leo Lo is the Associate University Librarian for learning and undergraduate services at Penn State University Libraries. Leo is a talented presenter, creative thinker and offers very interesting ideas relating to organizational research and development, appreciative inquiry, fostering collaborative works and communications including one's strengths and gifts to the organization. He would make an excellent speaker for Code4Lib when connecting to bigger frameworks within our communities/workflows.
+
+- name: "Chuck Pell"
+  slug: 00000000005
+  bio: |
+    "A confessed 'congenital geek,' Chuck is inventor, artist, scientist and expressive raconteur. As a practitioner of Design Coup d'œil (the habit of seeing overarching structural issues at a glance), Chuck seeks the essential core of any system, whether science, art, or technology. He is most at home in novel situations, figuring things out on the fly. These tendencies have led Chuck to garner experience in surgical robotics, functional morphology, biomechanics, fluid dynamics, miniature robotics, autonomous underwater vehicles, ballistics, maritime communications, entertainment effects, teaching, design (graphic, exhibit and industrial) and filmmaking. Never at rest, he’s had 100 shows of his paintings and sculpture, with dozens of papers published in biology, engineering and patents issued or pending. Having raised millions for research and now on his third startup, Chuck has the nagging suspicion he’s become a serial entrepreneur." (excerpted from Chuck's TEDMED bio)
+
+    Chuck Pell is a sculptor, roboticist, Emmy-winning television host, and force of nature. His philosophies towards creativity and invention include: uncover hidden assumptions, pursue surprise, and "fail early and often, when it's cheap." His passionate approach to real-world problem solving has a lot to offer the world of GLAM-tech; combined with an avowed love of technology, libraries, and knowledge generally, he is sure to bring a wealth of insight and creativity to the Code4Lib community. Chuck is 1/4 of the way to an EGOT and is the consulting scientist for an asteroid mining company.
+
+- name: "Kate Deibel"
+  slug: 00000000006
+  bio: |
+    Kate Deibel, PhD, is one of the leading advocates for accessibility in the Code4Lib community and libraries in general. Aside from the fun and informative talks and workshops she has given at Code4Lib, she is also known for her activity on Slack and the mailing list where she ardently calls out issues of diversity and inclusion. By challenging the assumptions that we make about accessibility and inclusion and our patrons' experiences with library technology, Kate's work pushes us to be more empathetic, realistic, and creative when we design library systems. Kate Deibel is currently the Inclusion & Accessibility Librarian at Syracuse University. She earned her PhD in computer science and engineering at the University of Washington in 2011 with a multidisciplinary study of the social and technological factors that hinder adoption of reading technologies among adults with dyslexia, and while working as a web applications specialist at the University of Washington Libraries she focused on ensuring that technologies are effective tools for both library patrons and staff.
+
+- name: "Alison Macrina"
+  slug: 00000000007
+  bio: |
+    From LibraryFreedom.org: "Along with founding the Library Freedom Project, Alison is a librarian, internet activist, and a core contributor to The Tor Project. Alison is passionate about fighting surveillance and connecting privacy issues to other struggles for justice. She believes that a world without pervasive surveillance is possible." Library Freedom is a unique, progressive venture in the privacy sphere, putting on training workshops for libraries and librarians as well as advocating for political change.
+
+- name: "Matt Zumwalt"
+  slug: 00000000008
+  bio: |
+    Currently the Program Manager at Protocol Labs, Matt is one of the most dedicated technologists who sees our current flaws and has shown a strong track record of helping to push the boundaries of how we store and access digital resources. Matt has given multiple Code4lib presentations previously, one of which being the memorable Code4lib 2017 presentation in the context of endangered data sets. Among many professional interests, currently working on IPFS (Inter-Planetary File System), Matt is helping to engineer a novel method of interacting with ethically distributed, peer-to-peer (P2P) resources, in which libraries are another lender in P2P borrowing chain. Matt is one of the most moving speakers. It would be an honor to have Matt Zumwalt as a keynote speaker. Borrowing from Matt's webpage: "Previously I founded a consulting firm called MediaShelf, created Ruby libraries called active-fedora and om and served as the technical lead for the Hydra Project, which began as a collaboration with Stanford, University of Virginia, University of Hull and DuraSpace but has grown to be a large open-source software initiative with over 40 partner institutions and broad adoption among Libraries, Archives and Museums."
+
+- name: "Alison Langmead"
+  slug: 00000000009
+  bio: |
+    Alison Langmead holds a joint faculty appointment between the Dietrich School of Arts and Sciences and the School of Computing and Information at the University of Pittsburgh. She teaches and researches in the field of the digital humanities, focusing especially on applying digital methods mindfully within the context of visual and material culture studies. For the Department of Art History and Architecture, Alison serves as the Director of the Visual Media Workshop (VMW). The mission of the VMW is to develop and encourage the creation of innovative methods for producing, disseminating, and preserving the academic work using digital technologies as a fundamental component of our scholarly toolkit. To achieve these objectives, she directs a technologically-focused environment of collaboration and creativity where students and faculty from a number of departments across the University come together to work on projects that apply digital methods and techniques with focus and intention. For the School of Computing and Information (SCI), Alison researches the relationship between the historical practice of information management and digital computing, both as a historical narrative and also as a complex, changing process in contemporary America. This research, plus all of the theories, concepts, and models that she teaches at SCI, are put into daily practice in her work directing the VMW.
+
+- name: "Eric Lidji"
+  slug: 00000000010
+  bio: |
+    Eric Lidji is the Director of the Rauh Jewish History Program and Archives at the Heinz History Center in Pittsburgh, Pennsylvania. Since the 2018 Tree of Life synagogue shooting in Pittsburgh's Squirrel Hill neighborhood, he has been collecting both physical items and digital content related to the attack for the Center. His work has been featured in The New York Times, The Atlantic, and he is a regular contributor to the Pittsburgh Jewish Chronicle. He has presented on the Tree of Life archive in the Pittsburgh area, and he would be a great reminder of how our work can have powerful effects.
+
+- name: "Coraline Ada Ehmke"
+  slug: 00000000011
+  bio: |
+    From her website: "I am an internationally acclaimed speaker, writer, open source advocate, and developer with over 25 years of experience in software development. I work diligently to promote diversity and inclusivity in open source and the tech industry as a whole. I was recognized for my work with a Ruby Hero award in 2016. I am best known as the creator of the Contributor Covenant, the most popular open source code of conduct in the world, with over 40,000 adoptions including Linux, Golang, JRuby, Swift, F#, and Rails and the entire open source portfolios of companies like Apple, Microsoft, Google, and Intel."
+
+- name: "Noble Ackerson"
+  slug: 00000000012
+  bio: |
+    Noble is a Senior Manager for Product Management and Software at OpenARCloud where he advises on Data Governance, Data Privacy, Data Trust to teams across 55 countries. He's also a Google Developers Expert for product strategy and a recovering startup founder delivering augmented reality, virtual reality, web and mobile technologies from abstract concepts to final products. Noble sits on the Alumni Leadership Board for the leading online education startup, Udacity. A member of the Alumni Board at his alma mater, Lynchburg College and acts as the Publicity Chair for Ubicomp and ISWC, two top-tier conferences for the internet of things and wearable technology. When Noble is not focused on product, he is mentoring underrepresented and aspiring developers, speaking at technology events like this one, or spending time with his daughters.
