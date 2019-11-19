@@ -53,3 +53,15 @@
   link: https://balsamiq.com/
   annotation: "Giveaway"
   diversity: true
+
+- name: School of Information Sciences at Illinois
+  img: /assets/img/sponsors/UIUCiSchool.png
+  link: https://ischool.illinois.edu/
+  level: bronze
+  diversity: true
+
+- name: Index Data
+  img: /assets/img/sponsors/IndexData.png
+  link: https://www.indexdata.com/
+  level: bronze
+  
