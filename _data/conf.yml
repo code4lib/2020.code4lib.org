@@ -163,9 +163,9 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: false
-  url: "http://example.com/"
-  end-date: "2019-11-16"
+  show: true
+  url: "https://forms.gle/uDaMVX9nopjjNh5Y8"
+  end-date: "2019-12-02"
 
 workshop-voting:
   show: true
