@@ -168,7 +168,7 @@ keynote-voting:
   end-date: "2019-11-16"
 
 workshop-voting:
-  show: true
+  show: false
   url: "https://docs.google.com/forms/d/e/1FAIpQLSfEAwmP9Wnrk2aXLgfEpnk0zS3W8M4rukx_DL3tCeaMjqHwdg/viewform"
   end-date: "2019-11-19"
 
