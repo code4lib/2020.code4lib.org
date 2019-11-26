@@ -144,9 +144,9 @@ panel-proposals:
   end-date:
 
 poster-proposals:
-  show: false
-  submission-form: "https://tinyurl.com/y9489rmc"
-  end-date: "2018-11-12"
+  show: true
+  submission-form: "https://forms.gle/Jae5hWSZwVQFtzuK7"
+  end-date: "2019-12-06"
 
 shirt-proposals:
   show: false
