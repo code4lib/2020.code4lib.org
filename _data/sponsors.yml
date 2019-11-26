@@ -51,7 +51,7 @@
 - name: Balsamiq
   img: /assets/img/sponsors/balsamiq.png
   link: https://balsamiq.com/
-  annotation: "Giveaway"
+  level: giveaway
   diversity: true
 
 - name: School of Information Sciences at Illinois
@@ -64,4 +64,8 @@
   img: /assets/img/sponsors/IndexData.png
   link: https://www.indexdata.com/
   level: bronze
-  
+
+- name: Rosenfeld Media
+  img: /assets/img/sponsors/rosenfeld-media.gif
+  link: http://rosenfeldmedia.com/
+  level: giveaway
