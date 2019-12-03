@@ -119,5 +119,5 @@ fetch(total_url)
         let total = data.feed.entry ? new Intl.NumberFormat('en-US',
             {style: 'currency', currency: 'USD'}).format(data.feed.entry[0].content.$t) : "$0"
         // insert into page
-        document.querySelector('#donation-total').innerHTML = `<h2>${total} raised so far.</h2>`
+        document.querySelector('#donation-total').innerHTML = `<h2>${total} raised.</h2>`
     })
