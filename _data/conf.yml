@@ -163,7 +163,7 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: true
+  show: false
   url: "https://forms.gle/uDaMVX9nopjjNh5Y8"
   end-date: "2019-12-02"
 
@@ -275,7 +275,7 @@ volunteer-onsite:
 ################
 
 angel-fund:
-    show: true
+    show: false
     # whether to show the "donation thermometer" & Google Spreadsheet key for it
     thermometer: true
     # NOTE: spreadsheet needs to be "published to the web"
@@ -283,7 +283,7 @@ angel-fund:
     url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
 
 diversity-scholarship-applications:
-  show: true
+  show: false
   url: "/general-info/scholarships#how-to-apply"
   url-text: "How to Apply"
   end-date: "2019-12-02"
