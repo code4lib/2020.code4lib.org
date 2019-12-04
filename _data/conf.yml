@@ -292,7 +292,7 @@ diversity-scholarship-applications:
 
 # show sponsors for diversity scholarships on general-info/scholarships
 diversity-scholarship-sponsors:
-  seeking: true
+  seeking: false
   show: true
 
 ################
