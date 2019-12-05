@@ -4,7 +4,9 @@
   "description": "Code4Lib 2018 Conference Site",
   "main": "index.html",
   "dependencies": {
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   },
   "devDependencies": {},
   "scripts": {
