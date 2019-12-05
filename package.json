@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Code4Lib 2018 Conference Site",
   "main": "index.html",
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
