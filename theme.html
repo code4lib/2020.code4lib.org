@@ -9,7 +9,7 @@ hero-image: assets/img/theme-images/hero-image.jpg
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Section 1</h2>
                 <p>
                     Suspendisse finibus a <a href="#">mi sed posuere</a>. Nunc nec diam a tellus pretium fringilla at at sem.
@@ -28,7 +28,7 @@ hero-image: assets/img/theme-images/hero-image.jpg
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Section 1</h2>
                 <p>
                     Suspendisse finibus a <a href="#">mi sed posuere</a>. Nunc nec diam a tellus pretium fringilla at at sem.
@@ -47,7 +47,7 @@ hero-image: assets/img/theme-images/hero-image.jpg
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Section 3</h2>
                 <p>
                     Suspendisse finibus a <a href="#">mi sed posuere</a>. Nunc nec diam a tellus pretium fringilla at at sem.
@@ -67,7 +67,7 @@ hero-image: assets/img/theme-images/hero-image.jpg
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Sponsor Badges</h2>
                 {% include sponsors/plate.html level="Diamond Sponsor" badge="diamond-badge" %}
             </div>
@@ -79,10 +79,10 @@ hero-image: assets/img/theme-images/hero-image.jpg
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Speakers</h2>
             </div>
-            <div class="col-xs-12 speaker-sequence sequence">
+            <div class="col-12 speaker-sequence sequence">
                 {% assign speakers = site.data.examples.speakers | sort: 'last' %}
                 {% for speaker in speakers %}
                     {% include speaker_box.html param=speaker %}
@@ -96,7 +96,7 @@ hero-image: assets/img/theme-images/hero-image.jpg
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Menu</h2>
                 {% assign menu = site.data.examples.menu %}
                 {% for meal in menu limit:1 offset:1 %}
@@ -113,7 +113,7 @@ hero-image: assets/img/theme-images/hero-image.jpg
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Schedule</h2>
                 {% include schedule_nav.html param="day1" %}
                 {% assign events = site.data.examples.schedule-short | sort: "time" %}
@@ -142,23 +142,23 @@ hero-image: assets/img/theme-images/hero-image.jpg
             </div>
 
             <!-- Presentation Info -->
-            <div class="col-sm-3 col-sm-offset-1">
+            <div class="col-sm-3 offset-sm-1">
                 <h2>Presentation Info</h2>
                 <div class="row talk-detail-box">
                     <!-- date -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="col-12 col-sm-12 col-md-12">
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
                         <div class="talk-box-detail-value"> <a href=""></a>March 7th</div>
                     </div>
 
                     <!-- time of day for presentations -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                    <div class="col-12 col-sm-12 col-md-12 time-slot">
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
                         <div class="talk-box-detail-value">11:10 AM</div>
                     </div>
 
                     <!-- length -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                    <div class="col-12 col-sm-12 col-md-12 time-length">
                         <!--<h3>Length</h3>
                         <p>{{ page.length }} minutes</p>-->
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-hourglass"></span></div>

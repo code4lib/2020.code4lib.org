@@ -3,7 +3,7 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-md-3 col-lg-2">
+            <div class="col-12 col-md-3 col-lg-2">
                 <ul class="nav nav-pills nav-stacked secondarynav">
                 {% for nav in site.data.navs[page.nav] %}
                     {% if page.active == nav.name %}
@@ -23,7 +23,7 @@
                 {% endfor %}
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-9 col-lg-10">
+            <div class="col-12 col-md-9 col-lg-10">
                 {{ content }}
             </div>
         </div>

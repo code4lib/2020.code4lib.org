@@ -1,17 +1,17 @@
 <section class="general-info">
-    <div class="col-xs-12">
+    <div class="col-12">
         <h2 id="conference-hotel">Conference Hotel</h2>
 
         <p>Code4Lib {{site.data.conf.year}} will be held at {{site.data.conf.venue.name}} in {{site.data.conf.location}}.</p>
 
         {% if site.data.conf.venue.image %}
-        <div class="col-xs-6">
+        <div class="col-6">
             <a href="{{site.data.conf.venue.website}}">
             <img class="img-responsive" src="{{ site.data.conf.venue.image | relative_url }}" alt="{{ site.data.conf.venue.name }}"></a>
         </div>
         {% endif %}
 
-        <div class="col-xs-6">
+        <div class="col-6">
             <p>
                 {{site.data.conf.venue.street}}<br>
                 {{site.data.conf.city-state}} {{site.data.conf.venue.postal-code}}<br>
@@ -26,7 +26,7 @@
     </div>
 
     {% comment %}
-    <div class="col-xs-12">
+    <div class="col-12">
         <h3>Lodging</h3>
         <p>
           <strong>As of January 16, 2019, the conference room block is full.</strong> Please see <a href="#offsite-lodging">Offsite Lodging</a> for potential alternatives.

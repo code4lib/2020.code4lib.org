@@ -5,17 +5,17 @@ title: Preconference Workshops
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h1>{{ page.title }}</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-12">
+        <div class="col-12 col-sm-12">
             <p>Half-day workshops will start at 9:00 a.m. and 2:00 p.m., while full-day workshops will run from 9:00 a.m. to 5:00 p.m..</p>
         </div>
     </div>
     <div class="row" id="workshop-sorting-div">
-        <div class="col-xs-12 col-sm-6">
+        <div class="col-12 col-sm-6">
             <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default sort-workshop-time active" id="all">All</button>
                 <button type="button" class="btn btn-default sort-workshop-time" id="am">AM</button>
@@ -23,7 +23,7 @@ title: Preconference Workshops
                 <button type="button" class="btn btn-default sort-workshop-time" id="full">Full Day</button>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6">
+        <div class="col-12 col-sm-6">
             <select class="form-control sort-workshop-locale">
                 <option value="all">All Locations</option>
                 {% for location in site.data.locations %}
@@ -33,7 +33,7 @@ title: Preconference Workshops
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 sequence">
+        <div class="col-12 sequence">
             {% assign posts = site.posts | where: 'type', 'workshop' | sort: 'title' %}
             {% for post in posts %}
                 {% include workshops/card.html workshop=post %}

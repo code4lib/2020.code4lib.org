@@ -5,7 +5,7 @@
         <div class="cd-timeline-img"></div>
 
         <div class="cd-timeline-content">
-            <div class="col-xs-12" style="margin-bottom: 10px;">
+            <div class="col-12" style="margin-bottom: 10px;">
                 <h2>{{ post.title }}</h2>
             </div>
             {% if post.speaker %}
@@ -16,10 +16,10 @@
                     </a>
                 </div>
             {% endif %}
-            <div class="col-sm-4 col-xs-6 text-center">
+            <div class="col-sm-4 col-6 text-center">
                 <h3 class="past-pres-date">{{ post.date | date: '%Y' }}</h3>
             </div>
-            <div class="col-sm-4 col-xs-6 text-center">
+            <div class="col-sm-4 col-6 text-center">
                 {% if post.slides %}
                     <h3 class="past-pres-slides"><a href="{{ post.slides }}"><span class="glyphicon glyphicon-blackboard past-slides hidden-xs"></span> Slides</a></h3>
                 {% endif %}

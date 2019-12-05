@@ -17,16 +17,16 @@ subnav:
 <section class="general-info">
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h1>Scholarships</h1>
                 {% if site.data.conf.diversity-scholarship-applications.show %}
                 <div class="row">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <div class="col-xs-9">
+                            <div class="col-9">
                                 Diversity Scholarship applications are being accepted through {{ site.data.conf.diversity-scholarship-applications.end-date | date: '%B %-d'}}{% include date_ordinals.html date=site.data.conf.diversity-scholarship-applications.end-date %}.
                             </div>
-                            <div class="col-xs-3">
+                            <div class="col-3">
                                 <a class="btn btn-primary btn-xs btn-block" href="{{ site.data.conf.diversity-scholarship-applications.url }}">
                                     Apply
                                 </a>
@@ -96,7 +96,7 @@ subnav:
 {% if site.data.conf.diversity-scholarship-applications.show %}
 <div class="container-fluid">
    <div class="row">
-       <div class="col-xs-12">
+       <div class="col-12">
            <h2>Accepting Applications Now!</h2>
            <p>
                As part of Code4Lib's ongoing commitment to reducing economic barriers that prevent participation for underrepresented groups, and to achieving a balanced representation of the human experience, we are pleased to announce that we are now seeking applicants for our <a href="/general-info/scholarships">{{site.data.conf.year}} Diversity Scholarship program</a>! The <a href="https://wiki.code4lib.org/Code4Lib_2020_Conference_Committees#Scholarship_Committee">Code4Lib Scholarship Committee</a> hopes to award multiple Diversity Scholarships, based on merit and need.  Each scholarship will cover up to $1500 for travel costs, lodging, and conference fees for selected applicants to attend the <a href="/">{{site.data.conf.year}} Code4Lib Conference</a> in {{site.data.conf.location}}.
@@ -119,7 +119,7 @@ subnav:
 {% if site.data.conf.diversity-scholarship-sponsors.show  %}
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-12">
       <h2 id="sponsors">Made possible by the generosity of our sponsors and community</h2>
 
       {% assign sponsors = site.data.sponsors | where: "diversity", true %}
@@ -136,7 +136,7 @@ subnav:
 <section class="general-info">
 <div class="container-fluid">
    <div class="row">
-       <div class="col-xs-12">
+       <div class="col-12">
            <a name="criteria"></a>
            <h2>Eligibility, Criteria, And Requirements</h2>
            <ul>
@@ -161,7 +161,7 @@ subnav:
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <a name="how-to-apply"></a>
             <h2>How to Apply</h2>
             {% if site.data.conf.diversity-scholarship-applications.show %}

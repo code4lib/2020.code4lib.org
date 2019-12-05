@@ -6,15 +6,15 @@ title: Proposed Workshops
 <div class="container proposals">
     <div class="row">
 
-        <div class="col-xs-12 col-sm-8">
+        <div class="col-12 col-sm-8">
             <h3>Proposed Preconference Workshops</h3>
         </div>
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-12 col-sm-4">
             {% if site.data.conf.workshop-voting.show %}
                 <a class="btn btn-primary pull-right" href="{{ site.data.conf.workshop-voting.url }}">Vote!</a>
             {% endif %}
         </div>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
             {% for shop in site.data.workshop-proposals %}
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="{{ shop.slug }}Header">

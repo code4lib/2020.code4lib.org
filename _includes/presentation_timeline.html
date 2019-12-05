@@ -8,7 +8,7 @@
 
             <div class="cd-timeline-content">
                 <div class="row">
-                    <div class="col-sm-7 col-xs-12">
+                    <div class="col-sm-7 col-12">
                         {% if event.groupId == 'key-open' %}
                             {% assign keynote = site.posts | where:"group",event.groupId %}
                             <h2><a href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
@@ -30,7 +30,7 @@
                             </h2>
                         {% endif %}
                     </div>
-                    <div class="col-sm-5 col-xs-12 text-right">
+                    <div class="col-sm-5 col-12 text-right">
                         <h2>{{ event.time }}</h2>
                     </div>
                 </div>
@@ -38,14 +38,14 @@
                     {% assign talks = site.posts | where:"group",event.groupId | where:"type","talk" | sort:"spot" %}
                     {% for talk in talks %}
                         <div class="row talk-row">
-                            <div class="col-xs-12">
+                            <div class="col-12">
                                 {% if event.groupId == 'key-open' %}
                                 {% elsif event.groupId == 'key-close' %}
                                 {% else %}
                                     <h4><a href="{{ talk.url }}">{{ talk.title }}</a></h4>
                                 {% endif %}
                             </div>
-                            <div class="col-xs-12 hidden-xs">
+                            <div class="col-12 hidden-xs">
                                 {% for speaker_id in talk.speakers %}
                                     {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
                                     {% if speaker %}

@@ -18,7 +18,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-8 col-md-9">
+        <div class="col-12 col-sm-8 col-md-9">
 
             <h1>{{ page.title }}{% if page.full == true %}<small class="text-danger">This workshop is full</small>{% endif %}</h1>
 
@@ -41,7 +41,7 @@
             {% if show_speakers %}
                 <h2>Speaker(s)</h2>
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-12">
                         {% for speaker_id in page.speakers %}
                             {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
                             {% if speaker %}
@@ -61,7 +61,7 @@
             {% endif %}
 
             {% if page.type == 'workshop' %}
-            <div class="col-xs-12 col-sm-8 col-md-9">
+            <div class="col-12 col-sm-8 col-md-9">
                 <h2>Location</h2>
                 <div style="margin: auto; max-width: 600px;" class="embed-responsive embed-responsive-4by3">
                     <iframe title="workshop location" src="{{ location.embed_code }}"></iframe>
@@ -72,10 +72,10 @@
             </div>
             {% endif %}
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3 text-center">
+        <div class="col-12 col-sm-4 col-md-3 text-center">
             <div class="row talk-detail-box">
                 <!-- date -->
-                <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="col-12 col-sm-12 col-md-12">
                     {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
                         <div class="talk-box-detail-value"> <a href="/schedule/day-{{page.day}}">{{ page_date | date: "%B %e" }}{% include date_ordinals.html date=page_date %}</a></div>
@@ -90,12 +90,12 @@
 
                 <!-- time of day for presentations -->
                 {% if page.type == 'workshop' %}
-                <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                <div class="col-12 col-sm-12 col-md-12 time-slot">
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
                     <div class="talk-box-detail-value">{{ page_length }}</div>
                 </div>
                 {% elsif page.type == 'poster' %}
-                <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                <div class="col-12 col-sm-12 col-md-12 time-slot">
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
                     <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
                 </div>
@@ -103,7 +103,7 @@
 
                 <!-- building for workshops -->
                 {% if page.type == 'workshop' %}
-                <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                <div class="col-12 col-sm-12 col-md-12 time-length">
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
                     <div class="talk-box-detail-value">
                         {{ location_display }}
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 {% elsif page.type == 'poster' %}
-                <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                <div class="col-12 col-sm-12 col-md-12 time-length">
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
                     <div class="talk-box-detail-value">
                         {{ page.location }}
@@ -125,7 +125,7 @@
                 {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                 {% assign group_data = site.data.schedule | where:'groupId', page.group %}
                 {% assign group = group_data | first %}
-                <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                <div class="col-12 col-sm-12 col-md-12 time-slot">
                     <!--<h3>Group {{ page.group }}
                     <p>{{ group.time }}</p></h3>-->
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
@@ -136,7 +136,7 @@
 
                 <!-- length -->
                 {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
-                <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                <div class="col-12 col-sm-12 col-md-12 time-length">
                     <!--<h3>Length</h3>
                     <p>{{ page.length }} minutes</p>-->
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-hourglass"></span></div>

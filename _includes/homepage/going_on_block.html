@@ -1,5 +1,5 @@
 <div class="row going-on">
-    <div class="col-xs-12 col-sm-6 col-md-5">
+    <div class="col-12 col-sm-6 col-md-5">
         {% if include.primary %}
         <h3>{{ include.title }}</h3>
         {% else %}
@@ -19,14 +19,14 @@
             </a>
         {% endif %}
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-5">
+    <div class="col-12 col-sm-6 col-md-5">
     {% if include.end-date.size %}
         Now through {{ include.end-date | date: '%B %-d'}}{% include date_ordinals.html date=include.end-date %}
     {% else if include.start-date.size %}
         Starting on {{ include.start-date | date: '%B %-d'}}{% include date_ordinals.html date=include.start-date %}
     {% endif %}
     </div>
-    <div class="col-xs-12 col-md-2">
+    <div class="col-12 col-md-2">
         {% if include.url.size and include.url-text.size %}
         <a class="btn btn-primary btn-xs btn-block" href="{{ include.url }}" target="_blank">
             {{ include. url-text }}

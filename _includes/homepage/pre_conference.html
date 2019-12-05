@@ -1,4 +1,4 @@
-<div class="col-xs-12">
+<div class="col-12">
     {% comment %} details known/announced but can't register yet {% endcomment %}
     {% if site.data.conf.conference-registration.show
     and site.data.conf.conference-registration.open == false %}
@@ -29,7 +29,7 @@
     <!-- Voting -->
     {% if site.data.conf.keynote-voting.show or site.data.conf.talk-voting.show or site.data.conf.panel-voting.show or site.data.conf.workshop-voting.show or site.data.conf.shirt-voting.show or site.data.conf.poster-voting.show %}
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h4 class="expo">Voting</h4>
 
             <!-- Keynote -->
@@ -108,7 +108,7 @@
     <!-- Proposals -->
     {% if site.data.conf.talk-proposals.show or site.data.conf.poster-proposals or site.data.conf.panel-proposals.show or site.data.conf.workshop-proposals.show or site.data.conf.shirt-proposals.show or site.data.conf.host-proposals.show or site.data.conf.keynote-proposals.show %}
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h4 class="expo">Proposals</h4>
 
 
@@ -199,7 +199,7 @@
     <!-- Announcements -->
     {% if site.data.conf.diversity-scholarship-applications.show  %}
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h4 class="expo">Announcements</h4>
 
             <!-- Scholarships -->
@@ -222,7 +222,7 @@
         or site.data.conf.volunteer-dutyoff.show
         or site.data.conf.volunteer-onsite.show %}
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h4 class="expo">Volunteering</h4>
             {% if site.data.conf.volunteer-committee.show %}
                 {% include homepage/going_on_block.html
@@ -257,7 +257,7 @@
 {% include homepage/sponsor_block.html %}
 
 {% comment %}
-<div class="col-xs-12">
+<div class="col-12">
     <h3>Conference Hotel</h3>
 
     <div class="row">
