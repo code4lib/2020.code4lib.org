@@ -2,27 +2,26 @@
 ---
 @charset "UTF-8";
 // these are vars, functions, mixins & need to come first
-@import 'color-contrast';
+// @import 'color-contrast';
 @import 'mixins';
 @import 'links';
-// @import 'variables';
+@import 'variables';
 // @import 'bootstrap/bootstrap';
-// @import 'bootstrap';
 @import 'bootstrap-4.4.1/assets/stylesheets/_bootstrap.scss';
 // actual styles, order _may_ be important
 @import 'global';
-// @import 'homepage';
-// @import 'sections';
-// @import 'goingon';
-// @import 'secondary-nav';
-// @import 'clip-circles';
-// @import 'testimonials';
-// // @import 'speakers';
-// @import 'presentations-workshops';
-// @import 'schedule';
-// @import 'menu';
-// @import 'search-results';
-// @import 'homepage-events';
-// @import 'footer';
-// @import 'timeline';
-// @import 'sponsors';
+@import 'homepage';
+@import 'sections';
+@import 'goingon';
+@import 'secondary-nav';
+@import 'clip-circles';
+@import 'testimonials';
+@import 'speakers';
+@import 'presentations-workshops';
+@import 'schedule';
+@import 'menu';
+@import 'search-results';
+@import 'homepage-events';
+@import 'footer';
+@import 'timeline';
+@import 'sponsors';
