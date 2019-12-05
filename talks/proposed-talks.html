@@ -16,16 +16,16 @@ title: Proposed Talks
         </div>
         <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
             {% for talk in site.data.presentation-proposals %}
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="{{ talk.slug }}Header">
-                    <h4 class="panel-title">
+            <div class="card panel-default">
+                <div class="card-header" role="tab" id="{{ talk.slug }}Header">
+                    <h4 class="card-title">
                         <a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#{{ talk.slug }}" aria-expanded="true" aria-controls="{{ talk.slug }}">
                             {{ talk.presentation-title }}
                         </a>
                     </h4>
                 </div>
-                <div id="{{ talk.slug }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{ talk.slug }}Header">
-                    <div class="panel-body">
+                <div id="{{ talk.slug }}" class="card-collapse collapse" role="tabpanel" aria-labelledby="{{ talk.slug }}Header">
+                    <div class="card-body">
                         <p>{{ talk.abstract | markdownify }}<p>
                     </div>
                 </div>

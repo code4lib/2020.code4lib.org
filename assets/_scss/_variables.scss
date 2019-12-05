@@ -242,9 +242,9 @@ $table-border-color:            #ddd !default;
 
 $btn-font-weight:                normal !default;
 
-$btn-default-color:              #333 !default;
-$btn-default-bg:                 $white !default;
-$btn-default-border:             #ccc !default;
+$btn-secondary-color:              #333 !default;
+$btn-secondary-bg:                 $white !default;
+$btn-secondary-border:             #ccc !default;
 
 $btn-primary-color:              $black !default;
 $btn-primary-bg:                 $accent !default;
@@ -462,28 +462,28 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 // $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $gray-lighter !default;
-$navbar-default-bg:                $primary-dark !default;
-$navbar-default-border:            darken($primary-dark, 20%) !default;
+$navbar-light-color:             $gray-lighter !default;
+$navbar-light-bg:                $primary-dark !default;
+$navbar-light-border:            darken($primary-dark, 20%) !default;
 
 // Navbar links
-$navbar-default-link-color:                $gray-lighter !default;
-$navbar-default-link-hover-color:          $accent-light !default;
-$navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         $accent-light !default;
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
-$navbar-default-link-disabled-color:       #ccc !default;
-$navbar-default-link-disabled-bg:          transparent !default;
+$navbar-light-link-color:                $gray-lighter !default;
+$navbar-light-link-hover-color:          $accent-light !default;
+$navbar-light-link-hover-bg:             transparent !default;
+$navbar-light-link-active-color:         $accent-light !default;
+$navbar-light-link-active-bg:            darken($navbar-light-bg, 6.5%) !default;
+$navbar-light-link-disabled-color:       #ccc !default;
+$navbar-light-link-disabled-bg:          transparent !default;
 
 // Navbar brand label
-$navbar-default-brand-color:               $navbar-default-link-color !default;
-$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
-$navbar-default-brand-hover-bg:            transparent !default;
+$navbar-light-brand-color:               $navbar-light-link-color !default;
+$navbar-light-brand-hover-color:         darken($navbar-light-brand-color, 10%) !default;
+$navbar-light-brand-hover-bg:            transparent !default;
 
 // Navbar toggle
-$navbar-default-toggle-hover-bg:           #ddd !default;
-$navbar-default-toggle-icon-bar-bg:        #888 !default;
-$navbar-default-toggle-border-color:       #ddd !default;
+$navbar-light-toggle-hover-bg:           #ddd !default;
+$navbar-light-toggle-icon-bar-bg:        #888 !default;
+$navbar-light-toggle-border-color:       #ddd !default;
 
 
 //=== Inverted navbar
@@ -801,7 +801,7 @@ $list-group-link-heading-color: #333 !default;
 //##
 
 $panel-bg:                    $white !default;
-$panel-body-padding:          0.9375rem !default;
+$card-body-padding:          0.9375rem !default;
 $panel-heading-padding:       0.625rem 0.9375rem !default;
 $panel-footer-padding:        $panel-heading-padding !default;
 $panel-border-radius:         $border-radius-base !default;

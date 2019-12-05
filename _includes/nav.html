@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-light" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -13,18 +13,18 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav ml-auto">
 
                 <!-- HOME -->
-                <li><a href="{{ site.baseurl }}/" aria-label="Return to Code4Lib Index Page">Home</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}/" aria-label="Return to Code4Lib Index Page" class="nav-link">Home</a></li>
 
                 {% if site.data.conf.program-nav-links %}
-                    <li><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>
-                    <li><a href="{{ site.baseurl }}{% link speakers/index.html %}">Speakers</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/index.html %}" class="nav-link">Schedule</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/index.html %}" class="nav-link">Speakers</a></li>
                 {% else %}
                     <!-- Information for before we have program/preconf details -->
-                    <li><a href="{{ site.baseurl }}{% link schedule/timeline.html %}">Schedule</a></li>
-                    <li><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}">Speakers</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/timeline.html %}" class="nav-link">Schedule</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}" class="nav-link">Speakers</a></li>
                 {% endif %}
 
                 {% comment %}
@@ -32,23 +32,23 @@
                 close to / during conf, send to the list of sponsors page
                 {% endcomment %}
                 {% if site.data.conf.call-for-sponsors %}
-                    <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link prospectus/index.html %}" class="nav-link">Sponsors</a></li>
                 {% else %}
-                    <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link sponsors/index.html %}" class="nav-link">Sponsors</a></li>
                 {% endif %}
 
-                <li><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}{% link general-info/attend.html %}" class="nav-link">General Info</a></li>
 
-                 <li><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
+                 <li class="nav-item"><a href="{{ site.baseurl }}{% link conduct/index.html %}" class="nav-link">Conduct & Safety</a></li>
 
                 <!-- SEARCH -->
                 {% if site.data.conf.search %}
-                <li>
-                    <form class="navbar-form" action="get" id="site_search">
+                <li class="nav-item">
+                    <form class="form-inline" action="get" id="site_search">
                         <div class="input-group">
                             <input class="form-control" type="text" placeholder="Search Presentations" id="search_box">
                             <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
+                                <button class="btn btn-secondary" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
                             </div>
                         </div>
                     </form>
