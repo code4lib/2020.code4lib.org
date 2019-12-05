@@ -305,6 +305,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.4.1)
   github-pages
+  sprockets-rails
 
 BUNDLED WITH
    2.0.2

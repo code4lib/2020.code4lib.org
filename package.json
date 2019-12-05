@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Code4Lib 2018 Conference Site",
   "main": "index.html",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "4.4.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
