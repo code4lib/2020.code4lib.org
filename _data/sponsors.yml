@@ -51,5 +51,52 @@
 - name: Balsamiq
   img: /assets/img/sponsors/balsamiq.png
   link: https://balsamiq.com/
-  annotation: "Giveaway"
+  level: giveaway
   diversity: true
+
+- name: School of Information Sciences at Illinois
+  img: /assets/img/sponsors/UIUCiSchool.png
+  link: https://ischool.illinois.edu/
+  level: bronze
+  diversity: true
+
+- name: Index Data
+  img: /assets/img/sponsors/IndexData.png
+  link: https://www.indexdata.com/
+  level: bronze
+
+- name: Rosenfeld Media
+  img: /assets/img/sponsors/rosenfeld-media.gif
+  link: http://rosenfeldmedia.com/
+  level: giveaway
+
+- name: ALA Editions
+  link: https://www.alastore.ala.org/alaeditions
+  level: giveaway
+
+- name: Apress
+  link: https://www.apress.com/us/about
+  level: giveaway
+
+- name: CRC Press
+  link: https://www.crcpress.com/
+  level: giveaway
+
+- name: Manning
+  img: /assets/img/sponsors/manning.png
+  link: https://www.manning.com/
+  level: giveaway
+
+- name: oXygen XML
+  img: /assets/img/sponsors/oxygen.png
+  link: https://www.oxygenxml.com
+  level: giveaway
+
+- name: The Pragmatic Bookshelf
+  img: /assets/img/sponsors/pragprog.png
+  link: https://pragprog.com/
+  level: giveaway
+
+- name: Morgan & Claypool Publishers
+  link: https://www.morganclaypool.com/
+  level: giveaway

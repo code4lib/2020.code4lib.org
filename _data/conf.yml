@@ -144,9 +144,9 @@ panel-proposals:
   end-date:
 
 poster-proposals:
-  show: false
-  submission-form: "https://tinyurl.com/y9489rmc"
-  end-date: "2018-11-12"
+  show: true
+  submission-form: "https://forms.gle/Jae5hWSZwVQFtzuK7"
+  end-date: "2019-12-06"
 
 shirt-proposals:
   show: false
@@ -164,11 +164,11 @@ host-proposals:
 
 keynote-voting:
   show: false
-  url: "http://example.com/"
-  end-date: "2019-11-16"
+  url: "https://forms.gle/uDaMVX9nopjjNh5Y8"
+  end-date: "2019-12-02"
 
 workshop-voting:
-  show: true
+  show: false
   url: "https://docs.google.com/forms/d/e/1FAIpQLSfEAwmP9Wnrk2aXLgfEpnk0zS3W8M4rukx_DL3tCeaMjqHwdg/viewform"
   end-date: "2019-11-19"
 
@@ -275,7 +275,7 @@ volunteer-onsite:
 ################
 
 angel-fund:
-    show: true
+    show: false
     # whether to show the "donation thermometer" & Google Spreadsheet key for it
     thermometer: true
     # NOTE: spreadsheet needs to be "published to the web"
@@ -283,16 +283,16 @@ angel-fund:
     url: https://mxmerchant.com/mxcustomer/d/27881511-a676-4fa5-80cb-9987204864c4/v3
 
 diversity-scholarship-applications:
-  show: true
+  show: false
   url: "/general-info/scholarships#how-to-apply"
   url-text: "How to Apply"
-  end-date: "2019-11-26"
+  end-date: "2019-12-02"
   notification-date: "2019-12-17"
   apply-url: "https://forms.gle/XFxkujq5HQhyac1eA"
 
 # show sponsors for diversity scholarships on general-info/scholarships
 diversity-scholarship-sponsors:
-  seeking: true
+  seeking: false
   show: true
 
 ################
