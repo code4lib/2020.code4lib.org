@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Natasha Nunn
+speakers:
+- natasha-nunn
 length: 15
 slugTitle: intellectual-freedom-and-technology
 abstract:

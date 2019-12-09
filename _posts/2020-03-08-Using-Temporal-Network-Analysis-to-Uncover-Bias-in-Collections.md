@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: John R Hott
+speakers:
+- john-r-hott
 length: 20
 slugTitle: using-temporal-network-analysis-to-uncover-bias-in-collections
 abstract:

@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Eric Phetteplace
+speakers:
+- eric-phetteplace
 length: 15
 slugTitle: everything-is-broken-but-by-how-much-exactly-
 abstract:

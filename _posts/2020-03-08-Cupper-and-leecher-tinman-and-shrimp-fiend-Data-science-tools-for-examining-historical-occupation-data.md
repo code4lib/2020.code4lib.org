@@ -1,7 +1,9 @@
 ---
 layout: presentation
 type: talk
-speakers: Alyson Gamble, Karen Boyd
+speakers:
+- alyson-gamble
+- karen-boyd
 length: 10
 slugTitle: cupper-and-leecher-tinman-and-shrimp-fiend-data-science-tools-for-examining-historical-occupation-data
 abstract:

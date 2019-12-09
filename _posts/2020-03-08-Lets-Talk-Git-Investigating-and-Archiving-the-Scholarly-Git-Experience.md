@@ -1,7 +1,10 @@
 ---
 layout: presentation
 type: talk
-speakers: Vicky Steeves, Genevieve Milliken, Sarah Nguyen
+speakers:
+- vicky-steeves
+- genevieve-milliken
+- sarah-nguyen
 length: 20
 slugTitle: let-s-talk-git-investigating-and-archiving-the-scholarly-git-experience
 abstract:

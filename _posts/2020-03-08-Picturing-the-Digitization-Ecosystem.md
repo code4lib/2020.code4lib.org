@@ -1,7 +1,10 @@
 ---
 layout: presentation
 type: talk
-speakers: Eric Shows, Sara Rubinow, Katrina Gertz
+speakers:
+- eric-shows
+- sara-rubinow
+- katrina-gertz
 length: 10
 slugTitle: picturing-the-digitization-ecosystem
 abstract:

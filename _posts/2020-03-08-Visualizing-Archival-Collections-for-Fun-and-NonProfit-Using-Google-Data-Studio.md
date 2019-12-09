@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: David W. Hodges
+speakers:
+- david-w-hodges
 length: 10
 slugTitle: visualizing-archival-collections-for-fun-and-non-profit-using-google-data-studio
 abstract:

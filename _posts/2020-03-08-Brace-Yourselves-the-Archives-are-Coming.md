@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Stefano Cossu
+speakers:
+- stefano-cossu
 length: 15
 slugTitle: brace-yourselves-the-archives-are-coming
 abstract:

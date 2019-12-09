@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Huma Zafar
+speakers:
+- huma-zafar
 length: 20
 slugTitle: a-new-approach-to-old-metadata
 abstract:

@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Bess Sadler
+speakers:
+- bess-sadler
 length: 15
 slugTitle: design-sprints-for-democratization
 abstract:

@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Michaela Blackham
+speakers:
+- michaela-blackham
 length: 15
 slugTitle: evaluating-repairing-and-enhancing-accessible-pdf-s
 abstract:

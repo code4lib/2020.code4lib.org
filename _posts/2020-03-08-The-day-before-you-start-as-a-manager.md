@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Julie C. Swierczek
+speakers:
+- julie-c-swierczek
 length: 10
 slugTitle: the-day-before-you-start-as-a-manager
 abstract:

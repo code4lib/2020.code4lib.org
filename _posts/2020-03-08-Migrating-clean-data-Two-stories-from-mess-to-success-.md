@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Clara Turp
+speakers:
+- clara-turp
 length: 15
 slugTitle: migrating-clean-data-two-stories-from-mess-to-success-
 abstract:

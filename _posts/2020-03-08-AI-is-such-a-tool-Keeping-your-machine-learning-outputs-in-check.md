@@ -1,7 +1,9 @@
 ---
 layout: presentation
 type: talk
-speakers: Shawn Averkamp, Julie Hardesty
+speakers:
+- shawn-averkamp
+- julie-hardesty
 length: 15
 slugTitle: ai-is-such-a-tool-keeping-your-machine-learning-outputs-in-check
 abstract:

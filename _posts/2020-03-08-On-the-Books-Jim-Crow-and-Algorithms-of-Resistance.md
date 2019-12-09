@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Matt Jansen
+speakers:
+- matt-jansen
 length: 20
 slugTitle: on-the-books-jim-crow-and-algorithms-of-resistance
 abstract:

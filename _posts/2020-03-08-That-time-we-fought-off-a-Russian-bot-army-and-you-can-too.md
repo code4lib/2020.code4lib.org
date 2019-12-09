@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Andromeda Yelton
+speakers:
+- andromeda-yelton
 length: 20
 slugTitle: that-time-we-fought-off-a-russian-bot-army-and-you-can-too-
 abstract:

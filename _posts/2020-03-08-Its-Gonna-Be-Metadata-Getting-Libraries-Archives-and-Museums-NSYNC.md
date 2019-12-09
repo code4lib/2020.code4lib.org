@@ -1,7 +1,11 @@
 ---
 layout: presentation
 type: talk
-speakers: Peggy Griesinger, Jeremy Friesen, Hanna Bertoldi, Mikala Narlock
+speakers:
+- peggy-griesinger
+- jeremy-friesen
+- hanna-bertoldi
+- mikala-narlock
 length: 20
 slugTitle: it-s-gonna-be-metadata-getting-libraries-archives-and-museums-nsync
 abstract:

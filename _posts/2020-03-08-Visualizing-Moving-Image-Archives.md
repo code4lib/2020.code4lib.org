@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Brian Foo
+speakers:
+- brian-foo
 length: 20
 slugTitle: visualizing-moving-image-archives
 abstract:

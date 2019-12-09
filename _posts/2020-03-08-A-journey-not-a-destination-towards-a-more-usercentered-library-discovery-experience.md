@@ -1,7 +1,10 @@
 ---
 layout: presentation
 type: talk
-speakers: Jacob Shelby, Andreas Orphanides, Ashley Evans Bandy
+speakers:
+- jacob-shelby
+- andreas-orphanides
+- ashley-evans-bandy
 length: 20
 slugTitle: a-journey-not-a-destination-towards-a-more-user-centered-library-discovery-experience
 abstract:

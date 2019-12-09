@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Jennifer Colt
+speakers:
+- jennifer-colt
 length: 20
 slugTitle: who-will-keep-it-running-
 abstract:

@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Amanda Rust
+speakers:
+- amanda-rust
 length: 20
 slugTitle: design-for-diversity-towards-more-inclusive-information-systems
 abstract:

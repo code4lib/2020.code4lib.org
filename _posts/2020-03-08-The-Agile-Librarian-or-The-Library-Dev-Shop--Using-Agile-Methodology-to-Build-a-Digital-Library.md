@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Jen Diamond
+speakers:
+- jen-diamond
 length: 15
 slugTitle: the-agile-librarian-or-the-library-dev-shop-using-agile-methodology-to-build-a-digital-library
 abstract:

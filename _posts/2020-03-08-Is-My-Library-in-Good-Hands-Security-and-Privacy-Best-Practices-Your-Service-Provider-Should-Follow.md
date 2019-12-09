@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Blake Carver
+speakers:
+- blake-carver
 length: 20
 slugTitle: is-my-library-in-good-hands-security-and-privacy-best-practices-your-service-provider-should-follow
 abstract:

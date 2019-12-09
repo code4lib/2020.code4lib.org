@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Devin Smith
+speakers:
+- devin-smith
 length: 10
 slugTitle: no-catalog-no-queries-no-problem-building-a-diy-discovery-service-for-the-prelinger-library-
 abstract:

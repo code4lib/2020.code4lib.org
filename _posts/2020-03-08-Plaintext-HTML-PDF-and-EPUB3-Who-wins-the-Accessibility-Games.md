@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Kate Deibel
+speakers:
+- katherine-deibel
 length: 20
 slugTitle: plaintext-html-pdf-and-epub3-who-wins-the-accessibility-games-
 abstract:

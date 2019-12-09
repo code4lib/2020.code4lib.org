@@ -1,7 +1,9 @@
 ---
 layout: presentation
 type: talk
-speakers: Mike Giarlo, Aaron Collier
+speakers:
+- mike-giarlo
+- aaron-collier
 length: 15
 slugTitle: amplifying-productivity-joy-lightweight-tools-techniques-to-help-teams-improve-collaboration-communication
 abstract:

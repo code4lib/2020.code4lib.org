@@ -1,7 +1,8 @@
 ---
 layout: presentation
 type: talk
-speakers: Kate Dohe
+speakers:
+- kate-dohe
 length: 20
 slugTitle: the-digital-is-critical-designing-radical-library-systems
 abstract:
