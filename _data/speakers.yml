@@ -7,7 +7,8 @@
   twitter: aaronisbrewing
   slack: acollier
   github: aaron-collier
-  image_src: /assets/img/speakers//assets/img/speakers/aaron-collier.jpg
+  image_src: /assets/img/speakers/aaron-collier.jpg
+  keynote: false
 
 - id: alyson-gamble
   name: Alyson Gamble
@@ -19,6 +20,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/alyson-gamble.jpg
+  keynote: false
 
 - id: amanda-rust
   name: Amanda Rust
@@ -30,6 +32,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/amanda-rust.jpg
+  keynote: false
 
 - id: andreas-orphanides
   name: Andreas Orphanides
@@ -41,6 +44,7 @@
   slack: akorphan
   github:
   image_src: /assets/img/speakers/andreas-orphanides.jpg
+  keynote: false
 
 - id: andromeda-yelton
   name: Andromeda Yelton
@@ -52,6 +56,7 @@
   slack: thatandromeda
   github: thatandromeda
   image_src: /assets/img/speakers/andromeda-yelton.jpg
+  keynote: false
 
 - id: ashley-evans-bandy
   name: Ashley Evans Bandy
@@ -63,6 +68,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/ashley-evans-bandy.jpg
+  keynote: false
 
 - id: bess-sadler
   name: Bess Sadler
@@ -74,6 +80,7 @@
   slack: bess
   github: bess
   image_src: /assets/img/speakers/bess-sadler.jpg
+  keynote: false
 
 - id: blake-carver
   name: Blake Carver
@@ -85,6 +92,7 @@
   slack:
   github: Blake-
   image_src: /assets/img/speakers/blake-carver.jpg
+  keynote: false
 
 - id: brian-foo
   name: Brian Foo
@@ -96,6 +104,7 @@
   slack: beefoo
   github: beefoo
   image_src: /assets/img/speakers/brian-foo.jpg
+  keynote: false
 
 - id: clara-turp
   name: Clara Turp
@@ -107,6 +116,7 @@
   slack:
   github: ClaraTurp
   image_src: /assets/img/speakers/clara-turp.jpg
+  keynote: false
 
 - id: cynde-moya
   name: Cynde Moya
@@ -118,6 +128,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/cynde-moya.jpg
+  keynote: false
 
 - id: david-w-hodges
   name: David W. Hodges
@@ -129,6 +140,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/david-w-hodges.jpg
+  keynote: false
 
 - id: devin-smith
   name: Devin Smith
@@ -140,6 +152,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/devin-smith.jpg
+  keynote: false
 
 - id: eric-phetteplace
   name: Eric Phetteplace
@@ -151,6 +164,7 @@
   slack: phette23
   github: phette23
   image_src: /assets/img/speakers/eric-phetteplace.jpg
+  keynote: false
 
 - id: eric-shows
   name: Eric Shows
@@ -162,6 +176,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/eric-shows.jpg
+  keynote: false
 
 - id: genevieve-milliken
   name: Genevieve Milliken
@@ -173,6 +188,7 @@
   slack: gen_milliken
   github: GenevieveMilliken
   image_src: /assets/img/speakers/genevieve-milliken.jpg
+  keynote: false
 
 - id: hanna-bertoldi
   name: Hanna Bertoldi
@@ -184,6 +200,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/hanna-bertoldi.jpg
+  keynote: false
 
 - id: huma-zafar
   name: Huma Zafar
@@ -195,6 +212,7 @@
   slack: hzafar
   github: hzafar
   image_src: /assets/img/speakers/huma-zafar.jpg
+  keynote: false
 
 - id: jacob-shelby
   name: Jacob Shelby
@@ -206,6 +224,7 @@
   slack:
   github: eightbitter
   image_src: /assets/img/speakers/jacob-shelby.jpg
+  keynote: false
 
 - id: jen-diamond
   name: Jen Diamond
@@ -217,6 +236,7 @@
   slack: jendiamond
   github: jendiamond
   image_src: /assets/img/speakers/jen-diamond.jpg
+  keynote: false
 
 - id: jennifer-colt
   name: Jennifer Colt
@@ -228,6 +248,7 @@
   slack: starsplatter
   github: starsplatter
   image_src: /assets/img/speakers/jennifer-colt.jpg
+  keynote: false
 
 - id: jeremy-friesen
   name: Jeremy Friesen
@@ -239,6 +260,7 @@
   slack:
   github: jeremyf
   image_src: /assets/img/speakers/jeremy-friesen.jpg
+  keynote: false
 
 - id: jessica-lange
   name: Jessica Lange
@@ -250,6 +272,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/jessica-lange.jpg
+  keynote: false
 
 - id: john-r-hott
   name: John R Hott
@@ -261,6 +284,7 @@
   slack:
   github: deternitydx
   image_src: /assets/img/speakers/john-r-hott.jpg
+  keynote: false
 
 - id: julie-c-swierczek
   name: Julie C. Swierczek
@@ -272,6 +296,7 @@
   slack: jcswierczek
   github:
   image_src: /assets/img/speakers/julie-c-swierczek.jpg
+  keynote: false
 
 - id: julie-hardesty
   name: Julie Hardesty
@@ -283,6 +308,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/julie-hardesty.jpg
+  keynote: false
 
 - id: karen-boyd
   name: Karen Boyd
@@ -294,6 +320,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/karen-boyd.jpg
+  keynote: false
 
 - id: kate-dohe
   name: Kate Dohe
@@ -305,6 +332,7 @@
   slack: katedohe
   github:
   image_src: /assets/img/speakers/kate-dohe.jpg
+  keynote: false
 
 - id: katherine-deibel
   name: Katherine "Kate" Deibel
@@ -316,6 +344,7 @@
   slack: metageeky
   github: metageeky
   image_src: /assets/img/speakers/katherine-deibel.jpg
+  keynote: false
 
 - id: katrina-gertz
   name: Katrina Gertz
@@ -327,6 +356,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/katrina-gertz.jpg
+  keynote: false
 
 - id: lauren-work
   name: Lauren Work
@@ -338,6 +368,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/lauren-work.jpg
+  keynote: false
 
 - id: matt-jansen
   name: Matt Jansen
@@ -349,6 +380,7 @@
   slack:
   github: mtjansen
   image_src: /assets/img/speakers/matt-jansen.jpg
+  keynote: false
 
 - id: maura-gerke
   name: Maura Gerke
@@ -360,6 +392,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/maura-gerke.jpg
+  keynote: false
 
 - id: michaela-blackham
   name: Michaela Blackham
@@ -371,6 +404,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/michaela-blackham.jpg
+  keynote: false
 
 - id: mikala-narlock
   name: Mikala Narlock
@@ -382,6 +416,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/mikala-narlock.jpg
+  keynote: false
 
 - id: mike-giarlo
   name: Mike Giarlo
@@ -393,6 +428,7 @@
   slack: mjgiarlo
   github: mjgiarlo
   image_src: /assets/img/speakers/mike-giarlo.jpg
+  keynote: false
 
 - id: natasha-nunn
   name: Natasha Nunn
@@ -404,6 +440,7 @@
   slack:
   github: nnunn
   image_src: /assets/img/speakers/natasha-nunn.jpg
+  keynote: false
 
 - id: peggy-griesinger
   name: Peggy Griesinger
@@ -415,6 +452,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/peggy-griesinger.jpg
+  keynote: false
 
 - id: sara-rubinow
   name: Sara Rubinow
@@ -426,6 +464,7 @@
   slack:
   github:
   image_src: /assets/img/speakers/sara-rubinow.jpg
+  keynote: false
 
 - id: sarah-nguyen
   name: Sarah Nguyen
@@ -437,6 +476,7 @@
   slack: snewyuen
   github: michi-gato
   image_src: /assets/img/speakers/sarah-nguyen.jpg
+  keynote: false
 
 - id: shawn-averkamp
   name: Shawn Averkamp
@@ -448,6 +488,7 @@
   slack: saverkamp
   github: saverkamp
   image_src: /assets/img/speakers/shawn-averkamp.jpg
+  keynote: false
 
 - id: stefano-cossu
   name: Stefano Cossu
@@ -459,6 +500,7 @@
   slack:
   github: scossu
   image_src: /assets/img/speakers/stefano-cossu.jpg
+  keynote: false
 
 - id: vicky-steeves
   name: Vicky Steeves
@@ -470,3 +512,4 @@
   slack: VickySteeves
   github: VickySteeves
   image_src: /assets/img/speakers/vicky-steeves.jpg
+  keynote: false
