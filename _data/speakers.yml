@@ -19,7 +19,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/alyson-gamble.jpg
+  image_src: /assets/img/nopics/nopic1.jpg
   keynote: false
 
 - id: amanda-rust
@@ -127,7 +127,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/cynde-moya.jpg
+  image_src: /assets/img/nopics/nopic2.jpg
   keynote: false
 
 - id: david-w-hodges
@@ -175,7 +175,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/eric-shows.jpg
+  image_src: /assets/img/nopics/nopic3.jpg
   keynote: false
 
 - id: genevieve-milliken
@@ -211,7 +211,7 @@
   twitter: electricspectra
   slack: hzafar
   github: hzafar
-  image_src: /assets/img/speakers/huma-zafar.jpg
+  image_src: /assets/img/nopics/nopic4.jpg
   keynote: false
 
 - id: jacob-shelby
@@ -247,7 +247,7 @@
   twitter: starsplatter
   slack: starsplatter
   github: starsplatter
-  image_src: /assets/img/speakers/jennifer-colt.jpg
+  image_src: /assets/img/nopics/nopic5.jpg
   keynote: false
 
 - id: jeremy-friesen
@@ -271,7 +271,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/jessica-lange.jpg
+  image_src: /assets/img/nopics/nopic6.jpg
   keynote: false
 
 - id: john-r-hott
@@ -283,7 +283,7 @@
   twitter:
   slack:
   github: deternitydx
-  image_src: /assets/img/speakers/john-r-hott.jpg
+  image_src: /assets/img/nopics/nopic7.jpg
   keynote: false
 
 - id: julie-c-swierczek
@@ -295,7 +295,7 @@
   twitter:
   slack: jcswierczek
   github:
-  image_src: /assets/img/speakers/julie-c-swierczek.jpg
+  image_src: /assets/img/nopics/nopic8.jpg
   keynote: false
 
 - id: julie-hardesty
@@ -307,7 +307,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/julie-hardesty.jpg
+  image_src: /assets/img/nopics/nopic9.jpg
   keynote: false
 
 - id: karen-boyd
@@ -355,7 +355,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/katrina-gertz.jpg
+  image_src: /assets/img/nopics/nopic10.jpg
   keynote: false
 
 - id: lauren-work
@@ -367,7 +367,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/lauren-work.jpg
+  image_src: /assets/img/nopics/nopic1.jpg
   keynote: false
 
 - id: matt-jansen
@@ -391,7 +391,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/maura-gerke.jpg
+  image_src: /assets/img/nopics/nopic2.jpg
   keynote: false
 
 - id: michaela-blackham
@@ -415,7 +415,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/mikala-narlock.jpg
+  image_src: /assets/img/nopics/nopic3.jpg
   keynote: false
 
 - id: mike-giarlo
@@ -439,7 +439,7 @@
   twitter: nnunny
   slack:
   github: nnunn
-  image_src: /assets/img/speakers/natasha-nunn.jpg
+  image_src: /assets/img/nopics/nopic5.jpg
   keynote: false
 
 - id: peggy-griesinger
@@ -463,7 +463,7 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/speakers/sara-rubinow.jpg
+  image_src: /assets/img/nopics/nopic6.jpg
   keynote: false
 
 - id: sarah-nguyen
@@ -487,7 +487,7 @@
   twitter: saverkamp
   slack: saverkamp
   github: saverkamp
-  image_src: /assets/img/speakers/shawn-averkamp.jpg
+  image_src: /assets/img/nopics/nopic7.jpg
   keynote: false
 
 - id: stefano-cossu
