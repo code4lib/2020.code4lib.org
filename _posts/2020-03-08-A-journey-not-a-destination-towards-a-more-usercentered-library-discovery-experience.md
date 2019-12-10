@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Jacob Shelby, Andreas Orphanides, Ashley Evans Bandy
+categories: talks
 speakers:
 - jacob-shelby
 - andreas-orphanides

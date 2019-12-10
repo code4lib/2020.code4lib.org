@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Jennifer Colt
+categories: talks
 speakers:
 - jennifer-colt
 length: 20

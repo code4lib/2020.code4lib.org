@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Matt Jansen
+categories: talks
 speakers:
 - matt-jansen
 length: 20

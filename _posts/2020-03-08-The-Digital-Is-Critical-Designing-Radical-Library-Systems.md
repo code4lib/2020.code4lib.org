@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Kate Dohe
+categories: talks
 speakers:
 - kate-dohe
 length: 20

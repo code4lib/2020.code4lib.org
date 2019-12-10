@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Clara Turp
+categories: talks
 speakers:
 - clara-turp
 length: 15

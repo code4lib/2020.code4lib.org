@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Eric Shows, Sara Rubinow, Katrina Gertz
+categories: talks
 speakers:
 - eric-shows
 - sara-rubinow

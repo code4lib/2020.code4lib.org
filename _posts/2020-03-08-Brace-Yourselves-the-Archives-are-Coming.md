@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Stefano Cossu
+categories: talks
 speakers:
 - stefano-cossu
 length: 15

@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Alyson Gamble, Karen Boyd
+categories: talks
 speakers:
 - alyson-gamble
 - karen-boyd

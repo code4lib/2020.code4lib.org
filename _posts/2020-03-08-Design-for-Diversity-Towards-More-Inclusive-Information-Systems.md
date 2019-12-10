@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Amanda Rust
+categories: talks
 speakers:
 - amanda-rust
 length: 20

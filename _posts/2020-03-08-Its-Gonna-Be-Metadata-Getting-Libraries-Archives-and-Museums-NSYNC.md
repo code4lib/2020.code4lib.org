@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Peggy Griesinger, Jeremy Friesen, Hanna Bertoldi, Mikala Narlock
+categories: talks
 speakers:
 - peggy-griesinger
 - jeremy-friesen

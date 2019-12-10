@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Huma Zafar
+categories: talks
 speakers:
 - huma-zafar
 length: 20

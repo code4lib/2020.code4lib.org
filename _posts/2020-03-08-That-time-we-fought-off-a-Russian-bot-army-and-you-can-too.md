@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Andromeda Yelton
+categories: talks
 speakers:
 - andromeda-yelton
 length: 20

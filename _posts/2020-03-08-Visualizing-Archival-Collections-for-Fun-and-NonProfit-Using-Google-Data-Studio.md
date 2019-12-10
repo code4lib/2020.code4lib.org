@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: David W. Hodges
+categories: talks
 speakers:
 - david-w-hodges
 length: 10

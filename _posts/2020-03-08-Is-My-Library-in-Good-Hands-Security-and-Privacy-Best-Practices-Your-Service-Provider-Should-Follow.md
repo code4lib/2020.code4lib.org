@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Blake Carver
+categories: talks
 speakers:
 - blake-carver
 length: 20

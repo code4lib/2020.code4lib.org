@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: John R Hott
+categories: talks
 speakers:
 - john-r-hott
 length: 20

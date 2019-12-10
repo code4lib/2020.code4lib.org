@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Natasha Nunn
+categories: talks
 speakers:
 - natasha-nunn
 length: 15

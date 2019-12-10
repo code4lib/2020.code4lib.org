@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Jen Diamond
+categories: talks
 speakers:
 - jen-diamond
 length: 15

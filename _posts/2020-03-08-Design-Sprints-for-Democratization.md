@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Bess Sadler
+categories: talks
 speakers:
 - bess-sadler
 length: 15

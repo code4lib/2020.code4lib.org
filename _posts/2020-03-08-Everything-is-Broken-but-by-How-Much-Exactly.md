@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Eric Phetteplace
+categories: talks
 speakers:
 - eric-phetteplace
 length: 15

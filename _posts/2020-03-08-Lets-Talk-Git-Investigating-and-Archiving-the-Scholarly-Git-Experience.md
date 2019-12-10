@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Vicky Steeves, Genevieve Milliken, Sarah Nguyen
+categories: talks
 speakers:
 - vicky-steeves
 - genevieve-milliken

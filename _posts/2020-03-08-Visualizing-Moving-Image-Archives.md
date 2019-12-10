@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Brian Foo
+categories: talks
 speakers:
 - brian-foo
 length: 20

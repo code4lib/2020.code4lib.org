@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Kate Deibel
+categories: talks
 speakers:
 - katherine-deibel
 length: 20

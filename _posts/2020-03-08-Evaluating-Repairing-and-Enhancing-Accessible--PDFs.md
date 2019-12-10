@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Michaela Blackham
+categories: talks
 speakers:
 - michaela-blackham
 length: 15

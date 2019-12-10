@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Devin Smith
+categories: talks
 speakers:
 - devin-smith
 length: 10

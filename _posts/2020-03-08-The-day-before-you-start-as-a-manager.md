@@ -1,6 +1,8 @@
 ---
 layout: presentation
 type: talk
+speakers-text: Julie C. Swierczek
+categories: talks
 speakers:
 - julie-c-swierczek
 length: 10
