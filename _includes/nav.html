@@ -15,17 +15,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 
-                <!-- HOME -->
                 <li><a href="{{ site.baseurl }}/" aria-label="Return to Code4Lib Index Page">Home</a></li>
 
-                {% if site.data.conf.program-nav-links %}
-                    <li><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>
-                    <li><a href="{{ site.baseurl }}{% link speakers/index.html %}">Speakers</a></li>
-                {% else %}
-                    <!-- Information for before we have program/preconf details -->
-                    <li><a href="{{ site.baseurl }}{% link schedule/timeline.html %}">Schedule</a></li>
-                    <li><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}">Speakers</a></li>
-                {% endif %}
+                <li><a href="{{ site.baseurl }}{% if site.data.conf.have-schedule %}
+                {% link schedule/index.html %}{% else %}{% link schedule/timeline.html %}
+                {% endif %}">Schedule</a></li>
+                <li><a href="{{ site.baseurl }}{% if site.data.conf.have-talks %}
+                {% link speakers/index.html %}{% else %}{% link speakers/past-keynotes.html %}
+                {% endif %}">Speakers</a></li>
 
                 {% comment %}
                 when looking for sponsors before conf, send users to prospectus

@@ -8,9 +8,17 @@ location: 'Pittsburgh, Pennsylvania'
 hero-image-alt: "Daytime photo of Pittsburgh downtown area with gray clouds framed by yellow bridges"
 
 search: false
-# If false (we don't have program info yet), the main nav links go:
-# schedule -> preparation timeline, speakers -> past keynotes
-program-nav-links: false
+
+########################
+# Program & Schedule
+#######################
+# These booleans affect the main menu links in the ways described below, as well
+# as displays in a few other places.
+# if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
+have-talks: true
+have-workshops: false
+# if true Schedule link -> /schedule/, if false -> /schedule/timeline
+have-schedule: false
 
 # day 0 = preconf day
 days:
