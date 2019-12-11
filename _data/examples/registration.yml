@@ -2,14 +2,24 @@
 # Registration
 ###############
 
+# include "$" in all "cost" strings, makes templates cleaner
+
 workshop-only:
+  # "show" only affects a button on the general-info/attend page
   show: false
   url: "https://example.com"
+  half-day-cost: "$50"
+  full-day-cost: "$100"
 
 # "show" just means display on home page, "open" means people can register
 conference:
   show: true
   url: "https://example.com"
   start-date: 2019-12-11
-  end-date: 2020-01-30
+  end-date: 2020-02-08
+  cancellation-date: 2020-02-12
   open: true
+  cost: "$375"
+  late-cost: "$450"
+
+reception-plus-one-cost: "$60"
