@@ -45,6 +45,7 @@ venue:
     floorplan: 'https://www.marriott.com/hotels/event-planning/business-meeting/pitwi-the-westin-pittsburgh/#FloorplanLayoutf689'
     directions: 'https://www.marriott.com/hotels/maps/travel/pitwi-the-westin-pittsburgh/'
     a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
+    cost: "$159"
 
 # Reception
 reception-venue: 'Carnegie Museum of Pittsburgh - Oakland'
