@@ -33,9 +33,9 @@ active: Attend Code4Lib
                 <ul>
                     <li><strong>Main Conference</strong>: {{ site.data.registration.conference.cost }}</li>
 
-                    <li><strong>Main Conference (after {{ site.data.registration.conference.end-date | date: "%B %-d" }})</strong> : {{ site.data.registration.conference.late-cost }}</li>
+                    <li><strong>Main Conference (after {{ site.data.registration.conference.end-date | date: "%B %-d" }})</strong>: {{ site.data.registration.conference.late-cost }}</li>
 
-                    <li><strong>Pre-Conference </strong>: {{ site.data.registration.workshop-only.half-day-cost }} per half day ({{ site.data.registration.workshop-only.full-day-cost }} for full day)</li>
+                    <li><strong>Pre-Conference</strong>: {{ site.data.registration.workshop-only.half-day-cost }} per half day ({{ site.data.registration.workshop-only.full-day-cost }} for full day)</li>
 
                     {% if site.data.registration.reception-plus-one-cost %}
                         <li><strong>Reception "plus one"</strong>: {{ site.data.registration.reception-plus-one-cost }} (limit one "plus one" per registration)</li>
