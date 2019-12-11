@@ -41,7 +41,7 @@ active: Attend Code4Lib
                         <li><strong>Reception "plus one"</strong>: {{ site.data.registration.reception-plus-one-cost }} (limit one "plus one" per registration)</li>
                     {% endif %}
 
-                    <li><strong>{{site.data.conf.venue.name}}</strong>: {{ site.data.conf.venue.cost }}/night plus taxes</li>
+                    <li><strong>{{site.data.conf.venue.name}}</strong>: {{ site.data.conf.venue.cost }}/night ({% if site.data.conf.venue.with-tax-cost %}{{ site.data.conf.venue.with-tax-cost }} with taxes{% else %}plus taxes{% endif %})</li>
                 </ul>
 
                 <p>

@@ -54,6 +54,7 @@ venue:
     directions: 'https://www.marriott.com/hotels/maps/travel/pitwi-the-westin-pittsburgh/'
     a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
     cost: "$159"
+    with-tax-cost: "$181.26"
 
 # Reception
 reception-venue: 'Carnegie Museum of Pittsburgh - Oakland'

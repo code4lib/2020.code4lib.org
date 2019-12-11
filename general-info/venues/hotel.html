@@ -28,7 +28,7 @@
     <div class="col-xs-12">
         <h3>Lodging</h3>
         <p>
-            The conference has a block of rooms reserved at the Westin Pittsburgh, starting at a daily rate of {{ site.data.conf.venue.cost }} (plus taxes). This rate is valid between the dates of March 8 – 12, but only until Friday, February 7 -or- until the block fills up, whichever comes first. Rooms may be available at the group rate before or after the above March dates, based on availability at the hotel. While the reservation will require a credit card, it will not be charged until you arrive (you may also incur a fee if you do not show, or cancel outside of the allowable cancellation time frame). 
+            The conference has a block of rooms reserved at the Westin Pittsburgh, starting at a daily rate of {{ site.data.conf.venue.cost }} ({% if site.data.conf.venue.with-tax-cost %}{{ site.data.conf.venue.with-tax-cost }} with taxes{% else %}plus taxes{% endif %}). This rate is valid between the dates of March 8 – 12, but only until Friday, February 7 -or- until the block fills up, whichever comes first. Rooms may be available at the group rate before or after the above March dates, based on availability at the hotel. While the reservation will require a credit card, it will not be charged until you arrive (you may also incur a fee if you do not show, or cancel outside of the allowable cancellation time frame).
         </p>
         <p>There will be a reservation URL in your registration confirmation.</p>
         <p>
