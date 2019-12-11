@@ -192,22 +192,6 @@ shirt-voting:
   url: "https://goo.gl/forms/Bgo590LPEhjfJGkT2"
   end-date: "2018-12-07"
 
-###############
-# Registration
-###############
-
-workshop-registration:
-  show: false
-  url: ""
-
-# "show" just means display on home page, "open" means people can register
-conference-registration:
-  show: false
-  url: ""
-  start-date: Null
-  end-date: Null
-  open: false
-
 ##################
 # Schedule events
 ##################

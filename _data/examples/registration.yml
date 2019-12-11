@@ -1,0 +1,15 @@
+###############
+# Registration
+###############
+
+workshop-only:
+  show: false
+  url: "https://example.com"
+
+# "show" just means display on home page, "open" means people can register
+conference:
+  show: true
+  url: "https://example.com"
+  start-date: 2019-12-11
+  end-date: 2020-01-30
+  open: true

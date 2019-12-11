@@ -1,0 +1,16 @@
+###############
+# Registration
+###############
+
+workshop-only:
+  show: false
+  url: ""
+
+# "show" just means display on home page, "open" means people can register
+conference:
+  show: true
+  url: https://www.eiseverywhere.com/c4l20
+  start-date: 2019-12-11
+  end-date: Null
+  open: true
+  cost: 400
