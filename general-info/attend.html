@@ -10,19 +10,19 @@ active: Attend Code4Lib
             <div class="col-xs-12">
                 <h1>Attend Code4Lib</h1>
 
-                    {% if site.data.conf.conference-registration.show %}
-                        {% if site.data.conf.conference-registration.open %}
-                            <a href="{{ site.data.conf.conference-registration.url }}" class="btn btn-lg btn-primary">Register Now!</a>
+                    {% if site.data.registration.conference.show %}
+                        {% if site.data.registration.conference.open %}
+                            <a href="{{ site.data.registration.conference.url }}" class="btn btn-lg btn-primary">Register Now!</a>
                         {% else %}
-                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.conf.conference-registration.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
+                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.registration.conference.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
                         {% endif %}
                     {% else %}
                         <p>Code4Lib will be held from {{site.data.conf.days[0].date}} to {{site.data.conf.days.last.date}} this year. We have reserved a block at the {{site.data.conf.venue.name}}; see more details on the <a href="venues/">Venues</a> page.</p>
                     {% endif %}
 
-                    {% if site.data.conf.workshop-registration.show %}
+                    {% if site.data.registration.workshop-only.show %}
                         <h3>Preconference Workshops</h3>
-                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-registration.url }}">Pre Conf Registration</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.registration.workshop-only.url }}">Pre Conf Registration</a></p>
                     {% endif %}
             </div>
         </div>
@@ -32,7 +32,7 @@ active: Attend Code4Lib
             <div class="col-xs-12">
                 <h3>Registration Fees</h3>
                 <ul>
-                    <li><strong>Main Conference</strong>: $395</li>
+                    <li><strong>Main Conference</strong>: ${{ site.data.registration.conference.cost }}</li>
                     <li><strong>Main Conference (after January 23rd)</strong> : $450</li>
                     <li><strong>Pre-Conference </strong>: $50 per half day ($100 for full day)</li>
                     <li><strong>Reception "plus one"</strong>: $60 (limit one "plus one" per registration)</li>
