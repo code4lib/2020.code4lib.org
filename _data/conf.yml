@@ -16,7 +16,7 @@ search: false
 # as displays in a few other places.
 # if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
 have-talks: true
-have-workshops: false
+have-workshops: true
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
 have-schedule: false
 

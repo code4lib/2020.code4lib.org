@@ -10,6 +10,30 @@
   image_src: /assets/img/speakers/aaron-collier.jpg
   keynote: false
 
+- id: abel-facenda-carrasco
+  name: Abel Facenda Carrasco
+  last: Carrasco
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic1.jpg
+  keynote: false
+
+- id: aidan-sawyer
+  name: Aidan Sawyer
+  last: Sawyer
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic4.jpg
+  keynote: false
+
 - id: alyson-gamble
   name: Alyson Gamble
   last: Gamble
@@ -44,6 +68,18 @@
   slack: akorphan
   github:
   image_src: /assets/img/speakers/andreas-orphanides.jpg
+  keynote: false
+
+- id: andrew-janco
+  name: Andrew Janco
+  last: Janco
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic1.jpg
   keynote: false
 
 - id: andromeda-yelton
@@ -106,6 +142,30 @@
   image_src: /assets/img/speakers/brian-foo.jpg
   keynote: false
 
+- id: bryan-neil-jones
+  name: Bryan Neil Jones
+  last: Jones
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic8.jpg
+  keynote: false
+
+- id: chad-clark
+  name: Chad Clark
+  last: Clark
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic7.jpg
+  keynote: false
+
 - id: clara-turp
   name: Clara Turp
   last: Turp
@@ -142,6 +202,18 @@
   image_src: /assets/img/speakers/david-w-hodges.jpg
   keynote: false
 
+- id: devin-becker
+  name: Devin Becker
+  last: Becker
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic1.jpg
+  keynote: false
+
 - id: devin-smith
   name: Devin Smith
   last: Smith
@@ -152,6 +224,18 @@
   slack:
   github:
   image_src: /assets/img/speakers/devin-smith.jpg
+  keynote: false
+
+- id: eric-lease-morgan
+  name: Eric Lease Morgan
+  last: Morgan
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic5.jpg
   keynote: false
 
 - id: eric-phetteplace
@@ -178,6 +262,30 @@
   image_src: /assets/img/nopics/nopic3.jpg
   keynote: false
 
+- id: evan-williamson
+  name: Evan Williamson
+  last: Williamson
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic9.jpg
+  keynote: false
+
+- id: francis-kayiwa
+  name: Francis Kayiwa
+  last: Kayiwa
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic2.jpg
+  keynote: false
+
 - id: genevieve-milliken
   name: Genevieve Milliken
   last: Milliken
@@ -202,6 +310,18 @@
   image_src: /assets/img/speakers/hanna-bertoldi.jpg
   keynote: false
 
+- id: hector-correa
+  name: Hector Correa
+  last: Correa
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic9.jpg
+  keynote: false
+
 - id: huma-zafar
   name: Huma Zafar
   last: Zafar
@@ -224,6 +344,18 @@
   slack:
   github: eightbitter
   image_src: /assets/img/speakers/jacob-shelby.jpg
+  keynote: false
+
+- id: james-r-griffin-III
+  name: James R. Griffin III
+  last: Griffin
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic9.jpg
   keynote: false
 
 - id: jen-diamond
@@ -274,6 +406,18 @@
   image_src: /assets/img/nopics/nopic6.jpg
   keynote: false
 
+- id: jillian-lohndorf
+  name: Jillian Lohndorf
+  last: Lohndorf
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic7.jpg
+  keynote: false
+
 - id: john-r-hott
   name: John R Hott
   last: Hott
@@ -307,7 +451,19 @@
   twitter:
   slack:
   github:
-  image_src: /assets/img/nopics/nopic9.jpg
+  image_src: /assets/img/speakers/julie-hardesty.jpg
+  keynote: false
+
+- id: junior-tidal
+  name: Junior Tidal
+  last: Tidal
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic5.jpg
   keynote: false
 
 - id: karen-boyd
@@ -442,6 +598,30 @@
   image_src: /assets/img/nopics/nopic5.jpg
   keynote: false
 
+- id: nikitas-tampakis
+  name: Nikitas Tampakis
+  last: Tampakis
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic1.jpg
+  keynote: false
+
+- id: olivia-wikle
+  name: Olivia Wikle
+  last: Wikle
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic6.jpg
+  keynote: false
+
 - id: peggy-griesinger
   name: Peggy Griesinger
   last: Griesinger
@@ -487,7 +667,7 @@
   twitter: saverkamp
   slack: saverkamp
   github: saverkamp
-  image_src: /assets/img/nopics/nopic7.jpg
+  image_src: /assets/img/speakers/shawn-averkamp.jpg
   keynote: false
 
 - id: stefano-cossu
@@ -512,4 +692,16 @@
   slack: VickySteeves
   github: VickySteeves
   image_src: /assets/img/speakers/vicky-steeves.jpg
+  keynote: false
+
+- id: yinlin-chen
+  name: Yinlin Chen
+  last: Chen
+  pronouns:
+  position-title:
+  bio:
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic1.jpg
   keynote: false
