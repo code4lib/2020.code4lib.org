@@ -1,0 +1,22 @@
+- id: westin
+  name: 'The Westin Pittsburgh'
+  google_maps: 'https://www.google.com/maps/place/The+Westin+Pittsburgh/@40.4442902,-79.9970007,17z/data=!3m1!4b1!4m10!3m9!1s0x8834f3e280b3ce5f:0x69e7db8e16c9758b!5m4!1s2019-12-26!2i4!4m1!1i2!8m2!3d40.4442902!4d-79.9948067'
+  embed_code: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.3996732699097!2d-79.99700074856445!3d40.444290179260584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f3e280b3ce5f%3A0x69e7db8e16c9758b!2sThe%20Westin%20Pittsburgh!5e0!3m2!1sen!2sca!4v1576163385550!5m2!1sen!2sca'
+  floor_plan: 'https://www.marriott.com/hotels/event-planning/business-meeting/pitwi-the-westin-pittsburgh/#FloorplanLayoutf689'
+  rooms:
+    - id: tbd
+      name: 'To Be Determined'
+    - id: butler-east
+      name: 'Butler East'
+    - id: butler-westin
+      name: 'Butler West'
+    - id: cambria-east
+      name: 'Cambria East'
+    - id: cambria-west
+      name: 'Cambria West'
+    - id: fayette
+      name: 'Fayette'
+    - id: somerset-east
+      name: 'Somerset East'
+    - id: somerset-west
+      name: 'Somerset West'
