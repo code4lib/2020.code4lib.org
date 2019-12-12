@@ -1,6 +1,7 @@
 ---
 layout: presentation
 type: talk
+startTime: TBD
 speakers-text: Mike Giarlo, Aaron Collier
 categories: talks
 speakers:

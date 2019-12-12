@@ -1,6 +1,7 @@
 ---
 layout: presentation
 type: talk
+startTime: TBD
 speakers-text: Eric Phetteplace
 categories: talks
 speakers:

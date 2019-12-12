@@ -1,6 +1,7 @@
 ---
 layout: presentation
 type: talk
+startTime: TBD
 speakers-text: Shawn Averkamp, Julie Hardesty
 categories: talks
 speakers:
