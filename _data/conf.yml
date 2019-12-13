@@ -18,7 +18,7 @@ search: false
 have-talks: true
 have-workshops: true
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
-have-schedule: false
+have-schedule: true
 
 # day 0 = preconf day
 days:
