@@ -152,13 +152,13 @@
 
 # keynotes
 - timeImg: 9.15.png
-  title: Opening Keynote
+  title: Opening Keynote - Alison Macrina
   day1: true
   groupId: key-open
   time: 09:15-10:00
 
 - timeImg: 9.15.png
-  title: Closing Keynote
+  title: Closing Keynote - Alison Langmead
   day3: true
   groupId: key-close
   time: 09:15-10:00
