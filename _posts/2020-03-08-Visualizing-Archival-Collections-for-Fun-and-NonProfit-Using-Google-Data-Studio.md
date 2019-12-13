@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T16:20
 speakers-text: David W. Hodges
 categories: talks
+day: 2
+group: 6
+spot: 3
 speakers:
 - david-w-hodges
 length: 10

@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T11:25
 speakers-text: Bess Sadler
 categories: talks
+day: 2
+group: 4
+spot: 2
 speakers:
 - bess-sadler
 length: 15

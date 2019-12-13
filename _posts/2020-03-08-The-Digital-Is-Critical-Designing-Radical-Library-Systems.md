@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-09T14:25
 speakers-text: Kate Dohe
 categories: talks
+day: 1
+group: 2
+spot: 4
 speakers:
 - kate-dohe
 length: 20

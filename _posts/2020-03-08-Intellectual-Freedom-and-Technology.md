@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T09:35
 speakers-text: Natasha Nunn
 categories: talks
+day: 2
+group: 3
+spot: 2
 speakers:
 - natasha-nunn
 length: 15

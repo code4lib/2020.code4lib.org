@@ -1,8 +1,12 @@
 ---
 layout: presentation
 type: talk
+startTime: 2020-03-10T09:50
 speakers-text: Blake Carver
 categories: talks
+day: 2
+group: 3
+spot: 3
 speakers:
 - blake-carver
 length: 20

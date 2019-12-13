@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-09T10:55
 speakers-text: Alyson Gamble, Karen Boyd
 categories: talks
+day: 1
+group: 1
+spot: 3
 speakers:
 - alyson-gamble
 - karen-boyd

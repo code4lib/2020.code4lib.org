@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T09:15
 speakers-text: Andromeda Yelton
 categories: talks
+day: 2
+group: 3
+spot: 1
 speakers:
 - andromeda-yelton
 length: 20

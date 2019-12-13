@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T15:50
 speakers-text: Eric Shows, Sara Rubinow, Katrina Gertz
 categories: talks
+day: 2
+group: 6
+spot: 1
 speakers:
 - eric-shows
 - sara-rubinow
