@@ -65,29 +65,26 @@ title: Schedule
             <p>
                 Keynote #1 kicks off the conference. Talks will be selected by the community. Lunch will be provided.
             </p>
-            {% comment %}
-            <p>
-                <a href="/schedule/day-1">See the full schedule</a>.
-            </p>
-            {% endcomment %}
         </div>
     </div>
 
     {% if site.data.conf.reception.show %}
     <div class="row">
         <div class="col-xs-12 col-md-3 text-right">
-            <h4>6:30PM - 8:30PM</h4>
+            <h4>{{ site.data.conf.reception.times }}</h4>
         </div>
         <div class="col-xs-12 col-md-9 sched-well">
             <a href="/general-info/venues/#reception">
                 <h3>Reception</h3>
             </a>
             <p>
-                All attendees are invited to join us for the reception at the Tech Museum of Innovation. See the <a href="/general-info/venues/#reception" alt="Venues">Venues</a> page for more details.
+                All attendees are invited to join us for the reception at the {{ site.data.conf.reception.venue }}. See the <a href="/general-info/venues/#reception" alt="Venues">Venues</a> page for more details.
             </p>
+            {%- comment %}
             <p>
                 <a class="btn btn-primary" href="/schedule/food/day1-menus.html#Reception">View the menu</a>
             </p>
+            {% endcomment -%}
         </div>
     </div>
     {% endif %}
@@ -107,9 +104,6 @@ title: Schedule
             <p>
                 Talks selected by the community, as well as a poster session in the afternoon. Lunch will be provided.
             </p>
-            {% comment %}
-                <p><a href="/schedule/day-2">See the full schedule</a>.</p>
-            {% endcomment %}
         </div>
     </div>
 
@@ -213,9 +207,6 @@ title: Schedule
             <p>
                 Keynote #2 closes out the conference. Talks have been selected by the community.
             </p>
-            {% comment %}
-            <p><a href="/schedule/day-3">See the full schedule</a>.</p>
-            {% endcomment %}
         </div>
     </div>
 
