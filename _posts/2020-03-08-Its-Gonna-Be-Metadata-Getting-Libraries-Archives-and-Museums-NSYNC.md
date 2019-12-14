@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-09T10:35
 speakers-text: Peggy Griesinger, Jeremy Friesen, Hanna Bertoldi, Mikala Narlock
 categories: talks
+day: 1
+group: 1
+spot: 2
 speakers:
 - peggy-griesinger
 - jeremy-friesen

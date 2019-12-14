@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-09T13:30
 speakers-text: Amanda Rust
 categories: talks
+day: 1
+group: 2
+spot: 1
 speakers:
 - amanda-rust
 length: 20

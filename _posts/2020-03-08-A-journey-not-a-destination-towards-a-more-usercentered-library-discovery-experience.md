@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T13:35
 speakers-text: Jacob Shelby, Andreas Orphanides, Ashley Evans Bandy
 categories: talks
+day: 2
+group: 5
+spot: 2
 speakers:
 - jacob-shelby
 - andreas-orphanides

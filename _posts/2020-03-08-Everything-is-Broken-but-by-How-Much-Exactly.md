@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T13:20
 speakers-text: Eric Phetteplace
 categories: talks
+day: 2
+group: 5
+spot: 1
 speakers:
 - eric-phetteplace
 length: 15

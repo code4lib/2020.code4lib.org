@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T13:55
 speakers-text: Devin Smith
 categories: talks
+day: 2
+group: 5
+spot: 3
 speakers:
 - devin-smith
 length: 10

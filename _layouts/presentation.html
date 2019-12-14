@@ -55,9 +55,11 @@
                         {% endfor %}
                     </div>
                 </div>
+                <br>
             {% comment %} poster sessions have no speaker data, only text {% endcomment %}
             {% elsif page.type == 'poster' and page.speakers-text != '' %}
                 <h2>Presenter(s): {{ page.speakers-text }}</h2>
+                <br>
             {% endif %}
 
             {% if page.type == 'workshop' %}
@@ -97,7 +99,7 @@
                 {% elsif page.type == 'poster' %}
                 <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
-                    <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
+                    <div class="talk-box-detail-value">{{ page.startTime | date: "%l:%M %p" }}</div>
                 </div>
                 {% endif %}
 
@@ -129,7 +131,7 @@
                     <!--<h3>Group {{ page.group }}
                     <p>{{ group.time }}</p></h3>-->
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
-                    <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
+                    <div class="talk-box-detail-value">{{ page.startTime | date: "%l:%M %p" }}</div>
 
                 </div>
                 {% endif %}

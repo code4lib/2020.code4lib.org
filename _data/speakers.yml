@@ -1,3 +1,19 @@
+- id: alison-macrina
+  name: Alison Macrina
+  last: Macrina
+  keynote: true
+  image_src: /assets/img/nopics/nopic5.jpg
+  bio: From LibraryFreedom.org&#58; "Along with founding the Library Freedom Project, Alison is a librarian, internet activist, and a core contributor to The Tor Project. Alison is passionate about fighting surveillance and connecting privacy issues to other struggles for justice. She believes that a world without pervasive surveillance is possible." Library Freedom is a unique, progressive venture in the privacy sphere, putting on training workshops for libraries and librarians as well as advocating for political change.
+  twitter: LibraryFreedom
+
+- id: alison-langmead
+  name: Alison Langmead
+  last: Langmead
+  keynote: true
+  image_src: /assets/img/nopics/nopic6.jpg
+  bio: Alison Langmead holds a joint faculty appointment between the Dietrich School of Arts and Sciences and the School of Computing and Information at the University of Pittsburgh. She teaches and researches in the field of the digital humanities, focusing especially on applying digital methods mindfully within the context of visual and material culture studies. For the Department of Art History and Architecture, Alison serves as the Director of the Visual Media Workshop (VMW). The mission of the VMW is to develop and encourage the creation of innovative methods for producing, disseminating, and preserving the academic work using digital technologies as a fundamental component of our scholarly toolkit. To achieve these objectives, she directs a technologically-focused environment of collaboration and creativity where students and faculty from a number of departments across the University come together to work on projects that apply digital methods and techniques with focus and intention. For the School of Computing and Information (SCI), Alison researches the relationship between the historical practice of information management and digital computing, both as a historical narrative and also as a complex, changing process in contemporary America. This research, plus all of the theories, concepts, and models that she teaches at SCI, are put into daily practice in her work directing the VMW.
+  twitter:
+
 - id: aaron-collier
   name: Aaron Collier
   last: Collier

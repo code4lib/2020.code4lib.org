@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-09T14:10
 speakers-text: Michaela Blackham
 categories: talks
+day: 1
+group: 2
+spot: 3
 speakers:
 - michaela-blackham
 length: 15

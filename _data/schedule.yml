@@ -1,0 +1,207 @@
+# Registration
+- timeImg: 8.00.png
+  title: Registration
+  day1: true
+  day2: true
+  day3: true
+  time: 08:00-09:00
+
+# Reception
+- timeImg: 6.30.png
+  title: Reception
+  day1: true
+  time: 18:30-20:30
+  # menu: day1-menus
+  # submenu: Reception
+
+# Morning Announcements
+- timeImg: 9.00.png
+  title: Announcements and Welcome
+  day1: true
+  time: 09:00-09:15
+
+- timeImg: 9.00.png
+  title: Announcements
+  day2: true
+  day3: true
+  time: 09:00-09:15
+
+# Breaks
+- timeImg: 10.00.png
+  title: Morning Break
+  day1: true
+  time: 10:00-10:15
+#   menu: day1-menus
+#   submenu: Morning
+
+- timeImg: 2.45.png
+  title: Afternoon Break
+  day1: true
+  time: 14:45-15:00
+#   menu: day1-menus
+#   submenu: Afternoon
+
+- timeImg: 10.10.png
+  title: Morning Break
+  day2: true
+  time: 10:10-10:25
+#   menu: day2-menus
+#   submenu: Morning
+
+- timeImg: 3.05.png
+  title: Afternoon Break
+  day2: true
+  time: 15:05-15:20
+#   menu: day2-menus
+#   submenu: Afternoon
+
+- timeImg: 10.00.png
+  title: Morning Break
+  day3: true
+  time: 10:00-10:15
+#   menu: day3-menus
+#   submenu: Morning
+
+# NOTE: first-timers page uses the link properties of the first events with
+# titles like "Breakout Sessions" and "Lightning Talks"
+# Breakouts
+- timeImg: 2.45.png
+  title: Breakout Sessions 1
+  day1: true
+  time: 15:00-15:55
+  # link: https://wiki.code4lib.org/Code4Lib2020_Breakout_Sessions
+
+- timeImg: 2.05.png
+  title: Breakout Sessions 2
+  day2: true
+  time: 14:05-15:05
+  # link: https://wiki.code4lib.org/Code4Lib2020_Breakout_Sessions
+
+# lightning
+- timeImg: 4.10.png
+  title: Lightning Talks 1
+  day1: true
+  time: 16:10-17:10
+  # link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks#Day_1
+
+- timeImg: 10.25.png
+  title: Lightning Talks 2
+  day2: true
+  time: 10:25-11:15
+  # link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks#Day_2
+
+- timeImg: 10.15.png
+  title: Lightning Talks 3
+  day3: true
+  time: 10:15-11:00
+  # link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks#Day_3
+
+# Poster Session
+- timeImg: 3.15.png
+  title: Poster Session
+  day2: true
+  time: 15:20 - 15:50
+  # link: https://wiki.code4lib.org/Code4Lib2020_Posters#Code4Lib2020_Posters
+
+# wrap ups
+- timeImg: 5.10.png
+  title: Daily Wrap-up
+  day1: true
+  time: 17:10-17:20
+
+- timeImg: 5.05.png
+  title: Daily Wrap-up
+  day2: true
+  time: 17:05-17:15
+
+- timeImg: 12.10.png
+  title: Wrap-up
+  day3: true
+  time: 12:10-12:30
+
+# lunches
+- timeImg: 12.10.png
+  title: Lunch
+  day1: true
+  time: 12:10-13:20
+  # menu: day1-menus
+  # submenu: Lunch
+
+- timeImg: 12.00.png
+  title: Lunch
+  day2: true
+  time: 12:00-13:10
+  # menu: day2-menus
+  # submenu: Lunch
+
+# housekeeping (announcements and giveaways)
+- timeImg: 1.20.png
+  title: Announcements
+  day1: true
+  time: 13:20-13:30
+
+- timeImg: 4.00.png
+  title: Announcements
+  day1: true
+  time: 16:00-16:10
+
+- timeImg: 1.10.png
+  title: Announcements / Reconvene
+  day2: true
+  time: 13:10-13:20
+
+# keynotes
+- timeImg: 9.15.png
+  title: Opening Keynote - Alison Macrina
+  day1: true
+  groupId: key-open
+  time: 09:15-10:00
+
+- timeImg: 9.15.png
+  title: Closing Keynote - Alison Langmead
+  day3: true
+  groupId: key-close
+  time: 09:15-10:00
+
+# groups
+- timeImg: 10.15.png
+  title: Group 1&#58; 115 minutes (7 talks)
+  day1: true
+  groupId: 1
+  time: 10:15-12:10
+
+- timeImg: 1.30.png
+  title: Group 2&#58; 75 minutes (4 talks)
+  day1: true
+  groupId: 2
+  time: 13:30-14:45
+
+- timeImg: 9.15.png
+  title: Group 3&#58; 55 minutes (3 talks)
+  day2: true
+  groupId: 3
+  time: 09:15-10:10
+
+- timeImg: 11.15.png
+  title: Group 4&#58; 45 minutes (3 talks)
+  day2: true
+  groupId: 4
+  time: 11:15-12:00
+
+- timeImg: 1.20.png
+  title: Group 5&#58; 45 minutes (3 talks)
+  day2: true
+  groupId: 5
+  time: 13:20-14:05
+
+- timeImg: 3.50.png
+  title: Group 6&#58; 75 minutes (5 talks)
+  day2: true
+  groupId: 6
+  time: 15:50-17:05
+
+- timeImg: 11.00.png
+  title: Group 6&#58; 70 minutes (4 talks)
+  day3: true
+  groupId: 7
+  time: 11:00-12:10

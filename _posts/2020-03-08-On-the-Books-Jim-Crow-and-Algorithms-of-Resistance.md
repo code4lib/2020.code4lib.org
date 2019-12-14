@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-09T10:15
 speakers-text: Matt Jansen
 categories: talks
+day: 1
+group: 1
+spot: 1
 speakers:
 - matt-jansen
 length: 20

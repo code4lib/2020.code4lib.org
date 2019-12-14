@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-09T11:55
 speakers-text: Mike Giarlo, Aaron Collier
 categories: talks
+day: 1
+group: 1
+spot: 7
 speakers:
 - mike-giarlo
 - aaron-collier

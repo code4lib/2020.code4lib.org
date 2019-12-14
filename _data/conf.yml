@@ -18,7 +18,7 @@ search: false
 have-talks: true
 have-workshops: true
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
-have-schedule: false
+have-schedule: true
 
 # day 0 = preconf day
 days:
@@ -55,13 +55,6 @@ venue:
     a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
     cost: "$159"
     with-tax-cost: "$181.26"
-
-# Reception
-reception-venue: 'Carnegie Museum of Pittsburgh - Oakland'
-reception-street: '4400 Forbes Ave'
-reception-postal-code: '15213'
-reception-phone: '+1(412)-353-4795'
-reception-contact: 'straubn@carnegiemuseums.org'
 
 #############################
 # C4l Links
@@ -232,6 +225,12 @@ libtech-women:
 
 reception:
     show: true
+    venue: "Carnegie Museum of Pittsburgh - Oakland"
+    street: "4400 Forbes Ave"
+    postal-code: "15213"
+    phone: "+1(412)-353-4795"
+    contact: "straubn@carnegiemuseums.org"
+    times: "6:30PM - 8:30PM"
     date: "2020-03-09"
 
 karaoke-night:

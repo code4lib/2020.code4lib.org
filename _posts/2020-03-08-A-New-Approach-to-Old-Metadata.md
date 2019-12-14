@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-11T11:00
 speakers-text: Huma Zafar
 categories: talks
+day: 3
+group: 7
+spot: 1
 speakers:
 - huma-zafar
 length: 20

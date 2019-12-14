@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T16:00
 speakers-text: John R Hott
 categories: talks
+day: 2
+group: 6
+spot: 2
 speakers:
 - john-r-hott
 length: 20

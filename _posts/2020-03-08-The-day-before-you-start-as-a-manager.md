@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T11:15
 speakers-text: Julie C. Swierczek
 categories: talks
+day: 2
+group: 4
+spot: 1
 speakers:
 - julie-c-swierczek
 length: 10

@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-11T11:35
 speakers-text: Stefano Cossu
 categories: talks
+day: 3
+group: 7
+spot: 3
 speakers:
 - stefano-cossu
 length: 15

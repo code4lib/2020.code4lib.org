@@ -1,9 +1,12 @@
 ---
 layout: presentation
 type: talk
-startTime: TBD
+startTime: 2020-03-10T16:30
 speakers-text: Brian Foo
 categories: talks
+day: 2
+group: 6
+spot: 4
 speakers:
 - brian-foo
 length: 20
