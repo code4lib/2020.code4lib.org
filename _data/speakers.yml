@@ -713,11 +713,11 @@
 - id: yinlin-chen
   name: Yinlin Chen
   last: Chen
-  pronouns:
-  position-title:
-  bio:
-  twitter:
-  slack:
-  github:
-  image_src: /assets/img/nopics/nopic1.jpg
+  pronouns: he/him/his
+  position-title: Digital Library Architect
+  bio: Yinlin Chen is the Digital Library Architect at the Virginia Tech Libraries, Blacksburg, VA. He holds a Ph.D. in Computer Science and Applications from Virginia Tech. His professional interests include digital libraries, cloud computing, machine learning, microservice and serverless. He currently has 9 AWS certifications and works on building the next generation of digital library platform using cloud-native infrastructure.
+  twitter: Yinlin_Chen
+  slack: Yinlin
+  github: yinlinchen
+  image_src: /assets/img/speakers/yinlin_chen.jpg
   keynote: false
