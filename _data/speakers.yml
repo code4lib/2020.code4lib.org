@@ -2,8 +2,8 @@
   name: Alison Macrina
   last: Macrina
   keynote: true
-  image_src: /assets/img/nopics/nopic5.jpg
-  bio: From LibraryFreedom.org&#58; "Along with founding the Library Freedom Project, Alison is a librarian, internet activist, and a core contributor to The Tor Project. Alison is passionate about fighting surveillance and connecting privacy issues to other struggles for justice. She believes that a world without pervasive surveillance is possible." Library Freedom is a unique, progressive venture in the privacy sphere, putting on training workshops for libraries and librarians as well as advocating for political change.
+  image_src: /assets/img/keynotes/alison-macrina.jpg
+  bio: From <a href="https://libraryfreedom.org">LibraryFreedom.org</a>&#58; "Along with founding the Library Freedom Project, Alison is a librarian, internet activist, and a core contributor to The Tor Project. Alison is passionate about fighting surveillance and connecting privacy issues to other struggles for justice. She believes that a world without pervasive surveillance is possible." Library Freedom is a unique, progressive venture in the privacy sphere, putting on training workshops for libraries and librarians as well as advocating for political change.
   twitter: LibraryFreedom
 
 - id: alison-langmead
