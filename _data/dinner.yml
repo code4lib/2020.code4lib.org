@@ -1,0 +1,242 @@
+- name: Noodlehead
+  url: http://noodleheadpgh.com/
+  type: Thai
+  dist: .25 to .5 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'No'
+  notes: Likely will need uber to get there, otherwise accessible. 
+
+- name: or, The Whale
+  url: https://www.orthewhalepgh.com/
+  type: American 
+  dist: .25 to .5 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'Yes'
+  notes: Large stairs lead down to the dining floor, not sure if they have elevator. Long walk from conference center. 
+
+- name: meet and potatoes
+  url: https://www.meatandpotatoespgh.com/
+  type: American
+  dist: .25 to .5 miles
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: on busy street, might be hard to park for wheelchair accesible vehicles
+
+- name: McCormick & Schmick's Seafood & Steaks
+  url: https://www.mccormickandschmicks.com/Locations/pittsburgh-pennsylvania/pittsburgh-pennsylvania/fifthave.aspx
+  type: Seafood and Steaks
+  dist: .25 to .5 miles
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: 
+
+- name: Nicky's Thai Kitchen
+  url: http://www.nickysthaikitchen.com/
+  type: Thai
+  dist: .25 to .5 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'No'
+  notes: 
+
+- name: City Works
+  url: https://www.cityworksrestaurant.com/pittsburgh/
+  type: Burgers
+  dist: .25 to .5 miles
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: Courtyard with cobble stones. Gluten Free menu.
+
+- name: Social House 7
+  url: https://www.socialhouse7.com/
+  type: Japanese
+  dist: .25 to .5 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'Yes'
+  notes: 
+
+- name: Eleven
+  url: https://www.elevenck.com/
+  type: American
+  dist: .5 to .75 miles
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: Some upstairs seating, but most is on ground floor with no steps
+
+- name: Bakersfield
+  url: https://www.bakersfieldtacos.com/
+  type: Tacos
+  dist: .5 to .75 miles
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: Spacious, but mostly high top tables or benches (that could be moved.)
+
+- name: Sienna Mercato
+  url: https://www.siennamercato.com/
+  type: Italian
+  dist: .5 to .75 miles
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: Three different restaurants on different levels (elevator accessible)  Emporio does not take reservations, Mercato does
+
+- name: Onion Maiden
+  url: https://www.onionmaiden.com/
+  type: Vegan
+  dist: .75 to 1 mile
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'Yes'
+  notes: small and generally crowded
+
+- name: Max's Allegheny Tavern
+  url: http://www.maxsalleghenytavern.com/
+  type: German
+  dist: .75 to 1 mile
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: 
+
+- name: Church Brew Works
+  url: https://churchbrew.com/
+  type: Brewpub
+  dist: Less than .25 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'Yes'
+  notes: Former church with wide aisles and low tables
+
+- name: Kaya
+  url: http://kaya.menu/
+  type: Carribbean
+  dist: Less than .25 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'Yes'
+  notes: Secondary accessible entry, narrow walkways 
+
+- name: Proper Brick Oven
+  url: http://www.properpittsburgh.com/
+  type: Brewpub
+  dist: Less than .25 miles
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: 
+
+- name: Federal Galley
+  url: https://www.federalgalley.org/
+  type: Food Hall
+  dist: Less than .25 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'No'
+  notes: No reservations, but large space with communal tables. 
+
+- name: Condado
+  url: http://www.condadotacos.com/
+  type: Tacos
+  dist: Less than .25 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'No'
+  notes: Entrance and first floor bathroom accessible. 
+
+- name: Whitfield
+  url: http://www.whitfieldpgh.com/
+  type: American
+  dist: Less than .25 miles
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'Yes'
+  notes: Side entrance is accessible by lift; bathrooms are accessible by elevator. 
+
+- name: Yuzu
+  url: https://www.yuzukitchenpgh.com/
+  type: Pan Asian
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'Yes'
+  notes: Major Construction happening next door so the noise level can be pretty high. 
+
+- name: The Porch at Schenley
+  url: https://www.dineattheporch.com/
+  type: American 
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'No'
+  notes: 
+
+- name: Primanti Bros.
+  url: https://primantibros.com/
+  type: Sandwiches
+  dist: More than 1 mile
+  veg: 'No'
+  vegan: 'No'
+  res: 'No'
+  notes: Entrance and bathroom are chair accessible. 
+
+- name: Steel Cactus
+  url: https://www.steelcactuspgh.com/
+  type: Mexican
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: 
+
+- name: Tenpenny
+  url: https://www.tenpennypgh.com/
+  type: American
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: 
+
+- name: Apteka
+  url: https://aptekapgh.com/
+  type: Vegan
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'Yes'
+  res: 'No'
+  notes: Accessible entry
+
+- name: Penn Brewery
+  url: https://www.pennbrew.com/
+  type: Brewpub
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: Accessible entrance, low tables, may be loud
+
+- name: NOLA
+  url: https://www.nolaonthesquare.com/
+  type: Cajun/Creole
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: 
+
+- name: Hofbrauhaus Pittsburgh
+  url: https://www.hofbrauhauspittsburgh.com/
+  type: Brewpub
+  dist: More than 1 mile
+  veg: 'Yes'
+  vegan: 'No'
+  res: 'Yes'
+  notes: Communal tables, may be loud
