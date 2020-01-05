@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <section class="general-info">
   <div class="col-xs-12">
       <h2 id="dinner">Newcomer Dinner</h2>
@@ -22,5 +25,39 @@
             Here are some <a target="blank" href="{{site.data.conf.newcomer-dinner.transit-info}}">public transit options for the various neighborhoods</a> noted in the restaurant list.
           </p>
       {% endif %}
+
+      <h3>Restaurant List</h3>
+      <p>The majority of restaurants listed below are priced between $11-30 dollars.</p>
+      <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th width="20%">Name</th>
+                    <th>Type</th>
+                    <th>Distance</th>
+                    <th>Takes<br/>Reservations?</th>
+                    <th>Vegetarian<br/>Friendly?</th>
+                    <th>Vegan<br/>Friendly?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for restaurant in site.data.dinner %}
+                <tr>
+                    <td>
+                      {% if restaurant.url != 'n/a' %}
+                        <a href="{{restaurant.url}}">{{ restaurant.name }}</a>
+                      {% else %}
+                        {{ restaurant.name }}
+                      {% endif %}
+                    </td>
+                    <td>{{ restaurant.type }}</td>
+                    <td>{{ restaurant.dist }}</td>
+                    <td>{{ restaurant.res }}</td>
+                    <td>{{ restaurant.veg }}</td>
+                    <td>{{ restaurant.vegan }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+      </table>
+      <p>Keep in mind, this is not an exhaustive list. Feel free to add more on the sign-up sheet.</p>
   </div>
 </section>
