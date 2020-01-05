@@ -203,12 +203,12 @@ shirt-voting:
 social-activities-url: ""
 
 newcomer-dinner:
-    show: false
+    show: true
     # entering the URL doubles as a "show more info" switch, too
     signup-url: ""
     transit-info: ""
     activities-info: ""
-    date: ""
+    date: "2020-03-08"
 
 game-night:
     show: false
