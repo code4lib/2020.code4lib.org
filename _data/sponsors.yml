@@ -126,6 +126,7 @@
   level: bronze
 
 - name: MIT Libraries
+  img: /assets/img/sponsors/mit.png
   link: https://libraries.mit.edu/
   level: silver
   diversity: true
