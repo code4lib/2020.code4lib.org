@@ -100,3 +100,58 @@
 - name: Morgan & Claypool Publishers
   link: https://www.morganclaypool.com/
   level: giveaway
+
+- name: University of Rhode Island
+  link: https://web.uri.edu/library/
+  level: supporter
+
+- name: University Library System, University of Pittsburgh
+  link: https://www.library.pitt.edu/
+  level: supporter
+
+- name: ArchivesSpace
+  link: https://archivesspace.org/
+  level: supporter
+  
+- name: VALE - Virtual Academic Library Environment of New Jersey
+  link: https://vale.njedge.net/
+  level: supporter
+
+- name: Atlas Systems, Inc.
+  link: https://www.atlas-sys.com/
+  level: bronze
+
+- name: Rutgers University School of Communication and Information
+  link: https://comminfo.rutgers.edu/
+  level: bronze
+
+- name: MIT Libraries
+  link: https://libraries.mit.edu/
+  level: silver
+  diversity: true
+
+- name: Carnegie Mellon University | University Libraries
+  link: https://www.library.cmu.edu/
+  level: gold
+  diversity: true
+  
+- name: Chatham University
+  link: https://library.chatham.edu/
+  level: supporter
+  
+- name: University of Illinois at Urbana-Champaign
+  link: https://www.library.illinois.edu/
+  level: supporter
+
+- name: Temple University
+  link: https://library.temple.edu/
+  level: contributor
+
+- name: School of Information at University of British Columbia
+  link: https://slais.ubc.ca
+  level: supporter 
+
+- name: LYRASIS
+  img: /assets/img/sponsors/lyrasis.jpg
+  link: https://www.lyrasis.org
+  level: bronze
