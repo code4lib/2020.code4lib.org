@@ -112,7 +112,7 @@
 - name: ArchivesSpace
   link: https://archivesspace.org/
   level: supporter
-  
+
 - name: VALE - Virtual Academic Library Environment of New Jersey
   link: https://vale.njedge.net/
   level: supporter
@@ -136,11 +136,17 @@
   link: https://www.library.cmu.edu/
   level: gold
   diversity: true
-  
+
+- name: OCLC
+  img: /assets/img/sponsors/oclc.png
+  link: https://www.oclc.org/
+  level: gold
+  annotation: 'Streaming Video, Real-Time Transcription & Closed Captioning'
+
 - name: Chatham University
   link: https://library.chatham.edu/
   level: supporter
-  
+
 - name: University of Illinois at Urbana-Champaign
   link: https://www.library.illinois.edu/
   level: supporter
@@ -151,7 +157,7 @@
 
 - name: School of Information at University of British Columbia
   link: https://slais.ubc.ca
-  level: supporter 
+  level: supporter
 
 - name: LYRASIS
   img: /assets/img/sponsors/lyrasis.jpg
