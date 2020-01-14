@@ -70,17 +70,11 @@ active: Attend Code4Lib
                 <ol>
                     <li>
                         Child Care is available for each day of the conference. When you register, you may select which days you require child care. The cost is $30 per full day, $15 for the half day on {{ site.data.conf.days[3].weekday }}, and $15 for child care during the {{ site.data.conf.days[1].weekday }} evening reception.
+                        {% if site.data.registration.childcare-end-date != '' %}
+                          <strong>Please Note</strong>: Child Care Registration will close on {{ site.data.registration.childcare-end-date | date: "%B %e, %Y" }}. Registration and payment must be finalized on or before {{ site.data.registration.childcare-end-date | date: "%B %e"}}, to utilize the child care services.
+                        {% endif %}
                     </li>
-                    {% comment %}
-                    <li>
-                        The registration system maintains a two hour session per registration
-                        attempt. Due to the potential of heavy access and this prolonged session,
-                        the conference may appear to sell out quickly. But once early failed
-                        sessions expire, more spots may open up beginning around 2 p.m. Because of
-                        this we ask you not to assume it is sold out until you hear an announcement
-                        from the planning committee.
-                    </li>
-                    {% endcomment %}
+
                     <li>
                         Registration will close when the maximum capacity has been reached.
                         A waitlist will be available once this final round of registration is
