@@ -1,6 +1,4 @@
----
-layout: default
----
+
 <section class="general-info">
   <div class="col-xs-12">
       <h2 id="dinner">Newcomer Dinner</h2>
@@ -28,7 +26,7 @@ layout: default
 
       <h3>Restaurant List</h3>
       <p>The majority of restaurants listed below are priced between $11-30 dollars.</p>
-      <table class="table table-striped table-bordered">
+      <table class="table table-striped table-bordered" id="dinner-datatable">
             <thead>
                 <tr>
                     <th width="20%">Name</th>
@@ -44,16 +42,16 @@ layout: default
                 <tr>
                     <td>
                       {% if restaurant.url != 'n/a' %}
-                        <a href="{{restaurant.url}}">{{ restaurant.name }}</a>
+                        <a href="{{restaurant.url}}">{{ restaurant.restaurant-name }}</a> <i tabindex="0" class="fas fa-question-circle fa-sm" data-toggle="tooltip" title="{{ restaurant.notes }} {{ restaurant.accessibility-notes }}"></i>
                       {% else %}
-                        {{ restaurant.name }}
+                        {{ restaurant.restaurant-name }}
                       {% endif %}
                     </td>
-                    <td>{{ restaurant.type }}</td>
-                    <td>{{ restaurant.dist }}</td>
-                    <td>{{ restaurant.res }}</td>
-                    <td>{{ restaurant.veg }}</td>
-                    <td>{{ restaurant.vegan }}</td>
+                    <td>{{ restaurant.type-of-food }}</td>
+                    <td>{{ restaurant.distance-from-hotel }}</td>
+                    <td>{% if restaurant.takes-reservations == true %}Yes{% else %}No{% endif %}</td>
+                    <td>{% if restaurant.vegetarian-options == true %}Yes{% else %}No{% endif %}</td>
+                    <td>{% if restaurant.vegan-options == true %}Yes{% else %}No{% endif %}</td>
                 </tr>
                 {% endfor %}
             </tbody>
