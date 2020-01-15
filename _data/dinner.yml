@@ -1,242 +1,363 @@
-- name: Noodlehead
-  url: http://noodleheadpgh.com/
-  type: Thai
-  dist: .25 to .5 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'No'
-  notes: Likely will need uber to get there, otherwise accessible. 
-
-- name: or, The Whale
-  url: https://www.orthewhalepgh.com/
-  type: American 
-  dist: .25 to .5 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'Yes'
-  notes: Large stairs lead down to the dining floor, not sure if they have elevator. Long walk from conference center. 
-
-- name: meet and potatoes
-  url: https://www.meatandpotatoespgh.com/
-  type: American
-  dist: .25 to .5 miles
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: on busy street, might be hard to park for wheelchair accesible vehicles
-
-- name: McCormick & Schmick's Seafood & Steaks
-  url: https://www.mccormickandschmicks.com/Locations/pittsburgh-pennsylvania/pittsburgh-pennsylvania/fifthave.aspx
-  type: Seafood and Steaks
-  dist: .25 to .5 miles
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: 
-
-- name: Nicky's Thai Kitchen
-  url: http://www.nickysthaikitchen.com/
-  type: Thai
-  dist: .25 to .5 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'No'
-  notes: 
-
-- name: City Works
-  url: https://www.cityworksrestaurant.com/pittsburgh/
-  type: Burgers
-  dist: .25 to .5 miles
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: Courtyard with cobble stones. Gluten Free menu.
-
-- name: Social House 7
-  url: https://www.socialhouse7.com/
-  type: Japanese
-  dist: .25 to .5 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'Yes'
-  notes: 
-
-- name: Eleven
-  url: https://www.elevenck.com/
-  type: American
-  dist: .5 to .75 miles
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: Some upstairs seating, but most is on ground floor with no steps
-
-- name: Bakersfield
-  url: https://www.bakersfieldtacos.com/
-  type: Tacos
-  dist: .5 to .75 miles
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: Spacious, but mostly high top tables or benches (that could be moved.)
-
-- name: Sienna Mercato
-  url: https://www.siennamercato.com/
-  type: Italian
-  dist: .5 to .75 miles
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: Three different restaurants on different levels (elevator accessible)  Emporio does not take reservations, Mercato does
-
-- name: Onion Maiden
-  url: https://www.onionmaiden.com/
-  type: Vegan
-  dist: .75 to 1 mile
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'Yes'
-  notes: small and generally crowded
-
-- name: Max's Allegheny Tavern
-  url: http://www.maxsalleghenytavern.com/
-  type: German
-  dist: .75 to 1 mile
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: 
-
-- name: Church Brew Works
-  url: https://churchbrew.com/
-  type: Brewpub
-  dist: Less than .25 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'Yes'
-  notes: Former church with wide aisles and low tables
-
-- name: Kaya
-  url: http://kaya.menu/
-  type: Carribbean
-  dist: Less than .25 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'Yes'
-  notes: Secondary accessible entry, narrow walkways 
-
-- name: Proper Brick Oven
-  url: http://www.properpittsburgh.com/
-  type: Brewpub
-  dist: Less than .25 miles
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: 
-
-- name: Federal Galley
-  url: https://www.federalgalley.org/
-  type: Food Hall
-  dist: Less than .25 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'No'
-  notes: No reservations, but large space with communal tables. 
-
-- name: Condado
-  url: http://www.condadotacos.com/
-  type: Tacos
-  dist: Less than .25 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'No'
-  notes: Entrance and first floor bathroom accessible. 
-
-- name: Whitfield
-  url: http://www.whitfieldpgh.com/
-  type: American
-  dist: Less than .25 miles
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'Yes'
-  notes: Side entrance is accessible by lift; bathrooms are accessible by elevator. 
-
-- name: Yuzu
-  url: https://www.yuzukitchenpgh.com/
-  type: Pan Asian
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'Yes'
-  notes: Major Construction happening next door so the noise level can be pretty high. 
-
-- name: The Porch at Schenley
-  url: https://www.dineattheporch.com/
-  type: American 
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'No'
-  notes: 
-
-- name: Primanti Bros.
-  url: https://primantibros.com/
-  type: Sandwiches
-  dist: More than 1 mile
-  veg: 'No'
-  vegan: 'No'
-  res: 'No'
-  notes: Entrance and bathroom are chair accessible. 
-
-- name: Steel Cactus
-  url: https://www.steelcactuspgh.com/
-  type: Mexican
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: 
-
-- name: Tenpenny
-  url: https://www.tenpennypgh.com/
-  type: American
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: 
-
-- name: Apteka
+- restaurant-name: Apteka
+  city-state: Pittsburgh PA
   url: https://aptekapgh.com/
-  type: Vegan
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'Yes'
-  res: 'No'
-  notes: Accessible entry
+  type-of-food: Vegan
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: No
+  can-seat-more-than-one-group-of-6: No
+  price-point: $11-30
+  notes:
+  accessibility-notes: Accessible entry
 
-- name: Penn Brewery
-  url: https://www.pennbrew.com/
-  type: Brewpub
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: Accessible entrance, low tables, may be loud
+- restaurant-name: Bakersfield
+  city-state: Pittsburgh PA
+  url: https://www.bakersfieldtacos.com/
+  type-of-food: Tacos
+  distance-from-hotel: Less than .25 miles
+  vegetarian-options: Yes
+  vegan-options:
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Spacious, but mostly high top tables or benches (that could be moved.)
 
-- name: NOLA
-  url: https://www.nolaonthesquare.com/
-  type: Cajun/Creole
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: 
+- restaurant-name: Church Brew Works
+  city-state: Pittsburgh PA
+  url: https://churchbrew.com/
+  type-of-food: Brewpub
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Former church with wide aisles and low tables
 
-- name: Hofbrauhaus Pittsburgh
+- restaurant-name: City Works
+  city-state: Pittsburgh PA
+  url: https://www.cityworksrestaurant.com/pittsburgh/
+  type-of-food: Burgers
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options:
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes: Gluten Free menu
+  accessibility-notes: Courtyard with cobble stones
+
+- restaurant-name: Condado
+  city-state: Pittsburgh PA
+  url: http://www.condadotacos.com/
+  type-of-food: Tacos
+  distance-from-hotel: Less than .25 miles
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: No
+  can-seat-more-than-one-group-of-6: No
+  price-point: Under $10
+  notes:
+  accessibility-notes: Entrance and first floor bathroom accessible.
+
+- restaurant-name: Eleven
+  city-state: Pittsburgh PA
+  url: https://www.elevenck.com/
+  type-of-food: American
+  distance-from-hotel: Less than .25 miles
+  vegetarian-options: Yes
+  vegan-options:
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $31-60
+  notes:
+  accessibility-notes: Some upstairs seating, but most is on ground floor with no steps
+
+- restaurant-name: Federal Galley
+  city-state: Pittsburgh PA
+  url: https://www.federalgalley.org/
+  type-of-food: Food Hall
+  distance-from-hotel: .75 to 1 mile
+  vegetarian-options: Yes
+  vegan-options:
+  takes-reservations: No
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes: No reservations, but large space with communal tables.
+  accessibility-notes:
+
+- restaurant-name: Hofbrauhaus Pittsburgh
+  city-state: Pittsburgh PA
   url: https://www.hofbrauhauspittsburgh.com/
-  type: Brewpub
-  dist: More than 1 mile
-  veg: 'Yes'
-  vegan: 'No'
-  res: 'Yes'
-  notes: Communal tables, may be loud
+  type-of-food: Brewpub
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Communal tables, may be loud
+
+- restaurant-name: Kaya
+  city-state: Pittsburgh PA
+  url: http://kaya.menu/
+  type-of-food: Carribbean
+  distance-from-hotel: .75 to 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6:
+  price-point: $11-30
+  notes:
+  accessibility-notes: Secondary accessible entry, narrow walkways
+
+- restaurant-name: Max's Allegheny Tavern
+  city-state: Pittsburgh PA
+  url: http://www.maxsalleghenytavern.com/
+  type-of-food: German
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: McCormick & Schmick's Seafood & Steaks
+  city-state: Pittsburgh PA
+  url: https://www.mccormickandschmicks.com/Locations/pittsburgh-pennsylvania/pittsburgh-pennsylvania/fifthave.aspx
+  type-of-food: Seafood and Steaks
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6:
+  price-point: $31-60
+  notes:
+  accessibility-notes:
+
+- restaurant-name: meet and potatoes
+  city-state: Pittsburgh PA
+  url: https://www.meatandpotatoespgh.com/
+  type-of-food: American
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: on busy street, might be hard to park for wheelchair accesible
+
+- restaurant-name: Nicky's Thai Kitchen
+  city-state: Pittsburgh PA
+  url: http://www.nickysthaikitchen.com/
+  type-of-food: Thai
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations:
+  can-seat-more-than-one-group-of-6:
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: Nicky's Thai Kitchen
+  city-state: Pittsburgh PA
+  url: http://www.nickysthaikitchen.com/
+  type-of-food: Thai
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations:
+  can-seat-more-than-one-group-of-6:
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: NOLA
+  city-state: Pittsburgh PA
+  url: https://www.nolaonthesquare.com/
+  type-of-food: Cajun/Creole
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: No
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: Noodlehead
+  city-state: Pittsburgh PA
+  url: http://noodleheadpgh.com/
+  type-of-food: Thai
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: No
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Likely will need uber to get there, otherwise accessible.
+
+- restaurant-name: Onion Maiden
+  city-state: Pittsburgh PA
+  url: https://www.onionmaiden.com/
+  type-of-food: Vegan
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: No
+  price-point: Under $10
+  notes:
+  accessibility-notes: small and generally crowded
+
+- restaurant-name: or, The Whale
+  city-state: Pittsburgh PA
+  url: https://www.orthewhalepgh.com/
+  type-of-food: American
+  distance-from-hotel: .5 to .75 miles
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Large stairs lead down to the dining floor, not sure if they have elevator. Long walk from conference center.
+
+- restaurant-name: Penn Brewery
+  city-state: Pittsburgh PA
+  url: https://www.pennbrew.com/
+  type-of-food: Brewpub
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Accessible entrance, low tables, may be loud
+
+- restaurant-name: Primanti Bros.
+  city-state: Pittsburgh PA
+  url: https://primantibros.com/
+  type-of-food: Sandwiches
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: No
+  vegan-options: No
+  takes-reservations: No
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: Under $10
+  notes:
+  accessibility-notes: Entrance and bathroom are chair accessible.
+
+- restaurant-name: Proper Brick Oven
+  city-state: Pittsburgh PA
+  url: http://www.properpittsburgh.com/
+  type-of-food: Brewpub
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: Sienna Mercato
+  city-state: Pittsburgh PA
+  url: https://www.siennamercato.com/
+  type-of-food: Italian
+  distance-from-hotel: Less than .25 miles
+  vegetarian-options: Yes
+  vegan-options:
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes: Three different restaurants on different levels (elevator accessible)  Emporio does not take reservations, Mercato does
+  accessibility-notes:
+
+- restaurant-name: Social House 7
+  city-state: Pittsburgh PA
+  url: https://www.socialhouse7.com/
+  type-of-food: Japanese
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations:
+  can-seat-more-than-one-group-of-6:
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: Steel Cactus
+  city-state: Pittsburgh PA
+  url: https://www.steelcactuspgh.com/
+  type-of-food: Mexican
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: No
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: Under $10
+  notes:
+  accessibility-notes:
+
+- restaurant-name: Tenpenny
+  city-state: Pittsburgh PA
+  url: https://www.tenpennypgh.com/
+  type-of-food: American
+  distance-from-hotel: Less than .25 miles
+  vegetarian-options: Yes
+  vegan-options:
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: The Porch at Schenley
+  city-state: Pittsburgh PA
+  url: https://www.dineattheporch.com/
+  type-of-food: American
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: No
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes:
+
+- restaurant-name: Whitfield
+  city-state: Pittsburgh PA
+  url: http://www.whitfieldpgh.com/
+  type-of-food: American
+  distance-from-hotel: More than 1 mile
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Side entrance is accessible by lift; bathrooms are accessible by elevator.
+
+- restaurant-name: Yuzu
+  city-state: Pittsburgh PA
+  url: https://www.yuzukitchenpgh.com/
+  type-of-food: Pan Asian
+  distance-from-hotel: .25 to .5 miles
+  vegetarian-options: Yes
+  vegan-options: Yes
+  takes-reservations: Yes
+  can-seat-more-than-one-group-of-6: Yes
+  price-point: $11-30
+  notes:
+  accessibility-notes: Major Construction happening next door so the noise level can be pretty high.
