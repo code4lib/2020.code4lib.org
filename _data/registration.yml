@@ -8,8 +8,8 @@ workshop-only:
   # "show" only affects a button on the general-info/attend page
   show: false
   url: "https://na.eventscloud.com/c4l20"
-  half-day-cost: "$50"
-  full-day-cost: "$100"
+  half-day-cost: "$60"
+  full-day-cost: "$120"
   start-date: 2020-02-11
 
 # "show" just means display on home page, "open" means people can register
