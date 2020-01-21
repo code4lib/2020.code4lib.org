@@ -10,13 +10,14 @@ workshop-only:
   url: "https://na.eventscloud.com/c4l20"
   half-day-cost: "$50"
   full-day-cost: "$100"
+  start-date: 2020-02-11
 
 # "show" just means display on home page, "open" means people can register
 conference:
   show: true
   url: "https://na.eventscloud.com/c4l20"
   start-date: 2019-12-11
-  end-date: 2020-02-08
+  end-date: 2020-02-10
   cancellation-date: 2020-02-12
   open: true
   cost: "$375"
