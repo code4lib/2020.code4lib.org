@@ -118,6 +118,7 @@
   level: supporter
 
 - name: Atlas Systems, Inc.
+  img: /assets/img/sponsors/atlasSystems.jpg
   link: https://www.atlas-sys.com/
   level: bronze
 
@@ -163,3 +164,19 @@
   img: /assets/img/sponsors/lyrasis.jpg
   link: https://www.lyrasis.org
   level: bronze
+
+- name: Brown University Library
+  link: https://library.brown.edu/
+  diversity: true
+
+- name: Ex Libris
+  img: /assets/img/sponsors/exlibris.png
+  link: https://www.exlibrisgroup.com/
+  level: bronze
+  annotation: 'Transportation'
+
+- name: Johns Hopkins Sheridan Libraries
+  img: /assets/img/sponsors/johnshopkins.jpg
+  link: https://www.library.jhu.edu
+  level: bronze
+  annotation: 'Childcare'
