@@ -87,7 +87,7 @@
 - timeImg: 10.25.png
   title: Lightning Talks 2
   day2: true
-  time: 10:25-11:15
+  time: 10:25-11:25
   # link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks#Day_2
 
 - timeImg: 10.15.png
@@ -182,11 +182,11 @@
   groupId: 3
   time: 09:15-10:10
 
-- timeImg: 11.15.png
-  title: Group 4&#58; 45 minutes (3 talks)
+- timeImg: 11.25.png
+  title: Group 4&#58; 35 minutes (2 talks)
   day2: true
   groupId: 4
-  time: 11:15-12:00
+  time: 11:25-12:00
 
 - timeImg: 1.20.png
   title: Group 5&#58; 45 minutes (3 talks)
