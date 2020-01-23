@@ -446,18 +446,6 @@
   image_src: /assets/img/nopics/nopic7.jpg
   keynote: false
 
-- id: julie-c-swierczek
-  name: Julie C. Swierczek
-  last: Swierczek
-  pronouns: she/her/hers
-  position-title: Associate Librarian for Collection Description and Imaging
-  bio: Cataloger. Metadata Librarian. Digital Archivist. Digital Asset Manager. Systems Librarian. Manager. Chaos junkie. Enjoying the privilege of serving the coolest bunch of staff ever.
-  twitter:
-  slack: jcswierczek
-  github:
-  image_src: /assets/img/nopics/nopic8.jpg
-  keynote: false
-
 - id: julie-hardesty
   name: Julie Hardesty
   last: Hardesty
