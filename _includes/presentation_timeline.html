@@ -45,7 +45,7 @@
                                     <h4><a href="{{ talk.url }}">{{ talk.title }}</a></h4>
                                 {% endif %}
                             </div>
-                            <div class="col-12 d-none">
+                            <div class="col-12 d-none d-sm-block">
                                 {% for speaker_id in talk.speakers %}
                                     {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
                                     {% if speaker %}

@@ -10,7 +10,7 @@
             </div>
             {% if post.speaker %}
                 {% assign speaker = site.data.past-keynotes | where:"id",post.speaker | first %}
-                <div class="col-sm-4 d-none text-center">
+                <div class="col-sm-4 d-none d-sm-block text-center">
                     <a href="/speakers/past-keynotes.html#{{ speaker.name | slugify }}-info" class="speaker-overlay" data-content="{{ speaker.name }}">
                         <img class="clip-circle" src="{{ speaker.image_src | relative_url }}" alt="{{ speaker.name }}">
                     </a>
@@ -21,7 +21,7 @@
             </div>
             <div class="col-sm-4 col-6 text-center">
                 {% if post.slides %}
-                    <h3 class="past-pres-slides"><a href="{{ post.slides }}"><span class="glyphicon glyphicon-blackboard past-slides d-none"></span> Slides</a></h3>
+                    <h3 class="past-pres-slides"><a href="{{ post.slides }}"><span class="glyphicon glyphicon-blackboard past-slides d-none d-sm-block"></span> Slides</a></h3>
                 {% endif %}
             </div>
         </div> <!-- cd-timeline-content -->
