@@ -2,24 +2,24 @@
     <div class="container">
         <a href="#"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
         <ul class="list-inline list-unstyled small">
-            <li class="list-item tci"><a href="{{ site.baseurl }}/">Home</a></li>
+            <li class="list-inline-item tci"><a href="{{ site.baseurl }}/">Home</a></li>
 
-            <li class="list-item tci"><a href="{{ site.baseurl }}{% if site.data.conf.have-schedule %}
+            <li class="list-inline-item tci"><a href="{{ site.baseurl }}{% if site.data.conf.have-schedule %}
             {% link schedule/index.html %}{% else %}{% link schedule/timeline.html %}
             {% endif %}">Schedule</a></li>
-            <li class="list-item tci"><a href="{{ site.baseurl }}{% if site.data.conf.have-talks %}
+            <li class="list-inline-item tci"><a href="{{ site.baseurl }}{% if site.data.conf.have-talks %}
             {% link speakers/index.html %}{% else %}{% link speakers/past-keynotes.html %}
             {% endif %}">Speakers</a></li>
 
             {% if site.data.conf.call-for-sponsors %}
-                <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
+                <li class="list-inline-item tci"><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
             {% else %}
-                <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
+                <li class="list-inline-item tci"><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
             {% endif %}
 
-            <li class="list-item tci"><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
-            <li class="list-item tci"><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
-            <li class="list-item tci"><a href="mailto:code4lib@concentra-cms.com">Contact Us</a></li>
+            <li class="list-inline-item tci"><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
+            <li class="list-inline-item tci"><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
+            <li class="list-inline-item tci"><a href="mailto:code4lib@concentra-cms.com">Contact Us</a></li>
         </ul>
         <div class="bucket">
             <p>

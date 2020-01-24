@@ -1,7 +1,7 @@
 <div class="sponsor-card {{ sponsor.level }}">
     <a href="{{ sponsor.link }}">
         {% if sponsor.img.size %}
-        <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
+        <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}" class="img-fluid">
         {% else %}
         <span class="sponsor-name-only">{{ sponsor.name }}</span>
         {% endif %}
