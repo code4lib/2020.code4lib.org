@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark" role="navigation">
+<nav class="navbar navbar-expand-lg navbar-light" role="navigation" style="background: black;">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -16,14 +16,14 @@
         <li class="nav-item">
           <a class="nav-link" aria-label="Return to Code4Lib Index Page" href="{{ site.baseurl }}/">Home</a>
         </li>
-        {% if site.data.conf.program-nav-links %}
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/index.html %}" class="nav-link">Schedule</a></li>
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/index.html %}" class="nav-link">Speakers</a></li>
-        {% else %}
+        <!-- {% if site.data.conf.program-nav-links %} -->
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/index.html %}" class="nav-link">Schedule</a></li> -->
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/index.html %}" class="nav-link">Speakers</a></li> -->
+        <!-- {% else %} -->
         <!-- Information for before we have program/preconf details -->
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/timeline.html %}" class="nav-link">Schedule</a></li>
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}" class="nav-link">Speakers</a></li>
-        {% endif %}
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/timeline.html %}" class="nav-link">Schedule</a></li> -->
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}" class="nav-link">Speakers</a></li> -->
+        <!-- {% endif %} -->
 
 
 
