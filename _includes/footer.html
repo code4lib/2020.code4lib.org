@@ -4,13 +4,12 @@
         <ul class="list-inline list-unstyled small">
             <li class="list-item tci"><a href="{{ site.baseurl }}/">Home</a></li>
 
-            {% if site.data.conf.program-nav-links %}
-                <li class="list-item tci"><a href="{{ site.baseurl }}{% link schedule/index.html %}">Schedule</a></li>
-                <li class="list-item tci"><a href="{{ site.baseurl }}{% link speakers/index.html %}">Speakers</a></li>
-            {% else %}
-                <li class="list-item tci"><a href="{{ site.baseurl }}{% link schedule/timeline.html %}">Schedule</a></li>
-                <li class="list-item tci"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}">Speakers</a></li>
-            {% endif %}
+            <li class="list-item tci"><a href="{{ site.baseurl }}{% if site.data.conf.have-schedule %}
+            {% link schedule/index.html %}{% else %}{% link schedule/timeline.html %}
+            {% endif %}">Schedule</a></li>
+            <li class="list-item tci"><a href="{{ site.baseurl }}{% if site.data.conf.have-talks %}
+            {% link speakers/index.html %}{% else %}{% link speakers/past-keynotes.html %}
+            {% endif %}">Speakers</a></li>
 
             {% if site.data.conf.call-for-sponsors %}
                 <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
@@ -52,16 +51,18 @@
 {% include proposed-js.html %}
 {% endif %}
 
-{% if page.title == 'Newcomer Dinner' %}
-<link rel="stylesheet" href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"></script>
-<script src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+{% if page.title == 'Venues' %}
+<script src="https://kit.fontawesome.com/bd2d035961.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 <script>
   $(document).ready(function() {
-    $('#dinner-table').DataTable({
+    $('#dinner-datatable').DataTable({
         "paging": false,
         "searching": false,
         "autoWidth": false,
-        "order": [[3, 'asc'], [0, 'asc']]
+        "order": [[0, 'asc']]
         });
     } );
 </script>

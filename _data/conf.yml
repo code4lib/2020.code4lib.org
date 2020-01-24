@@ -8,9 +8,17 @@ location: 'Pittsburgh, Pennsylvania'
 hero-image-alt: "Daytime photo of Pittsburgh downtown area with gray clouds framed by yellow bridges"
 
 search: false
-# If false (we don't have program info yet), the main nav links go:
-# schedule -> preparation timeline, speakers -> past keynotes
-program-nav-links: false
+
+########################
+# Program & Schedule
+#######################
+# These booleans affect the main menu links in the ways described below, as well
+# as displays in a few other places.
+# if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
+have-talks: true
+have-workshops: true
+# if true Schedule link -> /schedule/, if false -> /schedule/timeline
+have-schedule: true
 
 # day 0 = preconf day
 days:
@@ -45,13 +53,8 @@ venue:
     floorplan: 'https://www.marriott.com/hotels/event-planning/business-meeting/pitwi-the-westin-pittsburgh/#FloorplanLayoutf689'
     directions: 'https://www.marriott.com/hotels/maps/travel/pitwi-the-westin-pittsburgh/'
     a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
-
-# Reception
-reception-venue: 'Carnegie Museum of Pittsburgh - Oakland'
-reception-street: '4400 Forbes Ave'
-reception-postal-code: '15213'
-reception-phone: '+1(412)-353-4795'
-reception-contact: 'straubn@carnegiemuseums.org'
+    cost: "$159"
+    with-tax-cost: "$181.26"
 
 #############################
 # C4l Links
@@ -108,11 +111,11 @@ closed-captioning:
 ###########
 
 # If true, any "Sponsors" links will go to /prospectus instead of /sponsors
-call-for-sponsors: true
-homepage-sponsor-button: true
+call-for-sponsors: false
+homepage-sponsor-button: false
 # URL to document
 prospectus-document: '/assets/2020_c4l_Infosheet.pdf'
-sponsor-btn-link: 'https://www.eiseverywhere.com/sponsor.c4l20'
+sponsor-btn-link: 'https://na.eventscloud.com/sponsor.c4l20'
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
@@ -141,10 +144,10 @@ talk-proposals:
 panel-proposals:
   show: false
   submission-form: ""
-  end-date:
+  end-date: ""
 
 poster-proposals:
-  show: true
+  show: false
   submission-form: "https://forms.gle/Jae5hWSZwVQFtzuK7"
   end-date: "2019-12-06"
 
@@ -192,22 +195,6 @@ shirt-voting:
   url: "https://goo.gl/forms/Bgo590LPEhjfJGkT2"
   end-date: "2018-12-07"
 
-###############
-# Registration
-###############
-
-workshop-registration:
-  show: false
-  url: ""
-
-# "show" just means display on home page, "open" means people can register
-conference-registration:
-  show: false
-  url: ""
-  start-date: Null
-  end-date: Null
-  open: false
-
 ##################
 # Schedule events
 ##################
@@ -216,12 +203,12 @@ conference-registration:
 social-activities-url: ""
 
 newcomer-dinner:
-    show: false
+    show: true
     # entering the URL doubles as a "show more info" switch, too
     signup-url: ""
     transit-info: ""
     activities-info: ""
-    date: ""
+    date: "2020-03-08"
 
 game-night:
     show: false
@@ -238,6 +225,12 @@ libtech-women:
 
 reception:
     show: true
+    venue: "Carnegie Museum of Pittsburgh - Oakland"
+    street: "4400 Forbes Ave"
+    postal-code: "15213"
+    phone: "+1(412)-353-4795"
+    contact: "straubn@carnegiemuseums.org"
+    times: "6:30PM - 8:30PM"
     date: "2020-03-09"
 
 karaoke-night:

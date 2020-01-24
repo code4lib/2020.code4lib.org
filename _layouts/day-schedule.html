@@ -5,12 +5,15 @@
     <div class="row">
         <div class="col-12">
             <h1>{{ page.title }}</h1>
-            {% if site.data.conf.program-nav-links %}
+            {% if site.data.conf.have-schedule %}
                 {% include schedule_nav.html param=page.day %}
                 {{ content }}
                 {% assign events = site.data.schedule | where:page.day, true %}
                 {% include presentation_timeline.html events=events %}
                 {% include schedule_nav.html param=page.day %}
+            {% else %}
+                <p>The schedule for Code4Lib {{site.data.conf.year}} has not been finalized yet.</p>
+                {% include talks-and-workshops-buttons.html %}
             {% endif %}
         </div>
     </div>

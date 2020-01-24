@@ -172,17 +172,16 @@
 
 # keynotes
 - timeImg: 9.15.png
-  title: Opening Keynote - Chris Bourg
+  title: Opening Keynote
   day1: true
   groupId: key-open
   time: 09:15-10:00
 
 - timeImg: 9.15.png
-  title: Closing Keynote - Mega Subramaniam
+  title: Closing Keynote
   day3: true
   groupId: key-close
   time: 09:15-10:00
-
 
 # groups
 - timeImg: 10.20.png
@@ -190,54 +189,33 @@
   day1: true
   groupId: 1
   time: 10:20-12:10
-  start: 1518603600
-  end: 1518610200
 
 - timeImg: 1.25.png
   title: Group 2&#58; 75 minutes (5 talks)
   day1: true
   groupId: 2
   time: 13:25-14:40
-  start: 1518614700
-  end: 1518619200
-
-- timeImg: 9.15.png
-  title: Fiscal Continuity IG Report (40 minutes)
-  day2: true
-  groupId: 3
-  time: 09:15-9:55
-  start: 1518686100
-  end: 1518688500
-  link: https://wiki.code4lib.org/Fiscal_Continuity#Report
 
 - timeImg: 11.00.png
-  title: Group 3a&#58; 60 minutes (3 talks)
+  title: Group 3&#58; 60 minutes (3 talks)
   day2: true
-  groupId: 4
+  groupId: 3
   time: 11:00-12:00
-  start: 1518692400
-  end: 1518696000
 
 - timeImg: 1.10.png
-  title: Group 3b&#58; 55 minutes (3 talks)
+  title: Group 4&#58; 55 minutes (3 talks)
   day2: true
-  groupId: 5
+  groupId: 4
   time: 13:10-14:05
-  start: 1518700200
-  end: 1518703500
 
 - timeImg: 3.40.png
-  title: Group 4&#58; 110 minutes (6 talks)
+  title: Group 5&#58; 110 minutes (6 talks)
   day2: true
-  groupId: 6
+  groupId: 5
   time: 15:40-17:10
-  start: 1518708000
-  end: 1518714600
 
 - timeImg: 11.05.png
-  title: Group 5&#58; 70 minutes (4 talks)
+  title: Group 6&#58; 70 minutes (4 talks)
   day3: true
-  groupId: 7
+  groupId: 6
   time: 11:05-12:15
-  start: 1518779100
-  end: 1518783300

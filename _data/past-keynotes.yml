@@ -4,7 +4,7 @@
   twitter_handle: EvergreenILS
   work_title:
   institution:
-  image_src: /assets/img/past-keynotes/evergreen.jpeg
+  image_src: /assets/img/keynotes/evergreen.jpeg
   year: 2006
 
 - id: karen-schneider
@@ -13,7 +13,7 @@
   twitter_handle: kgs
   work_title: Dean of the Library
   institution: Sonoma State University
-  image_src: /assets/img/past-keynotes/karenscheider.jpg
+  image_src: /assets/img/keynotes/karenscheider.jpg
   year: 2007
 
 - id: erik-hatcher
@@ -22,7 +22,7 @@
   twitter_handle: erikhatcher
   work_title: Senior Solutions Architect
   institution: Lucidworks
-  image_src: /assets/img/past-keynotes/erikhatcher.jpeg
+  image_src: /assets/img/keynotes/erikhatcher.jpeg
   year: 2007
 
 - id: brewster-kahle
@@ -31,7 +31,7 @@
   twitter_handle: brewster_kahle
   work_title: Digital Librarian
   institution: Internet Archive
-  image_src: /assets/img/past-keynotes/brewsterkahle.jpg
+  image_src: /assets/img/keynotes/brewsterkahle.jpg
   year: 2008
 
 - id: karen-coyle
@@ -40,7 +40,7 @@
   twitter_handle:
   work_title:
   institution:
-  image_src: /assets/img/past-keynotes/karencoyle.jpg
+  image_src: /assets/img/keynotes/karencoyle.jpg
   year: 2008
 
 - id: jon-udell
@@ -49,7 +49,7 @@
   twitter_handle: judell
   work_title:
   institution: Hypthesis
-  image_src: /assets/img/past-keynotes/jonudell.jpg
+  image_src: /assets/img/keynotes/jonudell.jpg
   year: 2008
 
 - id: stefano-mazzocchi
@@ -58,7 +58,7 @@
   twitter_handle: stefanomaz
   work_title: Software Engineer
   institution: Google
-  image_src: /assets/img/past-keynotes/mazzocchi.jpg
+  image_src: /assets/img/keynotes/mazzocchi.jpg
   year: 2009
 
 - id: sebastian-hammer
@@ -67,7 +67,7 @@
   twitter_handle: shammer46
   work_title: Information Retrieval Consultant
   institution: Index Data LLC
-  image_src: /assets/img/past-keynotes/hammer.jpg
+  image_src: /assets/img/keynotes/hammer.jpg
   year: 2009
 
 - id: ian-davis
@@ -76,7 +76,7 @@
   twitter_handle: iand
   work_title: VP Engineering
   institution: Avocet Systems
-  image_src: /assets/img/past-keynotes/iandavis.jpg
+  image_src: /assets/img/keynotes/iandavis.jpg
   year: 2009
 
 - id: cathy-marshall
@@ -94,7 +94,7 @@
   twitter_handle: smalljones
   work_title: Director
   institution: ibiblio.org
-  image_src: /assets/img/past-keynotes/pauljones.jpg
+  image_src: /assets/img/keynotes/pauljones.jpg
   year: 2010
 
 - id: diane-hillmann
@@ -103,7 +103,7 @@
   twitter_handle:
   work_title: Director of Metadata Initiatives
   institution: Information Institute of Syracuse
-  image_src: /assets/img/past-keynotes/dianehillmann.jpg
+  image_src: /assets/img/keynotes/dianehillmann.jpg
   year: 2011
 
 - id: dan-chudnov
@@ -112,7 +112,7 @@
   twitter_handle: dchud
   work_title: Director, Scholarly Technology
   institution: George Washington University
-  image_src: /assets/img/past-keynotes/danchudnov.jpg
+  image_src: /assets/img/keynotes/danchudnov.jpg
   year: 2012
 
 - id: bethany-nowviskie
@@ -121,7 +121,7 @@
   twitter_handle: nowviskie
   work_title: Director of the Digital Library Federation
   institution: University of Virginia
-  image_src: /assets/img/past-keynotes/nowviskie.jpeg
+  image_src: /assets/img/keynotes/nowviskie.jpeg
   year: 2012
 
 - id: leslie-johnston
@@ -130,7 +130,7 @@
   twitter_handle: lljohnston
   work_title: Director of Digital Preservation
   institution: The National Archives (NARA)
-  image_src: /assets/img/past-keynotes/lesliejohnston.jpeg
+  image_src: /assets/img/keynotes/lesliejohnston.jpeg
   year: 2013
 
 - id: gordon-dunsire
@@ -139,7 +139,7 @@
   twitter_handle: gordondunsire
   work_title: Independent Consultant
   institution:
-  image_src: /assets/img/past-keynotes/gordondunsire.jpg
+  image_src: /assets/img/keynotes/gordondunsire.jpg
   year: 2013
 
 - id: sumana-harihareswara
@@ -148,7 +148,7 @@
   twitter_handle: brainwane
   work_title: Open source programmer
   institution: The Ada Initiative
-  image_src: /assets/img/past-keynotes/harihareswara.jpg
+  image_src: /assets/img/keynotes/harihareswara.jpg
   year: 2014
 
 - id: valerie-aurora
@@ -157,7 +157,7 @@
   twitter_handle: vaurorapub
   work_title: Interim Executive Director
   institution: The Ada Initiative
-  image_src: /assets/img/past-keynotes/valerieaurora.jpg
+  image_src: /assets/img/keynotes/valerieaurora.jpg
   year: 2014
 
 - id: andromeda-yelton
@@ -166,7 +166,7 @@
   twitter_handle: thatandromeda
   work_title: Library Consultant
   institution: Small Beautiful Useful
-  image_src: /assets/img/past-keynotes/andromeda.jpg
+  image_src: /assets/img/keynotes/andromeda.jpg
   year: 2015
 
 - id: selena-deckelmann
@@ -175,7 +175,7 @@
   twitter_handle: selenamarie
   work_title: Data Architect
   institution: Mozilla
-  image_src: /assets/img/past-keynotes/selenadeckelmann.jpg
+  image_src: /assets/img/keynotes/selenadeckelmann.jpg
   year: 2015
 
 - id: kate-krauss
@@ -185,7 +185,7 @@
   twitter_handle:
   work_title: Director of Communications and Public Policy
   institution: The Tor Project
-  image_src: /assets/img/past-keynotes/krauss.jpg
+  image_src: /assets/img/keynotes/krauss.jpg
   year: 2016
 
 - id: gabriel-weinberg
@@ -195,7 +195,7 @@
   twitter_handle: yegg
   work_title: CEO & Founder
   institution: DuckDuckGo
-  image_src: /assets/img/past-keynotes/weinberg.jpg
+  image_src: /assets/img/keynotes/weinberg.jpg
   year: 2016
 
 - id: andreas-orphanides
@@ -206,7 +206,7 @@
   twitter_handle:
   work_title: Associate Head, User Experience
   institution: NC State University Libraries
-  image_src: /assets/img/past-keynotes/orphanides.jpg
+  image_src: /assets/img/keynotes/orphanides.jpg
   year: 2017
 
 - id: christina-harlow
@@ -217,7 +217,7 @@
   twitter_handle: cm_harlow
   work_title: Metadata Librarian
   institution: Cornell University Library
-  image_src: /assets/img/past-keynotes/harlow.jpg
+  image_src: /assets/img/keynotes/harlow.jpg
   year: 2017
 
 - id: chris-bourg
@@ -228,7 +228,7 @@
   twitter_handle: mchris4duke
   work_title: Director of Libraries
   institution: Massachusetts Institute of Technology
-  image_src: /assets/img/past-keynotes/bourg_chris.jpg
+  image_src: /assets/img/keynotes/bourg_chris.jpg
   year: 2018
 
 - id: mega-subramaniam
@@ -239,7 +239,7 @@
   twitter_handle: mmsubram
   work_title: Associate Professor, College of Information Studies
   institution: University of Maryland
-  image_src: /assets/img/past-keynotes/Subramaniam_Mega.jpg
+  image_src: /assets/img/keynotes/Subramaniam_Mega.jpg
   year: 2018
 
 - id: sarah-roberts
@@ -247,7 +247,7 @@
   last: Roberts
   work_title: Assistant Professor of Information Studies
   institution: UCLA
-  image_src: /assets/img/past-keynotes/roberts_sara.jpg
+  image_src: /assets/img/keynotes/roberts_sara.jpg
   bio: "Sarah T. Roberts is assistant professor of information studies in the Graduate School of Education and Information Studies at the University of California, Los Angeles. She is internationally recognized as a leading scholar on the emerging topic of commercial content moderation of social media; her book on the topic, <a href=https://yalebooks.yale.edu/book/9780300235883/behind-screen>Behind the Screen: Content Moderation in the Shadows of Social Media</a>, is forthcoming in 2019 from Yale University Press. Professor Roberts is a 2018 Carnegie Fellow and a 2018 winner of the EFF Pioneer Award."
   year: 2019
 
@@ -256,6 +256,6 @@
   last: Robertson
   work_title: Diversity & Inclusion Strategic Partner
   institution: Mozilla
-  image_src: /assets/img/past-keynotes/robertson_tara.jpg
+  image_src: /assets/img/keynotes/robertson_tara.jpg
   bio: "Tara Robertson is an intersectional feminist who uses data and research to advocate for equality and inclusion. She has more than 10 years experience making open source and tech communities more diverse and welcoming. Her core values are social justice, collaboration and all things open–open source, open access and open education. Her curiosity and delight in connecting people come together in person and online, where she can often be found asking good questions. <a href=https://tararobertson.ca/about/>Read more on her personal website</a>."
   year: 2019

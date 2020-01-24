@@ -1,27 +1,27 @@
 <div class="col-12">
     {% comment %} details known/announced but can't register yet {% endcomment %}
-    {% if site.data.conf.conference-registration.show
-    and site.data.conf.conference-registration.open == false %}
+    {% if site.data.registration.conference.show
+    and site.data.registration.conference.open == false %}
         {% include homepage/going_on_block.html
             primary=true
             title='Conference Registration'
             more-info-link='/general-info/attend'
             more-info-text='Fees & additional information'
-            end-date=site.data.conf.conference-registration.end-date
-            start-date=site.data.conf.conference-registration.start-date
+            end-date=site.data.registration.conference.end-date
+            start-date=site.data.registration.conference.start-date
         %}
     {% endif %}
 
     {% comment %} registration is open! {% endcomment %}
-    {% if site.data.conf.conference-registration.open %}
+    {% if site.data.registration.conference.open %}
         {% include homepage/going_on_block.html
             primary=true
             title='Registration is open!'
             more-info-link='/general-info/attend'
             more-info-text='Fees & additional information'
-            end-date=site.data.conf.conference-registration.end-date
-            start-date=site.data.conf.conference-registration.start-date
-            url=site.data.conf.conference-registration.url
+            end-date=site.data.registration.conference.end-date
+            start-date=site.data.registration.conference.start-date
+            url=site.data.registration.conference.url
             url-text='Register!'
         %}
     {% endif %}
@@ -106,7 +106,7 @@
     {% endif %}
 
     <!-- Proposals -->
-    {% if site.data.conf.talk-proposals.show or site.data.conf.poster-proposals or site.data.conf.panel-proposals.show or site.data.conf.workshop-proposals.show or site.data.conf.shirt-proposals.show or site.data.conf.host-proposals.show or site.data.conf.keynote-proposals.show %}
+    {% if site.data.conf.talk-proposals.show or site.data.conf.poster-proposals.show or site.data.conf.panel-proposals.show or site.data.conf.workshop-proposals.show or site.data.conf.shirt-proposals.show or site.data.conf.host-proposals.show or site.data.conf.keynote-proposals.show %}
     <div class="row">
         <div class="col-12">
             <h4 class="expo">Proposals</h4>

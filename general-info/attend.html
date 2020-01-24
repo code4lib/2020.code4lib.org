@@ -10,33 +10,40 @@ active: Attend Code4Lib
             <div class="col-12">
                 <h1>Attend Code4Lib</h1>
 
-                    {% if site.data.conf.conference-registration.show %}
-                        {% if site.data.conf.conference-registration.open %}
-                            <a href="{{ site.data.conf.conference-registration.url }}" class="btn btn-lg btn-primary">Register Now!</a>
+                    {% if site.data.registration.conference.show %}
+                        {% if site.data.registration.conference.open %}
+                            <a href="{{ site.data.registration.conference.url }}" class="btn btn-lg btn-primary">Register Now!</a>
                         {% else %}
-                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.conf.conference-registration.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
+                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.registration.conference.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
                         {% endif %}
                     {% else %}
                         <p>Code4Lib will be held from {{site.data.conf.days[0].date}} to {{site.data.conf.days.last.date}} this year. We have reserved a block at the {{site.data.conf.venue.name}}; see more details on the <a href="venues/">Venues</a> page.</p>
                     {% endif %}
 
-                    {% if site.data.conf.workshop-registration.show %}
+                    {% if site.data.registration.workshop-only.show %}
                         <h3>Preconference Workshops</h3>
-                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-registration.url }}">Pre Conf Registration</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.registration.workshop-only.url }}">Pre Conf Registration</a></p>
                     {% endif %}
             </div>
         </div>
 
-        {% comment %}
         <div class="row">
             <div class="col-12">
                 <h3>Registration Fees</h3>
                 <ul>
-                    <li><strong>Main Conference</strong>: $395</li>
-                    <li><strong>Main Conference (after January 23rd)</strong> : $450</li>
-                    <li><strong>Pre-Conference </strong>: $50 per half day ($100 for full day)</li>
-                    <li><strong>Reception "plus one"</strong>: $60 (limit one "plus one" per registration)</li>
-                    <li><strong>{{site.data.conf.venue.name}}</strong>: $200/night plus taxes</li>
+                    <li><strong>Main Conference</strong>: {{ site.data.registration.conference.cost }}</li>
+
+                    <li><strong>Main Conference (after {{ site.data.registration.conference.end-date | date: "%B %-d" }})</strong>: {{ site.data.registration.conference.late-cost }}</li>
+
+                    <li><strong>Pre-Conferences (with main conference registration)</strong>: {{ site.data.registration.conference.workshop-half-day-cost }} per half day ({{ site.data.registration.conference.workshop-full-day-cost }} for full day)</li>
+
+                    <li><strong>Pre-Conference Only</strong>: {{ site.data.registration.workshop-only.half-day-cost }} per half day ({{ site.data.registration.workshop-only.full-day-cost }} for full day) {%- if site.data.registration.workshop-only.start-date -%}. Opens {{ site.data.registration.workshop-only.start-date | date: "%B %-d" }}.{%- endif -%}</li>
+
+                    {% if site.data.registration.reception-plus-one-cost %}
+                        <li><strong>Reception "plus one"</strong>: {{ site.data.registration.reception-plus-one-cost }} (limit one "plus one" per registration)</li>
+                    {% endif %}
+
+                    <li><strong>{{site.data.conf.venue.name}}</strong>: {{ site.data.conf.venue.cost }}/night ({% if site.data.conf.venue.with-tax-cost %}{{ site.data.conf.venue.with-tax-cost }} with taxes{% else %}plus taxes{% endif %})</li>
                 </ul>
 
                 <p>
@@ -48,15 +55,13 @@ active: Attend Code4Lib
                 </p>
 
                 <p>
-                    The Code4Lib room block rate in the DoubleTree does not include does not include a 14.4% Room Tax and $1.25 HBID fee per night (subject to change).
-                </p>
-
-                <p>
                     <strong>Payment Policy</strong>: Payment for the full amount of registration fees must be made at the time of registration or within 48 hours of the completion of registration.
                 </p>
 
                 <p>
-                    <strong>Cancellation Policy</strong>:  All cancellations received on or before January 23rd, {{site.data.conf.year}} are eligible for a full refund of fees paid, less a 10% cancellation fee. No refunds will be issued after the January 23rd cut-off date.
+                    <strong>Cancellation Policy</strong>:  All cancellations received on or before {{ site.data.registration.conference.cancellation-date | date: "%B %-d, %Y" }} are eligible for a full refund of fees paid, less a 10% cancellation fee.
+                    No refunds will be issued after the {{ site.data.registration.conference.cancellation-date | date: "%B %-d" }} cut-off date.
+                    Registrants are able to transfer completed registrations to colleagues - please contact <a href="mailto:{{ site.data.conf.main-conf-email }}">{{ site.data.conf.main-conf-email }}</a> to finalize this process.
                 </p>
             </div>
         </div>
@@ -66,16 +71,12 @@ active: Attend Code4Lib
                 <h3>Additional Information</h3>
                 <ol>
                     <li>
-                        Child Care is available for each day of the conference. When you register, you may select which days you require child care. The cost is $30 per full day, $15 for the half day on Friday, and $15 for child care during the Wednesday evening reception.
+                        Child Care is available for each day of the conference. When you register, you may select which days you require child care. The cost is $30 per full day, $15 for the half day on {{ site.data.conf.days[3].weekday }}, and $15 for child care during the {{ site.data.conf.days[1].weekday }} evening reception.
+                        {% if site.data.registration.childcare-end-date != '' %}
+                          <strong>Please Note</strong>: Child Care Registration will close on {{ site.data.registration.childcare-end-date | date: "%B %e, %Y" }}. Registration and payment must be finalized on or before {{ site.data.registration.childcare-end-date | date: "%B %e"}}, to utilize the child care services.
+                        {% endif %}
                     </li>
-                    <li>
-                        The registration system maintains a two hour session per registration
-                        attempt. Due to the potential of heavy access and this prolonged session,
-                        the conference may appear to sell out quickly. But once early failed
-                        sessions expire, more spots may open up beginning around 2 p.m. Because of
-                        this we ask you not to assume it is sold out until you hear an announcement
-                        from the planning committee.
-                    </li>
+
                     <li>
                         Registration will close when the maximum capacity has been reached.
                         A waitlist will be available once this final round of registration is
@@ -90,7 +91,6 @@ active: Attend Code4Lib
                 </ol>
             </div>
         </div>
-        {% endcomment %}
     </div>
 </section>
 

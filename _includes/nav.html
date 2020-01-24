@@ -25,31 +25,43 @@
         <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}" class="nav-link">Speakers</a></li>
         {% endif %}
 
-        {% comment %}
-        when looking for sponsors before conf, send users to prospectus
-        close to / during conf, send to the list of sponsors page
-        {% endcomment %}
-        {% if site.data.conf.call-for-sponsors %}
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link prospectus/index.html %}" class="nav-link">Sponsors</a></li>
-        {% else %}
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link sponsors/index.html %}" class="nav-link">Sponsors</a></li>
-        {% endif %}
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link general-info/attend.html %}" class="nav-link">General Info</a></li>
-        <li class="nav-item"><a href="{{ site.baseurl }}{% link conduct/index.html %}" class="nav-link">Conduct & Safety</a></li>
-        <!-- SEARCH -->
-        {% if site.data.conf.search %}
-        <li class="nav-item">
-          <form class="form-inline my-2 my-lg-0" action="get" id="site_search">
-            <div class="input-group">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search Presentations" id="search_box">
-              <div class="input-group-btn">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
-              </div>
-            </div>
-          </form>
-        </li>
-        {% endif %}
-      </ul>
-    </div>
-  </div>
+                <li><a href="{{ site.baseurl }}/" aria-label="Return to Code4Lib Index Page">Home</a></li>
+
+                <li><a href="{{ site.baseurl }}{% if site.data.conf.have-schedule %}
+                {% link schedule/index.html %}{% else %}{% link schedule/timeline.html %}
+                {% endif %}">Schedule</a></li>
+                <li><a href="{{ site.baseurl }}{% if site.data.conf.have-talks %}
+                {% link speakers/index.html %}{% else %}{% link speakers/past-keynotes.html %}
+                {% endif %}">Speakers</a></li>
+
+                {% comment %}
+                when looking for sponsors before conf, send users to prospectus
+                close to / during conf, send to the list of sponsors page
+                {% endcomment %}
+                {% if site.data.conf.call-for-sponsors %}
+                    <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
+                {% else %}
+                    <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
+                {% endif %}
+
+                <li><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
+
+                 <li><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
+
+                <!-- SEARCH -->
+                {% if site.data.conf.search %}
+                <li>
+                    <form class="navbar-form" action="get" id="site_search">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Search Presentations" id="search_box">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                {% endif %}
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>

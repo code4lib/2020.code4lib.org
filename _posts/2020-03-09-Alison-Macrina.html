@@ -1,0 +1,23 @@
+---
+layout: presentation
+speakers-text: Alison Macrina
+speakers: alison-macrina
+day: 1
+group: key-open
+spot: 1
+length: 45
+type: key-open
+categories: keynotes
+startTime: 2020-03-09T09:15
+title: Opening Keynote - Alison Macrina
+slides:
+youtube_key:
+---
+
+<p>
+{% for speaker in site.data.speakers %}
+    {% if speaker.id == page.speakers %}
+        {{ speaker.bio }}
+    {% endif %}
+{% endfor %}
+</p>
