@@ -42,10 +42,13 @@
                 <tr>
                     <td>
                       {% if restaurant.url != 'n/a' %}
-                        <a href="{{restaurant.url}}">{{ restaurant.restaurant-name }}</a> <i tabindex="0" class="fas fa-question-circle fa-sm" data-toggle="tooltip" title="{{ restaurant.notes }} {{ restaurant.accessibility-notes }}"></i>
+                        <a href="{{restaurant.url}}">{{ restaurant.restaurant-name }}</a>
                       {% else %}
                         {{ restaurant.restaurant-name }}
                       {% endif %}
+                        {% if restaurant.notes or restaurant.accessibility-notes %}
+                         <i tabindex="0" class="fas fa-question-circle fa-sm" data-toggle="tooltip" title="{{ restaurant.notes }} {{ restaurant.accessibility-notes }}"></i>
+                        {% endif %}
                     </td>
                     <td>{{ restaurant.type-of-food }}</td>
                     <td>{{ restaurant.distance-from-hotel }}</td>
