@@ -101,6 +101,11 @@
   link: https://www.morganclaypool.com/
   level: giveaway
 
+- name: No Starch Press
+  img: /assets/img/sponsors/nostarchpress.jpg
+  link: https://nostarch.com/
+  level: giveaway
+
 - name: University of Rhode Island
   link: https://web.uri.edu/library/
   level: supporter
