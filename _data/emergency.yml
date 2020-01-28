@@ -1,0 +1,62 @@
+# If you supply a link. always supply a link-text even if it's somewhat redundant
+# Name field is required.
+
+police:
+  has311: true
+  phone: 412-323-7800
+  link: https://pittsburghpa.gov/police/
+  link-text: Pittsburgh Bureau of Police
+
+# Hospitals & Urgent Care
+hospitals:
+  - name: UPMC Mercy
+    link: https://www.upmc.com/locations/hospitals/mercy
+    link-text: UPMC Mercy website.
+    address: 1400 Locust Street, Pittsburgh, PA 15219
+    phone: 412-232-8111
+    note: 10 minute drive from conference hotel.
+  - name: Allegheny General Hospital
+    link: https://www.ahn.org/locations/allegheny-general-hospital
+    link-text: Allegheny General website.
+    address: 320 East North Avenue, Pittsburgh, PA 15212
+    phone: 412-359-3131
+    note: 10 minute drive from conference hotel.
+  - name: UPMC Walk-in Primary Care Clinic at Mercy South Side Outpatient Center
+    link: https://www.upmc.com/locations/community/south-side/primary-care-clinic
+    link-text: UPMC Primary Care Clinic website.
+    address: 2000 Mary St., Pittsburgh, PA 15203
+    phone: 412-488-5705
+    note: 12 minute drive from conference hotel.
+
+# rape, crisis, women's shelters
+# national suicide prevention hotline is already on the page
+further-resources:
+  - name: Women's Center & Shelter of Pittsburgh
+    link: https://www.wcspittsburgh.org/resources/
+    link-text: See resources on their website.
+    address:
+    phone: 412-687-8005
+    note: Toll free number <a href="tel:1-877-338-8255">877-338-TALK</a> (8255).
+  - name: Crisis Center North
+    link: https://www.crisiscenternorth.org
+    link-text: website
+    address:
+    phone: 412-364-5556
+    note: Toll free number <a href="tel:1-866-782-0911">866-782-0911</a>.
+
+# local AA, NA groups
+recovery-groups:
+  - name: Alcoholics Anonymous Pittsburgh
+    link: https://www.pghaa.org/meetings
+    link-text: List of local meetings.
+    address:
+    phone:
+    note:
+  - name: Narcotics Anonymous
+    link: https://www.na.org:443/meetingsearch/text-results.php?country=USA&state=PA&city=Pittsburgh&zip=&street=&within=10&day=0&lang=&orderby=distance
+    link-text: Search results for local meetings.
+    address:
+    phone:
+    note: See also the local <a href="https://eastendarea.org/">East End</a> and <a href="http://northpittsburghna.org/">North Pittsburgh</a> groups.
+
+# other:
