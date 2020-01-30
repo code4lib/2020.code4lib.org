@@ -73,7 +73,7 @@ active: 'Conduct & Safety'
                             <li>Phone: <a href="tel:1-{{site.data.emergency.police.phone}}">{{ site.data.emergency.police.phone }}</a></li>
                         {% endif %}
                         {% if site.data.emergency.police.link != nil %}
-                            <li><a href="tel:1-{{site.data.emergency.police.link}}">{{ site.data.emergency.police.link-text }}</a></li>
+                            <li><a href="{{site.data.emergency.police.link}}">{{ site.data.emergency.police.link-text }}</a></li>
                         {% endif %}
                       </ul>
                     </p>
