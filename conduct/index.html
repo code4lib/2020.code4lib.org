@@ -5,8 +5,8 @@ nav: conduct
 subnav:
 - name: Code of Conduct
   url: '#conduct'
-#- name: Emergency
-#  url: '#emergency'
+- name: Emergency
+  url: '#emergency'
 - name: Community Support Volunteers
   url: '#officers'
 #- name: Community Support Volunteer Schedule
@@ -55,60 +55,108 @@ active: 'Conduct & Safety'
                 </a>
             </p>
 
-            {% comment %}
+            {% if site.data.emergency %}
             <div class="row">
                 <div class="col-md-12">
                     <h2 id="emergency">Emergency Resources</h2>
 
                     <p>See also the contact information for <a href="#officers">community support volunteers</a> on this page.</p>
 
-                    <h3>San Jose Police Department</h3>
+                    <h3>{{ site.data.conf.city-state }} Police Department</h3>
                     <p>
                       <ul>
-                        <li>Emergency: 9-1-1. </li>
-                        <li>Non-emergency: <a href="tel:3-1-1">3-1-1</a> or <a href="tel:1-408-277-8900">(408) 277-8900</a> (311 services are not currently available from calls originating on some cellular telephones.)</li></ul>
+                        <li>Emergency: <a href="tel:9-1-1">9-1-1</a>.</li>
+                        {% if site.data.emergency.police.has311 %}
+                            <li>Non-emergency: dial <a href="tel:3-1-1">3-1-1</a></li>
+                        {% endif %}
+                        {% if site.data.emergency.police.phone != nil %}
+                            <li>Phone: <a href="tel:1-{{site.data.emergency.police.phone}}">{{ site.data.emergency.police.phone }}</a></li>
+                        {% endif %}
+                        {% if site.data.emergency.police.link != nil %}
+                            <li><a href="{{site.data.emergency.police.link}}">{{ site.data.emergency.police.link-text }}</a></li>
+                        {% endif %}
+                      </ul>
                     </p>
+                    <p>Please take a moment to consider the varied relationships that different communities have with the police before involving them in a situation.</p>
 
-                    <h3>Hospitals & Urgent Care</h3>
-                    <p>
-                      O'Connor Hospital<br>
-                      <a href="https://www.google.com/maps/place/2105+Forest+Ave,+San+Jose,+CA+95128,+USA">2105 Forest Ave, San Jose, CA 95128, USA</a><br>
-                      <a href="tel:1-408-947-2500">1-408-947-2500</a><br>
-                      <br>
-                      Sutter Walk-In Care<br>
-                      <a href="https://www.google.com/maps/place/Sutter+Walk-In+Care/@37.3418652,-121.9134216,17z/data=!3m1!4b1!4m5!3m4!1s0x808fcb653a9e64dd:0xfd230bd5df3ecf52!8m2!3d37.3418652!4d-121.9112329">685 Coleman Ave, San Jose, CA 95110, USA</a><br>
-                      <a href="tel:1-800-972-5547">1-800-972-5547</a><br>
-                    </p>
+                    {% if site.data.emergency.hospitals.size > 0 %}
+                        <h3>Hospitals & Urgent Care</h3>
+                    {% endif %}
+                    {% for item in site.data.emergency.hospitals %}
+                        <h4>{{ item.name }}</h4>
+                        <p>
+                            {%- if item.phone != nil -%}
+                                <a href="tel:1-{{item.phone}}">{{ item.phone }}</a><br>
+                            {%- endif -%}
+                            {%- if item.address != nil -%}
+                                {{ item.address }}<br>
+                            {%- endif -%}
+                            {%- if item.link != nil -%}
+                                <a href="{{ item.link }}">{{ item.link-text }}</a><br>
+                            {%- endif -%}
+                            {%- if item.note != nil -%}
+                                {{ item.note }}<br>
+                            {%- endif -%}
+                        </p>
+                    {% endfor %}
 
-                    <h3>San Jose YWCA Rape Crisis Center</h3>
-                    <p>For immediate in-person crisis assistance and counseling services,
-                      contact the 24-Hour Hotline at <a href="tel:1-408-287-3000">408-287-3000</a> or <a href="tel:1-650-493-7273">650-493-7273</a>.
-                    </p>
+                    <h3>Suicide Prevention Lifeline</h3>
+                    <p>Confidential suicide prevention hotline available to anyone in suicidal crisis or emotional distress. Your call is routed to the nearest crisis center in the national network of more than 150 crisis centers. All services are available 24/7.</p>
+                    <ul>
+                      <li>English: <a href="tel:1-800-273-8255">1-800-273-8255</a></li>
+                      <li>Español: <a href="tel:1-888-628-9454">1-888-628-9454</a></li>
+                      <li>Deaf and Hard of Hearing: <a href="tel:1-800-799-4889">1-800-799-4889</a></li>
+                      <li>Chat: Go to <a href="https://suicidepreventionlifeline.org/chat/">suicidepreventionlifeline.org</a></li>
+                    </ul>
 
-                      <h3>Suicide Prevention Lifeline</h3>
-                      <p>Confidential suicide prevention hotline available to anyone in suicidal crisis or emotional distress.
-                        Your call is routed to the nearest crisis center in the national network of more than 150 crisis centers.
-                        All services are available 24/7. <br>
-                        <ul>
-                          <li>English: <a href="tel:1-800-273-8255">1-800-273-8255</a></li>
-                          <li>Español: <a href="tel:1-888-628-9454">1-888-628-9454</a></li>
-                          <li>Deaf and Hard of Hearing: <a href="tel:1-800-799-4889">1-800-799-4889</a></li>
-                          <li>Chat: Go to <a href="https://suicidepreventionlifeline.org/chat/">suicidepreventionlifeline.org</a></li>
-                        </ul>
-                      </p>
+                    {% if site.data.emergency.recovery-groups.size > 0 %}
+                        <h3>Recovery Groups</h3>
+                    {% endif %}
+                    {% for item in site.data.emergency.recovery-groups %}
+                        <h4>{{ item.name }}</h4>
+                        <p>
+                            {%- if item.phone != nil -%}
+                                <a href="tel:1-{{item.phone}}">{{ item.phone }}</a><br>
+                            {%- endif -%}
+                            {%- if item.address != nil -%}
+                                {{ item.address }}<br>
+                            {%- endif -%}
+                            {%- if item.link != nil -%}
+                                <a href="{{ item.link }}">{{ item.link-text }}</a><br>
+                            {%- endif -%}
+                            {%- if item.note != nil -%}
+                                {{ item.note }}<br>
+                            {%- endif -%}
+                        </p>
+                    {% endfor %}
 
-                      <h3>Recovery Groups</h3>
-                      <p>
-                        Alcoholics Anonymous<br>
-                        <a href="https://aasanjose.org/meetings?tsml-region=san-jose">AA meetings in the San Jose area</a><br>
-                        <br>
-                        Narcotics Anonymous<br>
-                        <a href="https://www.na.org/meetingsearch/text-results.php?country=USA&state=California&city=San+Jose&zip=&street=&within=20&day=0&lang=&orderby=datetime&country=USA&state=California&city=San+Jose&zip=&street=&within=20&day=0&lang=&orderby=datetime">NA meetings in the San Jose area</a><br>
-                      </p>
-
+                    {% if site.data.emergency.other.size > 0 %}
+                        <h3>Other Resources</h3>
+                    {% endif %}
+                    {% for item in site.data.emergency.other %}
+                        <h4>{{ item.name }}</h4>
+                        <p>
+                            {%- if item.phone != nil -%}
+                                <a href="tel:1-{{item.phone}}">{{ item.phone }}</a><br>
+                            {%- endif -%}
+                            {%- if item.address != nil -%}
+                                {{ item.address }}<br>
+                            {%- endif -%}
+                            {%- if item.link != nil -%}
+                                <a href="{{ item.link }}">{{ item.link-text }}</a><br>
+                            {%- endif -%}
+                            {%- if item.note != nil -%}
+                                {{ item.note }}<br>
+                            {%- endif -%}
+                        </p>
+                    {% endfor %}
                 </div>
             </div>
-            {% endcomment %}
+            {% else %}
+            {%- comment %} remove Emergency menu link because we don't have the info yet
+            NOTE: jQuery not available on the page yet. {% endcomment -%}
+            <script>document.querySelector('ul.secondarynav a[href="#emergency"]').parentElement.remove()</script>
+            {% endif %}
 
             <div class="row">
                 <div class="col-md-12">
