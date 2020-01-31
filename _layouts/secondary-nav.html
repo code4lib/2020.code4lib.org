@@ -4,24 +4,30 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-md-3 col-lg-2">
-                <ul class="nav nav-pills nav-stacked secondarynav">
-                {% for nav in site.data.navs[page.nav] %}
-                    {% if page.active == nav.name %}
-                        <li role="presentation" class="active">
-                            <a href="{{ site.baseurl }}{{ nav.url }}"><div class="secondnav-item">{{ nav.name }}</div></a>
-                            <ul>
-                                {% for subnav in page.subnav %}
-                                    <li><a href="{{ subnav.url }}"><div class="secondnav-item">{{ subnav.name }}</div></a></li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-                    {% else %}
-                        <li role="presentation">
-                            <a href="{{ site.baseurl }}{{ nav.url }}"><div class="secondnav-item">{{ nav.name }}</div></a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-                </ul>
+                <nav>
+                    <ul class="nav nav-pills nav-stacked secondarynav">
+                    {% for nav in site.data.navs[page.nav] %}
+                        {% if page.active == nav.name %}
+                            <li class="active">
+                                <a href="{{ site.baseurl }}{{ nav.url }}"><div class="secondnav-item">{{ nav.name }}</div></a>
+                                {% if page.subnav %}
+                                    <ul>
+                                        {% for subnav in page.subnav %}
+                                            <li>
+                                                <a href="{{ subnav.url }}"><div class="secondnav-item">{{ subnav.name }}</div></a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                        {% else %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ nav.url }}"><div class="secondnav-item">{{ nav.name }}</div></a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                </nav>
             </div>
             <div class="col-xs-12 col-md-9 col-lg-10">
                 {{ content }}
