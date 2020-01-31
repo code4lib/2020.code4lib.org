@@ -11,18 +11,20 @@
       </p>
 
       <h3>Transportation</h3>
-      <p>Attendees must arrange for their own transportation to the restaurants.</p>
-
-      {% if site.data.conf.newcomer-dinner.signup-url != '' %}
-          <p>
-              Most of them are within a half mile walking distance from the nearest public transportation stop. To get a sense of the locations and neighborhoods, you can check out the
+      <p>Attendees must arrange for their own transportation to the restaurants. 
+      {% if site.data.conf.newcomer-dinner.activities-info != '' %}
+              To get a sense of the locations and neighborhoods, you can check out the
               <a target="blank" href="{{site.data.conf.newcomer-dinner.activities-info}}">Activities Map</a>.
-          </p>
-          <p>
-            For restaurants that are not close to the public transportation stops, we recommend <strong>carpooling</strong> with a local, calling a <strong>taxi</strong>, or using a <strong>ride share</strong> service.
-            Here are some <a target="blank" href="{{site.data.conf.newcomer-dinner.transit-info}}">public transit options for the various neighborhoods</a> noted in the restaurant list.
-          </p>
       {% endif %}
+      </p>
+
+      <p>
+        For restaurants that are not close to the public transportation stops, we recommend <strong>carpooling</strong> with a local, calling a <strong>taxi</strong>, or using a <strong>ride share</strong> service.
+        {% if site.data.conf.newcomer-dinner.transit-info != '' %}
+            Here are some <a target="blank" href="{{site.data.conf.newcomer-dinner.transit-info}}">public transit options for the various neighborhoods</a> noted in the restaurant list.
+        {% endif %}
+      </p>
+
 
       <h3>Restaurant List</h3>
       <p>The majority of restaurants listed below are priced between $11-30 dollars.</p>
