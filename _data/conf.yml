@@ -207,9 +207,9 @@ newcomer-dinner:
     # entering the URL doubles as a "show more info" switch, too
     signup-url: ""
     transit-info: ""
-    activities-info: ""
+    activities-info: "https://www.google.com/maps/d/viewer?mid=1RI4SjmFkzoYX1k5cUgTlJ5zzjHQeAhui&ll=40.44383527823009%2C-79.9586392&z=14"
     date: "2020-03-08"
-
+  
 game-night:
     show: false
     url: ""
