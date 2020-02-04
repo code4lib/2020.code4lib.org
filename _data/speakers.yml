@@ -194,18 +194,6 @@
   image_src: /assets/img/speakers/clara-turp.jpg
   keynote: false
 
-- id: cynde-moya
-  name: Cynde Moya
-  last: Moya
-  pronouns:
-  position-title: Software Preservation Manager at Living Computers&#58; Museum + Labs
-  bio:
-  twitter:
-  slack:
-  github:
-  image_src: /assets/img/nopics/nopic2.jpg
-  keynote: false
-
 - id: david-w-hodges
   name: David W. Hodges
   last: Hodges
@@ -521,13 +509,13 @@
 - id: lauren-work
   name: Lauren Work
   last: Work
-  pronouns:
+  pronouns: she/her/hers
   position-title: Digital Preservation Librarian at University of Virginia Library
-  bio:
-  twitter:
+  bio: Lauren Work is the Digital Preservation Librarian at the University of Virginia, where she is responsible for the implementation of preservation strategy and systems for university digital resources
+  twitter: squaredsong
   slack:
-  github:
-  image_src: /assets/img/nopics/nopic1.jpg
+  github: lwforpres
+  image_src: /assets/img/speakers/lauren-work.jpg
   keynote: false
 
 - id: matt-jansen
@@ -545,13 +533,49 @@
 - id: maura-gerke
   name: Maura Gerke
   last: Gerke
-  pronouns:
-  position-title: retroTECH Student Research Assistant/Software Developer
-  bio: Georgia Tech undergraduate student
+  pronouns: she/her/hers
+  position-title: Georgia Tech undergraduate student
+  bio: Maura Gerke is an undergraduate student in Computational Media at Georgia Tech graduating in May 2020 and a Student Research Assistant for the Digital Archives. She is currently working to make publicly available software from the digital archive collection as well as the personal oral histories around the creation and use of that software.
+  twitter:
+  slack:
+  github: mmgerke
+  image_src: /assets/img/nopics/nopic2.jpg
+  keynote: false
+
+- id: tracy-popp
+  name: Tracy Popp
+  last: Popp
+  pronouns: she/her/hers
+  position-title: Digital Preservation Coordinator
+  bio: Tracy Popp is Digital Preservation Coordinator at the University of Illinois Urbana-Champaign. She is responsible in part for the development of policies, procedures and workflows related to the long term preservation of born-digital collections and is project lead for the Illinois’ FCoP project.
+  twitter: tpopp2
+  slack:
+  github: tmpopp
+  image_src: /assets/img/nopics/nopic3.jpg
+  keynote: false
+
+- id: amanda-pellerin
+  name: Amanda Pellerin
+  last: Pellerin
+  pronouns: she/her/hers
+  position-title:
+  bio: Amanda Pellerin is the Access Archivist at Georgia Tech. She teaches collection-based instruction sessions, provides access to records of enduring value, and promotes the legacy of Georgia Tech. This work encourages careful evaluation of information sources, sustains knowledge creation, and fosters an inclusive campus culture through shared experiences.
   twitter:
   slack:
   github:
-  image_src: /assets/img/nopics/nopic2.jpg
+  image_src: /assets/img/nopics/nopic7.jpg
+  keynote: false
+
+- id: wendy-hagenmaier
+  name: Wendy Hagenmaier
+  last: Hagenmaier
+  pronouns: she/her/hers
+  position-title:
+  bio: Wendy Hagenmaier is the Digital Collections Archivist at the Georgia Tech Library, where she leads leads the development of workflows for preserving and delivering born-digital special collections and manages the Library's retroTECH initiative.
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic6.jpg
   keynote: false
 
 - id: michaela-blackham
