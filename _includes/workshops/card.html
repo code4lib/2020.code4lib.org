@@ -10,9 +10,9 @@
 <div class="well workshop-well" data-length="{{ workshop.time }}" data-location="{{ location.id }}">
     <div class="row">
         <div class="col-xs-12">
-            <h4><a href="{{ workshop.url }}">{{ workshop.title }}</a></h4>
+            <h2 class="h4"><a href="{{ workshop.url }}">{{ workshop.title }}</a></h2>
             {% if workshop.full == true %}
-            <p class="text-danger">This workshop is full</p>
+                <p class="alert alert-danger">This workshop is full.</p>
             {% endif %}
             <p>{{ workshop.content | truncatewords: 50 }} <a href="{{ workshop.url }}">more</a></p>
         </div>

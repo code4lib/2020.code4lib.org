@@ -20,7 +20,11 @@
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-9">
 
-            <h1>{{ page.title }}{% if page.full == true %}<small class="text-danger">This workshop is full</small>{% endif %}</h1>
+            <h1>{{ page.title }}</h1>
+
+            {% if page.full %}
+                <p class="alert alert-warning">This workshop is at maximum capacity and no longer accepting registrations.</p>
+            {% endif %}
 
             <p>{{ content }}</p>
 
@@ -128,8 +132,6 @@
                 {% assign group_data = site.data.schedule | where:'groupId', page.group %}
                 {% assign group = group_data | first %}
                 <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
-                    <!--<h3>Group {{ page.group }}
-                    <p>{{ group.time }}</p></h3>-->
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
                     <div class="talk-box-detail-value">{{ page.startTime | date: "%l:%M %p" }}</div>
 
@@ -139,8 +141,6 @@
                 <!-- length -->
                 {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                 <div class="col-xs-12 col-sm-12 col-md-12 time-length">
-                    <!--<h3>Length</h3>
-                    <p>{{ page.length }} minutes</p>-->
                     <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-hourglass"></span></div>
                     <div class="talk-box-detail-value">  {{ page.length }} minutes</div>
                 </div>
