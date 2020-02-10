@@ -205,11 +205,11 @@ social-activities-url: ""
 newcomer-dinner:
     show: true
     # entering the URL doubles as a "show more info" switch, too
-    signup-url: ""
-    transit-info: ""
+    signup-url: "https://docs.google.com/document/d/1XCql9YgWydMluKfeAN9veDfms8u38shzE2wLlym179I/edit#heading=h.vmyysg627xj7"
+    transit-info: "https://docs.google.com/document/d/1vOgMNG0kOaPdsvnjNLld5xlK7pLKZPYzytp7u14MRnQ/edit"
     activities-info: "https://www.google.com/maps/d/viewer?mid=1RI4SjmFkzoYX1k5cUgTlJ5zzjHQeAhui&ll=40.44383527823009%2C-79.9586392&z=14"
     date: "2020-03-08"
-  
+
 game-night:
     show: false
     url: ""
