@@ -258,12 +258,12 @@
   name: Eric Shows
   last: Shows
   pronouns:
-  position-title:
-  bio:
+  position-title: Assistant Director of Digital Collections Services
+  bio: Eric Shows is the Assistant Director of Digital Collections Services at The New York Public Library where he oversees the Preservation Audio and Moving Image lab, the Digital Imaging Unit, and the Metadata Services Unit.
   twitter:
   slack:
   github:
-  image_src: /assets/img/nopics/nopic3.jpg
+  image_src: /assets/img/speakers/eric-shows.jpg
   keynote: false
 
 - id: evan-williamson
@@ -498,12 +498,12 @@
   name: Katrina Gertz
   last: Gertz
   pronouns:
-  position-title:
-  bio:
+  position-title: Metadata Specialist
+  bio: Katrina Gertz has worked in a variety of libraries and archives, creating interactive tools that facilitate information discovery. She developed her analytical skills conducting neuroscience research at the Oregon Health and Science University, received an MLIS from the University of Washington’s iSchool, and is currently a metadata specialist at The New York Public Library.
   twitter:
   slack:
   github:
-  image_src: /assets/img/nopics/nopic10.jpg
+  image_src: /assets/img/speakers/katrina-gertz.jpg
   keynote: false
 
 - id: lauren-work
@@ -667,7 +667,7 @@
   last: Rubinow
   pronouns:
   position-title:
-  bio:
+  bio: Sara Rubinow manages metadata services at The New York Public Library.
   twitter:
   slack:
   github:
