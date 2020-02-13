@@ -39,6 +39,7 @@ See a list of [open issues](https://github.com/code4lib/2020.code4lib.org/issues
 4. Create a new branch for your changes
   * ```git checkout -b issue#3```
 5. Make changes, check [http://localhost:4000](http://localhost:4000) to see your changes live
+  * We strongly recommend performing an accessibility audit (e.g. [with Chrome](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference)) if you've made structural or stylistic changes (not adding text content or additional posts)
 6. Add your changed files
   * ```git add {changed-files}```
 7. Commit your changes with a fancy message
