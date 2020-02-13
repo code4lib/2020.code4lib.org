@@ -12,7 +12,7 @@ active: Attend Code4Lib
 
                     {% if site.data.registration.conference.show %}
                         {% if site.data.registration.conference.open %}
-                            <a href="{{ site.data.registration.conference.url }}" class="btn btn-lg btn-primary">Register Now!</a>
+                            <a href="{{ site.data.registration.conference.url }}" class="btn btn-lg btn-warning">Register Now!</a>
                         {% else %}
                             <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.registration.conference.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
                         {% endif %}
@@ -22,7 +22,7 @@ active: Attend Code4Lib
 
                     {% if site.data.registration.workshop-only.show %}
                         <h3>Preconference Workshops</h3>
-                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.registration.workshop-only.url }}">Pre Conf Registration</a></p>
+                        <p><a class="btn btn-lg btn-warning" href="{{ site.data.registration.workshop-only.url }}">Pre Conf Registration</a></p>
                     {% endif %}
             </div>
         </div>

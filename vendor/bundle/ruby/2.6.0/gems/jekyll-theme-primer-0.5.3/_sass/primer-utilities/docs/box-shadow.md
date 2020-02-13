@@ -32,7 +32,7 @@ These types of shadows are typically applied to elements with borders, like [`Bo
       </p>
     </div>
     <div class="Box-row">
-      <button type="button" name="Create an organization" class="btn btn-primary btn-block">Create an organization</button>
+      <button type="button" name="Create an organization" class="btn btn-warning btn-block">Create an organization</button>
     </div>
   </div>
 </div>
