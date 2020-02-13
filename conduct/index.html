@@ -9,8 +9,8 @@ subnav:
   url: '#emergency'
 - name: Community Support Volunteers
   url: '#officers'
-- name: Community Support Volunteer Schedule
-  url: '#schedule'
+#- name: Community Support Volunteer Schedule
+#  url: '#schedule'
 - name: Accessibility
   url: '/general-info/accessibility'
 - name: Photography Policy
@@ -29,7 +29,7 @@ active: 'Conduct & Safety'
 
             <h2 id="conduct">Code4Lib Community Code of Conduct</h2>
 
-            
+
                 <p class="blockquote">
                     Code4Lib seeks to provide a welcoming, fun, and safe community and conference experience and ongoing
                     community for everyone. We do not tolerate harassment in any form. Discriminatory language and imagery
@@ -73,7 +73,7 @@ active: 'Conduct & Safety'
                             <li>Phone: <a href="tel:1-{{site.data.emergency.police.phone}}">{{ site.data.emergency.police.phone }}</a></li>
                         {% endif %}
                         {% if site.data.emergency.police.link != nil %}
-                            <li><a href="tel:1-{{site.data.emergency.police.link}}">{{ site.data.emergency.police.link-text }}</a></li>
+                            <li><a href="{{site.data.emergency.police.link}}">{{ site.data.emergency.police.link-text }}</a></li>
                         {% endif %}
                       </ul>
                     </p>

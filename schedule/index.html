@@ -5,6 +5,7 @@ title: Schedule
 
 <div class="container">
     <div class="row">
+        <h1 class="sr-only">Schedule</h1>
         <div class="col-12 sched-date">
             <h2>{{site.data.conf.days[0].weekday}}, {{site.data.conf.days[0].date}}</h2>
         </div>
@@ -29,10 +30,10 @@ title: Schedule
     {% if site.data.conf.newcomer-dinner.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>Evening</h4>
+            <h3>Evening</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h3><a href="/general-info/venues/#dinner">Newcomer Dinner</a></h3>
+            <h4><a href="/general-info/venues/#dinner">Newcomer Dinner</a></h4>
             <p>
                 It is a Code4Lib tradition to welcome those who are new to the conference
                 by organizing dinner groups on the night before the general conference begins.
@@ -59,10 +60,10 @@ title: Schedule
 
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>9AM - 5:20PM</h4>
+            <h3>9AM - 5:20PM</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h3><a href="/schedule/day-1">General Conference, Day One</a></h3>
+            <h4><a href="/schedule/day-1">General Conference, Day One</a></h4>
             <p>
                 Keynote #1 kicks off the conference. Talks will be selected by the community. Lunch will be provided.
             </p>
@@ -72,11 +73,11 @@ title: Schedule
     {% if site.data.conf.reception.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>{{ site.data.conf.reception.times }}</h4>
+            <h3>{{ site.data.conf.reception.times }}</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
             <a href="/general-info/venues/#reception">
-                <h3>Reception</h3>
+                <h4>Reception</h4>
             </a>
             <p>
                 All attendees are invited to join us for the reception at the {{ site.data.conf.reception.venue }}. See the <a href="/general-info/venues/#reception" alt="Venues">Venues</a> page for more details.
@@ -98,10 +99,10 @@ title: Schedule
 
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>9AM - 5:10PM</h4>
+            <h3>9AM - 5:10PM</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h3><a href="/schedule/day-2">General Conference, Day Two</a></h3>
+            <h4><a href="/schedule/day-2">General Conference, Day Two</a></h4>
             <p>
                 Talks selected by the community, as well as a poster session in the afternoon. Lunch will be provided.
             </p>
@@ -111,16 +112,16 @@ title: Schedule
     {% if site.data.conf.libtech-women.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>{{site.data.conf.libtech-women.time}}</h4>
+            <h3>{{site.data.conf.libtech-women.time}}</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h3>
+            <h4>
                 {% if site.data.conf.libtech-women.url %}
                     <a href="{{site.data.conf.libtech-women.url}}">
                 {% endif %}
                 LibTech Women
                 {% if site.data.conf.libtech-women.url %}</a>{% endif %}
-            </h3>
+            </h4>
             <p>
               <a href="http://libtechwomen.org/">LibTechWomen</a> is a supportive space for women and their friends to network, develop skills, build confidence, and lead positive change. Are you a lurker? Are you a newcomer? All are welcome! Come meet wonderful colleagues in library technology!
             </p>
@@ -131,16 +132,16 @@ title: Schedule
     {% if site.data.conf.game-night.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>{{site.data.conf.game-night.time}}</h4>
+            <h3>{{site.data.conf.game-night.time}}</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h3>
+            <h4>
                 {% if site.data.conf.game-night.url %}
                     <a href="{{ site.data.conf.game-night.url }}">
                 {% endif %}
                 Game Night
                 {% if site.data.conf.game-night.url %}</a>{% endif %}
-            </h3>
+            </h4>
             <p>
               Play games? Come join fellow code4libers in a few board or card games at the San Jose meeting room! Feel free to bring your own games as well.
               See the <a target="blank" href="{{ site.data.conf.game-night.url }}">
@@ -153,16 +154,16 @@ title: Schedule
     {% if site.data.conf.karaoke-night.show %}
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>{{site.data.conf.karaoke-night.time}}</h4>
+            <h3>{{site.data.conf.karaoke-night.time}}</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h3>
+            <h4>
                 {% if site.data.conf.karaoke-night.url %}
                     <a href="{{ site.data.conf.karaoke-night.url }}">
                 {% endif %}
                 Karaoke Night
                 {% if site.data.conf.karaoke-night.url %}</a>{% endif %}
-            </h3>
+            </h4>
             <p>
                 We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.
                 {% if site.data.conf.karaoke-night.url %}
@@ -177,11 +178,11 @@ title: Schedule
         <!-- play-n-share, move this section to the right date/time -->
         <div class="row">
             <div class="col-12 col-md-3 text-right">
-                <h4>6:30PM - 10:30PM</h4>
+                <h3>6:30PM - 10:30PM</h3>
             </div>
             <div class="col-12 col-md-9 sched-well">
                 <a href="/venue/playandshare.html">
-                <h3>Play & Share</h3>
+                <h4>Play & Share</h4>
                 </a>
                 <p>
                     Play games? Have some homemade (or “homemade”) treats to share? Want to find folks to play music with? We organized a large open room near the conference center with plenty of space for attendees to gather and socialize, play games and share goodies. We will provide tables and chairs for Board Game Night and some space for jam sessions. You are also welcome to bring stuff to share, from craft sodas and beers to baked goods to local treats - we’ll have a few tables set up for that as well.
@@ -201,10 +202,10 @@ title: Schedule
 
     <div class="row">
         <div class="col-12 col-md-3 text-right">
-            <h4>9AM - 12:30PM</h4>
+            <h3>9AM - 12:30PM</h3>
         </div>
         <div class="col-12 col-md-9 sched-well">
-            <h3><a href="/schedule/day-3">General Conference, Day Three</a></h3>
+            <h4><a href="/schedule/day-3">General Conference, Day Three</a></h4>
             <p>
                 Keynote #2 closes out the conference. Talks have been selected by the community.
             </p>
@@ -215,10 +216,10 @@ title: Schedule
         <!-- BoF hangouts section, move to right date/time -->
         <div class="row">
             <div class="col-12 col-md-3 text-right">
-                <h4>Afternoon</h4>
+                <h3>Afternoon</h3>
             </div>
             <div class="col-12 col-md-9 sched-well">
-                <h3>Birds-of-a-Feather Hangouts?</h3>
+                <h4>Birds-of-a-Feather Hangouts?</h4>
                 <p>
                     The general conference is over, but if you have a bunch of inspired nerds with common interests in one spot, why not organize a little hackfest or meetup?  You are on your own to organize at this point, but feel free to contact the
                     <a href="http://wiki.code4lib.org/2017_Conference_Committees#Local_Planning_Committee">Local Planning Committee</a> if you would like assistance securing space.

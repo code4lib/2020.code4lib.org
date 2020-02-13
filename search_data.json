@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+{% if site.data.conf.search %}
 {
   {% for post in site.posts %}
 
@@ -56,3 +57,4 @@ layout: null
 
   {% endfor %}
 }
+{% endif %}

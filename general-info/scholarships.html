@@ -4,6 +4,8 @@ title: General Info
 nav: general-info
 active: Scholarships
 subnav:
+- name: Recipients
+  url: '#recipients'
 - name: 'Eligibility, Criteria, & Requirements'
   url: '#criteria'
 - name: 'How to Apply'
@@ -49,7 +51,7 @@ subnav:
                 {% endif %}
 
                 {% if site.data.scholarship-recipients %}
-                    <h2>{{year}} Code4Lib Scholarship Recipients</h2>
+                    <h2 id="recipients">{{year}} Code4Lib Scholarship Recipients</h2>
                     <p>
                         The Scholarship Committee is pleased to announce the
                         Code4Lib {{year}} Conference Diversity Scholarship awardees.
@@ -84,10 +86,14 @@ subnav:
                             </dt>
                             {% if person.bio.size > 0 %}
                                 <dd>{{ person.bio }}</dd>
+                            {% else %}
+                                <dd class="sr-only">No bio provided.</dd>
                             {% endif %}
-                            <br>
                         {% endfor %}
                     </dl>
+                {% else %}
+                {% comment %} remove from secondary nav (jQuery not yet on page) {% endcomment %}
+                <script>document.querySelector('.secondarynav a[href="#recipients"]').parentElement.remove()</script>
                 {% endif %}
         </div>
     </div>
@@ -114,7 +120,6 @@ subnav:
    </div>
 </div>
 {% endif %}
-</section>
 
 {% if site.data.conf.diversity-scholarship-sponsors.show  %}
 <div class="container-fluid">
@@ -133,7 +138,6 @@ subnav:
 </div>
 {% endif %}
 
-<section class="general-info">
 <div class="container-fluid">
    <div class="row">
        <div class="col-12">
@@ -197,6 +201,6 @@ subnav:
        </div>
    </div>
 </div>
-</section>
 
 {% include_relative angel-fund.html %}
+</section>

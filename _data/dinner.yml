@@ -167,19 +167,6 @@
   notes:
   accessibility-notes:
 
-- restaurant-name: Nicky's Thai Kitchen
-  city-state: Pittsburgh PA
-  url: http://www.nickysthaikitchen.com/
-  type-of-food: Thai
-  distance-from-hotel: More than 1 mile
-  vegetarian-options: Yes
-  vegan-options: Yes
-  takes-reservations:
-  can-seat-more-than-one-group-of-6:
-  price-point: $11-30
-  notes:
-  accessibility-notes:
-
 - restaurant-name: NOLA
   city-state: Pittsburgh PA
   url: https://www.nolaonthesquare.com/

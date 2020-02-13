@@ -55,6 +55,7 @@ venue:
     a11y: 'https://www.marriott.com/hotels/fact-sheet/travel/pitwi-the-westin-pittsburgh/'
     cost: "$159"
     with-tax-cost: "$181.26"
+    cost-cutoff-date: 2020-02-14
 
 #############################
 # C4l Links
@@ -77,9 +78,9 @@ workshop-contact-email: "jglenn@andrew.cmu.edu"
 lpc-contact-email: "code4liblpc@gmail.com"
 accessibility-email: "code4lib.accessibility@gmail.com"
 # when empty, community support volunteers page will use main-conf-email
-# duty-officer-email: "c4l19-duty-officers@googlegroups.com"
-# duty-officer-phone: "408-309-4560"
-# anonymous-form: "https://c4l19.libraryexchange.org/"
+duty-officer-email: ""
+duty-officer-phone: ""
+anonymous-form: ""
 
 ###################
 # Homepage section
@@ -205,9 +206,9 @@ social-activities-url: ""
 newcomer-dinner:
     show: true
     # entering the URL doubles as a "show more info" switch, too
-    signup-url: ""
-    transit-info: ""
-    activities-info: ""
+    signup-url: "https://docs.google.com/document/d/1XCql9YgWydMluKfeAN9veDfms8u38shzE2wLlym179I/edit#heading=h.vmyysg627xj7"
+    transit-info: "https://docs.google.com/document/d/1vOgMNG0kOaPdsvnjNLld5xlK7pLKZPYzytp7u14MRnQ/edit"
+    activities-info: "https://www.google.com/maps/d/viewer?mid=1RI4SjmFkzoYX1k5cUgTlJ5zzjHQeAhui&ll=40.44383527823009%2C-79.9586392&z=14"
     date: "2020-03-08"
 
 game-night:
