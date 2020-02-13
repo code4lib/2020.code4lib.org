@@ -26,6 +26,11 @@
     cursor: default;
   }
 }
+a.nav-link{
+  &:hover{
+    color:$accent !important;
+  }
+}
 
 //
 // Tabs
