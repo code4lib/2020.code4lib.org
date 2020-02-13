@@ -4,15 +4,38 @@ $bootstrap-sass-asset-helper: true !default;
 // --------------------------------------------------
 
 //== Colors
-$gray-base:               #332c2f !default;
-$gray-darker:             #464745 !default; // #222
-$gray-dark:               #67655d !default;
-$gray:                    #8e908c;
-$gray-light:              #d4d8d1 !default;
-$gray-lighter:            #f6fdfd !default;
 
-$black:                   #000;
-$white:                   #fff;
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+// $gray-base:               #332c2f !default;
+// $gray-darker:             #464745 !default; // #222
+// $gray-dark:               #67655d !default;
+// $gray:                    #8e908c;
+// $gray-light:              #d4d8d1 !default;
+// $gray-lighter:            #f6fdfd !default;
+
+
+//From Bootstrap3
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              $black !default;
+$gray-darker:            $gray-900 !default; // #222
+$gray-dark:              $gray-800 !default;   // #333
+$gray:                   $gray-600 !default; // #555
+$gray-light:             $gray-500 !default; // #777
+$gray-lighter:           $gray-300 !default; // #eee
+
+//End fo gray setting
 
 $primary:                 #27251f;
 $primary-dark:            darken($primary, 10%) !default;
@@ -124,9 +147,8 @@ $text-color:            $gray-base !default;
 
 //** Global textual link color.
 $link-color:            $primary !default;
-
+$link-decoration:       none !default;
 $link-hover-color:      $primary-dark !default;
-//** Link hover decoration.
 $link-hover-decoration: underline !default;
 
 
@@ -136,13 +158,15 @@ $link-hover-decoration: underline !default;
 
 $font-family-sans-serif:  'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
 $font-family-serif:       'PT Serif', Georgia, 'Times New Roman', Times, serif !default;
+$font-family-base:            $font-family-sans-serif !default;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, 'Courier New', monospace !default;
-$font-family-base:        $font-family-sans-serif !default;
-
+$font-family-base:        $font-family-sans-serif !default;;
 // $font-size-base:          14px !default;
 $font-size-base:          1rem !default; // Assumes the browser default, typically
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * .85)) !default; // ~12px
 
@@ -153,12 +177,32 @@ $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * .85)) !default; // ~12px
 
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+//## For each of Bootstrap's buttons, define text, background and border color.
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429 !default; // 20/14
+// $line-height-base:        1.428571429 !default; // 20/14
+$line-height-base:            1.5 !default;
 //** Computed 'line-height' (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
+$font-weight-base:            $font-weight-normal !default;
+
 //** By default, this inherits from the `<body>`.
+// Spacing unit
+$spacer: 8px !default;
+$headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:    inherit !default;
 $headings-font-weight:    700 !default;
 $headings-line-height:    1.1 !default;
@@ -238,9 +282,10 @@ $table-border-color:            #ddd !default;
 
 //== Buttons
 //
-//## For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-font-weight:                normal !default;
+//
+// $btn-font-weight:                normal !default;
+$btn-font-weight:             $font-weight-normal !default;
 
 $btn-secondary-color:              #333 !default;
 $btn-secondary-bg:                 $white !default;
