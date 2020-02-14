@@ -45,7 +45,7 @@
             {% if show_speakers %}
                 <h2>Speaker(s)</h2>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 d-flex flex-wrap">
                         {% for speaker_id in page.speakers %}
                             {% assign speaker = site.data.speakers | where: 'id', speaker_id | first %}
                             {% if speaker %}
