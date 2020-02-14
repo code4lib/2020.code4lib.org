@@ -34,6 +34,9 @@ h5 {
   &.expo {
     border-bottom: 1px solid $gray-light;
   }
+
+  margin-top: $font-size-base;
+  margin-bottom: $font-size-base;
 }
 
 .btn:focus {
