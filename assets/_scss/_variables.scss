@@ -7,14 +7,14 @@ $bootstrap-sass-asset-helper: true !default;
 
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
+$gray-200: #f6fdfd !default;
 $gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
+$gray-400: #d4d8d1 !default;
 $gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
+$gray-600: #8e908c !default;
 $gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-800: #67655d !default;
+$gray-900: #464745 !default;
 $black:    #000 !default;
 
 // $gray-base:               #332c2f !default;
@@ -28,9 +28,9 @@ $black:    #000 !default;
 //From Bootstrap3
 //## Gray and brand colors for use across Bootstrap.
 
-$gray-base:              $black !default;
+$gray-base:              #332c2f !default;
 $gray-darker:            $gray-900 !default; // #222
-$gray-dark:              $gray-800 !default;   // #333
+$gray-dark:              $gray-800 !default; // #333
 $gray:                   $gray-600 !default; // #555
 $gray-light:             $gray-400 !default; // #777
 $gray-lighter:           $gray-200 !default; // #eee
@@ -141,7 +141,7 @@ $night-event:             $primary-dark;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #f6fdfd !default;
+$body-bg:               $gray-lighter !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-base !default;
 
