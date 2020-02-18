@@ -107,6 +107,23 @@ closed-captioning:
   url: ""
   show: false
 
+# Peri display descriptions and titles
+peri:
+  day1-am-title: "Preconference Workshops"
+  day1-am-desc: "Half and full-day workshops about tech, diversity, and more!"
+  day1-pm-title: "Newcomer Dinner"
+  day1-pm-desc: "It is a Code4Lib tradition to welcome those who are new to the conference"
+  day2-am-title: "Conference, Day 1"
+  day2-am-desc: "Keynote #1 kicks off the conference then talks until 5"
+  day2-pm-title: "Reception"
+  day2-pm-desc: "Join us for the reception at the Carnegie Museum of Pittsburgh"
+  day3-am-title: "Conference, Day 2"
+  day3-am-desc: "Talks until 5"
+  day3-pm-title: "Game Night"
+  day3-pm-desc: "Come join fellow code4libers in a few board or card games"
+  day4-am-title: "Conference, Day 3"
+  day4-am-desc: "Keynote #2 closes the conference then talks until 12:30"
+
 ###########
 # Sponsors
 ###########
