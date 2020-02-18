@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-xs-12 text-center" style="padding-bottom: 1em;">
-        <h2 aria-labelledby="twitterHashtagLabel">
+        <p class="h2" aria-labelledby="twitterHashtagLabel">
             <span class="icon icon--twitter" alt="twitter icon">
                 <svg viewBox="0 0 16 16" style="height: 38px; width: 38px;">
                     <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
@@ -12,27 +12,27 @@
                         c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"></path>
                 </svg>
             </span>
-            <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}" target="_blank">#{{ site.data.conf.hashtag }}</a></h2>
+            <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}" target="_blank">#{{ site.data.conf.hashtag }}</a></p>
         <label class="sr-only" id="twitterHashtagLabel">Twitter Hashtag</label>
     </div>
     <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[0].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[0].date | date: "%b. %d"}}</h2>
-        {% include homepage/event_card.html time='am' link='/workshops' title='Preconference Workshops' description='Half and full-day workshops about tech, diversity, and more!' %}
-        {% include homepage/event_card.html time='pm' link='/general-info/venues/#dinner' title='Newcomer Dinner' description='It is a Code4Lib tradition to welcome those who are new to the conference' %}
+        {% include homepage/event_card.html time='am' link='/workshops' title=site.data.conf.peri.day1-am-title description=site.data.conf.peri.day1-am-desc %}
+        {% include homepage/event_card.html time='pm' link='/general-info/venues/#dinner' title=site.data.conf.peri.day1-pm-title description=site.data.conf.peri.day1-pm-desc %}
     </div>
     <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[1].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[1].date | date: "%b. %d"}}</h2>
-        {% include homepage/event_card.html time='am' link='/schedule/day-1' title='Conference, Day 1' description='Keynote #1 kicks off the conference then talks until 5' %}
-        {% include homepage/event_card.html time='pm' link='/general-info/venues/#reception' title='Reception' description='Join us for the reception at The Tech Museum of Innovation' %}
+        {% include homepage/event_card.html time='am' link='/schedule/day-1' title=site.data.conf.peri.day2-am-title description=site.data.conf.peri.day2-am-desc %}
+        {% include homepage/event_card.html time='pm' link='/general-info/venues/#reception' title=site.data.conf.peri.day2-pm-title description=site.data.conf.peri.day2-pm-desc %}
     </div>
     <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[2].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[2].date | date: "%b. %d"}}</h2>
-        {% include homepage/event_card.html time='am' link='/schedule/day-2' title='Conference, Day 2' description='Talks until 5' %}
-        {% include homepage/event_card.html time='pm' link='/general-info/venues/#gaming' title='Game Night' description='Come join fellow code4libers in a few board or card games' %}
+        {% include homepage/event_card.html time='am' link='/schedule/day-2' title=site.data.conf.peri.day3-am-title description=site.data.conf.peri.day3-am-desc %}
+        {% include homepage/event_card.html time='pm' link='/general-info/venues/#gaming' title=site.data.conf.peri.day3-pm-title description=site.data.conf.peri.day3-pm-desc %}
     </div>
     <div class="col-xs-12 col-md-3 event-day" data-date="{{ site.data.conf.days[3].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[3].date | date: "%b. %d"}}</h2>
-        {% include homepage/event_card.html time='am' link='/schedule/day-3' title='Conference, Day 3' description='Keynote #2 closes the conference followed by talks until 12:30' %}
+        {% include homepage/event_card.html time='am' link='/schedule/day-3' title=site.data.conf.peri.day4-am-title description=site.data.conf.peri.day4-am-desc %}
     </div>
     <div class="col-xs-12 text-center">
         <h2>Need help?</h2>
