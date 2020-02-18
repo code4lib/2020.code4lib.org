@@ -19,9 +19,8 @@ title: Accepted Conference Talks
                       <div class="row">
                           <div class="col-xs-12">
                               <h2 class="h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                              <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more</a></p>
+                              <p>{{ post.content | truncatewords: 50}} <a href="{{ post.url }}">more<span class=sr-only> information about the talk {{ post.title }}</span></a></p>
                           </div>
-
                       </div>
                   </div>
                 {% endif %}
