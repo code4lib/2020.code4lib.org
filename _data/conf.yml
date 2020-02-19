@@ -42,6 +42,8 @@ days:
 
 #Short Form for location
 city-state: 'Pittsburgh PA'
+city: 'Pittsburgh'
+state: 'PA'
 
 venue:
     name: 'The Westin Pittsburgh'
@@ -229,16 +231,17 @@ newcomer-dinner:
     date: "2020-03-08"
 
 game-night:
-    show: false
-    url: ""
-    date: ""
-    time: ""
+    show: true
+    url: "https://docs.google.com/spreadsheets/d/1QBJPChuIionq3wT_OaToQJ_eAuFpgWRWnxHvVqBLnjY/edit?usp=sharing"
+    date: "2020-03-10"
+    time: "7:30PM - 10:30PM"
+    location: "Bill’s Bar & Burger (Conference Hotel)"
 
 libtech-women:
-    show: false
-    date: ""
-    time: ""
-    location: ""
+    show: true
+    date: "2020-03-10"
+    time: "5:30PM - 7:30PM"
+    location: "Bill’s Bar & Burger (Conference Hotel)"
     hashtag: libtechwomen
 
 reception:
@@ -252,14 +255,16 @@ reception:
     date: "2020-03-09"
 
 karaoke-night:
-    show: false
-    url: ""
+    show: true
+    url: "https://docs.google.com/document/d/1bKuSy14npN2uq-rqE9RAEmc4nZRpn99KnU9SK8dfEQ8/edit#heading=h.kxso70piv9tw"
     date: ""
-    time: ""
+    time: "8:00PM - 2:00AM"
+    location: "Tequila Cowboy Karaoke"
+    location-url: "https://tequilacowboy.com/pittsburgh/"
 
 self-event:
-    show: false
-    url: ""
+    show: true
+    url: "https://docs.google.com/document/d/1bKuSy14npN2uq-rqE9RAEmc4nZRpn99KnU9SK8dfEQ8/edit?usp=sharing"
 
 ###############
 # Volunteer
