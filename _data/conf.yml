@@ -271,7 +271,7 @@ self-event:
 ###############
 
 volunteer-committee:
-  show: true
+  show: false
   url: "https://wiki.code4lib.org/Code4Lib_2020_Conference_Committees"
   end-date: "2020-01-18"
 
