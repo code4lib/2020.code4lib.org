@@ -31,7 +31,12 @@
                         {% endif %}
                     </div>
                     <div class="col-sm-5 col-xs-12 text-right">
-                        <h2>{{ event.time }}</h2>
+                        <h2>
+                            {% capture eventTime %}{{ event.time | replace: '-', ' ' }}{% endcapture %}
+                            {% capture beginTime %}{{ eventTime | truncatewords: 1, '' }}{% endcapture %}
+                            {% capture endTime %}{{ eventTime | replace: beginTime, '' }}{% endcapture %}
+                            {{ beginTime | date: "%l:%M%p" | strip }} to {{ endTime | date: "%l:%M%p" | strip }}
+                        </h2>
                     </div>
                 </div>
                 {% if event.groupId %}
