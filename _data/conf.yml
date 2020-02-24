@@ -234,13 +234,13 @@ game-night:
     show: true
     url: "https://docs.google.com/spreadsheets/d/1QBJPChuIionq3wT_OaToQJ_eAuFpgWRWnxHvVqBLnjY/edit?usp=sharing"
     date: "2020-03-10"
-    time: "7:30PM - 10:30PM"
+    time: "7:30PM to 10:30PM"
     location: "Bill’s Bar & Burger (Conference Hotel)"
 
 libtech-women:
     show: true
     date: "2020-03-10"
-    time: "5:30PM - 7:30PM"
+    time: "5:30PM to 7:30PM"
     location: "Bill’s Bar & Burger (Conference Hotel)"
     hashtag: libtechwomen
 
@@ -251,14 +251,14 @@ reception:
     postal-code: "15213"
     phone: "+1(412)-353-4795"
     contact: "straubn@carnegiemuseums.org"
-    times: "6:30PM - 8:30PM"
+    times: "6:30PM to 8:30PM"
     date: "2020-03-09"
 
 karaoke-night:
     show: true
     url: "https://docs.google.com/document/d/1bKuSy14npN2uq-rqE9RAEmc4nZRpn99KnU9SK8dfEQ8/edit#heading=h.kxso70piv9tw"
     date: ""
-    time: "8:00PM - 2:00AM"
+    time: "8PM to 2AM"
     location: "Tequila Cowboy Karaoke"
     location-url: "https://tequilacowboy.com/pittsburgh/"
 
