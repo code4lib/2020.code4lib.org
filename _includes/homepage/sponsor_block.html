@@ -5,9 +5,9 @@
         {% assign plat_sponsors = site.data.sponsors | where: 'level','platinum' %}
 
         {% if ad_sponsors.size > 0 or di_sponsors.size > 0 or plat_sponsors.size > 0 %}
-            <h3>Thanks to our sponsors!</h3>
+            <h2 class="h3">Thanks to our sponsors!</h2>
             {% if ad_sponsors.size > 0 %}
-            <h4>Adamantium</h4>
+            <h3 class="h4">Adamantium</h3>
 
             <div class="sponsor-group">
                 {% for sponsor in ad_sponsors %}
@@ -17,7 +17,7 @@
             {% endif %}
 
             {% if di_sponsors.size > 0 %}
-            <h4>Diamond</h4>
+            <h3 class="h4">Diamond</h3>
             <div class="sponsor-group">
                 {% for sponsor in di_sponsors %}
                 {% include sponsors/logo.html sponsor=sponsor class="col-xs-12 col-sm-4" %}
@@ -26,7 +26,7 @@
             {% endif %}
 
             {% if plat_sponsors.size > 0 %}
-            <h4>Platinum</h4>
+            <h3 class="h4">Platinum</h3>
             <div class="sponsor-group">
                 {% for sponsor in plat_sponsors %}
                 {% include sponsors/logo.html sponsor=sponsor class="col-xs-6 col-sm-3" %}
