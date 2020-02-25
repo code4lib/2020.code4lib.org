@@ -47,38 +47,45 @@
     height: auto;
     max-width: 100%;
   }
-}
 
-.sponsor-card:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
-}
+  // specificity problem, can't find an elegant way to override this rule in _sections.scss
+  // section .general-info a:not(.thumbnail):not(.btn)
+  a {
+    background: none !important;
+    border: 0 !important;
+  }
 
-.sponsor-card.contributor {
-  width: 20em;
-}
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+  }
 
-.sponsor-card.bronze {
-  width: 27em;
-}
+  &.contributor {
+    width: 20em;
+  }
 
-.sponsor-card.silver {
-  width: 35em;
-}
+  &.bronze {
+    width: 27em;
+  }
 
-.sponsor-card.gold {
-  width: 50em;
-}
+  &.silver {
+    width: 35em;
+  }
 
-.sponsor-card.platinum {
-  width: 65em;
-}
+  &.gold {
+    width: 50em;
+  }
 
-.sponsor-card.diamond {
-  width: 80em;
-}
+  &.platinum {
+    width: 65em;
+  }
 
-.sponsor-card.adamantium {
-  width: 100em;
+  &.diamond {
+    width: 80em;
+  }
+
+  &.adamantium {
+    width: 100em;
+  }
 }
 
 #targetedSponsorship div:nth-child(even) .thumbnail {
