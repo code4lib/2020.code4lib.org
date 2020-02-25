@@ -1,8 +1,12 @@
 <section class="general-info">
   <div class="col-12">
       <h2 id="karaoke">Karaoke Night</h2>
+      <p><strong>When: </strong>Any night between {{site.data.conf.karaoke-night.time}}
+      <!---
       <p><strong>When: </strong>{{site.data.conf.karaoke-night.date | date: '%A, %B %-d, %Y'}}</p>
+      --->
       <p>
+        <p><strong>Where: </strong> <a target="blank" href="{{site.data.conf.karaoke-night.location-url}}"> {{site.data.conf.karaoke-night.location}}</a></p>
           We also have Karaoke night for those who would like to share your passions in singing, or just hangout with friendly folks.
           <a target="blank" href="{{site.data.conf.karaoke-night.url}}">Sign up as groups and head over to the lounge at the DIY Events</a>.
 

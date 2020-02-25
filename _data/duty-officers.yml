@@ -1,0 +1,61 @@
+allen:
+    name: Natasha Allen
+    img: assets/img/duty-officers/allen-natasha.jpg
+    slack_handle: natasha
+    onsite: true
+    online: true
+
+phetteplace:
+    name: Eric Phetteplace
+    img: assets/img/speakers/eric-phetteplace.jpg
+    slack_handle: phette23
+    onsite: true
+    online: true
+
+friesen:
+  name: Jeremy Friesen
+  img: assets/img/duty-officers/friesen-jeremy.jpg
+  slack_handle:
+  twitter_handle:
+  onsite: true
+  online: false
+
+slaughter:
+  name: Anne Slaughter
+  img: assets/img/duty-officers/slaughter-anne.jpg
+  slack_handle: aslaughter
+  twitter_handle: aslaughter
+  onsite: true
+  online: false
+
+graham:
+  name: Wayne Graham
+  img: assets/img/duty-officers/graham-wayne.jpg
+  slack_handle: wayne
+  twitter_handle:
+  onsite: true
+  online: false
+
+nelson:
+  name: Chad Nelson
+  img: assets/img/duty-officers/nelson-chad.jpg
+  slack_handle: bibliotechy
+  twitter_handle: bibliotechy
+  onsite: false
+  online: true
+
+fox:
+  name: Bobbi Fox
+  img: assets/img/duty-officers/fox-bobbi.jpg
+  slack_handle: bobbifox
+  twitter_handle: bobbi_fox_SMR
+  onsite: true
+  online: false
+
+giarlo:
+  name: Mike Giarlo
+  img: assets/img/duty-officers/giarlo-mike.jpg
+  slack_handle: mjgiarlo
+  twitter_handle: mjgiarlo
+  onsite: true
+  online: false
