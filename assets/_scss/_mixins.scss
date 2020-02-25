@@ -2,10 +2,11 @@
 
 @mixin fixed-tab-focus() {
   // non-Blink/Webkit browsers get this (Firefox, IE)
-  outline: 5px auto $tab-focus-color;
+  outline: 5px auto rgba(0, 103, 244, 0.43);
   // outline corners will be square without this
   -moz-outline-radius: 5px;
   // Chrome/Safari can use their native focus handling
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+  $tab-focus-color: rgba(0, 103, 244, 0.43);
 }

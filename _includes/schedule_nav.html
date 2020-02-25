@@ -1,10 +1,10 @@
 <div class="row">
-  <div class="col-md-6 col-md-offset-4">
-    <nav>
+  <div class="col-md-6 offset-md-4">
+    <nav aria-label="Page navigation">
       <ul class="pagination">
-        <li {% if include.param == "day1" %}class="active" {% endif %}><a href="/schedule/day-1">Day 1</a></li>
-        <li {% if include.param == "day2" %}class="active" {% endif %}><a href="/schedule/day-2">Day 2</a></li>
-        <li {% if include.param == "day3" %}class="active" {% endif %}><a href="/schedule/day-3">Day 3</a></li>
+        <li {% if include.param == "day1" %} class="active page-item" {% endif %}><a href="/schedule/day-1" class="page-link">Day 1</a></li>
+        <li {% if include.param == "day2" %} class="active page-item" {% endif %}><a href="/schedule/day-2" class="page-link">Day 2</a></li>
+        <li {% if include.param == "day3" %} class="active page-item" {% endif %}><a href="/schedule/day-3" class="page-link">Day 3</a></li>
       </ul>
     </nav>
   </div>
@@ -13,7 +13,7 @@
 <div class="row">
   <div class="col-md-12">
     {% if side.data.conf.show-daily-menus %}
-        <a href="/schedule/food/{{ include.param }}-menus.html" class="btn btn-primary" >View Daily Menus</a>
+        <a href="/schedule/food/{{ include.param }}-menus.html" class="btn btn-warning" >View Daily Menus</a>
     {% endif %}
   </div>
 </div>

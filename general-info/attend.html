@@ -7,14 +7,14 @@ active: Attend Code4Lib
 <section class="general-info">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h1>Attend Code4Lib</h1>
 
                     {% if site.data.registration.conference.show %}
                         {% if site.data.registration.conference.open %}
-                            <a href="{{ site.data.registration.conference.url }}" class="btn btn-lg btn-primary">Register Now!</a>
+                            <a href="{{ site.data.registration.conference.url }}" class="btn btn-lg btn-warning">Register Now!</a>
                         {% else %}
-                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <strong>{{ site.data.registration.conference.start-date | date: '%A, %B %-d, %Y' }}</strong>.</p>
+                            <p>Registration will open at 12 p.m. EST / 9 a.m. PST on <span class="font-weight-bold">{{ site.data.registration.conference.start-date | date: '%A, %B %-d, %Y' }}</span>.</p>
                         {% endif %}
                     {% else %}
                         <p>Code4Lib will be held from {{site.data.conf.days[0].date}} to {{site.data.conf.days.last.date}} this year. We have reserved a block at the {{site.data.conf.venue.name}}; see more details on the <a href="venues/">Venues</a> page.</p>
@@ -22,29 +22,29 @@ active: Attend Code4Lib
 
                     {% if site.data.registration.workshop-only.show %}
                         <h3>Preconference Workshops</h3>
-                        <p><a class="btn btn-lg btn-primary" href="{{ site.data.registration.workshop-only.url }}">Pre Conf Registration</a></p>
+                        <p><a class="btn btn-lg btn-warning" href="{{ site.data.registration.workshop-only.url }}">Pre Conf Registration</a></p>
                     {% endif %}
             </div>
         </div>
 
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h3>Registration Fees</h3>
                 <ul>
-                    <li><strong>Main Conference</strong>: {{ site.data.registration.conference.cost }}</li>
+                    <li><span class="font-weight-bold">Main Conference</span>: {{ site.data.registration.conference.cost }}</li>
 
-                    <li><strong>Main Conference (after {{ site.data.registration.conference.end-date | date: "%B %-d" }})</strong>: {{ site.data.registration.conference.late-cost }}</li>
+                    <li><span class="font-weight-bold">Main Conference (after {{ site.data.registration.conference.end-date | date: "%B %-d" }})</span>: {{ site.data.registration.conference.late-cost }}</li>
 
-                    <li><strong>Pre-Conferences (with main conference registration)</strong>: {{ site.data.registration.conference.workshop-half-day-cost }} per half day ({{ site.data.registration.conference.workshop-full-day-cost }} for full day)</li>
+                    <li><span class="font-weight-bold">Pre-Conferences (with main conference registration)</span>: {{ site.data.registration.conference.workshop-half-day-cost }} per half day ({{ site.data.registration.conference.workshop-full-day-cost }} for full day)</li>
 
-                    <li><strong>Pre-Conference Only</strong>: {{ site.data.registration.workshop-only.half-day-cost }} per half day ({{ site.data.registration.workshop-only.full-day-cost }} for full day) {%- if site.data.registration.workshop-only.start-date -%}. Opens {{ site.data.registration.workshop-only.start-date | date: "%B %-d" }}.{%- endif -%}</li>
+                    <li><span class="font-weight-bold">Pre-Conference Only</span>: {{ site.data.registration.workshop-only.half-day-cost }} per half day ({{ site.data.registration.workshop-only.full-day-cost }} for full day) {%- if site.data.registration.workshop-only.start-date -%}. Opens {{ site.data.registration.workshop-only.start-date | date: "%B %-d" }}.{%- endif -%}</li>
 
                     {% if site.data.registration.reception-plus-one-cost %}
-                        <li><strong>Reception "plus one"</strong>: {{ site.data.registration.reception-plus-one-cost }} (limit one "plus one" per registration)</li>
+                        <li><span class="font-weight-bold">Reception "plus one"</span>: {{ site.data.registration.reception-plus-one-cost }} (limit one "plus one" per registration)</li>
                     {% endif %}
 
                     <li>
-                        <strong>{{site.data.conf.venue.name}}</strong>:
+                        <span class="font-weight-bold">{{site.data.conf.venue.name}}</span>:
                         {{ site.data.conf.venue.cost }}/night
                         ({% if site.data.conf.venue.with-tax-cost %}
                             {{ site.data.conf.venue.with-tax-cost }} with taxes
@@ -65,11 +65,11 @@ active: Attend Code4Lib
                 </p>
 
                 <p>
-                    <strong>Payment Policy</strong>: Payment for the full amount of registration fees must be made at the time of registration or within 48 hours of the completion of registration.
+                    <span class="font-weight-bold">Payment Policy</span>: Payment for the full amount of registration fees must be made at the time of registration or within 48 hours of the completion of registration.
                 </p>
 
                 <p>
-                    <strong>Cancellation Policy</strong>:  All cancellations received on or before {{ site.data.registration.conference.cancellation-date | date: "%B %-d, %Y" }} are eligible for a full refund of fees paid, less a 10% cancellation fee.
+                    <span class="font-weight-bold">Cancellation Policy</span>:  All cancellations received on or before {{ site.data.registration.conference.cancellation-date | date: "%B %-d, %Y" }} are eligible for a full refund of fees paid, less a 10% cancellation fee.
                     No refunds will be issued after the {{ site.data.registration.conference.cancellation-date | date: "%B %-d" }} cut-off date.
                     Registrants are able to transfer completed registrations to colleagues - please contact <a href="mailto:{{ site.data.conf.main-conf-email }}">{{ site.data.conf.main-conf-email }}</a> to finalize this process.
                 </p>
@@ -77,13 +77,13 @@ active: Attend Code4Lib
         </div>
 
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h3>Additional Information</h3>
                 <ol>
                     <li>
                         Child Care is available for each day of the conference. When you register, you may select which days you require child care. The cost is $30 per full day, $15 for the half day on {{ site.data.conf.days[3].weekday }}, and $15 for child care during the {{ site.data.conf.days[1].weekday }} evening reception.
                         {% if site.data.registration.childcare-end-date != '' %}
-                          <strong>Please Note</strong>: Child Care Registration will close on {{ site.data.registration.childcare-end-date | date: "%B %e, %Y" }}. Registration and payment must be finalized on or before {{ site.data.registration.childcare-end-date | date: "%B %e"}}, to utilize the child care services.
+                          <span class="font-weight-bold">Please Note</span>: Child Care Registration will close on {{ site.data.registration.childcare-end-date | date: "%B %e, %Y" }}. Registration and payment must be finalized on or before {{ site.data.registration.childcare-end-date | date: "%B %e"}}, to utilize the child care services.
                         {% endif %}
                     </li>
 
@@ -93,7 +93,7 @@ active: Attend Code4Lib
                         closed.
                     </li>
                     <li>
-                        <strong><a href="/talks/">Conference Talks</a></strong>:
+                        <span class="font-weight-bold"><a href="/talks/">Conference Talks</a></span>:
                         See conference program <a href="/schedule/">on the schedule page</a> to get
                         an idea of what will be part of the program. Conference speakers still need
                         to register for the conference at full price.
@@ -108,7 +108,7 @@ active: Attend Code4Lib
 <section class="general-info" id="remote">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-12">
                 <h2>Can't attend in person?</h2>
 
                 <h3>Live Stream</h3>
@@ -151,7 +151,7 @@ active: Attend Code4Lib
                 {% for sponsor in sponsors %}
                     {% if sponsor.img != '' %}
                     <div class="row sponsor-row">
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12 col-md-6">
                             <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
                                 <img src="{{ sponsor.img }}" alt="{{ sponsor.name }}">
                             </a>

@@ -9,18 +9,18 @@
 
 <div class="well workshop-well" data-length="{{ workshop.time }}" data-location="{{ location.id }}">
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h2 class="h4"><a href="{{ workshop.url }}">{{ workshop.title }}</a></h2>
             {% if workshop.full == true %}
                 <p class="alert alert-danger">This workshop is full.</p>
             {% endif %}
             <p>{{ workshop.content | truncatewords: 50 }} <a href="{{ workshop.url }}">more</a></p>
         </div>
-        <div class="col-xs-12">
+        <div class="col-12">
             <h5>Time</h5>
             <h5>{{ post_length }}</h5>
         </div>
-        <div class="col-xs-12">
+        <div class="col-12">
             <h5>Location</h5>
             <p style="word-break: normal;">{{ location_display }}</p>
         </div>

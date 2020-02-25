@@ -1,0 +1,16 @@
+current directory: /Users/qum/Documents/GitHub/2020.code4lib.org/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/qum/.rvm/rubies/ruby-2.6.5/bin/ruby -I /Users/qum/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191023-42189-17bpdqw.rb extconf.rb
+creating Makefile
+
+current directory: /Users/qum/Documents/GitHub/2020.code4lib.org/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/qum/Documents/GitHub/2020.code4lib.org/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/qum/Documents/GitHub/2020.code4lib.org/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20191023-42189-1eqypic

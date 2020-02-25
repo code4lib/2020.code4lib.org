@@ -1,46 +1,57 @@
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" aria-label="Code4Lib Home" href="{{ site.baseurl }}/"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
-        </div>
+<nav class="navbar navbar-expand-md navbar-light" role="navigation"  style="background: black;">
+  <!-- <div class="container-fluid"> -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- <div class="navbar-header"> -->
+      <a class="navbar-brand" aria-label="Code4Lib Home" href="{{ site.baseurl }}/"><img src="{{ "/assets/img/theme-images/c4l-logo.svg" | relative_url }}" alt="Code4Lib"></a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> -->
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!-- </div> -->
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+      <!-- HOME -->
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item">
+          <a class="nav-link" aria-label="Return to Code4Lib Index Page" href="{{ site.baseurl }}/">Home</a>
+        </li>
+        <!-- {% if site.data.conf.program-nav-links %} -->
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/index.html %}" class="nav-link">Schedule</a></li> -->
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/index.html %}" class="nav-link">Speakers</a></li> -->
+        <!-- {% else %} -->
+        <!-- Information for before we have program/preconf details -->
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link schedule/timeline.html %}" class="nav-link">Schedule</a></li> -->
+        <!-- <li class="nav-item"><a href="{{ site.baseurl }}{% link speakers/past-keynotes.html %}" class="nav-link">Speakers</a></li> -->
+        <!-- {% endif %} -->
 
-                <li><a href="{{ site.baseurl }}/" aria-label="Return to Code4Lib Index Page">Home</a></li>
 
-                <li><a href="{{ site.baseurl }}{% if site.data.conf.have-schedule %}
+
+                <li class="nav-item"><a href="{{ site.baseurl }}{% if site.data.conf.have-schedule %}
                 {% link schedule/index.html %}{% else %}{% link schedule/timeline.html %}
-                {% endif %}">Schedule</a></li>
-                <li><a href="{{ site.baseurl }}{% if site.data.conf.have-talks %}
+                {% endif %}" class="nav-link">Schedule</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}{% if site.data.conf.have-talks %}
                 {% link speakers/index.html %}{% else %}{% link speakers/past-keynotes.html %}
-                {% endif %}">Speakers</a></li>
+                {% endif %}" class="nav-link">Speakers</a></li>
 
                 {% comment %}
                 when looking for sponsors before conf, send users to prospectus
                 close to / during conf, send to the list of sponsors page
                 {% endcomment %}
                 {% if site.data.conf.call-for-sponsors %}
-                    <li><a href="{{ site.baseurl }}{% link prospectus/index.html %}">Sponsors</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link prospectus/index.html %}" class="nav-link">Sponsors</a></li>
                 {% else %}
-                    <li><a href="{{ site.baseurl }}{% link sponsors/index.html %}">Sponsors</a></li>
+                    <li class="nav-item"><a href="{{ site.baseurl }}{% link sponsors/index.html %}" class="nav-link">Sponsors</a></li>
                 {% endif %}
 
-                <li><a href="{{ site.baseurl }}{% link general-info/attend.html %}">General Info</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}{% link general-info/attend.html %}" class="nav-link">General Info</a></li>
 
-                 <li><a href="{{ site.baseurl }}{% link conduct/index.html %}">Conduct & Safety</a></li>
+                 <li class="nav-item"><a href="{{ site.baseurl }}{% link conduct/index.html %}" class="nav-link">Conduct & Safety</a></li>
 
                 <!-- SEARCH -->
                 {% if site.data.conf.search %}
-                <li>
+                <li class="nav-item">
                     <form class="navbar-form" action="get" id="site_search">
                         <div class="input-group">
                             <input class="form-control" type="text" placeholder="Search Presentations" id="search_box">
@@ -53,5 +64,5 @@
                 {% endif %}
             </ul>
         </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    <!-- /.container-fluid -->
 </nav>
