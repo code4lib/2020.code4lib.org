@@ -59,3 +59,11 @@ giarlo:
   twitter_handle: mjgiarlo
   onsite: true
   online: false
+
+mesco:
+  name: Ann Marie Mesco
+  img: assets/img/duty-officers/mesco-ann-marie.jpg
+  slack_handle: Ann Marie
+  twitter_handle: amarieannm
+  onsite: true
+  online: false
