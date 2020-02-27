@@ -578,6 +578,18 @@
   image_src: /assets/img/nopics/nopic6.jpg
   keynote: false
 
+- id: elizabeth-wilkinson
+  name: Elizabeth Wilkinson
+  last: Wilkinson
+  pronouns: she/her/hers
+  position-title:
+  bio: Elizabeth Wilkinson is the Archivist in the Description & Access Unit in the Small Special Collections Library at the University of Virginia, where she is responsible for the archival processing program.
+  twitter:
+  slack:
+  github:
+  image_src: /assets/img/nopics/nopic8.jpg
+  keynote: false
+
 - id: michaela-blackham
   name: Michaela Blackham
   last: Blackham
