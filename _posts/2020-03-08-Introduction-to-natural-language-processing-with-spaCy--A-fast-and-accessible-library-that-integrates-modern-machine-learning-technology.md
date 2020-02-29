@@ -8,7 +8,7 @@ time: am
 startTime: 9:00am
 endTime: 12:00pm
 location: westin
-room: somerset-east
+room: fayette
 speakers-text: Andrew Janco
 slugTitle: introduction-to-natural-language-processing-with-spacy-a-fast-and-accessible-library-that-integrates-modern-machine-learning-technology
 title: Introduction to natural language processing with spaCy - A fast and accessible library that integrates modern machine learning technology

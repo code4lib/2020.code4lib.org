@@ -8,7 +8,7 @@ time: am
 startTime: 9:00am
 endTime: 12:00pm
 location: westin
-room: butler-west
+room: somerset-east
 speakers-text: Abel Facenda Carrasco
 slugTitle: get-results-with-elastic-search
 title: Get Results with Elastic Search

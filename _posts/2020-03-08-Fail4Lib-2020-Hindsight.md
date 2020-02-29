@@ -8,7 +8,7 @@ time: pm
 startTime: 1:30pm
 endTime: 4:30pm
 location: westin
-room: butler-west
+room: somerset-east
 speakers-text: Andreas K. Orphanides
 slugTitle: fail4lib-2020-hindsight
 title: Fail4Lib 2020&#58; Hindsight

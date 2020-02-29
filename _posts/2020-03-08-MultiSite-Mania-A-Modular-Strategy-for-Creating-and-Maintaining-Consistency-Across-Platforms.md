@@ -8,7 +8,7 @@ time: pm
 startTime: 1:30pm
 endTime: 4:30pm
 location: westin
-room: cambria-west
+room: butler-west
 speakers-text: Aidan Sawyer
 slugTitle: multi-site-mania-a-modular-strategy-for-creating-and-maintaining-consistency-across-platforms
 title: Multi-Site Mania&#58; A Modular Strategy for Creating (and Maintaining) Consistency Across Platforms
