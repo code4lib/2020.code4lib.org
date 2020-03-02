@@ -8,7 +8,7 @@ time: pm
 startTime: 1:30pm
 endTime: 4:30pm
 location: westin
-room: somerset-west
+room: fayette
 speakers-text: Eric Lease Morgan
 slugTitle: using-hacking-the-distant-reader
 title: Using & hacking the Distant Reader

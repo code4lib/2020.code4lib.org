@@ -12,7 +12,7 @@ room: cambria-east
 speakers-text: Yinlin Chen
 slugTitle: building-a-full-stack-serverless-web-application-with-react-and-aws
 title: Building a full-stack Serverless Web application with React and AWS
-full: true
+full: false
 ---
 Serverless computing allows you to build Web applications without managing or maintaining servers. Using AWS, we can build and deploy responsive applications in the cloud with built-in high availability and flexible scaling capabilities.
 

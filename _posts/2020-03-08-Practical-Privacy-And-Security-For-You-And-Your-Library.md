@@ -8,7 +8,7 @@ time: pm
 startTime: 1:30pm
 endTime: 4:30pm
 location: westin
-room: butler-west
+room: somerset-west
 speakers-text: Blake Carver
 slugTitle: practical-privacy-and-security-for-you-and-your-library
 title: Practical Privacy And Security For You And Your Library
