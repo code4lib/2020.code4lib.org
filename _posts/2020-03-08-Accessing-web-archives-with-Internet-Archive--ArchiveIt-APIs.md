@@ -8,7 +8,7 @@ time: pm
 startTime: 1:30pm
 endTime: 4:30pm
 location: westin
-room: somerset-east
+room: cambria-west
 speakers-text: Jillian Lohndorf
 slugTitle: accessing-web-archives-with-internet-archive-archive-it-apis
 title: Accessing web archives with Internet Archive & Archive-It APIs
