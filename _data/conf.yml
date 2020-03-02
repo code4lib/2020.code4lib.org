@@ -101,7 +101,7 @@ livestream:
 
 slides:
   show: false
-  url: "" # https://osf.io/view/c4l20/ (not set up yet)
+  url: "https://osf.io/meetings/c4l20/"
   contact: ""
   email: ""
 
