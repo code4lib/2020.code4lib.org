@@ -24,7 +24,7 @@ title: Preconference Workshops
             </div>
         </div>
         <div class="col-12 col-sm-6">
-            <select class="form-control sort-workshop-locale">
+            <select class="form-control sort-workshop-locale" aria-label="sort by workshop location">
                 <option value="all">All Locations</option>
                 {% for location in site.data.locations %}
                     <option value="{{ location.id }}">{{ location.name }}</option>
