@@ -1,16 +1,16 @@
 allen:
-    name: Natasha Allen
-    img: assets/img/duty-officers/allen-natasha.jpg
-    slack_handle: natasha
-    onsite: true
-    online: true
+  name: Natasha Allen
+  img: assets/img/duty-officers/allen-natasha.jpg
+  slack_handle: natasha
+  onsite: true
+  online: true
 
 phetteplace:
-    name: Eric Phetteplace
-    img: assets/img/speakers/eric-phetteplace.jpg
-    slack_handle: phette23
-    onsite: true
-    online: true
+  name: Eric Phetteplace
+  img: assets/img/speakers/eric-phetteplace.jpg
+  slack_handle: phette23
+  onsite: true
+  online: true
 
 friesen:
   name: Jeremy Friesen
@@ -34,7 +34,7 @@ graham:
   slack_handle: wayne
   twitter_handle:
   onsite: true
-  online: false
+  online: true
 
 nelson:
   name: Chad Nelson
@@ -50,7 +50,7 @@ fox:
   slack_handle: bobbifox
   twitter_handle: bobbi_fox_SMR
   onsite: true
-  online: false
+  online: true
 
 giarlo:
   name: Mike Giarlo
@@ -67,3 +67,11 @@ mesco:
   twitter_handle: amarieannm
   onsite: true
   online: false
+
+averkamp:
+  name: Shawn Averkamp
+  img: assets/img/duty-officers/averkamp-shawn.jpg
+  slack_handle: saverkamp
+  twitter_handle: saverkamp
+  onsite: true
+  online: true
