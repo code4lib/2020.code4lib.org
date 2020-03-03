@@ -1,0 +1,49 @@
+- title: "Sunday - Morning Preconferences"
+  officers:
+    - "allen"
+    - "mesco"
+
+- title: "Sunday - Afternoon Preconferences"
+  officers:
+    - "graham"
+    - "phetteplace"
+
+- title: "Monday - Conference Day 1 (Morning)"
+  officers:
+    - "mesco"
+    - "phetteplace"
+
+- title: "Monday - Conference Day 1 (Afternoon)"
+  officers:
+    - "friesen"
+    - "slaughter"
+
+- title: "Monday - Reception (Evening)"
+  all-hands: true
+
+- title: "Monday - Overnight (Phone only)"
+  officers:
+    - "allen"
+
+- title: "Tuesday - Conference Day 2 (Morning)"
+  officers:
+    - "averkamp"
+    - "slaughter"
+
+- title: "Tuesday - Conference Day 2 (Afternoon)"
+  officers:
+    - "allen"
+    - "giarlo"
+
+- title: "Tuesday - Game Night"
+  officers:
+    - "phetteplace"
+
+- title: "Tuesday - Overnight (Phone only)"
+  officers:
+    - "allen"
+
+- title: "Wednesday - Conference Day 3 (Morning)"
+  officers:
+    - "fox"
+    - "giarlo"

@@ -9,8 +9,8 @@ subnav:
   url: '#emergency'
 - name: Community Support Volunteers
   url: '#officers'
-#- name: Community Support Volunteer Schedule
-#  url: '#schedule'
+- name: Community Support Volunteer Schedule
+  url: '#schedule'
 - name: Accessibility
   url: '/general-info/accessibility'
 - name: Photography Policy
@@ -22,7 +22,7 @@ active: 'Conduct & Safety'
 <div class="container-fluid">
     <div class="row">
 
-        <div class="col-md-12">
+        <div class="col-12">
             <div class="page-header" id="#conduct">
                 <h1>Conduct & Safety</h1>
             </div>
@@ -57,7 +57,7 @@ active: 'Conduct & Safety'
 
             {% if site.data.emergency %}
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12">
                     <h2 id="emergency">Emergency Resources</h2>
 
                     <p>See also the contact information for <a href="#officers">community support volunteers</a> on this page.</p>
@@ -159,7 +159,7 @@ active: 'Conduct & Safety'
             {% endif %}
 
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12">
                     <h2 id="officers">Community Support Volunteers</h2>
 
                     <p>
@@ -195,13 +195,12 @@ active: 'Conduct & Safety'
                       </ul>
 
                     {% if site.data.duty-officers %}
-
                         <h3>On-Site Community Support Volunteers</h3>
 
                         <div class="row">
                           {% assign onsite_officers = site.data.duty-officers | where:"onsite","true" %}
                             {% for officer in onsite_officers %}
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div class="speaker-box text-center">
                                     <div class="speaker-box-inner">
                                         <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
@@ -211,14 +210,14 @@ active: 'Conduct & Safety'
                             </div>
                         {% endfor %}
                         </div>
-                        <div>
+                        <div class="row">
                           <h3>Online Community Support Volunteers</h3>
                           <p>Community Support Volunteers are also present on various online code4lib platforms, primarily <a href="https://wiki.code4lib.org/How_to_hack_code4lib#Or_get_to_the_.23code4lib_IRC_channel_.28and_other_discussions.29_via_Slack">Slack</a>. IRC and the <a href="https://twitter.com/hashtag/{{site.data.conf.hashtag}}">#{{site.data.conf.hashtag}}</a> conference hashtag feed have some coverage as well, but if you should observe or experience a code of conduct violation on IRC or the hashtag, please contact the community support volunteers via Slack, email, or the anonymous reporting form.
                           </p>
 
                           {% assign online_officers = site.data.duty-officers | where:"online","true" %}
                           {% for officer in online_officers %}
-                            <div class="col-md-4">
+                            <div class="col-4">
                               <h4 class="speaker-name">{{ officer.name }}</h4>
                               <p>Slack: {{ officer.slack_handle }}</p>
                             </div>
@@ -230,10 +229,10 @@ active: 'Conduct & Safety'
 
             {% if site.data.duty-officer-schedule %}
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12">
                     <h2 id="schedule">Community Support Volunteer Schedule</h2>
 
-                       <h3>On-Site</h3>
+                    <h3>On-Site</h3>
                     {% for session in site.data.duty-officer-schedule %}
                         <h4>{{ session.title }}</h4>
                         <div class="row">
@@ -258,18 +257,22 @@ active: 'Conduct & Safety'
                     {% for period in site.data.online-duty-officer-schedule %}
                        {% assign officer = site.data.duty-officers[period.officer] %}
                        <div class="row">
-                          <div class="col-md-2">{{ period.day }}</div>
-                          <div class="col-md-3">{{ period.interval }}</div>
-                          <div class="col-md-4">{{ officer.name }} ({{ officer.slack_handle }})</div>
+                          <div class="col-2">{{ period.day }}</div>
+                          <div class="col-3">{{ period.interval }}</div>
+                          <div class="col-4">{{ officer.name }} ({{ officer.slack_handle }})</div>
                        </div>
                     {% endfor %}
                 </div>
             </div>
+            {% else %}
+            {%- comment %} remove CSV Schedule menu link because we don't have the info yet
+            NOTE: jQuery not available on the page yet. {% endcomment -%}
+            <script>document.querySelector('ul.secondarynav a[href="#schedule"]').parentElement.remove()</script>
             {% endif %}
 
 
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12">
                     <h2 id="photography">Photography Policy</h2>
 
                     <p>
