@@ -111,6 +111,16 @@
   }
 }
 
+.workshop-well span.label-time, span.display-time, span.label-location {
+  display: block;
+  letter-spacing: .02em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .workshop-well.top-10 {
   background-color: lightgoldenrodyellow;
 }

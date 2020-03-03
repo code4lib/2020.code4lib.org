@@ -17,11 +17,11 @@
             <p>{{ workshop.content | truncatewords: 50 }} <a href="{{ workshop.url }}">more</a></p>
         </div>
         <div class="col-12">
-            <h5>Time</h5>
-            <h5>{{ post_length }}</h5>
+            <span class="label-time">Time</span>
+            <span class="display-time">{{ post_length }}</span>
         </div>
         <div class="col-12">
-            <h5>Location</h5>
+            <span class="label-location">Location</span>
             <p style="word-break: normal;">{{ location_display }}</p>
         </div>
     </div>
