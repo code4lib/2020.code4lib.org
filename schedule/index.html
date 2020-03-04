@@ -123,7 +123,9 @@ title: Schedule
                 {% if site.data.conf.libtech-women.url %}</a>{% endif %}
             </h4>
             <p>
-              <a href="http://libtechwomen.org/">LibTechWomen</a> is a supportive space for women and their friends to network, develop skills, build confidence, and lead positive change. Are you a lurker? Are you a newcomer? All are welcome! Come meet wonderful colleagues in library technology!
+              <a href="http://libtechwomen.org/">LibTechWomen</a> is a supportive space for women and their friends to network, develop skills, build confidence, and lead positive change. Are you a lurker? Are you a newcomer? All are welcome! Come meet wonderful colleagues in library technology{%- if site.data.conf.game-night.location -%}
+              &nbsp;at {{site.data.conf.game-night.location}}
+              {%- endif -%}!
             </p>
         </div>
     </div>
@@ -143,7 +145,9 @@ title: Schedule
                 {% if site.data.conf.game-night.url %}</a>{% endif %}
             </h4>
             <p>
-              Play games? Come join fellow code4libers in a few board or card games at the San Jose meeting room! Feel free to bring your own games as well.
+              Play games? Come join your fellow code4libers in a few board or card games{%- if site.data.conf.game-night.location -%}
+              &nbsp;at {{site.data.conf.game-night.location}}
+              {%- endif -%}! Feel free to bring your own games as well.
               See the <a target="blank" href="{{ site.data.conf.game-night.url }}">
               sign up list on the Social Activities wiki</a> to list any games you might bring with you.
             </p>
@@ -173,26 +177,6 @@ title: Schedule
         </div>
     </div>
     {% endif %}
-
-    {% comment %}
-        <!-- play-n-share, move this section to the right date/time -->
-        <div class="row">
-            <div class="col-12 col-md-3 text-right">
-                <h3>6:30PM - 10:30PM</h3>
-            </div>
-            <div class="col-12 col-md-9 sched-well">
-                <a href="/venue/playandshare.html">
-                <h4>Play & Share</h4>
-                </a>
-                <p>
-                    Play games? Have some homemade (or “homemade”) treats to share? Want to find folks to play music with? We organized a large open room near the conference center with plenty of space for attendees to gather and socialize, play games and share goodies. We will provide tables and chairs for Board Game Night and some space for jam sessions. You are also welcome to bring stuff to share, from craft sodas and beers to baked goods to local treats - we’ll have a few tables set up for that as well.
-                </p>
-                <p>
-                    For more information and to add to the list of games, check the <a href="https://wiki.code4lib.org/index.php?title=2018_Social_Activities">code4lib wiki</a>.
-                </p>
-            </div>
-        </div>
-    {% endcomment %}
 
     <div class="row">
         <div class="col-12 sched-date">
