@@ -193,3 +193,8 @@
 - name: Gumberg Library, Duquesne University
   link: https://www.duq.edu/academics/gumberg-library
   level: supporter
+
+- name: Equinox Open Library Initative
+  img: /assets/img/sponsors/eoli.jpg
+  link: https://www.equinoxinitiative.org/
+  level: bronze
