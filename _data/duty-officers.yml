@@ -10,7 +10,7 @@ phetteplace:
   img: assets/img/speakers/eric-phetteplace.jpg
   slack_handle: phette23
   onsite: true
-  online: true
+  online: false
 
 friesen:
   name: Jeremy Friesen
@@ -57,8 +57,8 @@ giarlo:
   img: assets/img/duty-officers/giarlo-mike.jpg
   slack_handle: mjgiarlo
   twitter_handle: mjgiarlo
-  onsite: true
-  online: false
+  onsite: false
+  online: true
 
 mesco:
   name: Ann Marie Mesco
@@ -74,4 +74,4 @@ averkamp:
   slack_handle: saverkamp
   twitter_handle: saverkamp
   onsite: true
-  online: true
+  online: false
