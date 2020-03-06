@@ -1,12 +1,23 @@
-# Registration
+## Registration
 - timeImg: 8.00.png
-  title: Registration
+  title: Registration & Breakfast
   day1: true
+  time: 08:00-09:00
+  menu: day1-menus
+
+- timeImg: 8.00.png
+  title: Registration & Breakfast
   day2: true
+  time: 08:00-09:00
+  menu: day2-menus
+
+- timeImg: 8.00.png
+  title: Registration & Breakfast
   day3: true
   time: 08:00-09:00
+  menu: day3-menus
 
-# Reception
+## Reception
 - timeImg: 6.30.png
   title: Reception
   day1: true
@@ -14,7 +25,7 @@
   # menu: day1-menus
   # submenu: Reception
 
-# Morning Announcements
+## Morning Announcements
 - timeImg: 9.00.png
   title: Announcements and Welcome
   day1: true
@@ -26,41 +37,42 @@
   day3: true
   time: 09:00-09:15
 
-# Breaks
+## Morning Breaks
 - timeImg: 10.00.png
   title: Morning Break
   day1: true
   time: 10:00-10:15
-#   menu: day1-menus
+  menu: day1-menus
 #   submenu: Morning
-
-- timeImg: 2.45.png
-  title: Afternoon Break
-  day1: true
-  time: 14:45-15:00
-#   menu: day1-menus
-#   submenu: Afternoon
 
 - timeImg: 10.10.png
   title: Morning Break
   day2: true
   time: 10:10-10:25
-#   menu: day2-menus
+  menu: day2-menus
 #   submenu: Morning
-
-- timeImg: 3.05.png
-  title: Afternoon Break
-  day2: true
-  time: 15:05-15:20
-#   menu: day2-menus
-#   submenu: Afternoon
 
 - timeImg: 10.00.png
   title: Morning Break
   day3: true
   time: 10:00-10:15
-#   menu: day3-menus
+  menu: day3-menus
 #   submenu: Morning
+
+## Afternoon Breaks
+- timeImg: 2.45.png
+  title: Afternoon Break
+  day1: true
+  time: 14:45-15:00
+  menu: day1-menus
+#   submenu: Afternoon
+
+- timeImg: 2.45.png
+  title: Afternoon Break
+  day2: true
+  time: 14:45-15:00
+  menu: day2-menus
+#   submenu: Afternoon
 
 # NOTE: first-timers page uses the link properties of the first events with
 # titles like "Breakout Sessions" and "Lightning Talks"
@@ -124,14 +136,14 @@
   title: Lunch
   day1: true
   time: 12:10-13:20
-  # menu: day1-menus
+  menu: day1-menus
   # submenu: Lunch
 
 - timeImg: 12.00.png
   title: Lunch
   day2: true
   time: 12:00-13:10
-  # menu: day2-menus
+  menu: day2-menus
   # submenu: Lunch
 
 # housekeeping (announcements and giveaways)

@@ -1,0 +1,43 @@
+Breakfast:
+    Daily Offerings:
+        "Diced fruit": "VGN, GF, DF"
+        "Scrambled eggs": "VGT, GF, DF"
+        "Freshly baked breakfast breads, muffins, croissants with whipped sweet butter and preserves": "VGT, GF"
+        "Oatmeal": "VGN, DF"
+    Beverages:
+        "Chilled fruit juices": ""
+        "Freshly brewed Starbucks® regular and decaffeinated coffee": ""
+        "Selection of Tazo® teas": ""
+Morning:
+    Beverages:
+        "Freshly brewed Starbucks® regular and decaffeinated coffee": ""
+        "Selection of Tazo® teas": ""
+Lunch:
+    Salad:
+        "Spring greens, Chopped romaine lettuce": "VGN, GF, DF"
+        "Grape tomatoes, Black olives, Diced cucumbers": "VGN, GF, DF"
+        "Sunflower seeds, Garlic croutons": "VGN, DF"
+        "Chopped hard boiled eggs": "VGT, GF, DF"
+        "Shredded cheddar cheese, Bleu cheese crumbles, Parmesan cheese": "VGN, GF"
+        "Fresh fruit salad": "VGN, GF, DF"
+        "Four bean salad": "VGT, GF, DF"
+    Dressing:
+        "Fat Free raspberry vinaigrette": "VGN, GF, DF"
+        "Champagne, Honey Dijon dressing": "VGT, GF, DF"
+        "Creamy parmesan - Contains Dairy & Fish": "GF"
+    Entrées:
+        "Marinated grilled chicken breast": "GF, DF"
+        "Cajun spiced shrimp": "GF, DF"
+    Bread:
+        "Assorted freshly baked rolls and sweet cream butter": "VGT"
+    Dessert:
+        "Gourmet cupcakes": "VGT, GF"
+    Beverages:
+        "Chilled fruit juices": ""
+        "Freshly brewed Starbucks® regular and decaffeinated coffee": ""
+        "Selection of Tazo® teas": ""
+Afternoon:
+    Perfectly Fit Trail Mix:
+        "cranberries, walnuts, almonds, pumpkin seeds, cashews, and blueberries": "GF, contains nuts"
+    Snackin' Mix:
+        "pretzels, rye chips, bread sticks": "Nut free, contains Gluten"
