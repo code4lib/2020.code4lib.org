@@ -96,11 +96,11 @@ anonymous-form: "https://css4csv.clir.org/anonymous-incident-report-form/"
 homepage-display: pre
 
 livestream:
-  show: false
-  url: "https://www.youtube.com/playlist?list=PLw-ls5JXzeNYcmotU2peVxu27nH2qIrV6"
+  show: true
+  url: "https://www.youtube.com/c/code4lib/live"
 
 slides:
-  show: false
+  show: true
   url: "https://osf.io/meetings/c4l20/"
   contact: ""
   email: ""
