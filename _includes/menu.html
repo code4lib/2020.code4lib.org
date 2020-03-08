@@ -2,12 +2,12 @@
 <div class="col-md-12">
     <a name="{{meal[0]}}"></a>
     <aside class="tasting-menu" style="background-color:#fff;">
-        <h4><span>{{ meal[0] }}</span></h4>
+        <h2 class=".h4 meal-header"><span>{{ meal[0] }}</span></h2>
         <br/>
         <ul class="tasting-options">
             {% for category in meal[1] %}
             <li>
-                <h5>{{ category[0] }}</h5>
+                <h3 class=".h5 category-header">{{ category[0] }}</h3>
                 <ul class="items list-unstyled">
                     {% for item in category[1] %}
                     <li>

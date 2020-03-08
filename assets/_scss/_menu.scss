@@ -15,57 +15,57 @@
   margin-right: 0;
   background: $menu-bg;
   color: $menu-color;
-}
 
-.tasting-menu .tasting-intro {
-  font-size: 26px;
-  text-align: center;
-  padding: 0 15px;
-  line-height: 1.2;
-  font-family: franklin-gothic-urw-cond, sans-serif;
-}
+  .tasting-intro {
+    font-size: 26px;
+    text-align: center;
+    padding: 0 15px;
+    line-height: 1.2;
+    font-family: franklin-gothic-urw-cond, sans-serif;
+  }
 
-.tasting-menu .tasting-options {
-  text-align: center;
-  margin-bottom: 0;
-  padding: 0 20px;
-}
+  .tasting-options {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 20px;
+  }
 
-.tasting-menu .tasting-options li {
-  border-bottom: 1px dashed $menu-divider;
-  padding: 0 0 13px;
-  margin-bottom: 20px;
-  list-style-type: none;
-}
+  .tasting-options li {
+    border-bottom: 1px dashed $menu-divider;
+    padding: 0 0 13px;
+    margin-bottom: 20px;
+    list-style-type: none;
+  }
 
-.tasting-menu h4 {
-  background: $menu-banner-bg;
-  border-bottom: 10px solid $menu-banner-accent;
-  color: $menu-banner-color;
-  font: 48px/1 $font-family-serif, serif;
-  margin-bottom: 26px;
-  margin-top: 0;
-  padding: 15px 30px;
-  text-align: center;
-  text-transform: uppercase;
-}
+  .meal-header {
+    background: $menu-banner-bg;
+    border-bottom: 10px solid $menu-banner-accent;
+    color: $menu-banner-color;
+    font: 48px/1 $font-family-serif, serif;
+    margin-bottom: 26px;
+    margin-top: 0;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
-.tasting-menu .tasting-options h5 {
-  color: $menu-headers;
-  font-family: $font-family-serif, serif;
-  font-size: 28px;
-  font-style: normal;
-}
+  .tasting-options .category-header {
+    color: $menu-headers;
+    font-family: $font-family-serif, serif;
+    font-size: 28px;
+    font-style: normal;
+  }
 
-.tasting-menu .tasting-options .items li {
-  border: 0;
-  color: $menu-color;
-  font-style: italic;
-  margin: 0;
-  text-transform: none;
-}
+  .tasting-options .items li {
+    border: 0;
+    color: $menu-color;
+    font-style: italic;
+    margin: 0;
+    text-transform: none;
+  }
 
-.tasting-menu img {
-  margin-bottom: 0.5em;
-  margin-left: 0.5em;
+  img {
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+  }
 }
