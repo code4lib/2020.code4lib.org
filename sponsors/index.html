@@ -18,11 +18,13 @@ sponsorLevels:
         <div class="col-12">
             <h1>We ❤ our sponsors.</h1>
 
+            {% if site.data.conf.call-for-sponsor == true %}
             <p>Interested in sponsoring Code4Lib {{site.data.conf.year}}?</p>
 
             <p>
                 <a class="btn btn-warning btn-lg" href="{{ site.baseurl }}{% link prospectus/index.html %}">View our Prospectus</a>
             </p>
+            {% endif %}
         </div>
     </div>
 
