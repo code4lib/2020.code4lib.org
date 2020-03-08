@@ -2,7 +2,7 @@ Breakfast:
     Daily Offerings:
         "Diced fruit": "VGN, GF, DF"
         "Scrambled eggs": "VGT, GF, DF"
-        "Freshly baked breakfast breads, muffins, croissants with whipped sweet butter and preserves": "VGT, GF"
+        "Freshly baked breakfast breads, muffins, croissants with whipped sweet butter and preserves. Gluten-free available upon request.": "VGT"
         "Greek yogurt": "VGT, GF"
     Beverages:
         "Chilled fruit juices": ""
@@ -21,11 +21,12 @@ Lunch:
     Dressing:
         "Honey balsamic, Champagne": "VGT, GF, DF"
     Wraps:
-        "Buffalo Chicken Salad - carrots, celery, shredded iceberg lettuce, chicken, cayenne pepper sauce and mayonnaise": "GF"
+        "Buffalo Chicken Salad - carrots, celery, shredded iceberg lettuce, chicken, cayenne pepper sauce and mayonnaise": ""
         "Tuna Salad - tuna salad, Dijon mustard aioli, cheddar cheese and arugula": ""
         "Grilled Vegetable - char-grilled zucchini, yellow squash, fire roasted red and yellow peppers and baby watercress": "VGT"
+        "Gluten-free and vegan wrap options will be available upon request.": "VGN, GF"
     Dessert:
-        "Assorted cheesecakes, strawberry and pineapple topping, whipped cream": "VGT, GF"
+        "Assorted cheesecakes, strawberry and pineapple topping, whipped cream. Gluten-free desserts upon request.": "VGT"
 Afternoon:
     Perfectly Fit Trail Mix:
         "cranberries, walnuts, almonds, pumpkin seeds, cashews, and blueberries": "GF, contains nuts"
