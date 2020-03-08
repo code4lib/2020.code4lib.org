@@ -518,16 +518,16 @@
   image_src: /assets/img/speakers/lauren-work.jpg
   keynote: false
 
-- id: matt-jansen
-  name: Matt Jansen
-  last: Jansen
-  pronouns: he/him/his
-  position-title: Data Analysis Librarian
-  bio: Matt Jansen provides support for researchers and students at UNC Chapel Hill on data preparation and analysis across a variety of data formats and research goals, including analyses of text corpora.
+- id: matthew-lincoln
+  name: Matthew Lincoln
+  last: Lincoln
+  pronouns:
+  position-title: Research Software Engineer at Carnegie Mellon University Libraries
+  bio: Dr. Matthew Lincoln is a research software engineer at Carnegie Mellon University Libraries, where he works with researchers to develop computational approaches to the study of history and culture, and on making library and archives collections tractable for data-driven research. He earned his PhD in Art History at the University of Maryland, College Park, and has held positions at the Getty Research Institute and the National Gallery of Art. He is the technical lead of _The Programming Historian_.
   twitter:
   slack:
-  github: mtjansen
-  image_src: /assets/img/speakers/matt-jansen.jpg
+  github:
+  image_src: /assets/img/speakers/matthew-lincoln.jpg
   keynote: false
 
 - id: maura-gerke
