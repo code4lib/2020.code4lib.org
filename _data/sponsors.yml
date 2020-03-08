@@ -128,6 +128,7 @@
   level: bronze
 
 - name: Rutgers University School of Communication and Information
+  img: /assets/img/sponsors/rutgers.jpg
   link: https://comminfo.rutgers.edu/
   level: bronze
 
@@ -136,6 +137,7 @@
   link: https://libraries.mit.edu/
   level: silver
   diversity: true
+  annotation: 'Diversity Scholarships'
 
 - name: Carnegie Mellon University | University Libraries
   img: /assets/img/sponsors/cmu.png
@@ -198,3 +200,8 @@
   img: /assets/img/sponsors/eoli.jpg
   link: https://www.equinoxinitiative.org/
   level: bronze
+
+- name: Senator John Heinz History Center
+  img: /assets/img/sponsors/heinzHistoryCenter.png
+  link: https://www.heinzhistorycenter.org/
+  level: silver
