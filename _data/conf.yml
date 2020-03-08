@@ -106,8 +106,8 @@ slides:
   email: ""
 
 closed-captioning:
-  url: ""
-  show: false
+  url: "https://2020archive.1capapp.com/event/cod4lib/"
+  show: true
 
 # Peri display descriptions and titles
 peri:
