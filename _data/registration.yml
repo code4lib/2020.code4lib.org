@@ -20,7 +20,7 @@ conference:
   start-date: 2019-12-11
   end-date: 2020-02-10
   cancellation-date: 2020-02-12
-  open: true
+  open: false
   cost: "$375"
   late-cost: "$450"
   workshop-half-day-cost: "$50"
