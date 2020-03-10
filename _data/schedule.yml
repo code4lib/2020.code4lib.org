@@ -94,19 +94,19 @@
   title: Lightning Talks 1
   day1: true
   time: 16:10-17:10
-  # link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks#Day_1
+  link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks
 
 - timeImg: 10.25.png
   title: Lightning Talks 2
   day2: true
   time: 10:25-11:25
-  # link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks#Day_2
+  link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks
 
 - timeImg: 10.15.png
   title: Lightning Talks 3
   day3: true
   time: 10:15-11:00
-  # link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks#Day_3
+  link: https://wiki.code4lib.org/Code4Lib2020_Lightning_Talks
 
 # Poster Session
 - timeImg: 3.15.png
