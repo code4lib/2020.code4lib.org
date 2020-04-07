@@ -93,7 +93,7 @@ anonymous-form: "https://css4csv.clir.org/anonymous-incident-report-form/"
 # - post:   for after the conference is over (TODO: we never made this template!)
 #
 ####################
-homepage-display: pre
+homepage-display: post
 
 livestream:
   show: true
