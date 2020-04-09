@@ -27,9 +27,8 @@
   .img-avatar {
     height: auto;
     width: 4em;
-    border: 2px solid $white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
     box-sizing: border-box;
     max-width: 100px;
     background: $white;
@@ -53,6 +52,13 @@
       top: 0;
       transform: translateX(-50%);
       z-index: 999;
+      padding: 0.2em;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .img-avatar:hover {
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     }
 
     &.night {
@@ -62,7 +68,7 @@
 
   .card-body {
     @extend %card-content;
-    padding: 1em 1em .4em;
+    padding: 1.5em 1em .4em;
     overflow: hidden;
     text-align: center;
 
