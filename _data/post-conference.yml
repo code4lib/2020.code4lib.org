@@ -1,0 +1,24 @@
+# we will generally want to highlight: the youtube playlist of recordings, the
+# slides repo, post-conference survey, and proposals for the coming year
+
+# @TODO unique icons
+cards:
+    - header: 'Conference Recordings'
+      icon: video
+      subtitle: 'View on YouTube'
+      link: 'https://www.youtube.com/playlist?list=PLw-ls5JXzeNZWfeMVF3dQB3lq3SokZsgx'
+      description:
+          View the full recordings of the conference from the livestream!
+    - header: 'Presentation Slides'
+      icon: slides
+      subtitle: ''
+      link: https://osf.io/meetings/c4l20/
+      description:
+          View the <a href="https://osf.io/meetings/c4l20/">Open Science Foundation repository</a> with slides and materials from the presentations.
+    - header: 'What Comes Next?'
+      icon: future
+      subtitle: 'Code4Lib 2021'
+      link: https://forms.gle/W9jaSWCUMY5hXQ159
+      description:
+          Attendees, fill out <a href="https://forms.gle/W9jaSWCUMY5hXQ159">the post-conference survey</a>!
+          Also, see the proposal for next year's Code4Lib 2021 in <a href="https://kayiwa.github.io/c4lbuffaloproposal/">Buffalo, NY</a>.

@@ -1,0 +1,10 @@
+{% assign postcon = site.data.post-conference %}
+<div class="row">
+    {% for card in site.data.post-conference.cards %}
+    <div class="col-12 col-md-4 event-day">
+        <h2 class="text-center">{{ card.header }}</h2>
+        {% include homepage/event_card.html icon=card.icon link=card.link title=card.subtitle description=card.description %}
+    </div>
+{% endfor %}
+</div>
+{% include homepage/sponsor_block.html %}
