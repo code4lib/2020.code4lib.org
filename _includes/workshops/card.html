@@ -14,14 +14,14 @@
             {% if workshop.full == true %}
                 <p class="alert alert-danger">This workshop is full.</p>
             {% endif %}
-            <p>{{ workshop.content | truncatewords: 50 }} <a href="{{ workshop.url }}">more</a></p>
+            <p>{{ workshop.content | truncatewords: 50 }} <a href="{{ workshop.url }}"><span aria-label="more about {{ workshop.title }}">more</span></a></p>
         </div>
         <div class="col-12">
-            <h5>Time</h5>
-            <h5>{{ post_length }}</h5>
+            <h3 class="h5">Time</h3>
+            <h3 class="h5">{{ post.startTime }} to {{ post.endTime }}</h3>
         </div>
         <div class="col-12">
-            <h5>Location</h5>
+            <h3 class="h5">Location</h3>
             <p style="word-break: normal;">{{ location_display }}</p>
         </div>
     </div>
