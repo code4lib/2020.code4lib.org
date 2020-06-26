@@ -16,7 +16,7 @@ title: Preconference Workshops
     </div>
     <div class="row" id="workshop-sorting-div">
         <div class="col-12 col-sm-6">
-            <div class="btn-group" role="group">
+            <div class="btn-group" role="group" aria-label="filter workshop list by time of day">
                 <button type="button" class="btn btn-light sort-workshop-time active" id="all">All</button>
                 <button type="button" class="btn btn-light sort-workshop-time" id="am">AM</button>
                 <button type="button" class="btn btn-light sort-workshop-time" id="pm">PM</button>
@@ -24,7 +24,7 @@ title: Preconference Workshops
             </div>
         </div>
         <div class="col-12 col-sm-6">
-            <select class="form-control sort-workshop-locale">
+            <select class="form-control sort-workshop-locale" aria-label="sort by workshop location">
                 <option value="all">All Locations</option>
                 {% for location in site.data.locations %}
                     <option value="{{ location.id }}">{{ location.name }}</option>
